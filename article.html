@@ -52,6 +52,11 @@
   /* ERROR / LOADING */
   .article-status { padding: 60px 24px; text-align: center; color: #aaa; font-size: 14px; }
 
+  /* AD SLOT */
+  .ad-slot { background: #f9f9f9; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; padding: 16px 24px; text-align: center; }
+  .ad-inner { display: inline-flex; width: 100%; max-width: 728px; height: 90px; background: #f0f0f0; align-items: center; justify-content: center; margin: 0 auto; }
+  .ad-inner span { font-size: 11px; color: #bbb; letter-spacing: 2px; }
+
   /* RELATED ARTICLES */
   .sec-label { padding: 26px 24px 18px; display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #e0e0e0; }
   .sec-label span { font-family: 'Bebas Neue', sans-serif; font-size: 30px; letter-spacing: 4px; color: #111111; white-space: nowrap; }
@@ -212,8 +217,11 @@
         ? '<div class="article-text">' + esc(article.summary) + '</div>'
         : '';
 
+      var adSlot = '<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>';
+
       document.getElementById('articleContent').innerHTML =
         heroHtml +
+        adSlot +
         '<div class="article-wrap">' +
           '<div class="article-meta-row">' +
             '<span class="article-cat">' + esc(article.category) + '</span>' +
@@ -226,7 +234,8 @@
           bodyHtml +
           hashtagsHtml +
           viaHtml +
-        '</div>';
+        '</div>' +
+        adSlot;
 
       // 画像エラー時はプレースホルダーに差し替え
       var heroImg = document.getElementById('heroImg');
