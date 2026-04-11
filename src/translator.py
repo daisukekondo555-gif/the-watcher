@@ -15,19 +15,19 @@ import anthropic
 logger = logging.getLogger(__name__)
 
 MODEL = "claude-sonnet-4-6"
-MAX_TOKENS = 1536  # increased to accommodate hashtags field
+MAX_TOKENS = 4096
 RETRY_ATTEMPTS = 3
 RETRY_DELAY = 5  # seconds
 
 SYSTEM_PROMPT = """あなたはヒップホップ専門の日本語メディア「THE WATCHER」の編集者です。
-英語のヒップホップニュース記事を受け取り、日本語に翻訳・要約してカテゴリを判定し、ハッシュタグを生成します。
+英語のヒップホップニュース記事を受け取り、日本語に翻訳してカテゴリを判定し、ハッシュタグを生成します。
 
 ## 出力形式
 必ず以下のJSONのみを返してください。余分なテキスト・Markdownコードブロックは不要です。
 
 {
   "title_ja": "日本語タイトル（原題のニュアンスを保ちつつ自然な日本語で、50字以内）",
-  "summary_ja": "日本語要約（記事の要点を200〜300字でまとめる。ヒップホップファン向けに読みやすく）",
+  "summary_ja": "元記事の情報をできる限り100%に近い形で日本語化する。元記事の文章をそのまま使うのではなく、内容・事実・発言・背景・文脈を全て自分の言葉で日本語に置き換える。省略・要約はしない。ヒップホップファンが元記事を読まなくても同等の情報が得られるレベルを目指す。",
   "category": "カテゴリ名",
   "hashtags": ["#TagOne", "#TagTwo", "#TagThree"]
 }
@@ -120,7 +120,7 @@ def _translate_one(article: dict, client: anthropic.Anthropic) -> dict:
 
     user_message = (
         f"タイトル: {title}\n\n"
-        f"本文:\n{content[:2000] if content else '（本文なし）'}"
+        f"本文:\n{content[:5000] if content else '（本文なし）'}"
     )
 
     last_error: Optional[Exception] = None
