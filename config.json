@@ -23,6 +23,7 @@
     { "name": "AllHipHop",   "rss_url": "https://allhiphop.com/feed/" },
     { "name": "Uproxx",      "rss_url": "https://uproxx.com/music/feed/" },
     { "name": "2DopeBoyz",   "rss_url": "https://www.2dopeboyz.com/feed/" },
-    { "name": "Rap Radar",   "rss_url": "https://rapradar.com/feed/" }
+    { "name": "Rap Radar",   "rss_url": "https://rapradar.com/feed/" },
+    { "name": "TMZ Hip Hop", "rss_url": "https://www.tmz.com/category/hip-hop/feed/" }
   ]
 }
