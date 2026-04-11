@@ -108,6 +108,8 @@
   .rank-t { font-size: 13px; font-weight: 500; line-height: 1.5; color: #222; }
 
   .hashtag { color: #3a6bc4; }
+  .hashtag a { color: inherit; text-decoration: none; }
+  .hashtag a:hover { text-decoration: underline; }
 
   /* CATEGORY RANKING — CSS クラス化 */
   .rank-col { flex: 1; min-width: 180px; padding: 24px 20px; }
@@ -283,6 +285,15 @@
     return '<div class="' + phClass + '"></div>';
   }
 
+  // ハッシュタグ文字列 → クリッカブルリンク（スペース区切りの#タグ → tag.html へ）
+  function buildHashtagLinks(hashtags) {
+    var tags = (hashtags || '').split(/\s+/).filter(function(t) { return t.startsWith('#'); });
+    if (!tags.length) return esc(hashtags || '');
+    return tags.map(function(t) {
+      return '<a href="tag.html?tag=' + encodeURIComponent(t) + '" onclick="event.stopPropagation()">' + esc(t) + '</a>';
+    }).join(' ');
+  }
+
   // via リンク（右下表示）— クリックが記事遷移に伝播しないよう stopPropagation
   function buildVia(source_urls, source_names) {
     var urls = (source_urls || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
@@ -316,7 +327,7 @@
         '</div>' +
         '<h1 class="hero-title">' + esc(a.title) + '</h1>' +
         '<div class="meta">' + fmtDate(a.published_at) + '<br>' +
-          '<span class="hashtag">' + esc(a.hashtags) + '</span>' +
+          '<span class="hashtag">' + buildHashtagLinks(a.hashtags) + '</span>' +
         '</div>' +
         buildVia(a.source_urls, a.source_names) +
       '</div>';
@@ -336,7 +347,7 @@
           '</div>' +
           '<div class="sub-card-title">' + esc(a.title) + '</div>' +
           '<div class="meta">' + fmtDate(a.published_at) + '<br>' +
-            '<span style="color:rgba(255,255,255,0.4);">' + esc(a.hashtags) + '</span>' +
+            '<span style="color:rgba(255,255,255,0.4);">' + buildHashtagLinks(a.hashtags) + '</span>' +
           '</div>' +
           buildVia(a.source_urls, a.source_names) +
         '</div>' +
@@ -355,7 +366,7 @@
         '<div class="cat">' + esc(a.category) + '</div>' +
         '<div class="news-title">' + esc(a.title) + '</div>' +
         '<div class="meta">' + fmtDate(a.published_at) + '<br>' +
-          '<span class="hashtag">' + esc(a.hashtags) + '</span>' +
+          '<span class="hashtag">' + buildHashtagLinks(a.hashtags) + '</span>' +
         '</div>' +
         buildVia(a.source_urls, a.source_names) +
       '</div>' +
@@ -412,7 +423,7 @@
         : i < 8
         ? 'border:1px solid #0f1f38;color:#0f1f38;font-size:12px;font-weight:700;padding:7px 14px;border-radius:2px;'
         : 'border:1px solid #ddd;color:#888;font-size:12px;font-weight:700;padding:7px 14px;border-radius:2px;';
-      return '<a href="#" onclick="filterTagSearch(\'' + esc(tag) + '\');return false;" style="text-decoration:none;' + style + '">' +
+      return '<a href="tag.html?tag=' + encodeURIComponent(tag) + '" style="text-decoration:none;' + style + '">' +
         esc(tag) + ' <span style="opacity:0.5;font-size:10px;">' + count + '</span>' +
       '</a>';
     }).join('');

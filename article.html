@@ -67,6 +67,8 @@
   .article-divider { height: 2px; background: #0f1f38; margin-bottom: 28px; }
   .article-text { font-size: 17px; line-height: 2.0; color: #333; margin-bottom: 32px; white-space: pre-wrap; }
   .article-hashtags { font-size: 13px; color: #3a6bc4; line-height: 2; margin-bottom: 28px; }
+  .article-hashtags a { color: inherit; text-decoration: none; }
+  .article-hashtags a:hover { text-decoration: underline; }
   .article-source-block { border-top: 1px solid #e0e0e0; padding-top: 20px; }
   .article-source-label { font-family: 'Bebas Neue', sans-serif; font-size: 12px; letter-spacing: 2px; color: #aaa; margin-bottom: 8px; }
   .article-via-links { font-size: 13px; display: flex; flex-wrap: wrap; gap: 12px; }
@@ -183,6 +185,15 @@
         'onerror="var d=document.createElement(\'div\');d.className=\'' + phClass + '\';this.parentNode.replaceChild(d,this)" alt="">';
     }
     return '<div class="' + phClass + '"></div>';
+  }
+
+  // ハッシュタグ文字列 → クリッカブルリンク（tag.html へ）
+  function buildHashtagLinks(hashtags) {
+    var tags = (hashtags || '').split(/\s+/).filter(function(t) { return t.startsWith('#'); });
+    if (!tags.length) return esc(hashtags || '');
+    return tags.map(function(t) {
+      return '<a href="tag.html?tag=' + encodeURIComponent(t) + '">' + esc(t) + '</a>';
+    }).join(' ');
   }
 
   function openRelated(id) {
@@ -328,9 +339,9 @@
           '</div>';
       }
 
-      // ハッシュタグ
+      // ハッシュタグ（各タグをtag.htmlへのリンクに）
       var hashtagsHtml = article.hashtags
-        ? '<div class="article-hashtags">' + esc(article.hashtags) + '</div>'
+        ? '<div class="article-hashtags">' + buildHashtagLinks(article.hashtags) + '</div>'
         : '';
 
       // 本文
