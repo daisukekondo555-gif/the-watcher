@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THE WATCHER</title>
+<meta name="description" content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; }
+
+  /* HEADER */
+  header { background: #0f1f38; padding: 0; display: flex; align-items: stretch; justify-content: space-between; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #c8a830; }
+  .logo-wrap { display: flex; flex-direction: column; justify-content: center; padding: 10px 24px; text-decoration: none; }
+  .logo-en { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 8px; color: #ffffff; line-height: 1; }
+  .logo-ja { font-family: 'Noto Serif JP', serif; font-size: 9px; color: #c8a830; letter-spacing: 4px; margin-top: 3px; font-weight: 400; }
+  .menu-btn { display: flex; flex-direction: column; gap: 5px; cursor: pointer; padding: 18px 20px; }
+  .menu-btn span { display: block; width: 22px; height: 1px; background: rgba(255,255,255,0.5); }
+  nav { display: none; }
+  @media (min-width: 768px) {
+    .menu-btn { display: none; }
+    nav { display: flex; align-items: stretch; }
+    nav a { font-size: 10px; color: rgba(255,255,255,0.6); text-decoration: none; padding: 0 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; }
+    nav a:hover, nav a.active { background: rgba(255,255,255,0.05); color: #fff; }
+    nav a .nav-ja { font-family: 'Noto Serif JP', serif; font-size: 12px; color: #ffffff; font-weight: 700; }
+    nav a .nav-en { font-family: 'Bebas Neue', sans-serif; font-size: 9px; letter-spacing: 2px; color: #c8a830; }
+  }
+
+  /* MOBILE NAV */
+  .mobile-nav { display: none; background: #0a1628; border-bottom: 1px solid #1c3060; }
+  .mobile-nav.open { display: flex; flex-wrap: wrap; padding: 12px 20px; gap: 10px; }
+  .mobile-nav a { font-size: 12px; color: rgba(255,255,255,0.7); text-decoration: none; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.1); font-family: 'Noto Serif JP', serif; font-weight: 700; }
+
+  /* BREADCRUMB */
+  .breadcrumb { background: #fff; border-bottom: 1px solid #f0f0f0; padding: 10px 24px; font-size: 11px; color: #bbb; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .breadcrumb a { color: #0f1f38; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { color: #ddd; }
+
+  /* CATEGORY HEADER */
+  .cat-header { padding: 32px 24px 20px; border-bottom: 2px solid #0f1f38; }
+  .cat-header-label { font-family: 'Bebas Neue', sans-serif; font-size: 11px; letter-spacing: 3px; color: #c8a830; margin-bottom: 6px; }
+  .cat-header-title { font-family: 'Bebas Neue', sans-serif; font-size: 42px; letter-spacing: 4px; color: #0f1f38; line-height: 1; }
+  .cat-header-count { font-size: 12px; color: #aaa; margin-top: 8px; letter-spacing: 1px; }
+
+  /* SECTION LABEL */
+  .sec-label { padding: 26px 24px 18px; display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #e0e0e0; }
+  .sec-label span { font-family: 'Bebas Neue', sans-serif; font-size: 30px; letter-spacing: 4px; color: #111111; white-space: nowrap; }
+  .sec-label::after { content: ''; flex: 1; height: 3px; background: #111111; }
+
+  /* NEWS */
+  .news-item { background: #ffffff; padding: 22px 24px; cursor: pointer; display: flex; gap: 16px; align-items: flex-start; transition: background 0.15s; position: relative; }
+  .news-item::after { content: ''; position: absolute; bottom: 0; left: 10%; right: 10%; height: 1px; background: #e0e0e0; }
+  .news-item:hover { background: #f9f9f7; }
+  .news-thumb-placeholder { flex-shrink: 0; width: 90px; height: 60px; background: linear-gradient(135deg, #0f1f38, #1c3060); }
+  .news-content { flex: 1; min-width: 0; }
+  .news-cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #0f1f38; font-weight: 700; margin-bottom: 3px; }
+  .news-title { font-family: 'Noto Serif JP', serif; font-size: 14px; font-weight: 700; line-height: 1.5; color: #111111; margin-bottom: 5px; }
+  .news-excerpt { font-size: 12px; color: #777; line-height: 1.6; margin-bottom: 6px; }
+  .news-meta { font-size: 10px; color: #999; }
+  @media (min-width: 768px) {
+    .news-grid { display: grid; grid-template-columns: 1fr 1fr; }
+  }
+
+  /* MORE BTN */
+  .more-btn-wrap { padding: 20px 24px; text-align: center; background: #fff; border-bottom: 1px solid #e0e0e0; }
+  .more-btn { border: 2px solid #0f1f38; background: #fff; color: #0f1f38; font-size: 12px; font-family: 'Bebas Neue', sans-serif; letter-spacing: 3px; padding: 10px 32px; cursor: pointer; transition: all 0.15s; }
+  .more-btn:hover { background: #0f1f38; color: #fff; }
+
+  /* AD SLOT */
+  .ad-slot { background: #f9f9f9; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; padding: 16px 24px; text-align: center; }
+  .ad-inner { display: inline-flex; width: 100%; max-width: 728px; height: 90px; background: #f0f0f0; align-items: center; justify-content: center; margin: 0 auto; }
+  .ad-inner span { font-size: 11px; color: #bbb; letter-spacing: 2px; }
+
+  /* STATUS */
+  .page-status { padding: 60px 24px; text-align: center; color: #aaa; font-size: 14px; }
+
+  /* BACK TO TOP */
+  .back-to-top { position: fixed; bottom: 28px; right: 24px; width: 44px; height: 44px; background: #0f1f38; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; z-index: 50; opacity: 0; transition: opacity 0.25s; }
+  .back-to-top.visible { display: flex; opacity: 1; }
+  .back-to-top:hover { opacity: 0.75; }
+
+  /* PAGE WRAP */
+  .page-wrap { max-width: 1200px; margin: 0 auto; }
+
+  /* FOOTER */
+  footer { background: #0f1f38; border-top: 2px solid #c8a830; }
+  .footer-inner { padding: 0 24px; height: 58px; display: flex; align-items: center; justify-content: flex-end; }
+</style>
+</head>
+<body style="background:#ffffff;">
+<div style="background:#ffffff;min-height:100vh;">
+
+<!-- HEADER -->
+<header>
+  <a class="logo-wrap" href="./">
+    <div class="logo-en">THE WATCHER</div>
+    <div class="logo-ja">ザ・ウォッチャー</div>
+  </a>
+  <div class="menu-btn" onclick="toggleNav()"><span></span><span></span><span></span></div>
+  <nav id="desktopNav">
+    <a href="./"><span class="nav-ja">すべて</span><span class="nav-en">ALL</span></a>
+    <a href="category.html?cat=ニュース"><span class="nav-ja">ニュース</span><span class="nav-en">NEWS</span></a>
+    <a href="category.html?cat=ビジネス"><span class="nav-ja">ビジネス</span><span class="nav-en">BUSINESS</span></a>
+    <a href="category.html?cat=ビーフ"><span class="nav-ja">ビーフ</span><span class="nav-en">BEEF</span></a>
+    <a href="category.html?cat=リリース"><span class="nav-ja">リリース</span><span class="nav-en">RELEASE</span></a>
+    <a href="category.html?cat=ライブ"><span class="nav-ja">ライブ</span><span class="nav-en">LIVE</span></a>
+  </nav>
+</header>
+<div class="page-wrap">
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="./">すべて</a>
+  <a href="category.html?cat=ニュース">ニュース</a>
+  <a href="category.html?cat=ビジネス">ビジネス</a>
+  <a href="category.html?cat=ビーフ">ビーフ</a>
+  <a href="category.html?cat=リリース">リリース</a>
+  <a href="category.html?cat=ライブ">ライブ</a>
+</div>
+
+<!-- BREADCRUMB（JS で描画） -->
+<div id="breadcrumb" class="breadcrumb"></div>
+
+<!-- CATEGORY HEADER（JS で描画） -->
+<div id="catHeader"></div>
+
+<!-- AD SLOT -->
+<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
+
+<!-- ARTICLES（JS で描画） -->
+<div id="articleList"><div class="page-status">読み込み中...</div></div>
+
+<!-- MORE BUTTON -->
+<div class="more-btn-wrap" id="moreBtnWrap" style="display:none;">
+  <button class="more-btn" onclick="showMore()">MORE</button>
+</div>
+
+</div><!-- /page-wrap -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div style="display:flex;flex-direction:row;align-items:center;gap:24px;">
+      <div style="font-size:10px;color:rgba(255,255,255,0.25);letter-spacing:1px;">© 2026 THE WATCHER</div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="ページトップへ">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4L4 12h5v8h6v-8h5L12 4z"/>
+  </svg>
+</button>
+
+<script>
+  var PAGE_SIZE = 20;
+  var filteredArticles = [];
+  var displayedCount = 0;
+
+  function esc(s) {
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return '';
+    try {
+      var d = new Date(iso);
+      return d.getFullYear() + '.' +
+        String(d.getMonth() + 1).padStart(2, '0') + '.' +
+        String(d.getDate()).padStart(2, '0');
+    } catch(e) { return ''; }
+  }
+
+  function imgOrPH(url, imgStyle, phClass) {
+    if (url) {
+      return '<img src="' + esc(url) + '" style="' + imgStyle + '" ' +
+        'onerror="var d=document.createElement(\'div\');d.className=\'' + phClass + '\';this.parentNode.replaceChild(d,this)" alt="">';
+    }
+    return '<div class="' + phClass + '"></div>';
+  }
+
+  function toggleNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+  }
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  window.addEventListener('scroll', function() {
+    var btn = document.getElementById('backToTop');
+    if (window.scrollY > 200) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  }, { passive: true });
+
+  function newsItemHTML(a) {
+    var img = imgOrPH(a.image_url, 'width:90px;height:60px;object-fit:cover;flex-shrink:0;', 'news-thumb-placeholder');
+    var excerpt = (a.summary || '').slice(0, 80).replace(/\n/g, ' ');
+    return '<div class="news-item" onclick="location.href=\'article.html?id=\' + encodeURIComponent(\'' + esc(a.id) + '\')">' +
+      img +
+      '<div class="news-content">' +
+        '<div class="news-cat">' + esc(a.category) + '</div>' +
+        '<div class="news-title">' + esc(a.title) + '</div>' +
+        (excerpt ? '<div class="news-excerpt">' + esc(excerpt) + (a.summary.length > 80 ? '…' : '') + '</div>' : '') +
+        '<div class="news-meta">' + fmtDate(a.published_at) + '</div>' +
+      '</div>' +
+    '</div>';
+  }
+
+  function renderArticles(articles) {
+    var html = articles.map(newsItemHTML).join('');
+    return html || '<div class="page-status">記事が見つかりませんでした。</div>';
+  }
+
+  function showMore() {
+    var next = filteredArticles.slice(displayedCount, displayedCount + PAGE_SIZE);
+    var grid = document.getElementById('articleList');
+    // append (remove status message if first load)
+    var existing = grid.querySelector('.page-status');
+    if (existing) existing.remove();
+    grid.innerHTML += renderArticles(next);
+    displayedCount += next.length;
+    document.getElementById('moreBtnWrap').style.display =
+      displayedCount < filteredArticles.length ? 'block' : 'none';
+  }
+
+  async function init() {
+    var params = new URLSearchParams(location.search);
+    var cat = decodeURIComponent(params.get('cat') || '');
+
+    if (!cat) {
+      document.getElementById('articleList').innerHTML =
+        '<div class="page-status">カテゴリが指定されていません。<br><a href="./" style="color:#0f1f38;">トップへ戻る</a></div>';
+      return;
+    }
+
+    // ページタイトル更新
+    document.title = cat + ' — THE WATCHER';
+
+    // ナビのアクティブ状態
+    document.querySelectorAll('#desktopNav a').forEach(function(a) {
+      if (a.href.includes('cat=' + encodeURIComponent(cat))) {
+        a.classList.add('active');
+      }
+    });
+
+    // パンくずリスト
+    document.getElementById('breadcrumb').innerHTML =
+      '<a href="./">ホーム</a>' +
+      '<span class="breadcrumb-sep">›</span>' +
+      '<span>' + esc(cat) + '</span>';
+
+    try {
+      var res = await fetch('./data/articles.json');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      var data = await res.json();
+
+      filteredArticles = (data.articles || []).filter(function(a) { return a.category === cat; });
+
+      // カテゴリヘッダー
+      document.getElementById('catHeader').innerHTML =
+        '<div class="cat-header">' +
+          '<div class="cat-header-label">CATEGORY</div>' +
+          '<div class="cat-header-title">' + esc(cat) + '</div>' +
+          '<div class="cat-header-count">' + filteredArticles.length + ' ARTICLES</div>' +
+        '</div>';
+
+      if (!filteredArticles.length) {
+        document.getElementById('articleList').innerHTML =
+          '<div class="page-status">このカテゴリの記事はまだありません。</div>';
+        return;
+      }
+
+      // 初回表示
+      document.getElementById('articleList').innerHTML =
+        '<div class="news-grid" id="newsGrid"></div>';
+      var grid = document.getElementById('newsGrid');
+      var first = filteredArticles.slice(0, PAGE_SIZE);
+      grid.innerHTML = renderArticles(first);
+      displayedCount = first.length;
+
+      if (displayedCount < filteredArticles.length) {
+        document.getElementById('moreBtnWrap').style.display = 'block';
+      }
+
+    } catch(e) {
+      console.error(e);
+      document.getElementById('articleList').innerHTML =
+        '<div class="page-status">読み込みに失敗しました。<br><a href="./" style="color:#0f1f38;">トップへ戻る</a></div>';
+    }
+  }
+
+  document.addEventListener('DOMContentLoaded', init);
+</script>
+
+</div>
+</body>
+</html>

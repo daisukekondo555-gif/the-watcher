@@ -93,13 +93,60 @@ def fetch_published(api_key: str, database_id: str) -> list[dict]:
     return articles
 
 
+def generate_sitemap(articles: list[dict], site_url: str) -> None:
+    """Generate sitemap.xml for Google Search Console."""
+    from urllib.parse import quote
+
+    today = datetime.now(timezone.utc).strftime("%Y-%m-%d")
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
+        # Homepage
+        f'  <url><loc>{site_url}/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>',
+    ]
+
+    # Category pages
+    categories = sorted(set(a["category"] for a in articles if a.get("category")))
+    for cat in categories:
+        cat_url = f'{site_url}/category.html?cat={quote(cat)}'
+        lines.append(
+            f'  <url><loc>{cat_url}</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>0.9</priority></url>'
+        )
+
+    # Article pages
+    for article in articles:
+        if not article.get("id"):
+            continue
+        art_url  = f'{site_url}/article.html?id={article["id"]}'
+        lastmod  = (article.get("published_at") or today)[:10]
+        lines.append(
+            f'  <url><loc>{art_url}</loc><lastmod>{lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>'
+        )
+
+    lines.append('</urlset>')
+
+    with open("sitemap.xml", "w", encoding="utf-8") as f:
+        f.write('\n'.join(lines) + '\n')
+
+    print(f"  Saved → sitemap.xml ({len(articles)} articles, {len(categories)} categories)")
+
+
 def main() -> None:
-    api_key = os.environ.get("NOTION_API_KEY", "")
-    db_id   = os.environ.get("NOTION_DATABASE_ID", "")
+    api_key  = os.environ.get("NOTION_API_KEY", "")
+    db_id    = os.environ.get("NOTION_DATABASE_ID", "")
+    site_url = os.environ.get("SITE_URL", "")
 
     if not api_key or not db_id:
         print("ERROR: NOTION_API_KEY / NOTION_DATABASE_ID not set", file=sys.stderr)
         sys.exit(1)
+
+    # SITE_URL が env になければ config.json から読む
+    if not site_url:
+        try:
+            with open("config.json", encoding="utf-8") as f:
+                site_url = json.load(f).get("site_url", "")
+        except Exception:
+            pass
 
     print("Exporting published articles from Notion…")
     articles = fetch_published(api_key, db_id)
@@ -115,6 +162,11 @@ def main() -> None:
         json.dump(output, f, ensure_ascii=False, indent=2)
 
     print("  Saved → data/articles.json")
+
+    if site_url:
+        generate_sitemap(articles, site_url.rstrip("/"))
+    else:
+        print("  SITE_URL not configured — skipping sitemap.xml")
 
 
 if __name__ == "__main__":

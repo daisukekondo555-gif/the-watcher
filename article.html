@@ -5,6 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>THE WATCHER</title>
 <meta name="description" content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
+
+<!-- OGP / Twitter Card
+     NOTE: SNSクローラー（X・LINEのBot）はJSを実行しないため、
+     シェア時のog:title・og:imageは下記の静的デフォルト値が使われます。
+     記事ごとの画像を反映するにはSSR/プリレンダリングが必要です。 -->
+<meta property="og:type"         content="article">
+<meta property="og:site_name"    content="THE WATCHER">
+<meta property="og:title"        content="THE WATCHER — ヒップホップ・ジャーナル">
+<meta property="og:description"  content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
+<meta property="og:image"        content="">
+<meta property="og:url"          content="">
+<meta name="twitter:card"        content="summary_large_image">
+<meta name="twitter:title"       content="THE WATCHER — ヒップホップ・ジャーナル">
+<meta name="twitter:description" content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
+<meta name="twitter:image"       content="">
+
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
@@ -15,6 +31,13 @@
   .logo-wrap { display: flex; flex-direction: column; justify-content: center; padding: 10px 24px; cursor: pointer; text-decoration: none; }
   .logo-en { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 8px; color: #ffffff; line-height: 1; }
   .logo-ja { font-family: 'Noto Serif JP', serif; font-size: 9px; color: #c8a830; letter-spacing: 4px; margin-top: 3px; font-weight: 400; }
+
+  /* BREADCRUMB */
+  .breadcrumb { background: #fff; border-bottom: 1px solid #f0f0f0; padding: 10px 24px; font-size: 11px; color: #bbb; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .breadcrumb a { color: #0f1f38; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { color: #ddd; }
+  .breadcrumb-current { color: #aaa; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; max-width: 300px; }
 
   /* BACK BAR */
   .back-bar { background: #ffffff; border-bottom: 2px solid #e0e0e0; padding: 12px 24px; display: flex; align-items: center; gap: 16px; }
@@ -35,8 +58,9 @@
   .article-cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #0f1f38; font-weight: 700; }
   .article-meta-sep { color: #ddd; }
   .article-date { font-size: 11px; color: #999; }
+  .article-readtime { font-size: 11px; color: #bbb; }
   .article-source-name { font-size: 11px; color: #aaa; }
-  .article-title { font-family: 'Noto Serif JP', serif; font-size: 26px; font-weight: 900; line-height: 1.7; color: #111111; margin-bottom: 28px; }
+  .article-title { font-family: 'Noto Serif JP', serif; font-size: 26px; font-weight: 900; line-height: 1.7; color: #111111; margin-bottom: 20px; }
   @media (min-width: 768px) {
     .article-title { font-size: 34px; }
   }
@@ -48,6 +72,14 @@
   .article-via-links { font-size: 13px; display: flex; flex-wrap: wrap; gap: 12px; }
   .article-via-links a { color: #0f1f38; text-decoration: none; font-weight: 700; border-bottom: 1px solid #0f1f38; padding-bottom: 1px; }
   .article-via-links a:hover { color: #c8a830; border-color: #c8a830; }
+
+  /* SHARE BUTTONS */
+  .share-row { display: flex; gap: 10px; margin-bottom: 28px; flex-wrap: wrap; }
+  .share-btn { display: inline-flex; align-items: center; gap: 7px; padding: 8px 18px; font-size: 12px; font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; cursor: pointer; text-decoration: none; border: 1px solid; transition: all 0.15s; line-height: 1; }
+  .share-btn-x    { color: #111111; border-color: #111111; }
+  .share-btn-x:hover { background: #111111; color: #ffffff; }
+  .share-btn-line { color: #06c755; border-color: #06c755; }
+  .share-btn-line:hover { background: #06c755; color: #ffffff; }
 
   /* ERROR / LOADING */
   .article-status { padding: 60px 24px; text-align: center; color: #aaa; font-size: 14px; }
@@ -74,7 +106,12 @@
     .related-grid { display: grid; grid-template-columns: 1fr 1fr; }
   }
 
-  /* PAGE WRAP — ヘッダー・フッター以外を最大幅1200pxでセンタリング */
+  /* BACK TO TOP */
+  .back-to-top { position: fixed; bottom: 28px; right: 24px; width: 44px; height: 44px; background: #0f1f38; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; z-index: 50; opacity: 0; transition: opacity 0.25s; }
+  .back-to-top.visible { display: flex; opacity: 1; }
+  .back-to-top:hover { opacity: 0.75; }
+
+  /* PAGE WRAP */
   .page-wrap { max-width: 1200px; margin: 0 auto; }
 
   /* FOOTER — index.html と同一 */
@@ -93,6 +130,9 @@
   </a>
 </header>
 <div class="page-wrap">
+
+<!-- BREADCRUMB（JS で描画） -->
+<div id="breadcrumb" class="breadcrumb"></div>
 
 <!-- BACK BAR -->
 <div class="back-bar">
@@ -117,8 +157,14 @@
   </div>
 </footer>
 
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="ページトップへ">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4L4 12h5v8h6v-8h5L12 4z"/>
+  </svg>
+</button>
+
 <script>
-  // ← BACK：前のページがあれば戻る、なければトップへ
   function goBack() {
     if (window.history.length > 1) {
       history.back();
@@ -152,6 +198,72 @@
     } catch(e) { return ''; }
   }
 
+  // 本文の文字数から読了時間を計算（日本語：500字/分）
+  function calcReadTime(text) {
+    var len = (text || '').replace(/\s/g, '').length;
+    return Math.max(1, Math.ceil(len / 500));
+  }
+
+  // OGP メタタグを動的に更新
+  // ※ X・LINEのBotはJSを実行しないため、シェア時のOGPは
+  //   <head>内の静的デフォルト値が適用されます（SSR未対応のため）
+  function updateOGP(title, description, imageUrl, pageUrl) {
+    document.title = title + ' — THE WATCHER';
+    var set = function(sel, val) {
+      var el = document.querySelector(sel);
+      if (el) el.setAttribute('content', val || '');
+    };
+    set('meta[name="description"]',       description);
+    set('meta[property="og:title"]',      title);
+    set('meta[property="og:description"]', description);
+    set('meta[property="og:image"]',      imageUrl);
+    set('meta[property="og:url"]',        pageUrl);
+    set('meta[name="twitter:title"]',     title);
+    set('meta[name="twitter:description"]', description);
+    set('meta[name="twitter:image"]',     imageUrl);
+  }
+
+  // パンくずリストを描画
+  function renderBreadcrumb(category, title) {
+    document.getElementById('breadcrumb').innerHTML =
+      '<a href="./">ホーム</a>' +
+      '<span class="breadcrumb-sep">›</span>' +
+      '<a href="category.html?cat=' + encodeURIComponent(category) + '">' + esc(category) + '</a>' +
+      '<span class="breadcrumb-sep">›</span>' +
+      '<span class="breadcrumb-current">' + esc(title) + '</span>';
+  }
+
+  // シェアボタン HTML を生成
+  function buildShareButtons(title, pageUrl) {
+    var xHref   = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' — THE WATCHER') + '&url=' + encodeURIComponent(pageUrl);
+    var lineHref = 'https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(pageUrl);
+    return '<div class="share-row">' +
+      '<a class="share-btn share-btn-x" href="' + esc(xHref) + '" target="_blank" rel="noopener">' +
+        '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.851L2.25 2.25h6.861l4.258 5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>' +
+        'POST' +
+      '</a>' +
+      '<a class="share-btn share-btn-line" href="' + esc(lineHref) + '" target="_blank" rel="noopener">' +
+        '<svg width="13" height="13" viewBox="0 0 512 512" fill="currentColor"><path d="M256 48C141 48 48 124.5 48 219c0 70.5 47.5 131.7 118.4 163.4-5.2 19.4-18.8 70.5-21.6 81.5-.3 1.3.5 2.6 1.8 2.9.7.2 1.4 0 2-.5 2.7-2 99.1-65.7 111.1-73.7C267.3 394.4 275.5 396 284 396c-5.3-1.2-10.5-2.3 0 0h-28c115 0 208-76.5 208-171S371 48 256 48z"/></svg>' +
+        'LINE' +
+      '</a>' +
+    '</div>';
+  }
+
+  // ページトップへスムーズスクロール
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  // スクロール200px超でボタン表示
+  window.addEventListener('scroll', function() {
+    var btn = document.getElementById('backToTop');
+    if (window.scrollY > 200) {
+      btn.classList.add('visible');
+    } else {
+      btn.classList.remove('visible');
+    }
+  }, { passive: true });
+
   async function init() {
     var params = new URLSearchParams(location.search);
     var id = decodeURIComponent(params.get('id') || '');
@@ -174,8 +286,13 @@
         return;
       }
 
-      // ページタイトルを記事タイトルに変更
-      document.title = article.title + ' — THE WATCHER';
+      // OGP・タイトル更新
+      var pageUrl = location.href;
+      var description = (article.summary || '').replace(/\n/g, ' ').slice(0, 120);
+      updateOGP(article.title, description, article.image_url || '', pageUrl);
+
+      // パンくずリスト
+      renderBreadcrumb(article.category, article.title);
 
       // ヒーロー画像
       var heroHtml;
@@ -185,14 +302,18 @@
         heroHtml = '<div class="article-hero-placeholder">THE WATCHER</div>';
       }
 
-      // ソースサイト名（複数対応）
+      // ソースサイト名
       var sourceNames = (article.source_names || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
       var sourceNamesHtml = sourceNames.length
         ? '<span class="article-meta-sep">·</span><span class="article-source-name">' + esc(sourceNames.join(' / ')) + '</span>'
         : '';
 
+      // 読了時間
+      var mins = calcReadTime(article.summary);
+      var readTimeHtml = '<span class="article-meta-sep">·</span><span class="article-readtime">読了 ' + mins + '分</span>';
+
       // via リンク
-      var urls = (article.source_urls || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+      var urls  = (article.source_urls  || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
       var names = (article.source_names || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
       var viaHtml = '';
       if (urls.length) {
@@ -212,7 +333,7 @@
         ? '<div class="article-hashtags">' + esc(article.hashtags) + '</div>'
         : '';
 
-      // 本文（改行を保持）
+      // 本文
       var bodyHtml = article.summary
         ? '<div class="article-text">' + esc(article.summary) + '</div>'
         : '';
@@ -227,9 +348,11 @@
             '<span class="article-cat">' + esc(article.category) + '</span>' +
             '<span class="article-meta-sep">·</span>' +
             '<span class="article-date">' + fmtDateJa(article.published_at) + '</span>' +
+            readTimeHtml +
             sourceNamesHtml +
           '</div>' +
           '<h1 class="article-title">' + esc(article.title) + '</h1>' +
+          buildShareButtons(article.title, pageUrl) +
           '<div class="article-divider"></div>' +
           bodyHtml +
           hashtagsHtml +
@@ -237,7 +360,7 @@
         '</div>' +
         adSlot;
 
-      // 画像エラー時はプレースホルダーに差し替え
+      // 画像エラー時プレースホルダー差し替え
       var heroImg = document.getElementById('heroImg');
       if (heroImg) {
         heroImg.onerror = function() {
@@ -248,7 +371,7 @@
         };
       }
 
-      // 関連記事を描画
+      // 関連記事
       renderRelated(data.articles || [], article.id, article.category);
 
     } catch(e) {
