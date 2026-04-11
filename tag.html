@@ -204,7 +204,7 @@
     var tags = (hashtags || '').split(/\s+/).filter(function(t) { return t.startsWith('#'); });
     if (!tags.length) return esc(hashtags || '');
     return tags.map(function(t) {
-      var cls = (t === currentTag) ? ' class="current-tag"' : '';
+      var cls = (t.toLowerCase() === currentTag.toLowerCase()) ? ' class="current-tag"' : '';
       return '<a href="tag.html?tag=' + encodeURIComponent(t) + '"' + cls + ' onclick="event.stopPropagation()">' + esc(t) + '</a>';
     }).join(' ');
   }
@@ -260,9 +260,10 @@
       var data = await res.json();
 
       // タグを含む記事を抽出（完全一致）
+      var tagLower = tag.toLowerCase();
       filteredArticles = (data.articles || []).filter(function(a) {
         var tags = (a.hashtags || '').split(/\s+/).filter(Boolean);
-        return tags.indexOf(tag) !== -1;
+        return tags.some(function(t) { return t.toLowerCase() === tagLower; });
       });
 
       // タグヘッダー
