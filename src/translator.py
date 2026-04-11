@@ -15,7 +15,7 @@ import anthropic
 logger = logging.getLogger(__name__)
 
 MODEL = "claude-sonnet-4-6"
-MAX_TOKENS = 4096
+MAX_TOKENS = 2048
 RETRY_ATTEMPTS = 3
 RETRY_DELAY = 5  # seconds
 
@@ -120,7 +120,7 @@ def _translate_one(article: dict, client: anthropic.Anthropic) -> dict:
 
     user_message = (
         f"タイトル: {title}\n\n"
-        f"本文:\n{content[:5000] if content else '（本文なし）'}"
+        f"本文:\n{content[:3000] if content else '（本文なし）'}"
     )
 
     last_error: Optional[Exception] = None
