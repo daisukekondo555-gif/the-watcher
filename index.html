@@ -115,6 +115,11 @@
   @media (min-width: 768px) {
     .news-hidden.visible { display: grid; }
   }
+
+  /* SECTION PADDING — LATEST NEWS以降のコンテンツ左右余白 */
+  #newsGrid, #releaseGrid { padding: 0 24px; }
+  #categoryRanking { padding: 0 24px; }
+  #trendingTags { padding: 18px 24px 26px; }
 </style>
 </head>
 <body style="background:#ffffff;">
@@ -212,7 +217,7 @@
 
 <!-- TRENDING TAGS -->
 <div class="sec-label"><span>TRENDING TAGS</span></div>
-<div id="trendingTags" style="background:#ffffff;padding:18px 24px 26px;border-bottom:1px solid #e0e0e0;display:flex;flex-wrap:wrap;gap:10px;"></div>
+<div id="trendingTags" style="background:#ffffff;border-bottom:1px solid #e0e0e0;display:flex;flex-wrap:wrap;gap:10px;"></div>
 
 <!-- AD SLOT -->
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
