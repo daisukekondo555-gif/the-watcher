@@ -52,6 +52,23 @@
   /* ERROR / LOADING */
   .article-status { padding: 60px 24px; text-align: center; color: #aaa; font-size: 14px; }
 
+  /* RELATED ARTICLES */
+  .sec-label { padding: 26px 24px 18px; display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #e0e0e0; }
+  .sec-label span { font-family: 'Bebas Neue', sans-serif; font-size: 30px; letter-spacing: 4px; color: #111111; white-space: nowrap; }
+  .sec-label::after { content: ''; flex: 1; height: 3px; background: #111111; }
+  .news-item { background: #ffffff; padding: 22px 24px; cursor: pointer; display: flex; gap: 16px; align-items: flex-start; transition: background 0.15s; position: relative; }
+  .news-item::after { content: ''; position: absolute; bottom: 0; left: 10%; right: 10%; height: 1px; background: #e0e0e0; }
+  .news-item:hover { background: #f9f9f7; }
+  .news-thumb-placeholder { flex-shrink: 0; width: 90px; height: 60px; background: linear-gradient(135deg, #0f1f38, #1c3060); }
+  .news-content { flex: 1; min-width: 0; }
+  .news-cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #0f1f38; font-weight: 700; margin-bottom: 3px; }
+  .news-title { font-family: 'Noto Serif JP', serif; font-size: 14px; font-weight: 700; line-height: 1.5; color: #111111; margin-bottom: 5px; }
+  .news-meta { font-size: 10px; color: #999; }
+  #relatedSection { border-top: 2px solid #0f1f38; margin-top: 20px; }
+  @media (min-width: 768px) {
+    .related-grid { display: grid; grid-template-columns: 1fr 1fr; }
+  }
+
   /* PAGE WRAP — ヘッダー・フッター以外を最大幅1200pxでセンタリング */
   .page-wrap { max-width: 1200px; margin: 0 auto; }
 
@@ -81,6 +98,9 @@
 <!-- ARTICLE CONTENT（JS で描画） -->
 <div id="articleContent"><div class="article-status">読み込み中...</div></div>
 
+<!-- RELATED ARTICLES（JS で描画） -->
+<div id="relatedSection"></div>
+
 </div><!-- /page-wrap -->
 
 <!-- FOOTER -->
@@ -104,6 +124,18 @@
 
   function esc(s) {
     return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function imgOrPH(url, imgStyle, phClass) {
+    if (url) {
+      return '<img src="' + esc(url) + '" style="' + imgStyle + '" ' +
+        'onerror="var d=document.createElement(\'div\');d.className=\'' + phClass + '\';this.parentNode.replaceChild(d,this)" alt="">';
+    }
+    return '<div class="' + phClass + '"></div>';
+  }
+
+  function openRelated(id) {
+    location.href = 'article.html?id=' + encodeURIComponent(id);
   }
 
   // ISO日付 → "2026年4月11日"
@@ -207,11 +239,42 @@
         };
       }
 
+      // 関連記事を描画
+      renderRelated(data.articles || [], article.id, article.category);
+
     } catch(e) {
       console.error(e);
       document.getElementById('articleContent').innerHTML =
         '<div class="article-status">読み込みに失敗しました。<br><a href="./" style="color:#0f1f38;">トップへ戻る</a></div>';
     }
+  }
+
+  function renderRelated(articles, currentId, currentCategory) {
+    var related = articles
+      .filter(function(a) { return a.id !== currentId && a.category === currentCategory; })
+      .slice(0, 4);
+
+    if (!related.length) return;
+
+    var itemsHtml = related.map(function(a) {
+      var img = imgOrPH(
+        a.image_url,
+        'width:90px;height:60px;object-fit:cover;flex-shrink:0;',
+        'news-thumb-placeholder'
+      );
+      return '<div class="news-item" onclick="openRelated(\'' + esc(a.id) + '\')">' +
+        img +
+        '<div class="news-content">' +
+          '<div class="news-cat">' + esc(a.category) + '</div>' +
+          '<div class="news-title">' + esc(a.title) + '</div>' +
+          '<div class="news-meta">' + fmtDateJa(a.published_at) + '</div>' +
+        '</div>' +
+      '</div>';
+    }).join('');
+
+    document.getElementById('relatedSection').innerHTML =
+      '<div class="sec-label"><span>RELATED ARTICLES</span></div>' +
+      '<div class="related-grid">' + itemsHtml + '</div>';
   }
 
   document.addEventListener('DOMContentLoaded', init);
