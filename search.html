@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SWZML504ND"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SWZML504ND');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>検索結果 — THE WATCHER</title>
+<meta name="description" content="THE WATCHERの検索結果ページです。">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
+
+  /* HEADER */
+  header { background: #0f1f38; padding: 0; display: flex; align-items: stretch; justify-content: space-between; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #c8a830; }
+  .logo-wrap { display: flex; flex-direction: column; justify-content: center; padding: 10px 24px; text-decoration: none; }
+  .logo-en { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 8px; color: #ffffff; line-height: 1; }
+  .logo-ja { font-family: 'Noto Serif JP', serif; font-size: 9px; color: #c8a830; letter-spacing: 4px; margin-top: 3px; font-weight: 400; }
+  .menu-btn { display: flex; flex-direction: column; gap: 5px; cursor: pointer; padding: 18px 20px; }
+  .menu-btn span { display: block; width: 22px; height: 1px; background: rgba(255,255,255,0.5); }
+  nav { display: none; }
+  @media (min-width: 768px) {
+    .menu-btn { display: none; }
+    nav { display: flex; align-items: stretch; }
+    nav a { font-size: 10px; color: rgba(255,255,255,0.6); text-decoration: none; padding: 0 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; }
+    nav a:hover { background: rgba(255,255,255,0.05); color: #fff; }
+    nav a .nav-ja { font-family: 'Noto Serif JP', serif; font-size: 12px; color: #ffffff; font-weight: 700; }
+    nav a .nav-en { font-family: 'Bebas Neue', sans-serif; font-size: 9px; letter-spacing: 2px; color: #c8a830; }
+  }
+
+  /* MOBILE NAV */
+  .mobile-nav { display: none; background: #0a1628; border-bottom: 1px solid #1c3060; }
+  .mobile-nav.open { display: flex; flex-wrap: wrap; padding: 12px 20px; gap: 10px; }
+  .mobile-nav a { font-size: 12px; color: rgba(255,255,255,0.7); text-decoration: none; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.1); font-family: 'Noto Serif JP', serif; font-weight: 700; }
+
+  /* SEARCH BAR */
+  .search-bar { background: #ffffff; border-bottom: 1px solid #e0e0e0; padding: 10px 16px; display: flex; gap: 8px; align-items: center; box-sizing: border-box; width: 100%; }
+  .search-bar input { flex: 1; min-width: 0; border: 1px solid #e0e0e0; padding: 8px 14px; font-size: 16px; font-family: 'Noto Sans JP', sans-serif; outline: none; color: #111; }
+  @media (min-width: 768px) { .search-bar { padding: 10px 24px; gap: 10px; } .search-bar input { font-size: 13px; } }
+  .search-bar input:focus { border-color: #0f1f38; }
+  .search-bar button { flex-shrink: 0; background: #0f1f38; color: #fff; border: none; padding: 8px 16px; font-size: 12px; cursor: pointer; font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; white-space: nowrap; }
+
+  /* BREADCRUMB */
+  .breadcrumb { background: #fff; border-bottom: 1px solid #f0f0f0; padding: 10px 24px; font-size: 11px; color: #bbb; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .breadcrumb a { color: #0f1f38; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { color: #ddd; }
+
+  /* SEARCH HEADER */
+  .search-header { padding: 28px 24px 16px; border-bottom: 2px solid #0f1f38; }
+  .search-header-label { font-family: 'Bebas Neue', sans-serif; font-size: 11px; letter-spacing: 3px; color: #c8a830; margin-bottom: 6px; }
+  .search-header-query { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 3px; color: #0f1f38; line-height: 1.1; word-break: break-all; }
+  .search-header-count { font-size: 12px; color: #aaa; margin-top: 8px; letter-spacing: 1px; }
+
+  /* NEWS */
+  .news-item { background: #ffffff; padding: 22px 24px; cursor: pointer; display: flex; gap: 16px; align-items: flex-start; transition: background 0.15s; position: relative; }
+  .news-item::after { content: ''; position: absolute; bottom: 0; left: 10%; right: 10%; height: 1px; background: #e0e0e0; }
+  .news-item:hover { background: #f9f9f7; }
+  .news-thumb-placeholder { flex-shrink: 0; width: 90px; height: 60px; background: linear-gradient(135deg, #0f1f38, #1c3060); }
+  .news-content { flex: 1; min-width: 0; }
+  .news-cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #0f1f38; font-weight: 700; margin-bottom: 3px; }
+  .news-title { font-family: 'Noto Serif JP', serif; font-size: 14px; font-weight: 700; line-height: 1.5; color: #111111; margin-bottom: 5px; }
+  .news-meta { font-size: 10px; color: #999; }
+  .hashtag { color: #3a6bc4; }
+  .hashtag a { color: inherit; text-decoration: none; }
+  .hashtag a:hover { text-decoration: underline; }
+  @media (min-width: 768px) {
+    .news-grid { display: grid; grid-template-columns: 1fr 1fr; }
+  }
+
+  /* HIGHLIGHT */
+  mark { background: #fff3b0; color: #111; border-radius: 2px; padding: 0 1px; font-style: normal; }
+
+  /* MORE BTN */
+  .more-btn-wrap { padding: 20px 24px; text-align: center; background: #fff; border-bottom: 1px solid #e0e0e0; }
+  .more-btn { border: 2px solid #0f1f38; background: #fff; color: #0f1f38; font-size: 12px; font-family: 'Bebas Neue', sans-serif; letter-spacing: 3px; padding: 10px 32px; cursor: pointer; transition: all 0.15s; }
+  .more-btn:hover { background: #0f1f38; color: #fff; }
+
+  /* EMPTY STATE */
+  .empty-state { padding: 64px 24px; text-align: center; }
+  .empty-state-icon { font-size: 48px; margin-bottom: 16px; opacity: 0.25; }
+  .empty-state-title { font-family: 'Bebas Neue', sans-serif; font-size: 20px; letter-spacing: 3px; color: #888; margin-bottom: 8px; }
+  .empty-state-sub { font-size: 13px; color: #bbb; line-height: 1.8; }
+
+  /* LOADING */
+  .loading { padding: 60px 24px; text-align: center; color: #aaa; font-size: 13px; }
+
+  /* AD SLOT */
+  .ad-slot { background: #f9f9f9; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; padding: 16px 24px; text-align: center; }
+  .ad-inner { display: inline-flex; width: 100%; max-width: 728px; height: 90px; background: #f0f0f0; align-items: center; justify-content: center; margin: 0 auto; }
+  .ad-inner span { font-size: 11px; color: #bbb; letter-spacing: 2px; }
+
+  /* BACK TO TOP */
+  .back-to-top { position: fixed; bottom: 28px; right: 24px; width: 44px; height: 44px; background: #0f1f38; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; z-index: 50; opacity: 0; transition: opacity 0.25s; }
+  .back-to-top.visible { display: flex; opacity: 1; }
+  .back-to-top:hover { opacity: 0.75; }
+
+  /* PAGE WRAP */
+  .page-wrap { max-width: 1200px; margin: 0 auto; }
+
+  /* FOOTER */
+  footer { background: #0f1f38; border-top: 2px solid #c8a830; }
+  .footer-inner { padding: 0 24px; height: 58px; display: flex; align-items: center; justify-content: flex-end; }
+</style>
+</head>
+<body style="background:#ffffff;">
+<div style="background:#ffffff;min-height:100vh;">
+
+<!-- HEADER -->
+<header>
+  <a href="./" class="logo-wrap" style="text-decoration:none;">
+    <div class="logo-en">THE WATCHER</div>
+    <div class="logo-ja">ザ・ウォッチャー</div>
+  </a>
+  <div class="menu-btn" onclick="toggleNav()"><span></span><span></span><span></span></div>
+  <nav>
+    <a href="./"><span class="nav-ja">すべて</span><span class="nav-en">ALL</span></a>
+    <a href="category.html?cat=ニュース"><span class="nav-ja">ニュース</span><span class="nav-en">NEWS</span></a>
+    <a href="category.html?cat=ビジネス"><span class="nav-ja">ビジネス</span><span class="nav-en">BUSINESS</span></a>
+    <a href="category.html?cat=ビーフ"><span class="nav-ja">ビーフ</span><span class="nav-en">BEEF</span></a>
+    <a href="category.html?cat=リリース"><span class="nav-ja">リリース</span><span class="nav-en">RELEASE</span></a>
+    <a href="category.html?cat=ライブ"><span class="nav-ja">ライブ</span><span class="nav-en">LIVE</span></a>
+  </nav>
+</header>
+<div class="page-wrap">
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="./">すべて</a>
+  <a href="category.html?cat=ニュース">ニュース</a>
+  <a href="category.html?cat=ビジネス">ビジネス</a>
+  <a href="category.html?cat=ビーフ">ビーフ</a>
+  <a href="category.html?cat=リリース">リリース</a>
+  <a href="category.html?cat=ライブ">ライブ</a>
+</div>
+
+<!-- SEARCH BAR -->
+<div class="search-bar">
+  <input type="text" id="searchInput" placeholder="アーティスト名・キーワードで検索..."
+    onkeydown="if(event.key==='Enter')doSearch()">
+  <button onclick="doSearch()">SEARCH</button>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="./">ホーム</a>
+  <span class="breadcrumb-sep">›</span>
+  <span>検索結果</span>
+</div>
+
+<!-- SEARCH HEADER -->
+<div class="search-header">
+  <div class="search-header-label">SEARCH RESULTS</div>
+  <div class="search-header-query" id="searchQuery">...</div>
+  <div class="search-header-count" id="searchCount"></div>
+</div>
+
+<!-- AD SLOT -->
+<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
+
+<!-- RESULTS -->
+<div id="resultsGrid" class="news-grid">
+  <div class="loading">読み込み中...</div>
+</div>
+
+<div class="more-btn-wrap" id="moreBtnWrap" style="display:none;">
+  <button class="more-btn" onclick="showMore()">MORE RESULTS</button>
+</div>
+
+</div><!-- /page-wrap -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div style="display:flex;flex-direction:row;align-items:center;gap:24px;">
+      <a href="privacy.html" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">プライバシーポリシー</a>
+      <a href="contact.html" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">お問い合わせ</a>
+      <div style="font-size:10px;color:rgba(255,255,255,0.25);letter-spacing:1px;">© 2026 THE WATCHER</div>
+    </div>
+  </div>
+</footer>
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" onclick="scrollToTop()" aria-label="ページトップへ">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4L4 12h5v8h6v-8h5L12 4z"/>
+  </svg>
+</button>
+
+<script>
+  var PAGE_SIZE = 20;
+  var allResults = [];
+  var shownCount = 0;
+  var currentQuery = '';
+
+  // ---- ユーティリティ ----
+  function esc(s) {
+    return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
+  }
+
+  function fmtDate(iso) {
+    if (!iso) return '';
+    try {
+      var d = new Date(iso);
+      return d.getFullYear() + '.' +
+        String(d.getMonth() + 1).padStart(2, '0') + '.' +
+        String(d.getDate()).padStart(2, '0');
+    } catch(e) { return ''; }
+  }
+
+  function imgOrPH(url) {
+    if (url) {
+      return '<img src="' + esc(url) + '" style="width:90px;height:60px;object-fit:cover;flex-shrink:0;" ' +
+        'onerror="var d=document.createElement(\'div\');d.className=\'news-thumb-placeholder\';this.parentNode.replaceChild(d,this)" alt="">';
+    }
+    return '<div class="news-thumb-placeholder"></div>';
+  }
+
+  // キーワードを <mark> でハイライト（XSS対策済みテキストに適用）
+  function highlight(escapedText, words) {
+    if (!words.length) return escapedText;
+    // escapedText はすでにHTMLエスケープ済み。wordsもエスケープして正規表現で置換
+    var result = escapedText;
+    words.forEach(function(w) {
+      if (!w) return;
+      var escapedW = w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+      result = result.replace(new RegExp(escapedW, 'gi'), function(m) {
+        return '<mark>' + m + '</mark>';
+      });
+    });
+    return result;
+  }
+
+  function buildHashtagLinks(hashtags) {
+    var tags = (hashtags || '').split(/\s+/).filter(function(t) { return t.startsWith('#'); });
+    if (!tags.length) return esc(hashtags || '');
+    return tags.map(function(t) {
+      return '<a href="tag.html?tag=' + encodeURIComponent(t) + '" onclick="event.stopPropagation()">' + esc(t) + '</a>';
+    }).join(' ');
+  }
+
+  function buildVia(source_urls, source_names) {
+    var urls = (source_urls || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+    var names = (source_names || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
+    if (!urls.length) return '';
+    var links = urls.map(function(u, i) {
+      var name = names[i] || u;
+      return 'via <a href="' + esc(u) + '" target="_blank" rel="noopener" ' +
+        'onclick="event.stopPropagation()" style="color:#aaa;text-decoration:none;">' + esc(name) + '</a>';
+    }).join(' | ');
+    return '<div style="font-size:10px;color:#aaa;margin-top:4px;text-align:right;">' + links + '</div>';
+  }
+
+  function openArticle(id) {
+    location.href = 'article.html?id=' + encodeURIComponent(id);
+  }
+
+  // ---- 検索ロジック ----
+  // 検索対象フィールド：title, category, hashtags, source_names, body（あれば）
+  function articleMatches(a, words) {
+    var haystack = [
+      a.title || '',
+      a.title_ja || '',
+      a.category || '',
+      a.hashtags || '',
+      a.source_names || '',
+      a.body || '',
+      a.summary || '',
+      a.summary_ja || ''
+    ].join(' ').toLowerCase();
+    return words.every(function(w) { return haystack.includes(w); });
+  }
+
+  function resultItemHTML(a, words) {
+    var titleHl = highlight(esc(a.title || ''), words);
+    return '<div class="news-item" onclick="openArticle(\'' + esc(a.id) + '\')">' +
+      imgOrPH(a.image_url) +
+      '<div class="news-content">' +
+        '<div class="news-cat">' + esc(a.category) + '</div>' +
+        '<div class="news-title">' + titleHl + '</div>' +
+        '<div class="news-meta">' + fmtDate(a.published_at) + '<br>' +
+          '<span class="hashtag">' + buildHashtagLinks(a.hashtags) + '</span>' +
+        '</div>' +
+        buildVia(a.source_urls, a.source_names) +
+      '</div>' +
+    '</div>';
+  }
+
+  function renderResults(words) {
+    var grid = document.getElementById('resultsGrid');
+    var moreBtn = document.getElementById('moreBtnWrap');
+
+    if (!allResults.length) {
+      grid.innerHTML =
+        '<div class="empty-state">' +
+          '<div class="empty-state-icon">🔍</div>' +
+          '<div class="empty-state-title">NO RESULTS FOUND</div>' +
+          '<div class="empty-state-sub">「' + esc(currentQuery) + '」に該当する記事が見つかりませんでした。<br>別のキーワードで検索してみてください。</div>' +
+        '</div>';
+      moreBtn.style.display = 'none';
+      return;
+    }
+
+    shownCount = Math.min(PAGE_SIZE, allResults.length);
+    grid.innerHTML = allResults.slice(0, shownCount).map(function(a) {
+      return resultItemHTML(a, words);
+    }).join('');
+    moreBtn.style.display = shownCount < allResults.length ? '' : 'none';
+  }
+
+  function showMore() {
+    var grid = document.getElementById('resultsGrid');
+    var words = currentQuery.toLowerCase().split(/\s+/).filter(Boolean);
+    var next = allResults.slice(shownCount, shownCount + PAGE_SIZE);
+    next.forEach(function(a) {
+      grid.insertAdjacentHTML('beforeend', resultItemHTML(a, words));
+    });
+    shownCount += next.length;
+    if (shownCount >= allResults.length) {
+      document.getElementById('moreBtnWrap').style.display = 'none';
+    }
+  }
+
+  // ---- 初期化 ----
+  async function init() {
+    var params = new URLSearchParams(location.search);
+    currentQuery = (params.get('q') || '').trim();
+
+    // 検索バーにクエリを反映
+    document.getElementById('searchInput').value = currentQuery;
+
+    // ページタイトル更新
+    document.getElementById('searchQuery').textContent =
+      currentQuery ? '"' + currentQuery + '"' : 'キーワードを入力してください';
+    document.title = currentQuery
+      ? '「' + currentQuery + '」の検索結果 — THE WATCHER'
+      : '検索 — THE WATCHER';
+
+    if (!currentQuery) {
+      document.getElementById('resultsGrid').innerHTML =
+        '<div class="empty-state">' +
+          '<div class="empty-state-icon">🔍</div>' +
+          '<div class="empty-state-title">SEARCH THE WATCHER</div>' +
+          '<div class="empty-state-sub">アーティスト名・キーワードを入力して検索してください。</div>' +
+        '</div>';
+      document.getElementById('searchCount').textContent = '';
+      return;
+    }
+
+    try {
+      var res = await fetch('./data/articles.json');
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      var data = await res.json();
+      var articles = data.articles || [];
+
+      var words = currentQuery.toLowerCase().split(/\s+/).filter(Boolean);
+      allResults = articles.filter(function(a) { return articleMatches(a, words); });
+
+      document.getElementById('searchCount').textContent =
+        allResults.length > 0
+          ? allResults.length + '件の記事が見つかりました'
+          : '';
+
+      renderResults(words);
+    } catch(e) {
+      console.error('articles.json の読み込みに失敗しました:', e);
+      document.getElementById('resultsGrid').innerHTML =
+        '<div class="empty-state">' +
+          '<div class="empty-state-title">読み込みエラー</div>' +
+          '<div class="empty-state-sub">記事データの読み込みに失敗しました。ページを再読み込みしてください。</div>' +
+        '</div>';
+    }
+  }
+
+  // 検索バーからの再検索
+  function doSearch() {
+    var q = document.getElementById('searchInput').value.trim();
+    if (!q) return;
+    location.href = 'search.html?q=' + encodeURIComponent(q);
+  }
+
+  function toggleNav() {
+    document.getElementById('mobileNav').classList.toggle('open');
+  }
+
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  window.addEventListener('scroll', function() {
+    var btn = document.getElementById('backToTop');
+    if (window.scrollY > 400) btn.classList.add('visible');
+    else btn.classList.remove('visible');
+  });
+
+  document.addEventListener('DOMContentLoaded', init);
+</script>
+</div>
+</body>
+</html>

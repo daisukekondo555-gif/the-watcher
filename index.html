@@ -232,7 +232,8 @@
 
 <!-- SEARCH -->
 <div class="search-bar">
-  <input type="text" id="searchInput" placeholder="アーティスト名・キーワードで検索..." oninput="handleSearch()">
+  <input type="text" id="searchInput" placeholder="アーティスト名・キーワードで検索..."
+    onkeydown="if(event.key==='Enter')handleSearch()">
   <button onclick="handleSearch()">SEARCH</button>
 </div>
 
@@ -598,18 +599,11 @@
     document.getElementById('mobileNav').classList.remove('open');
   }
 
-  // テキスト検索
+  // 検索 → search.html へ遷移
   function handleSearch() {
-    var q = document.getElementById('searchInput').value.toLowerCase();
-    document.querySelectorAll('.news-item').forEach(function(item) {
-      item.style.display = item.innerText.toLowerCase().includes(q) ? 'flex' : 'none';
-    });
-  }
-
-  // タグクリック → 検索窓に入れて検索
-  function filterTagSearch(tag) {
-    document.getElementById('searchInput').value = tag;
-    handleSearch();
+    var q = document.getElementById('searchInput').value.trim();
+    if (!q) return;
+    location.href = 'search.html?q=' + encodeURIComponent(q);
   }
 </script>
 
