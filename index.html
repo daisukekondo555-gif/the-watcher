@@ -383,7 +383,7 @@
     var cats = ['ニュース', 'リリース', 'ビーフ', 'チャート', 'ビジネス'];
     document.getElementById('categoryRanking').innerHTML = cats.map(function(cat) {
       var items = articles.filter(function(a) { return a.category === cat; }).slice(0, 5);
-      var rows = items.map(function(a) {
+      var rows = items.map(function(a, i) {
         return '<div class="rank-row" onclick="openArticle(\'' + esc(a.id) + '\')">' +
           '<span class="rank-row-num">' + (i + 1) + '</span>' +
           esc(a.title) +
