@@ -130,6 +130,9 @@
   #newsGrid, #releaseGrid { padding: 0 24px; }
   #categoryRanking { padding: 0 24px; }
   #trendingTags { padding: 18px 24px 26px; }
+
+  /* PAGE WRAP — ヘッダー・フッター以外を最大幅1200pxでセンタリング */
+  .page-wrap { max-width: 1200px; margin: 0 auto; }
 </style>
 </head>
 <body style="background:#ffffff;">
@@ -151,6 +154,7 @@
     <a href="#" onclick="filterCat('ライブ')"><span class="nav-ja">ライブ</span><span class="nav-en">LIVE</span></a>
   </nav>
 </header>
+<div class="page-wrap">
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
@@ -255,6 +259,8 @@
   <p style="font-size:13px;color:#555;line-height:2;margin-bottom:14px;"><strong>アクセス解析について：</strong>当サイトはGoogle Analytics等のアクセス解析ツールを使用する場合があります。</p>
   <p style="font-size:13px;color:#555;line-height:2;"><strong>免責事項：</strong>当サイトのコンテンツは情報提供を目的としており、正確性・完全性を保証するものではありません。</p>
 </div>
+
+</div><!-- /page-wrap -->
 
 <script>
   var allArticles = [];
