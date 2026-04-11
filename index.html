@@ -274,7 +274,7 @@
     return '<div class="' + phClass + '"></div>';
   }
 
-  // via リンク（右下表示）
+  // via リンク（右下表示）— クリックが記事遷移に伝播しないよう stopPropagation
   function buildVia(source_urls, source_names) {
     var urls = (source_urls || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
     var names = (source_names || '').split(',').map(function(s) { return s.trim(); }).filter(Boolean);
@@ -282,16 +282,23 @@
     var links = urls.map(function(u, i) {
       var name = names[i] || u;
       return 'via <a href="' + esc(u) + '" target="_blank" rel="noopener" ' +
+        'onclick="event.stopPropagation()" ' +
         'style="color:#aaa;text-decoration:none;">' + esc(name) + '</a>';
     }).join(' | ');
     return '<div style="font-size:10px;color:#aaa;margin-top:4px;text-align:right;">' + links + '</div>';
+  }
+
+  // 記事詳細ページへ遷移
+  function openArticle(id) {
+    location.href = 'article.html?id=' + encodeURIComponent(id);
   }
 
   // WEEKLY BEST 5 — ヒーロー（1位）
   function renderBest5Hero(a) {
     if (!a) return;
     var img = imgOrPH(a.image_url, 'width:100%;aspect-ratio:16/9;object-fit:cover;display:block;', 'hero-img-placeholder');
-    document.getElementById('best5Hero').innerHTML =
+    var el = document.getElementById('best5Hero');
+    el.innerHTML =
       img +
       '<div class="hero-body">' +
         '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">' +
@@ -304,13 +311,14 @@
         '</div>' +
         buildVia(a.source_urls, a.source_names) +
       '</div>';
+    el.onclick = function() { openArticle(a.id); };
   }
 
   // WEEKLY BEST 5 — サブスクロール（2〜5位）
   function renderBest5Sub(articles) {
     var html = articles.map(function(a, i) {
       var img = imgOrPH(a.image_url, 'width:200px;height:112px;object-fit:cover;border-radius:2px;', 'sub-card-img-placeholder');
-      return '<div class="sub-card">' +
+      return '<div class="sub-card" onclick="openArticle(\'' + esc(a.id) + '\')">' +
         img +
         '<div class="sub-card-body">' +
           '<div style="display:flex;align-items:center;gap:6px;">' +
@@ -332,7 +340,7 @@
   function newsItemHTML(a, hidden) {
     var cls = hidden ? ' news-hidden' : '';
     var img = imgOrPH(a.image_url, 'width:90px;height:60px;object-fit:cover;flex-shrink:0;', 'news-thumb-placeholder');
-    return '<div class="news-item' + cls + '" data-cat="' + esc(a.category) + '">' +
+    return '<div class="news-item' + cls + '" data-cat="' + esc(a.category) + '" onclick="openArticle(\'' + esc(a.id) + '\')">' +
       img +
       '<div class="news-content">' +
         '<div class="cat">' + esc(a.category) + '</div>' +
@@ -367,7 +375,10 @@
     document.getElementById('categoryRanking').innerHTML = cats.map(function(cat, ci) {
       var items = articles.filter(function(a) { return a.category === cat; }).slice(0, 5);
       var rows = items.map(function(a, i) {
-        return '<div style="font-size:11px;color:#333;line-height:1.6;margin-bottom:' + (i < 4 ? '8' : '0') + 'px;display:flex;gap:6px;align-items:flex-start;">' +
+        return '<div onclick="openArticle(\'' + esc(a.id) + '\')" ' +
+          'style="font-size:11px;color:#333;line-height:1.6;margin-bottom:' + (i < 4 ? '8' : '0') + 'px;' +
+          'display:flex;gap:6px;align-items:flex-start;cursor:pointer;" ' +
+          'onmouseover="this.style.color=\'#0f1f38\'" onmouseout="this.style.color=\'#333\'">' +
           '<span style="color:#ccc;font-family:\'Bebas Neue\',sans-serif;font-size:16px;line-height:1;flex-shrink:0;">' + (i + 1) + '</span>' +
           esc(a.title) +
         '</div>';
