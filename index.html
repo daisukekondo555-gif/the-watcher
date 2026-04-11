@@ -48,6 +48,21 @@
   @media (min-width: 768px) {
     #best5Hero img, #best5Hero .hero-img-placeholder { max-height: 480px; }
   }
+
+  /* BEST5 SLIDESHOW */
+  .best5-slideshow { position: relative; overflow: hidden; background: #fff; border-bottom: 2px solid #0f1f38; cursor: pointer; }
+  .best5-slide { width: 100%; opacity: 0; transition: opacity 0.55s ease; pointer-events: none; }
+  .best5-slide.is-active { opacity: 1; pointer-events: auto; }
+  .best5-slide:not(.is-active) { position: absolute; top: 0; left: 0; }
+  .best5-img-wrap { position: relative; }
+  .best5-dots { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); display: flex; gap: 9px; z-index: 5; pointer-events: none; }
+  .best5-dot { width: 9px; height: 9px; border-radius: 50%; background: rgba(255,255,255,0.4); border: 1.5px solid rgba(255,255,255,0.85); cursor: pointer; transition: all 0.25s; padding: 0; pointer-events: auto; }
+  .best5-dot.is-active { background: #ffffff; border-color: #ffffff; transform: scale(1.3); }
+  .best5-dot:hover { background: rgba(255,255,255,0.75); }
+  @media (min-width: 768px) {
+    .best5-img-wrap img, .best5-img-wrap .hero-img-placeholder { max-height: 480px; }
+  }
+
   .hero-body { padding: 28px 24px 32px; background: #ffffff; }
   .cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #0f1f38; margin-bottom: 8px; font-weight: 700; }
   .hero-title { font-family: 'Noto Serif JP', serif; font-size: 22px; font-weight: 900; line-height: 1.5; color: #111111; margin-bottom: 10px; }
@@ -192,11 +207,7 @@
 
 <!-- WEEKLY BEST 5 -->
 <div class="sec-label"><span>WEEKLY BEST 5</span></div>
-<div class="hero" id="best5Hero"><div class="hero-img-placeholder">THE WATCHER</div></div>
-<div class="sub-scroll-wrap">
-  <div class="sub-scroll" id="best5SubScroll"></div>
-  <div class="scroll-hint"></div>
-</div>
+<div id="best5Slideshow" class="best5-slideshow"><div class="best5-img-wrap"><div class="hero-img-placeholder">THE WATCHER</div></div></div>
 
 <!-- AD SLOT -->
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
@@ -313,47 +324,77 @@
     location.href = 'article.html?id=' + encodeURIComponent(id);
   }
 
-  // WEEKLY BEST 5 — ヒーロー（1位）
-  function renderBest5Hero(a) {
-    if (!a) return;
-    var img = imgOrPH(a.image_url, 'width:100%;aspect-ratio:16/9;object-fit:cover;display:block;', 'hero-img-placeholder');
-    var el = document.getElementById('best5Hero');
-    el.innerHTML =
-      img +
-      '<div class="hero-body">' +
-        '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">' +
-          '<span style="font-family:\'Bebas Neue\',sans-serif;font-size:48px;color:#0f1f38;line-height:1;">1</span>' +
-          '<div class="cat" style="margin-bottom:0;">' + esc(a.category) + '</div>' +
-        '</div>' +
-        '<h1 class="hero-title">' + esc(a.title) + '</h1>' +
-        '<div class="meta">' + fmtDate(a.published_at) + '<br>' +
-          '<span class="hashtag">' + buildHashtagLinks(a.hashtags) + '</span>' +
-        '</div>' +
-        buildVia(a.source_urls, a.source_names) +
-      '</div>';
-    el.onclick = function() { openArticle(a.id); };
-  }
+  // WEEKLY BEST 5 — スライドショー
+  var best5Articles = [];
+  var best5Idx = 0;
+  var best5Timer = null;
+  var best5ResumeTimer = null;
+  var BEST5_INTERVAL = 4500;  // 自動切り替え間隔 (ms)
+  var BEST5_PAUSE    = 8000;  // 手動操作後の再開待機 (ms)
 
-  // WEEKLY BEST 5 — サブスクロール（2〜5位）
-  function renderBest5Sub(articles) {
-    var html = articles.map(function(a, i) {
-      var img = imgOrPH(a.image_url, 'width:200px;height:112px;object-fit:cover;border-radius:2px;', 'sub-card-img-placeholder');
-      return '<div class="sub-card" onclick="openArticle(\'' + esc(a.id) + '\')">' +
-        img +
-        '<div class="sub-card-body">' +
-          '<div style="display:flex;align-items:center;gap:6px;">' +
-            '<span style="font-family:\'Bebas Neue\',sans-serif;font-size:28px;color:rgba(255,255,255,0.3);line-height:1;">' + (i + 2) + '</span>' +
+  function renderBest5Slideshow(articles) {
+    if (!articles.length) return;
+    best5Articles = articles;
+    var el = document.getElementById('best5Slideshow');
+    if (!el) return;
+
+    // ドット HTML（全スライドに共通で配置）
+    var dotsHtml = '<div class="best5-dots">' +
+      articles.map(function(_, i) {
+        return '<button class="best5-dot' + (i === 0 ? ' is-active' : '') + '" data-idx="' + i + '" ' +
+          'onclick="best5GoTo(' + i + ',true);event.stopPropagation();" aria-label="' + (i + 1) + '枚目"></button>';
+      }).join('') +
+    '</div>';
+
+    // 5枚のスライドを生成
+    el.innerHTML = articles.map(function(a, i) {
+      var img = imgOrPH(a.image_url, 'width:100%;aspect-ratio:16/9;object-fit:cover;display:block;', 'hero-img-placeholder');
+      return '<div class="best5-slide' + (i === 0 ? ' is-active' : '') + '" onclick="openArticle(\'' + esc(a.id) + '\')">' +
+        '<div class="best5-img-wrap">' + img + dotsHtml + '</div>' +
+        '<div class="hero-body">' +
+          '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">' +
+            '<span style="font-family:\'Bebas Neue\',sans-serif;font-size:48px;color:#0f1f38;line-height:1;">' + (i + 1) + '</span>' +
             '<div class="cat" style="margin-bottom:0;">' + esc(a.category) + '</div>' +
           '</div>' +
-          '<div class="sub-card-title">' + esc(a.title) + '</div>' +
+          '<h1 class="hero-title">' + esc(a.title) + '</h1>' +
           '<div class="meta">' + fmtDate(a.published_at) + '<br>' +
             '<span class="hashtag">' + buildHashtagLinks(a.hashtags) + '</span>' +
           '</div>' +
           buildVia(a.source_urls, a.source_names) +
         '</div>' +
       '</div>';
-    }).join('') + '<div style="flex-shrink:0;width:4px;"></div>';
-    document.getElementById('best5SubScroll').innerHTML = html;
+    }).join('');
+
+    best5Idx = 0;
+    best5StartTimer();
+  }
+
+  function best5GoTo(idx, manual) {
+    if (!best5Articles.length || idx === best5Idx) return;
+    var slides = document.querySelectorAll('.best5-slide');
+    if (!slides[idx]) return;
+
+    slides[best5Idx].classList.remove('is-active');
+    best5Idx = idx;
+    slides[best5Idx].classList.add('is-active');
+
+    // 全スライドのドットを同期
+    document.querySelectorAll('.best5-dot').forEach(function(dot) {
+      dot.classList.toggle('is-active', parseInt(dot.dataset.idx) === best5Idx);
+    });
+
+    if (manual) {
+      clearInterval(best5Timer);
+      clearTimeout(best5ResumeTimer);
+      best5ResumeTimer = setTimeout(best5StartTimer, BEST5_PAUSE);
+    }
+  }
+
+  function best5StartTimer() {
+    clearInterval(best5Timer);
+    best5Timer = setInterval(function() {
+      best5GoTo((best5Idx + 1) % best5Articles.length, false);
+    }, BEST5_INTERVAL);
   }
 
   // ニュースアイテム HTML 生成
@@ -444,8 +485,7 @@
         now.getFullYear() + '年' + (now.getMonth() + 1) + '月' + now.getDate() + '日（' + weekdays[now.getDay()] + '）';
 
       if (allArticles.length > 0) {
-        renderBest5Hero(allArticles[0]);
-        renderBest5Sub(allArticles.slice(1, 5));
+        renderBest5Slideshow(allArticles.slice(0, 5));
       }
       renderLatestNews(allArticles);
       renderReleaseGrid(allArticles);
