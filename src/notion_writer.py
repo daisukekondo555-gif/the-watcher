@@ -107,7 +107,7 @@ def _build_properties(article: dict) -> dict:
             "rich_text": [{"text": {"content": source_names}}]
         },
         "ステータス": {
-            "select": {"name": "下書き"}
+            "select": {"name": "公開"}
         },
         "公開日時": {
             "date": {"start": published_iso}
