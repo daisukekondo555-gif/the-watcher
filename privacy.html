@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SWZML504ND"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SWZML504ND');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>プライバシーポリシー — THE WATCHER</title>
+<meta name="description" content="THE WATCHER（ザ・ウォッチャー）のプライバシーポリシーです。">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
+
+  /* HEADER */
+  header { background: #0f1f38; padding: 0; display: flex; align-items: stretch; justify-content: space-between; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #c8a830; }
+  .logo-wrap { display: flex; flex-direction: column; justify-content: center; padding: 10px 24px; text-decoration: none; }
+  .logo-en { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 8px; color: #ffffff; line-height: 1; }
+  .logo-ja { font-family: 'Noto Serif JP', serif; font-size: 9px; color: #c8a830; letter-spacing: 4px; margin-top: 3px; font-weight: 400; }
+  .menu-btn { display: flex; flex-direction: column; gap: 5px; cursor: pointer; padding: 18px 20px; }
+  .menu-btn span { display: block; width: 22px; height: 1px; background: rgba(255,255,255,0.5); }
+  nav { display: none; }
+  @media (min-width: 768px) {
+    .menu-btn { display: none; }
+    nav { display: flex; align-items: stretch; }
+    nav a { font-size: 10px; color: rgba(255,255,255,0.6); text-decoration: none; padding: 0 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; }
+    nav a:hover, nav a.active { background: rgba(255,255,255,0.05); color: #fff; }
+    nav a .nav-ja { font-family: 'Noto Serif JP', serif; font-size: 12px; color: #ffffff; font-weight: 700; }
+    nav a .nav-en { font-family: 'Bebas Neue', sans-serif; font-size: 9px; letter-spacing: 2px; color: #c8a830; }
+  }
+
+  /* MOBILE NAV */
+  .mobile-nav { display: none; background: #0a1628; border-bottom: 1px solid #1c3060; }
+  .mobile-nav.open { display: flex; flex-wrap: wrap; padding: 12px 20px; gap: 10px; }
+  .mobile-nav a { font-size: 12px; color: rgba(255,255,255,0.7); text-decoration: none; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.1); font-family: 'Noto Serif JP', serif; font-weight: 700; }
+
+  /* BREADCRUMB */
+  .breadcrumb { background: #fff; border-bottom: 1px solid #f0f0f0; padding: 10px 24px; font-size: 11px; color: #bbb; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .breadcrumb a { color: #0f1f38; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { color: #ddd; }
+
+  /* PAGE WRAP */
+  .page-wrap { max-width: 1200px; margin: 0 auto; }
+
+  /* CONTENT */
+  .policy-wrap { padding: 40px 24px 60px; max-width: 800px; margin: 0 auto; }
+  .policy-page-title { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 4px; color: #0f1f38; border-bottom: 3px solid #0f1f38; padding-bottom: 16px; margin-bottom: 36px; }
+  .policy-updated { font-size: 12px; color: #aaa; margin-bottom: 32px; letter-spacing: 1px; }
+  .policy-section { margin-bottom: 36px; }
+  .policy-section h2 { font-family: 'Noto Serif JP', serif; font-size: 16px; font-weight: 900; color: #0f1f38; border-left: 4px solid #c8a830; padding-left: 12px; margin-bottom: 14px; }
+  .policy-section p { font-size: 14px; color: #444; line-height: 2; margin-bottom: 10px; }
+  .policy-section p:last-child { margin-bottom: 0; }
+  .policy-section a { color: #0f1f38; text-decoration: underline; }
+  .policy-section a:hover { color: #3a6bc4; }
+  .policy-section ul { font-size: 14px; color: #444; line-height: 2; padding-left: 20px; }
+  .policy-section ul li { margin-bottom: 4px; }
+
+  /* FOOTER */
+  footer { background: #0f1f38; border-top: 2px solid #c8a830; }
+  .footer-inner { padding: 0 24px; height: 58px; display: flex; align-items: center; justify-content: flex-end; }
+</style>
+</head>
+<body style="background:#ffffff;">
+<div style="background:#ffffff;min-height:100vh;">
+
+<!-- HEADER -->
+<header>
+  <a href="./" class="logo-wrap" style="text-decoration:none;">
+    <div class="logo-en">THE WATCHER</div>
+    <div class="logo-ja">ザ・ウォッチャー</div>
+  </a>
+  <div class="menu-btn" onclick="toggleNav()"><span></span><span></span><span></span></div>
+  <nav>
+    <a href="./"><span class="nav-ja">すべて</span><span class="nav-en">ALL</span></a>
+    <a href="category.html?cat=ニュース"><span class="nav-ja">ニュース</span><span class="nav-en">NEWS</span></a>
+    <a href="category.html?cat=ビジネス"><span class="nav-ja">ビジネス</span><span class="nav-en">BUSINESS</span></a>
+    <a href="category.html?cat=ビーフ"><span class="nav-ja">ビーフ</span><span class="nav-en">BEEF</span></a>
+    <a href="category.html?cat=リリース"><span class="nav-ja">リリース</span><span class="nav-en">RELEASE</span></a>
+    <a href="category.html?cat=ライブ"><span class="nav-ja">ライブ</span><span class="nav-en">LIVE</span></a>
+  </nav>
+</header>
+<div class="page-wrap">
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="./">すべて</a>
+  <a href="category.html?cat=ニュース">ニュース</a>
+  <a href="category.html?cat=ビジネス">ビジネス</a>
+  <a href="category.html?cat=ビーフ">ビーフ</a>
+  <a href="category.html?cat=リリース">リリース</a>
+  <a href="category.html?cat=ライブ">ライブ</a>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="./">ホーム</a>
+  <span class="breadcrumb-sep">›</span>
+  <span>プライバシーポリシー</span>
+</div>
+
+<!-- CONTENT -->
+<div class="policy-wrap">
+  <h1 class="policy-page-title">PRIVACY POLICY</h1>
+  <div class="policy-updated">最終更新：2026年4月12日</div>
+
+  <div class="policy-section">
+    <h2>1. 運営者情報</h2>
+    <p>サイト名：THE WATCHER（ザ・ウォッチャー）<br>
+    サイトURL：<a href="https://thewatcherjp.com" target="_blank" rel="noopener">https://thewatcherjp.com</a><br>
+    本サイトは日本のヒップホップニュースを集約・配信するメディアです。</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>2. 収集する情報とその利用目的</h2>
+    <p>当サイトは、以下の情報を収集することがあります。</p>
+    <ul>
+      <li>アクセスログ（IPアドレス、ブラウザ種別、参照元URL、アクセス日時など）</li>
+      <li>Cookieおよびこれに類する技術を通じた閲覧情報</li>
+    </ul>
+    <p>これらの情報は、サイトの利用状況の分析、コンテンツ改善、および広告配信の最適化を目的として利用します。</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>3. Google Analytics（アクセス解析）</h2>
+    <p>当サイトはGoogleが提供するアクセス解析ツール「Google Analytics」を使用しています。Google Analyticsは、Cookieを使用してユーザーのアクセス情報を収集します。収集されるデータは匿名であり、個人を特定するものではありません。</p>
+    <p>Google AnalyticsのデータはGoogleのプライバシーポリシーに基づいて管理されます。詳細はGoogleのポリシーをご確認ください。また、ブラウザの設定によりCookieを無効にすることでデータ収集を拒否することができます。</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>4. 広告について（Google AdSense）</h2>
+    <p>当サイトはGoogle AdSense（Google LLC提供）を利用した広告を掲載する予定です。Google AdSenseは、ユーザーの興味・関心に基づいた広告を表示するためにCookieを使用します。</p>
+    <p>Cookieを使用することで、ユーザーがそのサイトや他のサイトに以前アクセスした際の情報に基づいて広告が配信されます。Googleが広告Cookieを使用することにより、ユーザーがGoogleや提携ネットワークのサイトにアクセスした際に、Googleや提携ネットワークが広告を掲載できるようになります。</p>
+    <p>ユーザーは<a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Googleの広告設定</a>でパーソナライズ広告を無効にすることができます。</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>5. 外部リンク・掲載コンテンツの免責事項</h2>
+    <p>当サイトに掲載している記事は、HipHopDX・XXL・Hot97・Pitchfork・The Source・AllHipHop・Uproxx・2DopeBoyz・Rap Radar・TMZ等の外部メディアのRSSフィードを日本語でまとめたものです。</p>
+    <p>当サイトは各記事の正確性・完全性・最新性を保証するものではありません。掲載情報の利用に起因するいかなる損害についても、当サイトは責任を負いかねます。各記事の詳細・最新情報は必ず元記事（外部サイト）をご確認ください。</p>
+    <p>外部リンク先のコンテンツおよびプライバシーポリシーについては、各サイトの方針に従います。当サイトは外部サイトの内容について一切の責任を負いません。</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>6. 著作権</h2>
+    <p>当サイトに掲載している記事の要約・翻訳コンテンツの著作権は各原著作権者に帰属します。当サイトのオリジナルコンテンツ（デザイン・構成等）の無断転載を禁じます。</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>7. プライバシーポリシーの変更</h2>
+    <p>当サイトは、法令改正等の必要に応じて本プライバシーポリシーを変更することがあります。変更後のプライバシーポリシーは、本ページに掲載した時点から効力を生じるものとします。</p>
+  </div>
+
+  <div class="policy-section">
+    <h2>8. お問い合わせ</h2>
+    <p>本ポリシーに関するご質問・ご意見は、<a href="contact.html">お問い合わせページ</a>よりご連絡ください。</p>
+  </div>
+</div>
+
+</div><!-- /page-wrap -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div style="display:flex;flex-direction:row;align-items:center;gap:24px;">
+      <a href="privacy.html" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">プライバシーポリシー</a>
+      <a href="contact.html" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">お問い合わせ</a>
+      <div style="font-size:10px;color:rgba(255,255,255,0.25);letter-spacing:1px;">© 2026 THE WATCHER</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleNav() {
+    var el = document.getElementById('mobileNav');
+    el.classList.toggle('open');
+  }
+</script>
+</div>
+</body>
+</html>

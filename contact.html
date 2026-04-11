@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SWZML504ND"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-SWZML504ND');
+</script>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>お問い合わせ — THE WATCHER</title>
+<meta name="description" content="THE WATCHER（ザ・ウォッチャー）へのお問い合わせページです。記事に関するご意見・広告掲載のご相談はこちらから。">
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
+
+  /* HEADER */
+  header { background: #0f1f38; padding: 0; display: flex; align-items: stretch; justify-content: space-between; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #c8a830; }
+  .logo-wrap { display: flex; flex-direction: column; justify-content: center; padding: 10px 24px; text-decoration: none; }
+  .logo-en { font-family: 'Bebas Neue', sans-serif; font-size: 24px; letter-spacing: 8px; color: #ffffff; line-height: 1; }
+  .logo-ja { font-family: 'Noto Serif JP', serif; font-size: 9px; color: #c8a830; letter-spacing: 4px; margin-top: 3px; font-weight: 400; }
+  .menu-btn { display: flex; flex-direction: column; gap: 5px; cursor: pointer; padding: 18px 20px; }
+  .menu-btn span { display: block; width: 22px; height: 1px; background: rgba(255,255,255,0.5); }
+  nav { display: none; }
+  @media (min-width: 768px) {
+    .menu-btn { display: none; }
+    nav { display: flex; align-items: stretch; }
+    nav a { font-size: 10px; color: rgba(255,255,255,0.6); text-decoration: none; padding: 0 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; }
+    nav a:hover, nav a.active { background: rgba(255,255,255,0.05); color: #fff; }
+    nav a .nav-ja { font-family: 'Noto Serif JP', serif; font-size: 12px; color: #ffffff; font-weight: 700; }
+    nav a .nav-en { font-family: 'Bebas Neue', sans-serif; font-size: 9px; letter-spacing: 2px; color: #c8a830; }
+  }
+
+  /* MOBILE NAV */
+  .mobile-nav { display: none; background: #0a1628; border-bottom: 1px solid #1c3060; }
+  .mobile-nav.open { display: flex; flex-wrap: wrap; padding: 12px 20px; gap: 10px; }
+  .mobile-nav a { font-size: 12px; color: rgba(255,255,255,0.7); text-decoration: none; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.1); font-family: 'Noto Serif JP', serif; font-weight: 700; }
+
+  /* BREADCRUMB */
+  .breadcrumb { background: #fff; border-bottom: 1px solid #f0f0f0; padding: 10px 24px; font-size: 11px; color: #bbb; display: flex; align-items: center; gap: 6px; flex-wrap: wrap; }
+  .breadcrumb a { color: #0f1f38; text-decoration: none; }
+  .breadcrumb a:hover { text-decoration: underline; }
+  .breadcrumb-sep { color: #ddd; }
+
+  /* PAGE WRAP */
+  .page-wrap { max-width: 1200px; margin: 0 auto; }
+
+  /* CONTACT CONTENT */
+  .contact-wrap { padding: 40px 24px 60px; max-width: 800px; margin: 0 auto; }
+  .contact-page-title { font-family: 'Bebas Neue', sans-serif; font-size: 36px; letter-spacing: 4px; color: #0f1f38; border-bottom: 3px solid #0f1f38; padding-bottom: 16px; margin-bottom: 16px; }
+  .contact-lead { font-size: 14px; color: #555; line-height: 2; margin-bottom: 32px; }
+  .contact-lead a { color: #0f1f38; text-decoration: underline; }
+
+  /* INQUIRY TYPE PILLS */
+  .contact-types { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 32px; }
+  .contact-type-pill { font-size: 12px; font-family: 'Noto Serif JP', serif; font-weight: 700; color: #0f1f38; border: 1.5px solid #0f1f38; padding: 6px 16px; letter-spacing: 1px; }
+
+  /* FORM CONTAINER */
+  .form-container { border: 1px solid #e0e0e0; background: #fafafa; }
+  .form-container iframe { display: block; width: 100%; border: none; }
+
+  /* NOTICE */
+  .contact-notice { margin-top: 24px; font-size: 12px; color: #aaa; line-height: 1.8; }
+  .contact-notice a { color: #0f1f38; text-decoration: underline; }
+
+  /* FOOTER */
+  footer { background: #0f1f38; border-top: 2px solid #c8a830; }
+  .footer-inner { padding: 0 24px; height: 58px; display: flex; align-items: center; justify-content: flex-end; }
+</style>
+</head>
+<body style="background:#ffffff;">
+<div style="background:#ffffff;min-height:100vh;">
+
+<!-- HEADER -->
+<header>
+  <a href="./" class="logo-wrap" style="text-decoration:none;">
+    <div class="logo-en">THE WATCHER</div>
+    <div class="logo-ja">ザ・ウォッチャー</div>
+  </a>
+  <div class="menu-btn" onclick="toggleNav()"><span></span><span></span><span></span></div>
+  <nav>
+    <a href="./"><span class="nav-ja">すべて</span><span class="nav-en">ALL</span></a>
+    <a href="category.html?cat=ニュース"><span class="nav-ja">ニュース</span><span class="nav-en">NEWS</span></a>
+    <a href="category.html?cat=ビジネス"><span class="nav-ja">ビジネス</span><span class="nav-en">BUSINESS</span></a>
+    <a href="category.html?cat=ビーフ"><span class="nav-ja">ビーフ</span><span class="nav-en">BEEF</span></a>
+    <a href="category.html?cat=リリース"><span class="nav-ja">リリース</span><span class="nav-en">RELEASE</span></a>
+    <a href="category.html?cat=ライブ"><span class="nav-ja">ライブ</span><span class="nav-en">LIVE</span></a>
+  </nav>
+</header>
+<div class="page-wrap">
+
+<!-- MOBILE NAV -->
+<div class="mobile-nav" id="mobileNav">
+  <a href="./">すべて</a>
+  <a href="category.html?cat=ニュース">ニュース</a>
+  <a href="category.html?cat=ビジネス">ビジネス</a>
+  <a href="category.html?cat=ビーフ">ビーフ</a>
+  <a href="category.html?cat=リリース">リリース</a>
+  <a href="category.html?cat=ライブ">ライブ</a>
+</div>
+
+<!-- BREADCRUMB -->
+<div class="breadcrumb">
+  <a href="./">ホーム</a>
+  <span class="breadcrumb-sep">›</span>
+  <span>お問い合わせ</span>
+</div>
+
+<!-- CONTENT -->
+<div class="contact-wrap">
+  <h1 class="contact-page-title">CONTACT</h1>
+
+  <p class="contact-lead">
+    THE WATCHER（ザ・ウォッチャー）へのお問い合わせは、以下のフォームからお送りください。<br>
+    内容を確認のうえ、担当者よりご返信いたします。なお、お問い合わせの内容によってはご回答できない場合があります。<br>
+    個人情報の取り扱いについては<a href="privacy.html">プライバシーポリシー</a>をご確認ください。
+  </p>
+
+  <!-- お問い合わせ種別 -->
+  <div class="contact-types">
+    <div class="contact-type-pill">記事に関するご意見</div>
+    <div class="contact-type-pill">広告掲載のご相談</div>
+    <div class="contact-type-pill">その他</div>
+  </div>
+
+  <!-- Google フォーム埋め込み（URLは後で差し替え） -->
+  <div class="form-container">
+    <iframe
+      src="https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform?embedded=true"
+      width="100%"
+      height="680"
+      frameborder="0"
+      marginheight="0"
+      marginwidth="0"
+      title="お問い合わせフォーム">
+      読み込んでいます…
+    </iframe>
+  </div>
+
+  <p class="contact-notice">
+    ※ フォームが表示されない場合は、ページを再読み込みするか、
+    <a href="https://docs.google.com/forms/d/e/REPLACE_WITH_YOUR_FORM_ID/viewform" target="_blank" rel="noopener">こちら</a>
+    から直接フォームを開いてください。<br>
+    ※ お問い合わせ内容によっては、返信までにお時間をいただく場合があります。
+  </p>
+</div>
+
+</div><!-- /page-wrap -->
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div style="display:flex;flex-direction:row;align-items:center;gap:24px;">
+      <a href="privacy.html" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">プライバシーポリシー</a>
+      <a href="contact.html" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">お問い合わせ</a>
+      <div style="font-size:10px;color:rgba(255,255,255,0.25);letter-spacing:1px;">© 2026 THE WATCHER</div>
+    </div>
+  </div>
+</footer>
+
+<script>
+  function toggleNav() {
+    var el = document.getElementById('mobileNav');
+    el.classList.toggle('open');
+  }
+</script>
+</div>
+</body>
+</html>
