@@ -50,6 +50,9 @@
   /* HERO */
   .hero { background: #ffffff; cursor: pointer; border-bottom: 2px solid #0f1f38; }
   .hero-img-placeholder { width: 100%; aspect-ratio: 16/9; background: linear-gradient(135deg, #0f1f38 0%, #1c3060 100%); display: flex; align-items: center; justify-content: center; font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: rgba(255,255,255,0.08); letter-spacing: 6px; }
+  @media (min-width: 768px) {
+    #best5Hero img, #best5Hero .hero-img-placeholder { max-height: 480px; }
+  }
   .hero-body { padding: 28px 24px 32px; background: #ffffff; }
   .cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #0f1f38; margin-bottom: 8px; font-weight: 700; }
   .hero-title { font-family: 'Noto Serif JP', serif; font-size: 22px; font-weight: 900; line-height: 1.5; color: #111111; margin-bottom: 10px; }
