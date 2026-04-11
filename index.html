@@ -38,11 +38,6 @@
   .search-bar input:focus { border-color: #0f1f38; }
   .search-bar button { background: #0f1f38; color: #fff; border: none; padding: 8px 16px; font-size: 12px; cursor: pointer; font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; }
 
-  /* CATEGORY FILTER */
-  .cat-filter { background: #ffffff; border-bottom: 1px solid #e0e0e0; padding: 10px 24px; overflow-x: auto; display: flex; gap: 8px; scrollbar-width: none; white-space: nowrap; }
-  .cat-filter::-webkit-scrollbar { display: none; }
-  .cat-btn { border: 1px solid #e0e0e0; background: #fff; color: #555; font-size: 11px; padding: 5px 14px; cursor: pointer; font-family: 'Noto Sans JP', sans-serif; font-weight: 700; transition: all 0.15s; }
-  .cat-btn:hover, .cat-btn.active { background: #0f1f38; color: #fff; border-color: #0f1f38; }
 
   /* DATELINE */
   .dateline { background: #ffffff; border-bottom: 1px solid #e0e0e0; padding: 10px 24px; font-size: 10px; color: #888; letter-spacing: 1px; display: flex; justify-content: space-between; }
@@ -175,16 +170,6 @@
   <button onclick="handleSearch()">SEARCH</button>
 </div>
 
-<!-- CATEGORY FILTER -->
-<div class="cat-filter">
-  <button class="cat-btn active" onclick="filterCat('all', this)">すべて</button>
-  <button class="cat-btn" onclick="filterCat('ニュース', this)">ニュース</button>
-  <button class="cat-btn" onclick="filterCat('リリース', this)">リリース</button>
-  <button class="cat-btn" onclick="filterCat('ビーフ', this)">ビーフ</button>
-  <button class="cat-btn" onclick="filterCat('ビジネス', this)">ビジネス</button>
-  <button class="cat-btn" onclick="filterCat('ライブ', this)">ライブ</button>
-  <button class="cat-btn" onclick="filterCat('チャート', this)">チャート</button>
-</div>
 
 <div class="dateline">
   <span id="dateline">読み込み中...</span>
@@ -480,10 +465,8 @@
     document.getElementById('moreReleaseBtnWrap').style.display = 'none';
   }
 
-  // カテゴリ絞り込み
-  function filterCat(cat, btn) {
-    document.querySelectorAll('.cat-btn').forEach(function(b) { b.classList.remove('active'); });
-    if (btn) btn.classList.add('active');
+  // カテゴリ絞り込み（ヘッダー nav から呼び出し）
+  function filterCat(cat) {
     document.querySelectorAll('.news-item').forEach(function(item) {
       item.style.display = (cat === 'all' || item.dataset.cat === cat) ? 'flex' : 'none';
     });
