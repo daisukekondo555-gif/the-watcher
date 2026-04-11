@@ -17,7 +17,7 @@
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
-  html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; }
+  html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
 
   /* HEADER */
   header { background: #0f1f38; padding: 0; display: flex; align-items: stretch; justify-content: space-between; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #c8a830; }
@@ -43,7 +43,8 @@
 
   /* SEARCH */
   .search-bar { background: #ffffff; border-bottom: 1px solid #e0e0e0; padding: 10px 24px; display: flex; gap: 10px; align-items: center; }
-  .search-bar input { flex: 1; border: 1px solid #e0e0e0; padding: 8px 14px; font-size: 13px; font-family: 'Noto Sans JP', sans-serif; outline: none; color: #111; }
+  .search-bar input { flex: 1; border: 1px solid #e0e0e0; padding: 8px 14px; font-size: 16px; font-family: 'Noto Sans JP', sans-serif; outline: none; color: #111; }
+  @media (min-width: 768px) { .search-bar input { font-size: 13px; } }
   .search-bar input:focus { border-color: #0f1f38; }
   .search-bar button { background: #0f1f38; color: #fff; border: none; padding: 8px 16px; font-size: 12px; cursor: pointer; font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; }
 
@@ -178,6 +179,14 @@
     .news-hidden.visible { display: grid; }
   }
 
+  /* CATEGORY RANKING 矢印ナビゲーション */
+  .rank-scroll-outer { position: relative; }
+  .rank-arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 10; width: 32px; height: 48px; background: rgba(15,31,56,0.82); border: none; color: #fff; font-size: 22px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.15s; padding: 0; }
+  .rank-arrow:hover { background: #0f1f38; }
+  .rank-arrow-left  { left: 0; }
+  .rank-arrow-right { right: 0; }
+  @media (min-width: 768px) { .rank-arrow { display: none; } }
+
   /* SECTION PADDING — LATEST NEWS以降のコンテンツ左右余白 */
   #newsGrid, #releaseGrid { padding: 0 24px; }
   #categoryRanking { padding: 0 24px; }
@@ -269,7 +278,11 @@
 
 <!-- CATEGORY RANKING -->
 <div class="sec-label"><span>CATEGORY RANKING</span></div>
-<div id="categoryRanking" style="background:#ffffff;overflow-x:auto;display:flex;gap:0;border-bottom:1px solid #e0e0e0;position:relative;"></div>
+<div class="rank-scroll-outer">
+  <button class="rank-arrow rank-arrow-left"  onclick="scrollRanking(-1)" aria-label="左へスクロール">&#8249;</button>
+  <div id="categoryRanking" style="background:#ffffff;overflow-x:auto;display:flex;gap:0;border-bottom:1px solid #e0e0e0;position:relative;"></div>
+  <button class="rank-arrow rank-arrow-right" onclick="scrollRanking(1)"  aria-label="右へスクロール">&#8250;</button>
+</div>
 
 <!-- AD SLOT -->
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
@@ -558,6 +571,12 @@
   }
 
   document.addEventListener('DOMContentLoaded', init);
+
+  // カテゴリランキング 左右スクロール
+  function scrollRanking(dir) {
+    var el = document.getElementById('categoryRanking');
+    if (el) el.scrollBy({ left: dir * 220, behavior: 'smooth' });
+  }
 
   // モバイルナビトグル
   function toggleNav() {
