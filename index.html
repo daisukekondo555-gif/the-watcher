@@ -104,8 +104,8 @@
   .sec-label::after { content: ''; flex: 1; height: 3px; background: #111111; }
 
   /* NEWS CARD GRID */
-  .news-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: #e0e0e0; border-bottom: 1px solid #e0e0e0; }
-  @media (min-width: 768px) { .news-grid { grid-template-columns: repeat(3, 1fr); } }
+  .news-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; padding: 16px; background: #fff; border-bottom: 1px solid #e0e0e0; }
+  @media (min-width: 768px) { .news-grid { grid-template-columns: repeat(3, 1fr); gap: 20px; padding: 20px 24px; } }
 
   .news-card { background: #fff; cursor: pointer; overflow: hidden; transition: transform 0.2s, box-shadow 0.2s; position: relative; }
   @media (min-width: 768px) {
