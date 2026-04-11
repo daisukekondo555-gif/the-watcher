@@ -142,10 +142,23 @@
   .hashtag a { color: inherit; text-decoration: none; }
   .hashtag a:hover { text-decoration: underline; }
 
-  /* CATEGORY RANKING — CSS クラス化 */
-  .rank-col { flex: 1; min-width: 240px; padding: 20px 20px; }
-  .rank-col:not(:last-child) { border-right: 1px solid #f0f0f0; }
-  .rank-col-header { font-family: 'Bebas Neue', sans-serif; font-size: 14px; letter-spacing: 2px; color: #0f1f38; margin-bottom: 16px; border-bottom: 2px solid #0f1f38; padding-bottom: 6px; }
+  /* CATEGORY RANKING — タブ切り替え（全画面共通） */
+  .rank-tabs { display: flex; background: #fff; border-bottom: 2px solid #e0e0e0; padding: 0 12px; overflow-x: auto; scrollbar-width: none; -webkit-overflow-scrolling: touch; }
+  .rank-tabs::-webkit-scrollbar { display: none; }
+  .rank-tab { font-family: 'Bebas Neue', sans-serif; font-size: 13px; letter-spacing: 2px; color: #aaa; padding: 12px 16px 9px; cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: color 0.15s, border-color 0.15s; user-select: none; white-space: nowrap; flex-shrink: 0; }
+  .rank-tab:hover { color: #0f1f38; }
+  .rank-tab.is-active { color: #0f1f38; border-bottom-color: #c8a830; }
+  @media (min-width: 768px) {
+    .rank-tabs { padding: 0 24px; }
+    .rank-tab { font-size: 14px; padding: 14px 22px 11px; }
+  }
+
+  /* パネル（タブ選択で切り替え） */
+  #categoryRanking .rank-col { display: none; padding: 20px 20px; }
+  #categoryRanking .rank-col.is-active { display: block; }
+  #categoryRanking .rank-col-header { display: none; }
+
+  /* ランキング行 */
   .rank-row { font-size: 15px; color: #222; line-height: 1.5; margin-bottom: 14px; display: flex; gap: 10px; align-items: center; cursor: pointer; transition: color 0.12s; }
   .rank-row:last-child { margin-bottom: 0; }
   .rank-row:hover { color: #0f1f38; }
@@ -154,27 +167,13 @@
   .rank-row:nth-child(1) .rank-row-num { color: #0f1f38; }
   .rank-row:nth-child(2) .rank-row-num { color: #bbb; }
   .rank-row:nth-child(3) .rank-row-num { color: #ccc; }
-  .rank-thumb { flex-shrink: 0; width: 48px; height: 48px; overflow: hidden; background: linear-gradient(135deg, #0f1f38, #1c3060); }
-  .rank-thumb img { width: 48px; height: 48px; object-fit: cover; display: block; transition: transform 0.2s; }
+  .rank-thumb { flex-shrink: 0; width: 56px; height: 56px; overflow: hidden; background: linear-gradient(135deg, #0f1f38, #1c3060); }
+  .rank-thumb img { width: 56px; height: 56px; object-fit: cover; display: block; transition: transform 0.2s; }
   .rank-title { flex: 1; min-width: 0; font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 700; line-height: 1.55; color: inherit; }
   @media (min-width: 768px) {
     .rank-thumb { width: 64px; height: 64px; }
     .rank-thumb img { width: 64px; height: 64px; }
     .rank-title { font-size: 14px; }
-  }
-
-  /* CATEGORY RANKING TABS（デスクトップのみ表示） */
-  .rank-tabs { display: none; }
-  @media (min-width: 768px) {
-    .rank-tabs { display: flex; background: #fff; border-bottom: 2px solid #e0e0e0; padding: 0 24px; gap: 0; }
-    .rank-tab { font-family: 'Bebas Neue', sans-serif; font-size: 14px; letter-spacing: 2px; color: #aaa; padding: 14px 22px 11px; cursor: pointer; border-bottom: 3px solid transparent; margin-bottom: -2px; transition: color 0.15s, border-color 0.15s; user-select: none; }
-    .rank-tab:hover { color: #0f1f38; }
-    .rank-tab.is-active { color: #0f1f38; border-bottom-color: #c8a830; }
-    /* デスクトップ：タブ切り替えパネル表示 */
-    #categoryRanking { overflow-x: visible !important; display: block !important; padding: 0 !important; }
-    #categoryRanking .rank-col { display: none; border-right: none; }
-    #categoryRanking .rank-col.is-active { display: block; }
-    #categoryRanking .rank-col-header { display: none; } /* タブがヘッダー代わり */
   }
 
   /* BEST5 CARDS（スライドショー下の全5件横並び） */
@@ -208,16 +207,7 @@
   .news-hidden { display: none !important; }
   .news-hidden.visible { display: block !important; }
 
-  /* CATEGORY RANKING 矢印ナビゲーション */
-  .rank-scroll-outer { position: relative; }
-  .rank-arrow { position: absolute; top: 50%; transform: translateY(-50%); z-index: 10; width: 32px; height: 48px; background: rgba(15,31,56,0.82); border: none; color: #fff; font-size: 22px; cursor: pointer; display: flex; align-items: center; justify-content: center; transition: background 0.15s; padding: 0; }
-  .rank-arrow:hover { background: #0f1f38; }
-  .rank-arrow-left  { left: 0; }
-  .rank-arrow-right { right: 0; }
-  @media (min-width: 768px) { .rank-arrow { display: none; } }
-
-  /* SECTION PADDING — グリッド自身が padding を持つため ID 指定は削除済み */
-  #categoryRanking { padding: 0 24px; }
+  /* SECTION PADDING */
   #trendingTags { padding: 18px 24px 26px; }
 
   /* PAGE WRAP — ヘッダー・フッター以外を最大幅1200pxでセンタリング */
@@ -308,11 +298,7 @@
 <!-- CATEGORY RANKING -->
 <div class="sec-label"><span>CATEGORY RANKING</span></div>
 <div class="rank-tabs" id="rankTabs"></div>
-<div class="rank-scroll-outer">
-  <button class="rank-arrow rank-arrow-left"  onclick="scrollRanking(-1)" aria-label="左へスクロール">&#8249;</button>
-  <div id="categoryRanking" style="background:#ffffff;overflow-x:auto;display:flex;gap:0;border-bottom:1px solid #e0e0e0;position:relative;"></div>
-  <button class="rank-arrow rank-arrow-right" onclick="scrollRanking(1)"  aria-label="右へスクロール">&#8250;</button>
-</div>
+<div id="categoryRanking" style="background:#ffffff;border-bottom:1px solid #e0e0e0;"></div>
 
 <!-- AD SLOT -->
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
@@ -623,12 +609,6 @@
   }
 
   document.addEventListener('DOMContentLoaded', init);
-
-  // カテゴリランキング 左右スクロール
-  function scrollRanking(dir) {
-    var el = document.getElementById('categoryRanking');
-    if (el) el.scrollBy({ left: dir * 220, behavior: 'smooth' });
-  }
 
   // モバイルナビトグル
   function toggleNav() {
