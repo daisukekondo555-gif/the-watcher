@@ -70,6 +70,13 @@
   .sub-card .cat { color: rgba(255,255,255,0.5); }
   .sub-card-title { font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 700; line-height: 1.5; color: #ffffff; margin-bottom: 4px; }
   .sub-card .meta { color: rgba(255,255,255,0.4); }
+  @media (min-width: 768px) {
+    .sub-scroll { overflow-x: visible; padding: 20px 24px; }
+    .sub-card { flex: 1; width: auto; }
+    .sub-card img { width: 100% !important; height: auto !important; aspect-ratio: 16/9; }
+    .sub-card-img-placeholder { width: 100%; height: auto; aspect-ratio: 16/9; }
+    .scroll-hint { display: none; }
+  }
 
   /* SECTION LABEL */
   .sec-label { background: #ffffff; padding: 26px 24px 18px; display: flex; align-items: center; gap: 14px; border-bottom: 1px solid #e0e0e0; }
