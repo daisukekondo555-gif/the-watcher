@@ -81,7 +81,8 @@ new_props = {
             ]
         }
     },
-    "公開日時": {"date": {}},
+    "公開日時":    {"date": {}},
+    "ハッシュタグ": {"rich_text": {}},
 }
 
 for name, definition in new_props.items():

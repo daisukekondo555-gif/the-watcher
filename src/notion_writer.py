@@ -12,6 +12,7 @@ Notion property types assumed in the target database:
   ソースサイト名  : rich_text  (comma-separated, parallel to 元記事URL)
   ステータス      : select
   公開日時        : date
+  ハッシュタグ    : rich_text  (space-separated, e.g. "#KendrickLamar #Grammy")
 
 `元記事URL` and `ソースサイト名` are parallel comma-separated lists:
   元記事URL      = "https://hiphopdx.com/...,https://xxlmag.com/..."
@@ -86,6 +87,8 @@ def _build_properties(article: dict) -> dict:
     source_names = (article.get("source_names") or article.get("source_name") or "")[:MAX_RICH_TEXT]
     image_url = article.get("image_url") or None
     published_iso = _to_utc_iso(article.get("published"))
+    # hashtags: list → space-separated string  e.g. "#KendrickLamar #Grammy"
+    hashtags_field = " ".join(article.get("hashtags") or [])[:MAX_RICH_TEXT]
 
     props: dict = {
         "タイトル": {
@@ -108,6 +111,9 @@ def _build_properties(article: dict) -> dict:
         },
         "公開日時": {
             "date": {"start": published_iso}
+        },
+        "ハッシュタグ": {
+            "rich_text": [{"text": {"content": hashtags_field}}]
         },
     }
 
