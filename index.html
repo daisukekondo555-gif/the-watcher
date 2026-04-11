@@ -133,6 +133,9 @@
 
   /* PAGE WRAP — ヘッダー・フッター以外を最大幅1200pxでセンタリング */
   .page-wrap { max-width: 1200px; margin: 0 auto; }
+
+  /* FOOTER INNER — ヘッダーと高さを揃える */
+  .footer-inner { padding: 0 24px; height: 58px; display: flex; align-items: center; justify-content: flex-end; }
 </style>
 </head>
 <body style="background:#ffffff;">
@@ -249,7 +252,7 @@
 
 <!-- FOOTER（page-wrap 外 / 全幅） -->
 <footer style="background:#0f1f38;border-top:2px solid #c8a830;padding:0;">
-  <div style="padding:10px 24px;display:flex;align-items:center;justify-content:flex-end;width:100%;">
+  <div class="footer-inner">
     <div style="display:flex;flex-direction:row;align-items:center;gap:24px;">
       <a href="#privacy" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">プライバシーポリシー</a>
       <a href="#contact" style="font-size:10px;color:rgba(255,255,255,0.4);letter-spacing:1px;text-decoration:none;">お問い合わせ</a>
