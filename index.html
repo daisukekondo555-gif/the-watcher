@@ -143,13 +143,25 @@
   .hashtag a:hover { text-decoration: underline; }
 
   /* CATEGORY RANKING — CSS クラス化 */
-  .rank-col { flex: 1; min-width: 180px; padding: 24px 20px; }
+  .rank-col { flex: 1; min-width: 240px; padding: 20px 20px; }
   .rank-col:not(:last-child) { border-right: 1px solid #f0f0f0; }
   .rank-col-header { font-family: 'Bebas Neue', sans-serif; font-size: 14px; letter-spacing: 2px; color: #0f1f38; margin-bottom: 16px; border-bottom: 2px solid #0f1f38; padding-bottom: 6px; }
-  .rank-row { font-size: 13px; color: #333; line-height: 1.8; margin-bottom: 12px; display: flex; gap: 8px; align-items: flex-start; cursor: pointer; transition: color 0.12s; }
+  .rank-row { font-size: 15px; color: #222; line-height: 1.5; margin-bottom: 14px; display: flex; gap: 10px; align-items: center; cursor: pointer; transition: color 0.12s; }
   .rank-row:last-child { margin-bottom: 0; }
   .rank-row:hover { color: #0f1f38; }
-  .rank-row-num { color: #ccc; font-family: 'Bebas Neue', sans-serif; font-size: 16px; line-height: 1.3; flex-shrink: 0; }
+  .rank-row:hover .rank-thumb img { transform: scale(1.05); }
+  .rank-row-num { color: #ddd; font-family: 'Bebas Neue', sans-serif; font-size: 22px; line-height: 1; flex-shrink: 0; min-width: 20px; text-align: right; }
+  .rank-row:nth-child(1) .rank-row-num { color: #0f1f38; }
+  .rank-row:nth-child(2) .rank-row-num { color: #bbb; }
+  .rank-row:nth-child(3) .rank-row-num { color: #ccc; }
+  .rank-thumb { flex-shrink: 0; width: 48px; height: 48px; overflow: hidden; background: linear-gradient(135deg, #0f1f38, #1c3060); }
+  .rank-thumb img { width: 48px; height: 48px; object-fit: cover; display: block; transition: transform 0.2s; }
+  .rank-title { flex: 1; min-width: 0; font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 700; line-height: 1.55; color: inherit; }
+  @media (min-width: 768px) {
+    .rank-thumb { width: 64px; height: 64px; }
+    .rank-thumb img { width: 64px; height: 64px; }
+    .rank-title { font-size: 14px; }
+  }
 
   /* CATEGORY RANKING TABS（デスクトップのみ表示） */
   .rank-tabs { display: none; }
@@ -534,14 +546,19 @@
     document.getElementById('categoryRanking').innerHTML = cats.map(function(cat) {
       var items = articles.filter(function(a) { return a.category === cat; }).slice(0, 5);
       var rows = items.map(function(a, i) {
+        var thumb = a.image_url
+          ? '<div class="rank-thumb"><img src="' + esc(a.image_url) + '" alt="" ' +
+            'onerror="this.parentNode.innerHTML=\'\'"></div>'
+          : '<div class="rank-thumb"></div>';
         return '<div class="rank-row" onclick="openArticle(\'' + esc(a.id) + '\')">' +
           '<span class="rank-row-num">' + (i + 1) + '</span>' +
-          esc(a.title) +
+          thumb +
+          '<span class="rank-title">' + esc(a.title) + '</span>' +
         '</div>';
       }).join('');
       return '<div class="rank-col' + (cat === defaultCat ? ' is-active' : '') + '" data-cat="' + esc(cat) + '">' +
         '<div class="rank-col-header">' + esc(cat) + '</div>' +
-        (rows || '<div style="font-size:12px;color:#ccc;">記事なし</div>') +
+        (rows || '<div style="font-size:12px;color:#ccc;padding:8px 0;">記事なし</div>') +
       '</div>';
     }).join('');
   }
