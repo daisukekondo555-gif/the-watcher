@@ -1,0 +1,38 @@
+name: THE WATCHER — Auto Update
+
+on:
+  schedule:
+    # JST 9:00 = UTC 0:00
+    - cron: "0 0 * * *"
+    # JST 15:00 = UTC 6:00
+    - cron: "0 6 * * *"
+    # JST 21:00 = UTC 12:00
+    - cron: "0 12 * * *"
+  # Manual trigger from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  update:
+    name: Fetch, translate & save articles
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Run update
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_API_KEY:    ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python main.py

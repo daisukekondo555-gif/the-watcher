@@ -1,0 +1,28 @@
+{
+  "site_name": "THE WATCHER",
+  "genre": "hiphop",
+  "color": "#FF6B35",
+  "max_age_hours": 30,
+  "max_articles_per_source": 20,
+  "duplicate_threshold": 0.8,
+  "categories": [
+    "ニュース",
+    "リリース",
+    "ビーフ",
+    "インタビュー",
+    "ライブ",
+    "ビジネス",
+    "チャート"
+  ],
+  "sources": [
+    { "name": "HipHopDX",   "rss_url": "https://hiphopdx.com/rss" },
+    { "name": "XXL",         "rss_url": "https://xxlmag.com/feed/" },
+    { "name": "Hot97",       "rss_url": "https://www.hot97.com/feed/" },
+    { "name": "Pitchfork",   "rss_url": "https://pitchfork.com/rss/news/" },
+    { "name": "The Source",  "rss_url": "https://thesource.com/feed/" },
+    { "name": "AllHipHop",   "rss_url": "https://allhiphop.com/feed/" },
+    { "name": "Uproxx",      "rss_url": "https://uproxx.com/music/feed/" },
+    { "name": "2DopeBoyz",   "rss_url": "https://www.2dopeboyz.com/feed/" },
+    { "name": "Rap Radar",   "rss_url": "https://rapradar.com/feed/" }
+  ]
+}
