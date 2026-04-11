@@ -1,11 +1,17 @@
 """
 RSS fetch module.
 Fetches articles from configured sources in parallel.
-Image priority: RSS enclosure > media:content/thumbnail > content img > OGP scrape
+Image priority:
+  1. RSS enclosure (image/* or image-extension URL)
+  2. media:content / media:thumbnail
+  3. First <img> in RSS content/summary HTML
+  4. OGP (og:image, twitter:image, link[rel=image_src])
+  5. First <img> on actual article page
 """
 
 import logging
 import re
+import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from typing import Optional
@@ -17,26 +23,104 @@ from dateutil import parser as dateparser
 
 logger = logging.getLogger(__name__)
 
-HEADERS = {"User-Agent": "Mozilla/5.0 (compatible; TheWatcher-Bot/1.0)"}
-FETCH_TIMEOUT = 15
+# Mimic a real browser to avoid bot-detection blocks
+HEADERS = {
+    "User-Agent": (
+        "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+        "AppleWebKit/537.36 (KHTML, like Gecko) "
+        "Chrome/124.0.0.0 Safari/537.36"
+    ),
+    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+    "Accept-Language": "en-US,en;q=0.9",
+    "Accept-Encoding": "gzip, deflate, br",
+}
+FETCH_TIMEOUT = 20
+MAX_RETRIES = 2
+IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
+
+
+def _is_image_url(url: str) -> bool:
+    """Return True if URL looks like a direct image link."""
+    return any(url.lower().split("?")[0].endswith(ext) for ext in IMAGE_EXTENSIONS)
+
+
+def _get_with_retry(url: str, retries: int = MAX_RETRIES) -> Optional[requests.Response]:
+    """GET with retry on timeout/connection errors."""
+    for attempt in range(retries + 1):
+        try:
+            resp = requests.get(url, headers=HEADERS, timeout=FETCH_TIMEOUT)
+            resp.raise_for_status()
+            return resp
+        except requests.exceptions.Timeout:
+            if attempt < retries:
+                logger.debug(f"Timeout ({attempt + 1}/{retries + 1}) for {url}, retrying…")
+                time.sleep(1)
+            else:
+                logger.debug(f"Timeout after {retries + 1} attempts: {url}")
+        except requests.exceptions.ConnectionError:
+            if attempt < retries:
+                logger.debug(f"Connection error ({attempt + 1}/{retries + 1}) for {url}, retrying…")
+                time.sleep(1)
+            else:
+                logger.debug(f"Connection error after {retries + 1} attempts: {url}")
+        except Exception as e:
+            logger.debug(f"Request failed for {url}: {e}")
+            break
+    return None
 
 
 def _fetch_ogp_image(url: str) -> Optional[str]:
-    """Scrape OGP / Twitter card image from article page."""
+    """
+    Scrape image from article page.
+    Priority: og:image → twitter:image → link[rel=image_src] → first <img>
+    """
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=FETCH_TIMEOUT)
-        resp.raise_for_status()
+        resp = _get_with_retry(url)
+        if not resp:
+            return None
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        for prop in ("og:image", "og:image:url"):
-            tag = soup.find("meta", property=prop)
-            if tag and tag.get("content"):
-                return tag["content"]
+        # og:image — both property= and name= variants
+        for attr, values in [
+            ("property", ["og:image", "og:image:url"]),
+            ("name",     ["og:image", "og:image:url"]),
+        ]:
+            for val in values:
+                tag = soup.find("meta", attrs={attr: val})
+                if tag and tag.get("content"):
+                    return tag["content"].strip()
 
-        for name in ("twitter:image", "twitter:image:src"):
-            tag = soup.find("meta", attrs={"name": name})
-            if tag and tag.get("content"):
-                return tag["content"]
+        # twitter:image
+        for attr, values in [
+            ("name",     ["twitter:image", "twitter:image:src"]),
+            ("property", ["twitter:image", "twitter:image:src"]),
+        ]:
+            for val in values:
+                tag = soup.find("meta", attrs={attr: val})
+                if tag and tag.get("content"):
+                    return tag["content"].strip()
+
+        # <link rel="image_src">
+        link_tag = soup.find("link", rel="image_src")
+        if link_tag and link_tag.get("href"):
+            return link_tag["href"].strip()
+
+        # First <img> with a reasonable size hint or just any src
+        for img in soup.find_all("img", src=True):
+            src = img["src"].strip()
+            if not src.startswith("http"):
+                continue
+            # Skip tiny icons/tracking pixels
+            width = img.get("width") or img.get("data-width") or ""
+            height = img.get("height") or img.get("data-height") or ""
+            try:
+                if int(str(width)) < 100 or int(str(height)) < 100:
+                    continue
+            except (ValueError, TypeError):
+                pass
+            if any(skip in src for skip in ("pixel", "beacon", "tracker", "1x1", "spacer")):
+                continue
+            return src
 
         return None
     except Exception as e:
@@ -46,26 +130,34 @@ def _fetch_ogp_image(url: str) -> Optional[str]:
 
 def _get_image_from_entry(entry) -> Optional[str]:
     """
-    Extract image URL from RSS entry fields.
-    Does NOT make any network requests.
+    Extract image URL from RSS entry fields (no network requests).
+    Priority: enclosure → media:content → media:thumbnail → content/summary <img>
     """
-    # 1. enclosure (standard podcast/image attachment)
+    # 1. enclosure: image/* MIME or image-looking URL
     for enc in getattr(entry, "enclosures", []):
-        if enc.get("type", "").startswith("image/") and enc.get("url"):
-            return enc["url"]
+        url = enc.get("url", "").strip()
+        if not url:
+            continue
+        mime = enc.get("type", "")
+        if mime.startswith("image/") or _is_image_url(url):
+            return url
 
     # 2. media:content
     for media in getattr(entry, "media_content", []):
-        t = media.get("type", "")
-        if (media.get("medium") == "image" or t.startswith("image/")) and media.get("url"):
-            return media["url"]
+        url = media.get("url", "").strip()
+        if not url:
+            continue
+        mime = media.get("type", "")
+        medium = media.get("medium", "")
+        if medium == "image" or mime.startswith("image/") or _is_image_url(url):
+            return url
 
     # 3. media:thumbnail
     thumbnails = getattr(entry, "media_thumbnail", [])
     if thumbnails and thumbnails[0].get("url"):
-        return thumbnails[0]["url"]
+        return thumbnails[0]["url"].strip()
 
-    # 4. First <img> inside content/summary HTML
+    # 4. First <img> inside RSS content/summary HTML
     raw_html = ""
     if getattr(entry, "content", None):
         raw_html = entry.content[0].get("value", "")
@@ -74,9 +166,8 @@ def _get_image_from_entry(entry) -> Optional[str]:
 
     if raw_html:
         soup = BeautifulSoup(raw_html, "html.parser")
-        img = soup.find("img")
-        if img and img.get("src"):
-            src = img["src"]
+        for img in soup.find_all("img", src=True):
+            src = img["src"].strip()
             if src.startswith("http"):
                 return src
 
@@ -154,7 +245,7 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
                 raw_html = getattr(entry, "summary", "") or ""
             content = _clean_text(raw_html)[:3000] if raw_html else ""
 
-            # Image (no network yet)
+            # Image from RSS fields (no network)
             image_url = _get_image_from_entry(entry)
 
             articles.append({
@@ -166,7 +257,11 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
                 "source_name": name,
             })
 
-        logger.info(f"[{name}] {len(articles)} articles (within {max_age_hours}h)")
+        with_img = sum(1 for a in articles if a["image_url"])
+        logger.info(
+            f"[{name}] {len(articles)} articles (within {max_age_hours}h) "
+            f"— {with_img}/{len(articles)} with image from RSS"
+        )
     except Exception as e:
         logger.error(f"[{name}] Unexpected error: {e}")
 
@@ -174,16 +269,16 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
 
 
 def _enrich_image(article: dict) -> dict:
-    """If image_url is still None, attempt OGP scrape (network call)."""
+    """If image_url is still None, scrape the article page for an image."""
     if not article["image_url"] and article["url"]:
-        logger.debug(f"OGP scrape: {article['url']}")
+        logger.debug(f"Page scrape for image: {article['url']}")
         article["image_url"] = _fetch_ogp_image(article["url"])
     return article
 
 
 def fetch_all(sources: list[dict], max_articles: int = 20, max_age_hours: int = 30) -> list[dict]:
     """
-    Fetch RSS from all sources in parallel, then OGP-enrich missing images.
+    Fetch RSS from all sources in parallel, then scrape missing images.
     Returns a flat list of article dicts sorted newest-first.
     """
     all_articles: list[dict] = []
@@ -200,19 +295,30 @@ def fetch_all(sources: list[dict], max_articles: int = 20, max_age_hours: int = 
             except Exception as e:
                 logger.error(f"RSS fetch thread error ({futures[future]}): {e}")
 
-    logger.info(f"Total articles fetched (before dedup): {len(all_articles)}")
+    total = len(all_articles)
+    with_img = sum(1 for a in all_articles if a["image_url"])
+    logger.info(
+        f"Total articles before dedup: {total} "
+        f"— image hit rate from RSS: {with_img}/{total} ({100 * with_img // max(total, 1)}%)"
+    )
 
-    # Parallel OGP enrichment for articles that still have no image
-    needs_ogp = [a for a in all_articles if not a["image_url"]]
-    if needs_ogp:
-        logger.info(f"OGP scraping for {len(needs_ogp)} articles…")
-        with ThreadPoolExecutor(max_workers=10) as pool:
-            enriched = list(pool.map(_enrich_image, needs_ogp))
-        # Merge back
+    # Parallel page scrape for articles still missing an image
+    needs_scrape = [a for a in all_articles if not a["image_url"]]
+    if needs_scrape:
+        logger.info(f"Scraping article pages for images: {len(needs_scrape)} articles…")
+        # Throttle to 8 workers to avoid triggering rate limits
+        with ThreadPoolExecutor(max_workers=8) as pool:
+            enriched = list(pool.map(_enrich_image, needs_scrape))
         ogp_map = {a["url"]: a["image_url"] for a in enriched}
         for a in all_articles:
             if not a["image_url"] and a["url"] in ogp_map:
                 a["image_url"] = ogp_map[a["url"]]
+
+    final_with_img = sum(1 for a in all_articles if a["image_url"])
+    logger.info(
+        f"Image hit rate after page scrape: {final_with_img}/{total} "
+        f"({100 * final_with_img // max(total, 1)}%)"
+    )
 
     # Sort newest-first
     all_articles.sort(key=lambda a: a["published"], reverse=True)
