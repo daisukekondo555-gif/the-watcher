@@ -8,18 +8,22 @@ on:
     - cron: "0 6 * * *"
     # JST 21:00 = UTC 12:00
     - cron: "0 12 * * *"
-  # Manual trigger from the Actions tab
   workflow_dispatch:
+
+permissions:
+  contents: write   # articles.json のコミット・プッシュに必要
 
 jobs:
   update:
-    name: Fetch, translate & save articles
+    name: Fetch, translate, export & deploy
     runs-on: ubuntu-latest
     timeout-minutes: 30
 
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Set up Python 3.11
         uses: actions/setup-python@v5
@@ -30,9 +34,26 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run update
+      # ── Step 1: Notion に新着記事を翻訳・保存 ──────────────────────────
+      - name: Fetch, translate & save to Notion
         env:
-          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          NOTION_API_KEY:    ${{ secrets.NOTION_API_KEY }}
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_API_KEY:     ${{ secrets.NOTION_API_KEY }}
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: python main.py
+
+      # ── Step 2: 公開記事を articles.json にエクスポート ──────────────────
+      - name: Export published articles to JSON
+        env:
+          NOTION_API_KEY:     ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python export_notion.py
+
+      # ── Step 3: articles.json をリポジトリにコミット ─────────────────────
+      - name: Commit and push articles.json
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/articles.json
+          git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
+          git push

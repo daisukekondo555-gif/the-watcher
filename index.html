@@ -1,0 +1,678 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>THE WATCHER | ヒップホップ最新ニュース</title>
+  <meta name="description" content="THE WATCHER — ヒップホップ専門日本語メディア。最新ニュース、リリース情報、ビーフを毎日お届け。">
+  <meta property="og:title" content="THE WATCHER | ヒップホップ最新ニュース">
+  <meta property="og:description" content="最新のヒップホップニュース、リリース情報、ビーフを日本語でお届け">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Noto+Sans+JP:wght@400;500;700&display=swap" rel="stylesheet">
+  <style>
+    /* ── Reset & Base ───────────────────────────────────────────── */
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    :root {
+      --bg:        #080808;
+      --surface:   #111111;
+      --surface2:  #1a1a1a;
+      --border:    #242424;
+      --brand:     #E8001C;
+      --gold:      #C9A84C;
+      --text:      #f0f0f0;
+      --muted:     #666666;
+      --font-d:    'Oswald', sans-serif;
+      --font-b:    'Noto Sans JP', sans-serif;
+      --radius:    6px;
+      --cat-news:      #2979FF;
+      --cat-release:   #00C853;
+      --cat-beef:      #D50000;
+      --cat-interview: #AA00FF;
+      --cat-live:      #FF6D00;
+      --cat-business:  #546E7A;
+      --cat-chart:     #E91E63;
+    }
+    html { scroll-behavior: smooth; }
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: var(--font-b);
+      font-size: 14px;
+      line-height: 1.6;
+      min-height: 100vh;
+    }
+    a { color: inherit; text-decoration: none; }
+    img { display: block; max-width: 100%; object-fit: cover; }
+    button { cursor: pointer; border: none; background: none; font-family: inherit; }
+
+    /* ── Layout ─────────────────────────────────────────────────── */
+    .container { max-width: 1200px; margin: 0 auto; padding: 0 20px; }
+
+    /* ── Header ─────────────────────────────────────────────────── */
+    header {
+      background: #000;
+      border-bottom: 2px solid var(--brand);
+      position: sticky; top: 0; z-index: 100;
+    }
+    .header-inner {
+      display: flex; align-items: center; gap: 24px;
+      padding: 12px 20px; max-width: 1200px; margin: 0 auto;
+    }
+    .logo {
+      font-family: var(--font-d);
+      font-size: 28px; font-weight: 700;
+      letter-spacing: 4px; color: #fff;
+      flex-shrink: 0;
+    }
+    .logo span { color: var(--brand); }
+    .search-wrap {
+      flex: 1; max-width: 400px;
+      position: relative;
+    }
+    .search-wrap input {
+      width: 100%; padding: 8px 16px 8px 36px;
+      background: var(--surface2); border: 1px solid var(--border);
+      border-radius: 20px; color: var(--text); font-size: 13px;
+      outline: none; transition: border-color .2s;
+    }
+    .search-wrap input:focus { border-color: var(--brand); }
+    .search-wrap input::placeholder { color: var(--muted); }
+    .search-icon {
+      position: absolute; left: 12px; top: 50%; transform: translateY(-50%);
+      color: var(--muted); font-size: 14px; pointer-events: none;
+    }
+    .header-meta {
+      margin-left: auto; font-size: 11px;
+      color: var(--muted); text-align: right; flex-shrink: 0;
+    }
+
+    /* ── Category Nav ───────────────────────────────────────────── */
+    .cat-nav {
+      background: var(--surface);
+      border-bottom: 1px solid var(--border);
+      overflow-x: auto;
+    }
+    .cat-nav::-webkit-scrollbar { height: 3px; }
+    .cat-nav::-webkit-scrollbar-thumb { background: var(--border); }
+    .cat-nav-inner {
+      display: flex; gap: 4px; padding: 10px 20px;
+      max-width: 1200px; margin: 0 auto;
+      white-space: nowrap;
+    }
+    .cat-btn {
+      padding: 5px 16px;
+      border-radius: 20px;
+      font-family: var(--font-d);
+      font-size: 13px; font-weight: 500;
+      letter-spacing: 1px;
+      color: var(--muted);
+      border: 1px solid var(--border);
+      transition: all .15s;
+    }
+    .cat-btn:hover { color: var(--text); border-color: var(--muted); }
+    .cat-btn.active {
+      color: #fff;
+      border-color: transparent;
+    }
+    .cat-btn[data-cat="ALL"].active         { background: var(--brand); }
+    .cat-btn[data-cat="ニュース"].active     { background: var(--cat-news); }
+    .cat-btn[data-cat="リリース"].active     { background: var(--cat-release); }
+    .cat-btn[data-cat="ビーフ"].active       { background: var(--cat-beef); }
+    .cat-btn[data-cat="インタビュー"].active { background: var(--cat-interview); }
+    .cat-btn[data-cat="ライブ"].active       { background: var(--cat-live); }
+    .cat-btn[data-cat="ビジネス"].active     { background: var(--cat-business); }
+    .cat-btn[data-cat="チャート"].active     { background: var(--cat-chart); }
+
+    /* ── Section titles ─────────────────────────────────────────── */
+    .section-header {
+      display: flex; align-items: baseline; gap: 12px;
+      margin-bottom: 20px;
+    }
+    .section-title {
+      font-family: var(--font-d);
+      font-size: 22px; font-weight: 700;
+      letter-spacing: 3px; color: #fff;
+      text-transform: uppercase;
+    }
+    .section-title span { color: var(--brand); }
+    .section-line {
+      flex: 1; height: 1px; background: var(--border);
+    }
+
+    /* ── Article Card ───────────────────────────────────────────── */
+    .card {
+      background: var(--surface);
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      overflow: hidden;
+      display: flex; flex-direction: column;
+      transition: border-color .2s, transform .2s;
+    }
+    .card:hover {
+      border-color: #444;
+      transform: translateY(-2px);
+    }
+    .card-img-wrap {
+      position: relative; overflow: hidden;
+      aspect-ratio: 16/9; background: var(--surface2);
+      flex-shrink: 0;
+    }
+    .card-img-wrap img { width: 100%; height: 100%; object-fit: cover; }
+    .placeholder {
+      width: 100%; height: 100%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: var(--font-d);
+      font-size: 11px; font-weight: 600;
+      letter-spacing: 2px; color: #333;
+      background: linear-gradient(135deg, #0f0f0f 0%, #1a1a1a 100%);
+    }
+    .cat-badge {
+      position: absolute; top: 10px; left: 10px;
+      font-family: var(--font-d);
+      font-size: 10px; font-weight: 600;
+      letter-spacing: 1.5px; text-transform: uppercase;
+      padding: 3px 8px; border-radius: 3px; color: #fff;
+    }
+    .card-body {
+      padding: 14px 16px; flex: 1;
+      display: flex; flex-direction: column; gap: 8px;
+    }
+    .card-title {
+      font-family: var(--font-d);
+      font-size: 16px; font-weight: 600;
+      line-height: 1.35; color: #fff;
+    }
+    .card-title a:hover { color: var(--brand); }
+    .card-summary {
+      font-size: 12px; color: #999;
+      line-height: 1.7; flex: 1;
+      display: -webkit-box;
+      -webkit-line-clamp: 3;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+    .card-footer {
+      display: flex; align-items: center;
+      justify-content: space-between; gap: 8px;
+      padding-top: 8px; border-top: 1px solid var(--border);
+      font-size: 11px; color: var(--muted); flex-wrap: wrap;
+    }
+    .card-footer time { white-space: nowrap; }
+    .via-links a { color: var(--gold); }
+    .via-links a:hover { text-decoration: underline; }
+    .hashtags { display: flex; flex-wrap: wrap; gap: 4px; }
+    .hashtag {
+      font-size: 10px; color: var(--muted);
+      background: var(--surface2); padding: 2px 6px;
+      border-radius: 3px;
+    }
+
+    /* ── Latest News ────────────────────────────────────────────── */
+    #latest { padding: 32px 0 0; }
+    .latest-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: auto auto;
+      gap: 16px;
+    }
+    .latest-grid .card:first-child {
+      grid-column: 1 / 3;
+    }
+    .latest-grid .card:first-child .card-title { font-size: 20px; }
+    .latest-grid .card:first-child .card-summary {
+      -webkit-line-clamp: 4;
+    }
+
+    /* ── Weekly Best ─────────────────────────────────────────────── */
+    #weekly { padding: 32px 0 0; }
+    .best-list { display: flex; flex-direction: column; gap: 12px; }
+    .best-item {
+      display: flex; align-items: center; gap: 16px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: var(--radius); padding: 12px;
+      transition: border-color .2s;
+    }
+    .best-item:hover { border-color: #444; }
+    .best-rank {
+      font-family: var(--font-d);
+      font-size: 36px; font-weight: 700;
+      color: var(--border); min-width: 44px;
+      text-align: center; line-height: 1;
+    }
+    .best-item:nth-child(1) .best-rank { color: var(--gold); }
+    .best-item:nth-child(2) .best-rank { color: #aaa; }
+    .best-item:nth-child(3) .best-rank { color: #8B6914; }
+    .best-thumb {
+      width: 80px; height: 54px; flex-shrink: 0;
+      border-radius: 4px; overflow: hidden;
+      background: var(--surface2);
+    }
+    .best-thumb img { width: 100%; height: 100%; object-fit: cover; }
+    .best-thumb .placeholder { font-size: 9px; }
+    .best-info { flex: 1; min-width: 0; }
+    .best-title {
+      font-family: var(--font-d);
+      font-size: 15px; font-weight: 600;
+      line-height: 1.3; color: #fff;
+      white-space: nowrap; overflow: hidden; text-overflow: ellipsis;
+    }
+    .best-title a:hover { color: var(--brand); }
+    .best-meta {
+      font-size: 11px; color: var(--muted); margin-top: 4px;
+      display: flex; gap: 8px;
+    }
+
+    /* ── All Articles ────────────────────────────────────────────── */
+    #all-articles { padding: 32px 0 48px; }
+    .articles-grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 16px;
+    }
+    .load-more-wrap { text-align: center; margin-top: 28px; }
+    .load-more-btn {
+      padding: 10px 32px;
+      background: var(--surface); border: 1px solid var(--border);
+      border-radius: 20px; color: var(--muted);
+      font-family: var(--font-d); font-size: 13px; letter-spacing: 2px;
+      transition: all .2s;
+    }
+    .load-more-btn:hover { border-color: var(--brand); color: #fff; }
+
+    /* ── No results ─────────────────────────────────────────────── */
+    .no-results {
+      grid-column: 1/-1; text-align: center;
+      padding: 60px 0; color: var(--muted);
+      font-family: var(--font-d); font-size: 16px; letter-spacing: 2px;
+    }
+
+    /* ── Loading / Error ─────────────────────────────────────────── */
+    .loading-state {
+      text-align: center; padding: 80px 0;
+      color: var(--muted); font-family: var(--font-d);
+      font-size: 14px; letter-spacing: 3px;
+    }
+    .spinner {
+      width: 32px; height: 32px;
+      border: 2px solid var(--border);
+      border-top-color: var(--brand);
+      border-radius: 50%;
+      animation: spin .8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error-state {
+      text-align: center; padding: 60px 0;
+      color: var(--brand);
+    }
+
+    /* ── Footer ─────────────────────────────────────────────────── */
+    footer {
+      background: #000; border-top: 1px solid var(--border);
+      padding: 24px 20px; text-align: center;
+    }
+    .footer-logo {
+      font-family: var(--font-d);
+      font-size: 20px; font-weight: 700;
+      letter-spacing: 4px; color: #fff; margin-bottom: 8px;
+    }
+    .footer-logo span { color: var(--brand); }
+    .footer-meta {
+      font-size: 11px; color: var(--muted); line-height: 1.8;
+    }
+    .footer-meta a { color: var(--gold); }
+    .footer-meta a:hover { text-decoration: underline; }
+
+    /* ── Category color helper ──────────────────────────────────── */
+    .bg-news      { background: var(--cat-news); }
+    .bg-release   { background: var(--cat-release); }
+    .bg-beef      { background: var(--cat-beef); }
+    .bg-interview { background: var(--cat-interview); }
+    .bg-live      { background: var(--cat-live); }
+    .bg-business  { background: var(--cat-business); }
+    .bg-chart     { background: var(--cat-chart); }
+    .bg-default   { background: var(--muted); }
+
+    /* ── Responsive ─────────────────────────────────────────────── */
+    @media (max-width: 900px) {
+      .latest-grid { grid-template-columns: 1fr 1fr; }
+      .latest-grid .card:first-child { grid-column: 1 / -1; }
+      .articles-grid { grid-template-columns: 1fr 1fr; }
+    }
+    @media (max-width: 600px) {
+      .logo { font-size: 22px; letter-spacing: 2px; }
+      .search-wrap { max-width: 160px; }
+      .latest-grid,
+      .articles-grid { grid-template-columns: 1fr; }
+      .latest-grid .card:first-child { grid-column: 1; }
+    }
+  </style>
+</head>
+<body>
+
+<!-- ── Header ──────────────────────────────────────────────────── -->
+<header>
+  <div class="header-inner">
+    <div class="logo">THE <span>WATCHER</span></div>
+    <div class="search-wrap">
+      <span class="search-icon">🔍</span>
+      <input type="search" id="search-input" placeholder="アーティスト名・キーワードで検索">
+    </div>
+    <div class="header-meta">
+      <div>HIP-HOP NEWS IN JAPANESE</div>
+      <div id="last-updated" style="margin-top:2px;"></div>
+    </div>
+  </div>
+</header>
+
+<!-- ── Category Nav ─────────────────────────────────────────────── -->
+<nav class="cat-nav">
+  <div class="cat-nav-inner" id="cat-nav">
+    <button class="cat-btn active" data-cat="ALL">ALL</button>
+    <button class="cat-btn" data-cat="ニュース">ニュース</button>
+    <button class="cat-btn" data-cat="リリース">リリース</button>
+    <button class="cat-btn" data-cat="ビーフ">ビーフ</button>
+    <button class="cat-btn" data-cat="インタビュー">インタビュー</button>
+    <button class="cat-btn" data-cat="ライブ">ライブ</button>
+    <button class="cat-btn" data-cat="ビジネス">ビジネス</button>
+    <button class="cat-btn" data-cat="チャート">チャート</button>
+  </div>
+</nav>
+
+<main class="container">
+
+  <!-- ── Loading state (shown until data loaded) ──────────────── -->
+  <div id="loading" class="loading-state">
+    <div class="spinner"></div>
+    LOADING...
+  </div>
+
+  <!-- ── Main content (hidden until data loaded) ──────────────── -->
+  <div id="content" style="display:none;">
+
+    <!-- LATEST NEWS -->
+    <section id="latest">
+      <div class="section-header">
+        <h2 class="section-title">LATEST <span>NEWS</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="latest-grid" id="latest-grid"></div>
+    </section>
+
+    <!-- WEEKLY BEST 5 -->
+    <section id="weekly">
+      <div class="section-header">
+        <h2 class="section-title">WEEKLY <span>BEST 5</span></h2>
+        <div class="section-line"></div>
+      </div>
+      <div class="best-list" id="best-list"></div>
+    </section>
+
+    <!-- ALL ARTICLES -->
+    <section id="all-articles">
+      <div class="section-header">
+        <h2 class="section-title" id="all-title">ALL <span>ARTICLES</span></h2>
+        <div class="section-line"></div>
+        <span id="result-count" style="font-size:12px;color:var(--muted);white-space:nowrap;"></span>
+      </div>
+      <div class="articles-grid" id="articles-grid"></div>
+      <div class="load-more-wrap" id="load-more-wrap" style="display:none;">
+        <button class="load-more-btn" id="load-more-btn">LOAD MORE</button>
+      </div>
+    </section>
+
+  </div><!-- /content -->
+
+</main>
+
+<footer>
+  <div class="footer-logo">THE <span>WATCHER</span></div>
+  <div class="footer-meta">
+    ヒップホップ専門日本語メディア &nbsp;|&nbsp;
+    Powered by <a href="https://www.notion.so" target="_blank">Notion</a> +
+    <a href="https://www.anthropic.com" target="_blank">Claude</a><br>
+    <a href="https://github.com/daisukekondo555-gif/the-watcher" target="_blank">GitHub</a>
+    &nbsp;—&nbsp; 記事は自動取得・AI翻訳です。内容の正確性は各元記事をご確認ください。
+  </div>
+</footer>
+
+<script>
+/* ================================================================
+   THE WATCHER — Frontend Script
+   Fetches data/articles.json and renders all sections.
+================================================================ */
+
+const DATA_URL      = './data/articles.json';
+const LATEST_COUNT  = 6;
+const BEST_COUNT    = 5;
+const PAGE_SIZE     = 12;
+
+const CAT_CLASS = {
+  'ニュース':     'bg-news',
+  'リリース':     'bg-release',
+  'ビーフ':       'bg-beef',
+  'インタビュー': 'bg-interview',
+  'ライブ':       'bg-live',
+  'ビジネス':     'bg-business',
+  'チャート':     'bg-chart',
+};
+
+// ── State ──────────────────────────────────────────────────────
+let allArticles   = [];
+let currentCat    = 'ALL';
+let searchQuery   = '';
+let displayedCount = PAGE_SIZE;
+
+// ── Bootstrap ──────────────────────────────────────────────────
+document.addEventListener('DOMContentLoaded', async () => {
+  await loadData();
+  setupFilters();
+  setupSearch();
+});
+
+async function loadData() {
+  try {
+    const res  = await fetch(DATA_URL);
+    if (!res.ok) throw new Error(`HTTP ${res.status}`);
+    const data = await res.json();
+    allArticles = data.articles || [];
+
+    // Update timestamp
+    if (data.generated_at) {
+      const d = new Date(data.generated_at);
+      document.getElementById('last-updated').textContent =
+        `更新: ${d.toLocaleDateString('ja-JP')} ${d.toLocaleTimeString('ja-JP', {hour:'2-digit',minute:'2-digit'})}`;
+    }
+
+    document.getElementById('loading').style.display  = 'none';
+    document.getElementById('content').style.display  = '';
+
+    renderLatest();
+    renderBest();
+    renderGrid();
+  } catch (e) {
+    document.getElementById('loading').innerHTML =
+      `<div class="error-state">⚠️ 記事の読み込みに失敗しました<br><small style="color:var(--muted);font-size:11px;">${e.message}</small></div>`;
+  }
+}
+
+// ── Helpers ────────────────────────────────────────────────────
+function catClass(cat) {
+  return CAT_CLASS[cat] || 'bg-default';
+}
+
+function formatDate(iso) {
+  if (!iso) return '';
+  const d = new Date(iso);
+  return `${d.getFullYear()}.${String(d.getMonth()+1).padStart(2,'0')}.${String(d.getDate()).padStart(2,'0')}`;
+}
+
+function buildViaLinks(urls, names) {
+  const uList = (urls  || '').split(',').map(s => s.trim()).filter(Boolean);
+  const nList = (names || '').split(',').map(s => s.trim()).filter(Boolean);
+  if (!uList.length) return '';
+  return uList.map((url, i) =>
+    `<a href="${escHtml(url)}" target="_blank" rel="noopener noreferrer">via ${escHtml(nList[i] || url)}</a>`
+  ).join(' | ');
+}
+
+function buildHashtags(tags) {
+  if (!tags) return '';
+  return tags.split(' ')
+    .filter(t => t.startsWith('#'))
+    .slice(0, 5)
+    .map(t => `<span class="hashtag">${escHtml(t)}</span>`)
+    .join('');
+}
+
+function escHtml(str) {
+  return String(str)
+    .replace(/&/g,'&amp;').replace(/</g,'&lt;')
+    .replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+}
+
+function imgOrPlaceholder(url, alt, cat) {
+  if (url) {
+    return `<img src="${escHtml(url)}" alt="${escHtml(alt)}" loading="lazy" onerror="this.parentNode.innerHTML='<div class=\\'placeholder\\'>THE WATCHER</div>'">`;
+  }
+  return `<div class="placeholder">THE WATCHER</div>`;
+}
+
+function primaryUrl(sourceUrls) {
+  return (sourceUrls || '').split(',')[0].trim() || '#';
+}
+
+// ── Card builder ───────────────────────────────────────────────
+function buildCard(a) {
+  const pUrl  = primaryUrl(a.source_urls);
+  const via   = buildViaLinks(a.source_urls, a.source_names);
+  const tags  = buildHashtags(a.hashtags);
+  return `
+  <article class="card">
+    <div class="card-img-wrap">
+      ${imgOrPlaceholder(a.image_url, a.title, a.category)}
+      ${a.category ? `<span class="cat-badge ${catClass(a.category)}">${escHtml(a.category)}</span>` : ''}
+    </div>
+    <div class="card-body">
+      <h3 class="card-title">
+        <a href="${escHtml(pUrl)}" target="_blank" rel="noopener noreferrer">${escHtml(a.title)}</a>
+      </h3>
+      ${a.summary ? `<p class="card-summary">${escHtml(a.summary)}</p>` : ''}
+      ${tags ? `<div class="hashtags">${tags}</div>` : ''}
+      <div class="card-footer">
+        <time>${formatDate(a.published_at)}</time>
+        ${via ? `<span class="via-links">${via}</span>` : ''}
+      </div>
+    </div>
+  </article>`;
+}
+
+// ── Latest News ────────────────────────────────────────────────
+function renderLatest() {
+  const items = allArticles.slice(0, LATEST_COUNT);
+  document.getElementById('latest-grid').innerHTML =
+    items.length ? items.map(buildCard).join('') : '<p class="no-results">記事がありません</p>';
+}
+
+// ── Weekly Best 5 ──────────────────────────────────────────────
+function renderBest() {
+  // Pick 5 from the freshest 20 at random (reproducible within session)
+  const pool    = allArticles.slice(0, 20);
+  const shuffled = [...pool].sort(() => Math.random() - 0.5);
+  const best    = shuffled.slice(0, BEST_COUNT);
+
+  document.getElementById('best-list').innerHTML = best.map((a, i) => {
+    const pUrl = primaryUrl(a.source_urls);
+    return `
+    <div class="best-item">
+      <div class="best-rank">${String(i + 1).padStart(2, '0')}</div>
+      <div class="best-thumb">
+        ${imgOrPlaceholder(a.image_url, a.title, a.category)}
+      </div>
+      <div class="best-info">
+        <div class="best-title">
+          <a href="${escHtml(pUrl)}" target="_blank" rel="noopener noreferrer">${escHtml(a.title)}</a>
+        </div>
+        <div class="best-meta">
+          ${a.category ? `<span class="cat-badge ${catClass(a.category)}" style="position:static;font-size:9px;padding:2px 6px;">${escHtml(a.category)}</span>` : ''}
+          <span>${formatDate(a.published_at)}</span>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+}
+
+// ── All Articles grid ──────────────────────────────────────────
+function getFiltered() {
+  return allArticles.filter(a => {
+    const matchCat  = currentCat === 'ALL' || a.category === currentCat;
+    const q         = searchQuery.toLowerCase();
+    const matchSearch = !q ||
+      (a.title   || '').toLowerCase().includes(q) ||
+      (a.summary || '').toLowerCase().includes(q) ||
+      (a.hashtags|| '').toLowerCase().includes(q);
+    return matchCat && matchSearch;
+  });
+}
+
+function renderGrid() {
+  const filtered = getFiltered();
+  const visible  = filtered.slice(0, displayedCount);
+  const grid     = document.getElementById('articles-grid');
+  const lmWrap   = document.getElementById('load-more-wrap');
+  const countEl  = document.getElementById('result-count');
+
+  countEl.textContent = `${filtered.length} 件`;
+
+  if (!filtered.length) {
+    grid.innerHTML = `<div class="no-results">該当する記事が見つかりませんでした</div>`;
+    lmWrap.style.display = 'none';
+    return;
+  }
+
+  grid.innerHTML = visible.map(buildCard).join('');
+  lmWrap.style.display = filtered.length > displayedCount ? '' : 'none';
+}
+
+// ── Category filter ────────────────────────────────────────────
+function setupFilters() {
+  document.getElementById('cat-nav').addEventListener('click', e => {
+    const btn = e.target.closest('.cat-btn');
+    if (!btn) return;
+    document.querySelectorAll('.cat-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    currentCat     = btn.dataset.cat;
+    displayedCount = PAGE_SIZE;
+    renderGrid();
+  });
+}
+
+// ── Search ─────────────────────────────────────────────────────
+function setupSearch() {
+  let timer;
+  document.getElementById('search-input').addEventListener('input', e => {
+    clearTimeout(timer);
+    timer = setTimeout(() => {
+      searchQuery    = e.target.value.trim();
+      displayedCount = PAGE_SIZE;
+      renderGrid();
+    }, 300);
+  });
+}
+
+// ── Load more ──────────────────────────────────────────────────
+document.getElementById('load-more-btn').addEventListener('click', () => {
+  displayedCount += PAGE_SIZE;
+  renderGrid();
+  // Scroll to newly loaded area
+  const grid = document.getElementById('articles-grid');
+  const cards = grid.querySelectorAll('.card');
+  if (cards[displayedCount - PAGE_SIZE]) {
+    cards[displayedCount - PAGE_SIZE].scrollIntoView({ behavior: 'smooth', block: 'start' });
+  }
+});
+</script>
+</body>
+</html>
