@@ -337,14 +337,16 @@
     return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
-  // ISO日付 → "2026.04.11"
+  // ISO日付 → "2026.04.12 12:19" (JST = UTC+9)
   function fmtDate(iso) {
     if (!iso) return '';
     try {
-      var d = new Date(iso);
-      return d.getFullYear() + '.' +
-        String(d.getMonth() + 1).padStart(2, '0') + '.' +
-        String(d.getDate()).padStart(2, '0');
+      var jst = new Date(new Date(iso).getTime() + 9 * 60 * 60 * 1000);
+      return jst.getUTCFullYear() + '.' +
+        String(jst.getUTCMonth() + 1).padStart(2, '0') + '.' +
+        String(jst.getUTCDate()).padStart(2, '0') + ' ' +
+        String(jst.getUTCHours()).padStart(2, '0') + ':' +
+        String(jst.getUTCMinutes()).padStart(2, '0');
     } catch(e) { return ''; }
   }
 
