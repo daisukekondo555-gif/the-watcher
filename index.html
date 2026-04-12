@@ -523,7 +523,7 @@
         '<div class="news-card-meta">' + fmtDate(a.published_at) + '</div>' +
         '<div class="news-card-excerpt">' + esc((function() {
           var raw = (a.summary || '').replace(/\n/g, ' ').trim();
-          return raw.length > 110 ? raw.slice(0, 110).replace(/\S+$/, '').trim() + '…' : raw;
+          return raw.length > 110 ? raw.slice(0, 110) + '…' : raw;
         })()) + '</div>' +
         buildVia(a.source_urls, a.source_names) +
       '</div>' +
