@@ -121,7 +121,8 @@
   .news-card-body { padding: 16px 16px 20px; }
   .news-card-cat { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #c8a830; font-weight: 700; margin-bottom: 7px; }
   .news-card-title { font-family: 'Noto Serif JP', serif; font-size: 14px; font-weight: 700; line-height: 1.65; color: #111; margin-bottom: 10px; }
-  .news-card-meta { font-size: 10px; color: #999; line-height: 1.7; }
+  .news-card-meta { font-size: 10px; color: #999; line-height: 1.7; margin-bottom: 6px; }
+  .news-card-excerpt { font-size: 11px; color: #555; line-height: 1.65; }
 
   /* MORE BTN */
   .more-btn-wrap { padding: 20px 24px; text-align: center; background: #fff; border-bottom: 1px solid #e0e0e0; }
@@ -519,9 +520,11 @@
       '<div class="news-card-body">' +
         '<div class="news-card-cat">' + esc(a.category) + '</div>' +
         '<div class="news-card-title">' + esc(a.title) + '</div>' +
-        '<div class="news-card-meta">' + fmtDate(a.published_at) + '<br>' +
-          '<span class="hashtag">' + buildHashtagLinks(a.hashtags) + '</span>' +
-        '</div>' +
+        '<div class="news-card-meta">' + fmtDate(a.published_at) + '</div>' +
+        '<div class="news-card-excerpt">' + esc((function() {
+          var raw = (a.summary || '').replace(/\n/g, ' ').trim();
+          return raw.length > 110 ? raw.slice(0, 110).replace(/\S+$/, '').trim() + '…' : raw;
+        })()) + '</div>' +
         buildVia(a.source_urls, a.source_names) +
       '</div>' +
     '</div>';
