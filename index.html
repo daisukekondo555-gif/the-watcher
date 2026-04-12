@@ -54,23 +54,24 @@
 
   /* HERO */
   .hero { background: #ffffff; cursor: pointer; border-bottom: 2px solid #0f1f38; }
-  .hero-img-placeholder { width: 100%; aspect-ratio: 16/9; background: linear-gradient(135deg, #0f1f38 0%, #1c3060 100%); display: flex; align-items: center; justify-content: center; font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: rgba(255,255,255,0.08); letter-spacing: 6px; }
-  @media (min-width: 768px) {
-    #best5Hero img, #best5Hero .hero-img-placeholder { max-height: 480px; }
-  }
+  /* hero-img-placeholder: コンテナの高さに追従 */
+  .hero-img-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #0f1f38 0%, #1c3060 100%); display: flex; align-items: center; justify-content: center; font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: rgba(255,255,255,0.08); letter-spacing: 6px; }
 
   /* BEST5 SLIDESHOW */
   .best5-slideshow { position: relative; overflow: hidden; background: #fff; border-bottom: 2px solid #0f1f38; cursor: pointer; }
   .best5-slide { width: 100%; opacity: 0; transition: opacity 0.55s ease; pointer-events: none; }
   .best5-slide.is-active { opacity: 1; pointer-events: auto; }
   .best5-slide:not(.is-active) { position: absolute; top: 0; left: 0; }
-  .best5-img-wrap { position: relative; }
+  /* 固定高さコンテナ: 画像比率に関わらず統一した高さで表示 */
+  .best5-img-wrap { position: relative; width: 100%; height: 260px; overflow: hidden; }
+  /* object-position: center 20% で顔・人物が映りやすい上寄せクロップ */
+  .best5-img-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block; }
   .best5-dots { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); display: flex; gap: 9px; z-index: 5; pointer-events: none; }
   .best5-dot { width: 9px; height: 9px; border-radius: 50%; background: rgba(255,255,255,0.4); border: 1.5px solid rgba(255,255,255,0.85); cursor: pointer; transition: all 0.25s; padding: 0; pointer-events: auto; }
   .best5-dot.is-active { background: #ffffff; border-color: #ffffff; transform: scale(1.3); }
   .best5-dot:hover { background: rgba(255,255,255,0.75); }
   @media (min-width: 768px) {
-    .best5-img-wrap img, .best5-img-wrap .hero-img-placeholder { max-height: 480px; }
+    .best5-img-wrap { height: 420px; }
   }
 
   .hero-body { padding: 28px 24px 32px; background: #ffffff; }
@@ -429,7 +430,7 @@
 
     // 5枚のスライドを生成
     el.innerHTML = articles.map(function(a, i) {
-      var img = imgOrPH(a.image_url, 'width:100%;aspect-ratio:16/9;object-fit:cover;display:block;', 'hero-img-placeholder');
+      var img = imgOrPH(a.image_url, 'width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;', 'hero-img-placeholder');
       return '<div class="best5-slide' + (i === 0 ? ' is-active' : '') + '" onclick="openArticle(\'' + esc(a.id) + '\')">' +
         '<div class="best5-img-wrap">' + img + dotsHtml + '</div>' +
         '<div class="hero-body">' +
