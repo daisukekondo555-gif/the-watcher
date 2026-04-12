@@ -15,6 +15,7 @@ import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone, timedelta
 from typing import Optional
+from urllib.parse import urlparse, urlencode, parse_qsl
 
 import feedparser
 import requests
@@ -22,6 +23,28 @@ from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
 logger = logging.getLogger(__name__)
+
+# Tracking query parameters to strip from article URLs
+_TRACKING_PARAMS = frozenset({
+    # Google UTM
+    "utm_source", "utm_medium", "utm_campaign", "utm_term", "utm_content", "utm_id",
+    # Google / Facebook click IDs
+    "gclid", "gclsrc", "fbclid", "msclkid",
+    # Miscellaneous
+    "ref", "referrer", "mc_cid", "mc_eid",
+})
+
+
+def _clean_url(url: str) -> str:
+    """Strip tracking query parameters from a URL, preserving all others."""
+    try:
+        parsed = urlparse(url)
+        filtered = [(k, v) for k, v in parse_qsl(parsed.query) if k.lower() not in _TRACKING_PARAMS]
+        clean = parsed._replace(query=urlencode(filtered))
+        return clean.geturl()
+    except Exception:
+        return url
+
 
 # Mimic a real browser to avoid bot-detection blocks
 HEADERS = {
@@ -221,7 +244,7 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
 
         for entry in feed.entries[:max_articles]:
             title = (entry.get("title") or "").strip()
-            link = (entry.get("link") or "").strip()
+            link = _clean_url((entry.get("link") or "").strip())
             if not title or not link:
                 continue
 
