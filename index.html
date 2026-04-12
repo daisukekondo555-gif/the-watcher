@@ -347,10 +347,17 @@
     } catch(e) { return ''; }
   }
 
+  // 画像プロキシ（ホットリンク保護回避 + WebP変換）
+  function proxyImg(url, w) {
+    if (!url) return '';
+    if (url.indexOf('wsrv.nl') !== -1) return url;
+    return 'https://wsrv.nl/?url=' + encodeURIComponent(url) + '&w=' + (w || 640) + '&output=webp';
+  }
+
   // 画像タグ or プレースホルダーdiv
   function imgOrPH(url, imgStyle, phClass) {
     if (url) {
-      return '<img src="' + esc(url) + '" style="' + imgStyle + '" ' +
+      return '<img src="' + esc(proxyImg(url)) + '" style="' + imgStyle + '" ' +
         'onerror="var d=document.createElement(\'div\');d.className=\'' + phClass + '\';this.parentNode.replaceChild(d,this)" alt="">';
     }
     return '<div class="' + phClass + '"></div>';
@@ -486,7 +493,7 @@
   function newsItemHTML(a, hidden) {
     var cls = hidden ? ' news-hidden' : '';
     var imgHtml = a.image_url
-      ? '<img src="' + esc(a.image_url) + '" alt="" ' +
+      ? '<img src="' + esc(proxyImg(a.image_url)) + '" alt="" ' +
         'onerror="this.parentNode.innerHTML=\'<div class=\\\'news-card-img-ph\\\'></div>\'" ' +
         'style="width:100%;height:100%;object-fit:cover;display:block;transition:transform 0.3s;">'
       : '<div class="news-card-img-ph"></div>';
@@ -538,7 +545,7 @@
       var items = articles.filter(function(a) { return a.category === cat; }).slice(0, 5);
       var rows = items.map(function(a, i) {
         var thumb = a.image_url
-          ? '<div class="rank-thumb"><img src="' + esc(a.image_url) + '" alt="" ' +
+          ? '<div class="rank-thumb"><img src="' + esc(proxyImg(a.image_url, 200)) + '" alt="" ' +
             'onerror="this.parentNode.innerHTML=\'\'"></div>'
           : '<div class="rank-thumb"></div>';
         return '<div class="rank-row" onclick="openArticle(\'' + esc(a.id) + '\')">' +

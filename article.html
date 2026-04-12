@@ -190,9 +190,16 @@
     return (s || '').replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;');
   }
 
+  // 画像プロキシ（ホットリンク保護回避 + WebP変換）
+  function proxyImg(url, w) {
+    if (!url) return '';
+    if (url.indexOf('wsrv.nl') !== -1) return url;
+    return 'https://wsrv.nl/?url=' + encodeURIComponent(url) + '&w=' + (w || 640) + '&output=webp';
+  }
+
   function imgOrPH(url, imgStyle, phClass) {
     if (url) {
-      return '<img src="' + esc(url) + '" style="' + imgStyle + '" ' +
+      return '<img src="' + esc(proxyImg(url)) + '" style="' + imgStyle + '" ' +
         'onerror="var d=document.createElement(\'div\');d.className=\'' + phClass + '\';this.parentNode.replaceChild(d,this)" alt="">';
     }
     return '<div class="' + phClass + '"></div>';
@@ -319,7 +326,7 @@
       // ヒーロー画像
       var heroHtml;
       if (article.image_url) {
-        heroHtml = '<img id="heroImg" class="article-hero-img" src="' + esc(article.image_url) + '" alt="' + esc(article.title) + '">';
+        heroHtml = '<img id="heroImg" class="article-hero-img" src="' + esc(proxyImg(article.image_url, 1200)) + '" alt="' + esc(article.title) + '">';
       } else {
         heroHtml = '<div class="article-hero-placeholder">THE WATCHER</div>';
       }

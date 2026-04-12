@@ -215,9 +215,16 @@
     } catch(e) { return ''; }
   }
 
+  // 画像プロキシ（ホットリンク保護回避 + WebP変換）
+  function proxyImg(url, w) {
+    if (!url) return '';
+    if (url.indexOf('wsrv.nl') !== -1) return url;
+    return 'https://wsrv.nl/?url=' + encodeURIComponent(url) + '&w=' + (w || 640) + '&output=webp';
+  }
+
   function imgOrPH(url) {
     if (url) {
-      return '<img src="' + esc(url) + '" style="width:90px;height:60px;object-fit:cover;flex-shrink:0;" ' +
+      return '<img src="' + esc(proxyImg(url)) + '" style="width:90px;height:60px;object-fit:cover;flex-shrink:0;" ' +
         'onerror="var d=document.createElement(\'div\');d.className=\'news-thumb-placeholder\';this.parentNode.replaceChild(d,this)" alt="">';
     }
     return '<div class="news-thumb-placeholder"></div>';
