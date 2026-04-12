@@ -197,10 +197,24 @@
     return 'https://wsrv.nl/?url=' + encodeURIComponent(url) + '&w=' + (w || 640) + '&output=webp';
   }
 
+  // 画像フォールバック: ①wsrv.nl失敗 → ②元URL → ③プレースホルダー
+  function imgError(el, orig, phClass) {
+    if (el.src !== orig) {
+      el.onerror = function() { imgError(el, orig, phClass); };
+      el.src = orig;
+    } else if (phClass) {
+      var d = document.createElement('div');
+      d.className = phClass;
+      el.parentNode.replaceChild(d, el);
+    } else {
+      el.parentNode.removeChild(el);
+    }
+  }
+
   function imgOrPH(url, imgStyle, phClass) {
     if (url) {
-      return '<img src="' + esc(proxyImg(url)) + '" style="' + imgStyle + '" ' +
-        'onerror="var d=document.createElement(\'div\');d.className=\'' + phClass + '\';this.parentNode.replaceChild(d,this)" alt="">';
+      return '<img src="' + esc(proxyImg(url)) + '" data-orig="' + esc(url) + '" style="' + imgStyle + '" ' +
+        'onerror="imgError(this,this.dataset.orig,\'' + phClass + '\')" alt="">';
     }
     return '<div class="' + phClass + '"></div>';
   }
@@ -326,7 +340,7 @@
       // ヒーロー画像
       var heroHtml;
       if (article.image_url) {
-        heroHtml = '<img id="heroImg" class="article-hero-img" src="' + esc(proxyImg(article.image_url, 1200)) + '" alt="' + esc(article.title) + '">';
+        heroHtml = '<img id="heroImg" class="article-hero-img" src="' + esc(proxyImg(article.image_url, 1200)) + '" data-orig="' + esc(article.image_url) + '" alt="' + esc(article.title) + '">';
       } else {
         heroHtml = '<div class="article-hero-placeholder">THE WATCHER</div>';
       }
@@ -389,14 +403,26 @@
         '</div>' +
         adSlot;
 
-      // 画像エラー時プレースホルダー差し替え
+      // 画像エラー時フォールバック: ①wsrv.nl失敗 → ②元URL → ③プレースホルダー
       var heroImg = document.getElementById('heroImg');
       if (heroImg) {
         heroImg.onerror = function() {
-          var ph = document.createElement('div');
-          ph.className = 'article-hero-placeholder';
-          ph.textContent = 'THE WATCHER';
-          this.parentNode.replaceChild(ph, this);
+          var self = this;
+          var orig = this.dataset.orig;
+          if (this.src !== orig) {
+            this.onerror = function() {
+              var ph = document.createElement('div');
+              ph.className = 'article-hero-placeholder';
+              ph.textContent = 'THE WATCHER';
+              self.parentNode.replaceChild(ph, self);
+            };
+            this.src = orig;
+          } else {
+            var ph = document.createElement('div');
+            ph.className = 'article-hero-placeholder';
+            ph.textContent = 'THE WATCHER';
+            this.parentNode.replaceChild(ph, this);
+          }
         };
       }
 
