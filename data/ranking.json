@@ -6,7 +6,7 @@
     },
     {
       "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
-      "pageviews": 5
+      "pageviews": 7
     },
     {
       "path": "/article.html?id=33f913ba47ba81e0b106fe468fd86990",
@@ -25,7 +25,7 @@
     "ニュース": [
       {
         "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
-        "pageviews": 5
+        "pageviews": 7
       },
       {
         "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
@@ -115,5 +115,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-13T11:52:55"
+  "updated_at": "2026-04-13T17:00:25"
 }
