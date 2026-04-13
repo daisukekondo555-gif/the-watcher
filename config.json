@@ -30,6 +30,7 @@
     { "name": "Soul Bounce", "rss_url": "https://soulbounce.com/feed/" },
     { "name": "The Root",    "rss_url": "https://www.theroot.com/rss" },
     { "name": "Vibe",        "rss_url": "https://www.vibe.com/feed/" },
-    { "name": "Billboard",   "rss_url": "https://www.billboard.com/t/hip-hop/feed/" }
+    { "name": "Billboard",   "rss_url": "https://www.billboard.com/t/hip-hop/feed/" },
+    { "name": "Ambrosia for Heads", "rss_url": "https://ambrosiaforheads.com/feed/" }
   ]
 }
