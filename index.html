@@ -179,6 +179,7 @@
   .rank-thumb { flex-shrink: 0; width: 56px; height: 56px; overflow: hidden; background: linear-gradient(135deg, #0f1f38, #1c3060); }
   .rank-thumb img { width: 56px; height: 56px; object-fit: cover; display: block; transition: transform 0.2s; }
   .rank-title { flex: 1; min-width: 0; font-family: 'Noto Serif JP', serif; font-size: 13px; font-weight: 700; line-height: 1.55; color: inherit; }
+  .rank-pv { font-size: 10px; color: #999; white-space: nowrap; flex-shrink: 0; padding-left: 6px; }
   @media (min-width: 768px) {
     .rank-thumb { width: 64px; height: 64px; }
     .rank-thumb img { width: 64px; height: 64px; }
@@ -550,10 +551,21 @@
     document.getElementById('moreReleaseBtnWrap').style.display = releases.length > 6 ? '' : 'none';
   }
 
-  // CATEGORY RANKING（カテゴリ別上位5件タイトル）
-  function renderCategoryRanking(articles) {
+  // パス /article.html?id=xxx → id 部分を返す
+  function pathToId(path) {
+    if (!path) return null;
+    var m = path.match(/[?&]id=([^&]+)/);
+    return m ? decodeURIComponent(m[1]) : null;
+  }
+
+  // CATEGORY RANKING（カテゴリ別上位5件 — ranking.json があれば PV 順、なければ新着順）
+  function renderCategoryRanking(articles, rankingData) {
     var cats = ['ニュース', 'リリース', 'ビーフ', 'ライブ', 'チャート', 'ビジネス'];
     var defaultCat = cats[0];
+
+    // 記事 id → article オブジェクトのマップ
+    var idMap = {};
+    articles.forEach(function(a) { if (a.id) idMap[a.id] = a; });
 
     // タブバー（デスクトップ用）
     var tabsEl = document.getElementById('rankTabs');
@@ -566,18 +578,38 @@
 
     // パネル（モバイル横スクロール用 + デスクトップタブパネル兼用）
     document.getElementById('categoryRanking').innerHTML = cats.map(function(cat) {
-      var items = articles.filter(function(a) { return a.category === cat; }).slice(0, 5);
+      var items = [];
+      var showPv = false;
+
+      if (rankingData && rankingData.by_category && rankingData.by_category[cat] && rankingData.by_category[cat].length) {
+        // ranking.json の PV 順で並べる
+        rankingData.by_category[cat].forEach(function(ri) {
+          var aid = pathToId(ri.path);
+          var article = aid ? idMap[aid] : null;
+          if (article) items.push(Object.assign({}, article, { _pv: ri.pageviews }));
+        });
+        showPv = true;
+      } else {
+        // フォールバック: articles.json の新着順
+        items = articles.filter(function(a) { return a.category === cat; }).slice(0, 5);
+      }
+
       var rows = items.map(function(a, i) {
         var thumb = a.image_url
           ? '<div class="rank-thumb"><img src="' + esc(proxyImg(a.image_url, 200)) + '" data-orig="' + esc(a.image_url) + '" alt="" ' +
             'onerror="imgError(this,this.dataset.orig,\'\')"></div>'
           : '<div class="rank-thumb"></div>';
+        var pvHtml = showPv && a._pv
+          ? '<span class="rank-pv">' + Number(a._pv).toLocaleString() + ' PV</span>'
+          : '';
         return '<div class="rank-row" onclick="openArticle(\'' + esc(a.id) + '\')">' +
           '<span class="rank-row-num">' + (i + 1) + '</span>' +
           thumb +
           '<span class="rank-title">' + esc(a.title) + '</span>' +
+          pvHtml +
         '</div>';
       }).join('');
+
       return '<div class="rank-col' + (cat === defaultCat ? ' is-active' : '') + '" data-cat="' + esc(cat) + '">' +
         '<div class="rank-col-header">' + esc(cat) + '</div>' +
         (rows || '<div style="font-size:12px;color:#ccc;padding:8px 0;">記事なし</div>') +
@@ -620,10 +652,21 @@
   // データ読み込みと全セクション初期化
   async function init() {
     try {
-      var res = await fetch('./data/articles.json');
+      // articles.json と ranking.json を並行取得
+      var articlesPromise = fetch('./data/articles.json');
+      var rankingPromise  = fetch('./data/ranking.json').catch(function() { return null; });
+
+      var res = await articlesPromise;
       if (!res.ok) throw new Error('HTTP ' + res.status);
       var data = await res.json();
       allArticles = data.articles || [];
+
+      // ranking.json（存在しない場合は null のまま → フォールバック動作）
+      var rankingData = null;
+      try {
+        var rres = await rankingPromise;
+        if (rres && rres.ok) rankingData = await rres.json();
+      } catch(e) { /* ranking.json 未生成でも問題なし */ }
 
       // デートライン（今日の日付）
       var now = new Date();
@@ -631,12 +674,23 @@
       document.getElementById('dateline').textContent =
         now.getFullYear() + '年' + (now.getMonth() + 1) + '月' + now.getDate() + '日（' + weekdays[now.getDay()] + '）';
 
-      if (allArticles.length > 0) {
-        renderBest5Slideshow(allArticles.slice(0, 5));
+      // WEEKLY BEST 5: ranking.json の weekly 順 → なければ最新5件
+      var idMap = {};
+      allArticles.forEach(function(a) { if (a.id) idMap[a.id] = a; });
+
+      var best5 = allArticles.slice(0, 5);
+      if (rankingData && rankingData.weekly && rankingData.weekly.length >= 2) {
+        var ranked = rankingData.weekly.map(function(ri) {
+          var aid = pathToId(ri.path);
+          return aid ? idMap[aid] : null;
+        }).filter(Boolean);
+        if (ranked.length >= 2) best5 = ranked;
       }
+
+      if (best5.length > 0) renderBest5Slideshow(best5);
       renderLatestNews(allArticles);
       renderReleaseGrid(allArticles);
-      renderCategoryRanking(allArticles);
+      renderCategoryRanking(allArticles, rankingData);
       renderTrendingTags(allArticles);
     } catch(e) {
       console.error('articles.json の読み込みに失敗しました:', e);

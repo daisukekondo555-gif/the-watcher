@@ -49,16 +49,22 @@ jobs:
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: python export_notion.py
 
-      # ── Step 3: articles.json をリポジトリにコミット ─────────────────────
-      - name: Commit and push articles.json
+      # ── Step 3: GA4 アクセスランキングを ranking.json に保存 ─────────────
+      - name: Fetch GA4 ranking
+        env:
+          GA_SERVICE_ACCOUNT_JSON: ${{ secrets.GA_SERVICE_ACCOUNT_JSON }}
+        run: python src/ga4_ranking.py
+
+      # ── Step 4: articles.json / ranking.json をリポジトリにコミット ───────
+      - name: Commit and push data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/articles.json
+          git add data/
           git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
           git push
 
-      # ── Step 4: Instagram に新着記事をカルーセル投稿 ────────────────────
+      # ── Step 5: Instagram に新着記事をカルーセル投稿 ────────────────────
       - name: Post new articles to Instagram
         env:
           INSTAGRAM_ACCESS_TOKEN:        ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
