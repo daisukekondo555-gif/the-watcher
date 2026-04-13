@@ -57,3 +57,10 @@ jobs:
           git add data/articles.json
           git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
           git push
+
+      # ── Step 4: Instagram に新着記事をカルーセル投稿 ────────────────────
+      - name: Post new articles to Instagram
+        env:
+          INSTAGRAM_ACCESS_TOKEN:        ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
+          INSTAGRAM_BUSINESS_ACCOUNT_ID: ${{ secrets.INSTAGRAM_BUSINESS_ACCOUNT_ID }}
+        run: python src/instagram_poster.py
