@@ -1,7 +1,29 @@
 {
-  "generated_at": "2026-04-13T04:21:28.699337+00:00",
-  "total": 110,
+  "generated_at": "2026-04-13T07:33:52.973238+00:00",
+  "total": 112,
   "articles": [
+    {
+      "id": "341913ba47ba81a8b6d3d76438887849",
+      "title": "オクルー、コーチェラ2026でアンダースコアーズをサプライズ登場させる",
+      "summary": "フランス出身のアーティスト、オクルーが2026年のコーチェラ・フェスティバルのパフォーマンス中に、アンダースコアーズをサプライズゲストとして呼び込んだ。2人はステージで共演し、昨年リリースされたオクルーのアルバム『Choke Enough』に収録されているコラボ曲「Harvest Sky」を一緒に披露した。",
+      "category": "ライブ",
+      "image_url": "https://media.pitchfork.com/photos/69dc6aa7f1753bfb29ab5d0d/master/pass/GettyImages-2271057631.jpg",
+      "source_urls": "https://pitchfork.com/news/watch-oklou-bring-out-underscores-at-coachella-2026/",
+      "source_names": "Pitchfork",
+      "hashtags": "#Oklou #Underscores #Coachella2026 #ChokeEnough #HarvestSky",
+      "published_at": "2026-04-13T05:06:00.000+00:00"
+    },
+    {
+      "id": "341913ba47ba8156a7e3d225d1e3256e",
+      "title": "カロル・Gがコーチェラ2026最終夜をヘッドライン、ラテン系女性初の快挙",
+      "summary": "コロンビア出身のスーパースター、カロル・Gがコーチェラ2026の最終夜にヘッドライナーを務めた。これは同フェスティバルの25年の歴史において、ラテン系女性アーティストがヘッドライナーに立った初めての事例となり、歴史的な快挙として注目を集めている。",
+      "category": "ライブ",
+      "image_url": "https://media.pitchfork.com/photos/69dc2c5ce7219c38beb04834/master/pass/GettyImages-2246618768.jpg",
+      "source_urls": "https://pitchfork.com/news/watch-karol-g-headline-the-last-night-of-coachella-2026/",
+      "source_names": "Pitchfork",
+      "hashtags": "#KarolG #Coachella2026 #Coachella #LatinaHistory #FestivalHeadliner",
+      "published_at": "2026-04-13T04:56:00.000+00:00"
+    },
     {
       "id": "341913ba47ba817db7b6d33d04708742",
       "title": "ジェイ・Z、アトランタの高校生向けHBCUバスツアーを開催",
