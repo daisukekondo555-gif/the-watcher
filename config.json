@@ -27,6 +27,7 @@
     { "name": "Rap Radar",   "rss_url": "https://rapradar.com/feed/" },
     { "name": "DJBooth",     "rss_url": "https://djbooth.net/feed/" },
     { "name": "Rap-Up",      "rss_url": "https://www.rap-up.com/rss.xml" },
-    { "name": "Soul Bounce", "rss_url": "https://soulbounce.com/feed/" }
+    { "name": "Soul Bounce", "rss_url": "https://soulbounce.com/feed/" },
+    { "name": "The Root",    "rss_url": "https://www.theroot.com/rss" }
   ]
 }
