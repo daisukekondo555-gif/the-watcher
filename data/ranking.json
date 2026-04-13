@@ -1,0 +1,119 @@
+{
+  "weekly": [
+    {
+      "path": "/article.html?id=340913ba47ba81b1a7f2ea3287a77968",
+      "pageviews": 12
+    },
+    {
+      "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
+      "pageviews": 5
+    },
+    {
+      "path": "/article.html?id=33f913ba47ba81e0b106fe468fd86990",
+      "pageviews": 4
+    },
+    {
+      "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
+      "pageviews": 4
+    },
+    {
+      "path": "/article.html?id=340913ba47ba81bf878adcc04aee20a8",
+      "pageviews": 4
+    }
+  ],
+  "by_category": {
+    "ニュース": [
+      {
+        "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
+        "pageviews": 5
+      },
+      {
+        "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
+        "pageviews": 4
+      },
+      {
+        "path": "/article.html?id=340913ba47ba81bf878adcc04aee20a8",
+        "pageviews": 4
+      },
+      {
+        "path": "/article.html?id=340913ba47ba81d5aea4f89a65ebb00d",
+        "pageviews": 4
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba818bb331fb4d12edc8ce",
+        "pageviews": 3
+      }
+    ],
+    "リリース": [
+      {
+        "path": "/article.html?id=33f913ba47ba811cbe54ef9731caf34b",
+        "pageviews": 3
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba815cbe7ee34963744936",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba81b6b14ac8c6aa2a8d0e",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=340913ba47ba817d8c68dc78770b06f8",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba813e8183ddec49fc35f8",
+        "pageviews": 1
+      }
+    ],
+    "ビーフ": [
+      {
+        "path": "/article.html?id=33f913ba47ba810c9c68e36881f3b240",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba81c8860dd94882a69710",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=340913ba47ba8101b2cbc7dd5579e21f",
+        "pageviews": 1
+      }
+    ],
+    "ライブ": [
+      {
+        "path": "/article.html?id=340913ba47ba81b1a7f2ea3287a77968",
+        "pageviews": 12
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba81e0b106fe468fd86990",
+        "pageviews": 4
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba8104a35ef2615b03a702",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=33f913ba47ba815bb9b2f42d065e1f97",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=340913ba47ba8195ba25cc0baa0cdfc6",
+        "pageviews": 2
+      }
+    ],
+    "チャート": [
+      {
+        "path": "/article.html?id=33f913ba47ba813bbbb7d130546a142d",
+        "pageviews": 1
+      }
+    ],
+    "ビジネス": [
+      {
+        "path": "/article.html?id=33f913ba47ba8199865cc478141edd11",
+        "pageviews": 1
+      }
+    ]
+  },
+  "updated_at": "2026-04-13T11:11:34"
+}
