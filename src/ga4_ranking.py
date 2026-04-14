@@ -51,7 +51,7 @@ def _get_client():
 
 
 def _fetch_pageviews(client, days: int = LOOKBACK_DAYS, limit: int = FETCH_LIMIT) -> list[dict]:
-    """記事ページ（新URL /articles/<id>.html と旧URL /article.html?id=）の PV を取得。"""
+    """article.html を含むパスのページビューを降順で取得する。"""
     from google.analytics.data_v1beta.types import (
         DateRange,
         Dimension,
@@ -71,8 +71,8 @@ def _fetch_pageviews(client, days: int = LOOKBACK_DAYS, limit: int = FETCH_LIMIT
             filter=Filter(
                 field_name="pagePathPlusQueryString",
                 string_filter=Filter.StringFilter(
-                    match_type=Filter.StringFilter.MatchType.FULL_REGEXP,
-                    value=r"^/(articles/[^/?#]+\.html|article\.html\?)",
+                    match_type=Filter.StringFilter.MatchType.CONTAINS,
+                    value="article.html",
                 ),
             )
         ),
@@ -97,22 +97,13 @@ def _fetch_pageviews(client, days: int = LOOKBACK_DAYS, limit: int = FETCH_LIMIT
 
 
 def _path_to_id(path: str) -> str | None:
-    """GA4 のパスから記事 id を抽出する。
-    新URL: /articles/<id>.html
-    旧URL: /article.html?id=<id>
-    """
-    import re
-    if not path:
+    """/article.html?id=xxx → xxx を返す。"""
+    if "id=" not in path:
         return None
-    m = re.search(r"/articles/([^/?#.]+)\.html", path)
-    if m:
-        return m.group(1)
-    if "id=" in path:
-        try:
-            return path.split("id=", 1)[1].split("&")[0]
-        except Exception:
-            return None
-    return None
+    try:
+        return path.split("id=", 1)[1].split("&")[0]
+    except Exception:
+        return None
 
 
 def _build_ranking(pageviews: list[dict], articles: list[dict]) -> dict:

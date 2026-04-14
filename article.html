@@ -19,22 +19,18 @@
 
 <!-- OGP / Twitter Card
      NOTE: SNSクローラー（X・LINEのBot）はJSを実行しないため、
-     個別記事のシェア用OGPは build-time に src/build_articles.py が
-     articles/<id>.html を生成し、static な og:* を埋め込みます。
-     この article.html 単体（?id= 付きURL）にアクセスされた場合は
-     以下の汎用デフォルト値でフォールバックします。 -->
+     シェア時のog:title・og:imageは下記の静的デフォルト値が使われます。
+     記事ごとの画像を反映するにはSSR/プリレンダリングが必要です。 -->
 <meta property="og:type"         content="article">
 <meta property="og:site_name"    content="THE WATCHER">
 <meta property="og:title"        content="THE WATCHER — ヒップホップ・ジャーナル">
 <meta property="og:description"  content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
-<meta property="og:image"        content="https://thewatcherjp.com/assets/logo-mark.png">
-<meta property="og:url"          content="https://thewatcherjp.com/">
-<meta property="og:locale"       content="ja_JP">
+<meta property="og:image"        content="">
+<meta property="og:url"          content="">
 <meta name="twitter:card"        content="summary_large_image">
-<meta name="twitter:site"        content="@thewatcherjp">
 <meta name="twitter:title"       content="THE WATCHER — ヒップホップ・ジャーナル">
 <meta name="twitter:description" content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
-<meta name="twitter:image"       content="https://thewatcherjp.com/assets/logo-mark.png">
+<meta name="twitter:image"       content="">
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
 <style>
@@ -246,7 +242,7 @@
   }
 
   function openRelated(id) {
-    location.href = '/articles/' + encodeURIComponent(id) + '.html';
+    location.href = 'article.html?id=' + encodeURIComponent(id);
   }
 
   // ISO日付 → "2026年4月12日 12:19" (JST = UTC+9)
@@ -329,19 +325,8 @@
   }, { passive: true });
 
   async function init() {
-    // id の取得優先順位:
-    //   ① window.__ARTICLE_ID (build時に articles/<id>.html に埋め込み)
-    //   ② URLパス `/articles/<id>.html`
-    //   ③ クエリ ?id=<id> (従来のレガシーURL)
-    var id = window.__ARTICLE_ID || '';
-    if (!id) {
-      var m = location.pathname.match(/\/articles\/([^\/]+)\.html$/);
-      if (m) id = m[1];
-    }
-    if (!id) {
-      var params = new URLSearchParams(location.search);
-      id = decodeURIComponent(params.get('id') || '');
-    }
+    var params = new URLSearchParams(location.search);
+    var id = decodeURIComponent(params.get('id') || '');
 
     if (!id) {
       document.getElementById('articleContent').innerHTML =
@@ -350,7 +335,7 @@
     }
 
     try {
-      var res = await fetch('/data/articles.json');
+      var res = await fetch('./data/articles.json');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       var data = await res.json();
       var articles = data.articles || [];
@@ -480,14 +465,14 @@
     if (!prev && !next) return '';
 
     var prevHtml = prev
-      ? '<a class="article-nav-link nav-prev" href="/articles/' + encodeURIComponent(prev.id) + '.html">' +
+      ? '<a class="article-nav-link nav-prev" href="article.html?id=' + encodeURIComponent(prev.id) + '">' +
           '<div class="article-nav-dir">&#8592; 前の記事</div>' +
           '<div class="article-nav-title">' + esc(prev.title) + '</div>' +
         '</a>'
       : '<div class="article-nav-spacer"></div>';
 
     var nextHtml = next
-      ? '<a class="article-nav-link nav-next" href="/articles/' + encodeURIComponent(next.id) + '.html">' +
+      ? '<a class="article-nav-link nav-next" href="article.html?id=' + encodeURIComponent(next.id) + '">' +
           '<div class="article-nav-dir">次の記事 &#8594;</div>' +
           '<div class="article-nav-title">' + esc(next.title) + '</div>' +
         '</a>'

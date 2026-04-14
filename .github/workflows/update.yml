@@ -10,15 +10,6 @@ on:
     - cron: "41 12 * * *"
   workflow_dispatch:
 
-# 同時実行を抑止して push 競合を根絶する。
-# cron 3本 + 手動実行 + 17分超の実行時間で以前は並行実行が発生し、
-# 後勝ちで push が rejected になっていた。
-# cancel-in-progress: false = 実行中のジョブは最後まで走らせ、
-#   新しいトリガは同グループに1件だけキューされる（ニュース取得を中断しない）。
-concurrency:
-  group: update-main
-  cancel-in-progress: false
-
 permissions:
   contents: write   # articles.json のコミット・プッシュに必要
 
@@ -64,67 +55,14 @@ jobs:
           GA_SERVICE_ACCOUNT_JSON: ${{ secrets.GA_SERVICE_ACCOUNT_JSON }}
         run: python src/ga4_ranking.py
 
-      # ── Step 4: 記事ごとの静的HTML（OGP付き）を articles/ に生成 ─────────
-      - name: Pre-render articles with OGP
-        run: python src/build_articles.py
-
-      # ── Step 5: articles.json / ranking.json / articles/ をコミット ──────
-      # concurrency で workflow 同士は直列化済みだが、以下のケースが残る:
-      #   (a) 開発者のローカル push が 17分の実行時間中に入る
-      #   (b) 他 workflow からの push（将来追加される可能性）
-      #
-      # rebase 方式は articles/ 配下に197件の変更があるため 3-way merge で
-      # conflict が起きやすい。そこで "soft reset & reapply" 戦略を採る:
-      #   1) 生成物（data/ + articles/）を tmp に退避
-      #   2) git reset --hard origin/main で remote と完全同期
-      #   3) tmp から上書き復元（articles.json は Notion が権威、articles/ は
-      #      articles.json から決定論的に再生成されるので上書き安全）
-      #   4) 再コミットして push
-      # この方式は merge を使わないため "conflict" が構造的に発生しない。
+      # ── Step 4: articles.json / ranking.json をリポジトリにコミット ───────
       - name: Commit and push data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ articles/
-          if git diff --staged --quiet; then
-            echo "no changes to commit"
-            exit 0
-          fi
-          git commit -m "chore: update articles.json [skip ci]"
-
-          push_with_reapply() {
-            if git push 2>&1; then
-              return 0
-            fi
-            echo "push rejected — snapshotting data files and re-syncing to origin/main"
-            local tmp
-            tmp=$(mktemp -d)
-            cp -r data "$tmp/data"
-            cp -r articles "$tmp/articles"
-            git fetch origin main
-            git reset --hard origin/main
-            rm -rf data articles
-            cp -r "$tmp/data" data
-            cp -r "$tmp/articles" articles
-            rm -rf "$tmp"
-            git add data/ articles/
-            if git diff --staged --quiet; then
-              echo "remote already has our data — nothing to push"
-              return 0
-            fi
-            git commit -m "chore: update articles.json [skip ci]"
-            git push
-          }
-
-          for i in 1 2 3; do
-            if push_with_reapply; then
-              exit 0
-            fi
-            echo "attempt $i failed, retrying..."
-            sleep 3
-          done
-          echo "push failed after 3 attempts" >&2
-          exit 1
+          git add data/
+          git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
+          git push
 
       # ── Step 5: Instagram に新着記事をカルーセル投稿 ────────────────────
       - name: Post new articles to Instagram
