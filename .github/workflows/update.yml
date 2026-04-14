@@ -55,12 +55,16 @@ jobs:
           GA_SERVICE_ACCOUNT_JSON: ${{ secrets.GA_SERVICE_ACCOUNT_JSON }}
         run: python src/ga4_ranking.py
 
-      # ── Step 4: articles.json / ranking.json をリポジトリにコミット ───────
+      # ── Step 4: 記事ごとの静的HTML（OGP付き）を articles/ に生成 ─────────
+      - name: Pre-render articles with OGP
+        run: python src/build_articles.py
+
+      # ── Step 5: articles.json / ranking.json / articles/ をコミット ──────
       - name: Commit and push data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ articles/
           git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
           git push
 
