@@ -60,13 +60,27 @@ jobs:
         run: python src/build_articles.py
 
       # ── Step 5: articles.json / ranking.json / articles/ をコミット ──────
+      # 同時刻に複数ワークフローが走る or 手動コミットが間に入った場合、
+      # 単純な push は "rejected (fetch first)" で失敗する。
+      # pull --rebase + リトライで競合に耐える実装にする。
       - name: Commit and push data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ articles/
-          git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
-          git push
+          if git diff --staged --quiet; then
+            echo "no changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: update articles.json [skip ci]"
+          # 最大5回 rebase + push をリトライ
+          for i in 1 2 3 4 5; do
+            git pull --rebase --autostash origin main && git push && exit 0
+            echo "push attempt $i failed, retrying..."
+            sleep 3
+          done
+          echo "push failed after 5 attempts" >&2
+          exit 1
 
       # ── Step 5: Instagram に新着記事をカルーセル投稿 ────────────────────
       - name: Post new articles to Instagram
