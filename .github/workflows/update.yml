@@ -9,6 +9,17 @@ on:
     # JST 21:41 = UTC 12:41
     - cron: "41 12 * * *"
   workflow_dispatch:
+    inputs:
+      skip_rss:
+        description: "RSS取得＋Claude翻訳をスキップ（Notion手動編集の即反映用）"
+        type: boolean
+        default: false
+
+# workflow_dispatch と cron の重なりによる push 競合を予防する。
+# cancel-in-progress: false で進行中ジョブを中断せず、次をキュー待ちにする。
+concurrency:
+  group: update-main
+  cancel-in-progress: false
 
 permissions:
   contents: write   # articles.json のコミット・プッシュに必要
@@ -35,7 +46,10 @@ jobs:
         run: pip install -r requirements.txt
 
       # ── Step 1: Notion に新着記事を翻訳・保存 ──────────────────────────
+      # workflow_dispatch で skip_rss=true が指定されたときはスキップ。
+      # Notion上の手動編集を即反映したいユースケース向け。
       - name: Fetch, translate & save to Notion
+        if: github.event.inputs.skip_rss != 'true'
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
           NOTION_API_KEY:     ${{ secrets.NOTION_API_KEY }}
