@@ -1,0 +1,68 @@
+name: THE WATCHER — Weekly Summary
+
+# 毎週日曜 20:45 JST (UTC 11:45) に起動。
+# update.yml と同じ concurrency group に入れて直列化するため、
+# 万一 update.yml の cron (JST 21:41) が先に動いていても自動で順番待ちになる。
+on:
+  schedule:
+    - cron: "45 11 * * 0"
+  workflow_dispatch:
+
+# update.yml と同じ group で排他制御。ranking.json / articles.json の
+# 同時更新による race を防ぎ、push 競合も未然防止する。
+concurrency:
+  group: update-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write  # articles.json / articles/ のコミット・プッシュに必要
+
+jobs:
+  weekly-summary:
+    name: Generate weekly digest & refresh feed
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      # ── Step 1: 集計 → Claudeでイントロ生成 → Notion に保存 ──────────────
+      - name: Generate weekly summary → Notion
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_API_KEY:     ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python src/build_weekly_summary.py
+
+      # ── Step 2: 生成したまとめ記事を articles.json に即反映 ───────────────
+      # 差分ビルドのため、新規 Notion レコード1件のみ取り込まれる想定。
+      - name: Export updated articles to JSON
+        env:
+          NOTION_API_KEY:     ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python export_notion.py
+
+      # ── Step 3: まとめ記事の OGP 共有ページも差分生成 ─────────────────────
+      - name: Build OGP share pages (differential)
+        run: python src/build_share_pages.py
+
+      # ── Step 4: コミット & push ───────────────────────────────────────────
+      - name: Commit and push
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ articles/
+          git diff --staged --quiet || git commit -m "chore: weekly summary [skip ci]"
+          git push
