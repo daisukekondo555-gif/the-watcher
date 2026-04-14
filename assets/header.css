@@ -1,0 +1,96 @@
+/* THE WATCHER — shared header styles
+ * Used by: index, category, search, tag, contact, privacy, article
+ * article.html does not render menu-btn / nav / mobile-nav but loading
+ * their CSS is harmless and keeps one source of truth. */
+
+/* HEADER */
+header {
+  background: #0f1f38;
+  padding: 0;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  border-bottom: 2px solid #c8a830;
+}
+.logo-wrap {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 10px 24px;
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+.logo-en {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 24px;
+  color: #ffffff;
+  line-height: 1;
+  display: flex;
+  align-items: center;
+  gap: 1px;
+}
+.logo-en span { letter-spacing: 8px; margin-right: -8px; }
+.logo-mark { height: 2em; width: auto; display: block; }
+.logo-ja {
+  font-family: 'Noto Serif JP', serif;
+  font-size: 9px;
+  color: #c8a830;
+  letter-spacing: 4px;
+  margin-top: 3px;
+  font-weight: 400;
+}
+
+/* HAMBURGER BUTTON (mobile only) */
+.menu-btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 5px;
+  cursor: pointer;
+  padding: 0 20px;
+}
+.menu-btn span {
+  display: block;
+  width: 22px;
+  height: 1px;
+  background: rgba(255, 255, 255, 0.5);
+}
+
+/* DESKTOP NAV */
+nav { display: none; }
+@media (min-width: 768px) {
+  .menu-btn { display: none; }
+  nav { display: flex; align-items: stretch; }
+  nav a {
+    font-size: 10px;
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    padding: 0 18px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 3px;
+  }
+  nav a:hover,
+  nav a.active { background: rgba(255, 255, 255, 0.05); color: #fff; }
+  nav a .nav-ja { font-family: 'Noto Serif JP', serif; font-size: 12px; color: #ffffff; font-weight: 700; }
+  nav a .nav-en { font-family: 'Bebas Neue', sans-serif; font-size: 9px; letter-spacing: 2px; color: #c8a830; }
+}
+
+/* MOBILE NAV DRAWER */
+.mobile-nav { display: none; background: #0a1628; border-bottom: 1px solid #1c3060; }
+.mobile-nav.open { display: flex; flex-wrap: wrap; padding: 12px 20px; gap: 10px; }
+.mobile-nav a {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  text-decoration: none;
+  padding: 6px 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  font-family: 'Noto Serif JP', serif;
+  font-weight: 700;
+}

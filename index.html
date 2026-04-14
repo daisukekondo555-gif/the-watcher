@@ -17,33 +17,10 @@
 <title>THE WATCHER — ヒップホップ・ジャーナル</title>
 <meta name="description" content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/header.css">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
-
-  /* HEADER */
-  header { background: #0f1f38; padding: 0; display: flex; align-items: stretch; justify-content: space-between; position: sticky; top: 0; z-index: 100; border-bottom: 2px solid #c8a830; }
-  .logo-wrap { display: flex; flex-direction: column; justify-content: center; padding: 10px 24px; }
-  .logo-en { font-family: 'Bebas Neue', sans-serif; font-size: 24px; color: #ffffff; line-height: 1; display: flex; align-items: center; gap: 1px; }
-  .logo-en span { letter-spacing: 8px; margin-right: -8px; }
-  .logo-mark { height: 2em; width: auto; display: block; }
-  .logo-ja { font-family: 'Noto Serif JP', serif; font-size: 9px; color: #c8a830; letter-spacing: 4px; margin-top: 3px; font-weight: 400; }
-  .menu-btn { display: flex; flex-direction: column; justify-content: center; gap: 5px; cursor: pointer; padding: 0 20px; }
-  .menu-btn span { display: block; width: 22px; height: 1px; background: rgba(255,255,255,0.5); }
-  nav { display: none; }
-  @media (min-width: 768px) {
-    .menu-btn { display: none; }
-    nav { display: flex; align-items: stretch; }
-    nav a { font-size: 10px; color: rgba(255,255,255,0.6); text-decoration: none; padding: 0 18px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 3px; }
-    nav a:hover, nav a.active { background: rgba(255,255,255,0.05); color: #fff; }
-    nav a .nav-ja { font-family: 'Noto Serif JP', serif; font-size: 12px; color: #ffffff; font-weight: 700; }
-    nav a .nav-en { font-family: 'Bebas Neue', sans-serif; font-size: 9px; letter-spacing: 2px; color: #c8a830; }
-  }
-
-  /* MOBILE NAV */
-  .mobile-nav { display: none; background: #0a1628; border-bottom: 1px solid #1c3060; }
-  .mobile-nav.open { display: flex; flex-wrap: wrap; padding: 12px 20px; gap: 10px; }
-  .mobile-nav a { font-size: 12px; color: rgba(255,255,255,0.7); text-decoration: none; padding: 6px 14px; border: 1px solid rgba(255,255,255,0.1); font-family: 'Noto Serif JP', serif; font-weight: 700; }
 
   /* SEARCH */
   .search-bar { background: #ffffff; border-bottom: 1px solid #e0e0e0; padding: 10px 16px; display: flex; gap: 8px; align-items: center; box-sizing: border-box; width: 100%; }
@@ -232,10 +209,10 @@
 
 <!-- HEADER -->
 <header>
-  <div class="logo-wrap">
+  <a class="logo-wrap" href="./">
     <div class="logo-en"><span>THE</span><img class="logo-mark" src="assets/logo-mark.png" alt=""><span>WATCHER</span></div>
     <div class="logo-ja">ザ・ウォッチャー</div>
-  </div>
+  </a>
   <div class="menu-btn" onclick="toggleNav()"><span></span><span></span><span></span></div>
   <nav>
     <a href="./"><span class="nav-ja">すべて</span><span class="nav-en">ALL</span></a>
