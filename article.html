@@ -246,7 +246,7 @@
   }
 
   function openRelated(id) {
-    location.href = 'articles/' + encodeURIComponent(id) + '.html';
+    location.href = '/articles/' + encodeURIComponent(id) + '.html';
   }
 
   // ISO日付 → "2026年4月12日 12:19" (JST = UTC+9)
@@ -350,7 +350,7 @@
     }
 
     try {
-      var res = await fetch('./data/articles.json');
+      var res = await fetch('/data/articles.json');
       if (!res.ok) throw new Error('HTTP ' + res.status);
       var data = await res.json();
       var articles = data.articles || [];
@@ -480,14 +480,14 @@
     if (!prev && !next) return '';
 
     var prevHtml = prev
-      ? '<a class="article-nav-link nav-prev" href="articles/' + encodeURIComponent(prev.id) + '.html">' +
+      ? '<a class="article-nav-link nav-prev" href="/articles/' + encodeURIComponent(prev.id) + '.html">' +
           '<div class="article-nav-dir">&#8592; 前の記事</div>' +
           '<div class="article-nav-title">' + esc(prev.title) + '</div>' +
         '</a>'
       : '<div class="article-nav-spacer"></div>';
 
     var nextHtml = next
-      ? '<a class="article-nav-link nav-next" href="articles/' + encodeURIComponent(next.id) + '.html">' +
+      ? '<a class="article-nav-link nav-next" href="/articles/' + encodeURIComponent(next.id) + '.html">' +
           '<div class="article-nav-dir">次の記事 &#8594;</div>' +
           '<div class="article-nav-title">' + esc(next.title) + '</div>' +
         '</a>'

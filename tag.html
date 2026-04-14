@@ -251,7 +251,7 @@
   function newsItemHTML(a) {
     var img = imgOrPH(a.image_url, 'width:90px;height:60px;object-fit:cover;flex-shrink:0;', 'news-thumb-placeholder');
     var excerpt = (a.summary || '').slice(0, 80).replace(/\n/g, ' ');
-    return '<div class="news-item" onclick="location.href=\'articles/\' + encodeURIComponent(\'' + esc(a.id) + '\') + \'.html\'">' +
+    return '<div class="news-item" onclick="location.href=\'/articles/\' + encodeURIComponent(\'' + esc(a.id) + '\') + \'.html\'">' +
       img +
       '<div class="news-content">' +
         '<div class="news-cat">' + esc(a.category) + '</div>' +
