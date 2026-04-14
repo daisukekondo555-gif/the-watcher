@@ -193,6 +193,13 @@
   /* HIDDEN NEWS */
   .news-hidden { display: none !important; }
   .news-hidden.visible { display: block !important; }
+  /* LATEST NEWS 初期表示数: mobile=10件(2×5), PC=9件(3×3).
+     10枚目だけにこのクラスを付け、PCメディアクエリで非表示。
+     「もっと見る」で .visible が付いたら PC でも表示する。 */
+  @media (min-width: 768px) {
+    .news-mobile-extra { display: none; }
+    .news-mobile-extra.visible { display: block; }
+  }
 
   /* SECTION PADDING */
   #trendingTags { padding: 18px 24px 26px; }
@@ -512,10 +519,20 @@
     '</div>';
   }
 
-  // LATEST NEWS（最新9件を初期表示 = 3列×3行、残りはもっと見るで）
+  // LATEST NEWS 初期表示:
+  //   PC(3列):  9件 = 3×3 で完結
+  //   mobile(2列): 10件 = 2×5 で完結
+  // 10枚目(i===9) は news-mobile-extra でPCだけCSS非表示、
+  // 11件目以降(i>=10) は news-hidden で両環境非表示 →「もっと見る」で展開。
   function renderLatestNews(articles) {
     document.getElementById('newsGrid').innerHTML =
-      articles.map(function(a, i) { return newsItemHTML(a, i >= 9); }).join('');
+      articles.map(function(a, i) {
+        var html = newsItemHTML(a, i >= 10);
+        if (i === 9) {
+          html = html.replace('class="news-card', 'class="news-card news-mobile-extra');
+        }
+        return html;
+      }).join('');
     document.getElementById('moreBtnWrap').style.display = articles.length > 9 ? '' : 'none';
   }
 
@@ -683,8 +700,10 @@
   }
 
   // LATEST NEWS もっと見る
+  // news-hidden (11件目以降) と news-mobile-extra (10件目、PC限定非表示) の
+  // 両方を .visible で表示させる
   function showMore() {
-    document.querySelectorAll('#newsGrid .news-hidden').forEach(function(el) {
+    document.querySelectorAll('#newsGrid .news-hidden, #newsGrid .news-mobile-extra').forEach(function(el) {
       el.classList.add('visible');
     });
     document.getElementById('moreBtnWrap').style.display = 'none';
