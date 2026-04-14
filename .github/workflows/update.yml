@@ -10,6 +10,15 @@ on:
     - cron: "41 12 * * *"
   workflow_dispatch:
 
+# 同時実行を抑止して push 競合を根絶する。
+# cron 3本 + 手動実行 + 17分超の実行時間で以前は並行実行が発生し、
+# 後勝ちで push が rejected になっていた。
+# cancel-in-progress: false = 実行中のジョブは最後まで走らせ、
+#   新しいトリガは同グループに1件だけキューされる（ニュース取得を中断しない）。
+concurrency:
+  group: update-main
+  cancel-in-progress: false
+
 permissions:
   contents: write   # articles.json のコミット・プッシュに必要
 
@@ -60,11 +69,12 @@ jobs:
         run: python src/build_articles.py
 
       # ── Step 5: articles.json / ranking.json / articles/ をコミット ──────
-      # 同時刻に複数ワークフローが走る or 手動コミットが間に入った場合、
-      # 単純な push は "rejected (fetch first)" で失敗する。
-      # pull --rebase + リトライで競合に耐える実装にする。
+      # ワークフロー全体が concurrency でシリアライズされているため、通常は
+      # pull/rebase は不要で単純 push で成功する。ただし手動コミットが
+      # 直前に入るレアケースに備えて 1回だけ rebase→push をリトライする。
       - name: Commit and push data files
         run: |
+          set -e
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add data/ articles/
@@ -73,13 +83,18 @@ jobs:
             exit 0
           fi
           git commit -m "chore: update articles.json [skip ci]"
-          # 最大5回 rebase + push をリトライ
-          for i in 1 2 3 4 5; do
-            git pull --rebase --autostash origin main && git push && exit 0
-            echo "push attempt $i failed, retrying..."
-            sleep 3
+          for i in 1 2 3; do
+            if git push; then
+              exit 0
+            fi
+            echo "push attempt $i rejected, rebasing onto latest main..."
+            # 前のループで中断した rebase があれば必ず片付ける（無ければ no-op）
+            git rebase --abort 2>/dev/null || true
+            git fetch origin main
+            git rebase origin/main
+            sleep 2
           done
-          echo "push failed after 5 attempts" >&2
+          echo "push failed after 3 attempts" >&2
           exit 1
 
       # ── Step 5: Instagram に新着記事をカルーセル投稿 ────────────────────
