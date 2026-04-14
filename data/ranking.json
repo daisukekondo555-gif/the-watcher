@@ -5,6 +5,10 @@
       "pageviews": 15
     },
     {
+      "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
+      "pageviews": 13
+    },
+    {
       "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
       "pageviews": 9
     },
@@ -13,16 +17,16 @@
       "pageviews": 5
     },
     {
-      "path": "/article.html?id=33f913ba47ba81e0b106fe468fd86990",
-      "pageviews": 4
-    },
-    {
-      "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
-      "pageviews": 4
+      "path": "/article.html?id=341913ba47ba8174bc17d72e81c2d4b8",
+      "pageviews": 5
     }
   ],
   "by_category": {
     "ニュース": [
+      {
+        "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
+        "pageviews": 13
+      },
       {
         "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
         "pageviews": 9
@@ -30,10 +34,6 @@
       {
         "path": "/article.html?id=340913ba47ba81bf878adcc04aee20a8",
         "pageviews": 5
-      },
-      {
-        "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
-        "pageviews": 4
       },
       {
         "path": "/article.html?id=340913ba47ba81d5aea4f89a65ebb00d",
@@ -62,7 +62,7 @@
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=33f913ba47ba813e8183ddec49fc35f8",
+        "path": "/article.html?id=33f913ba47ba812ba0c2cf7829f8678b",
         "pageviews": 1
       }
     ],
@@ -94,11 +94,11 @@
         "pageviews": 15
       },
       {
-        "path": "/article.html?id=33f913ba47ba81e0b106fe468fd86990",
-        "pageviews": 4
+        "path": "/article.html?id=341913ba47ba8174bc17d72e81c2d4b8",
+        "pageviews": 5
       },
       {
-        "path": "/article.html?id=341913ba47ba8174bc17d72e81c2d4b8",
+        "path": "/article.html?id=33f913ba47ba81e0b106fe468fd86990",
         "pageviews": 4
       },
       {
@@ -123,5 +123,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-14T07:00:37"
+  "updated_at": "2026-04-14T11:04:54"
 }
