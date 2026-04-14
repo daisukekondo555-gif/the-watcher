@@ -69,16 +69,22 @@ jobs:
           GA_SERVICE_ACCOUNT_JSON: ${{ secrets.GA_SERVICE_ACCOUNT_JSON }}
         run: python src/ga4_ranking.py
 
-      # ── Step 4: articles.json / ranking.json をリポジトリにコミット ───────
+      # ── Step 4: SNS シェア用 OGP 静的ページを差分生成 ────────────────────
+      # content_hash で変更分のみ再生成、削除された記事は articles/ から除去。
+      # 通常運用では 0〜数件のみ触るため push 競合リスクは最小。
+      - name: Build OGP share pages (differential)
+        run: python src/build_share_pages.py
+
+      # ── Step 5: articles.json / ranking.json / articles/ をリポジトリにコミット ──
       - name: Commit and push data files
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/
+          git add data/ articles/
           git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
           git push
 
-      # ── Step 5: Instagram に新着記事をカルーセル投稿 ────────────────────
+      # ── Step 6: Instagram に新着記事をカルーセル投稿 ────────────────────
       - name: Post new articles to Instagram
         env:
           INSTAGRAM_ACCESS_TOKEN:        ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}

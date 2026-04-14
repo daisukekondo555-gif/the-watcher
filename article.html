@@ -287,9 +287,13 @@
   }
 
   // シェアボタン HTML を生成
-  function buildShareButtons(title, pageUrl) {
-    var xHref   = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' — THE WATCHER') + '&url=' + encodeURIComponent(pageUrl);
-    var lineHref = 'https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(pageUrl);
+  // SNS共有URLは articles/<id>.html (OGP埋め込み済の静的ページ) を指す。
+  // クローラはそこから記事固有の OGP を読み取り、一般ユーザーは meta refresh で
+  // 即座に article.html?id=X に転送される。一般ユーザーのアドレスバー体験は変わらない。
+  function buildShareButtons(title, articleId) {
+    var shareUrl = location.origin + '/articles/' + encodeURIComponent(articleId) + '.html';
+    var xHref    = 'https://twitter.com/intent/tweet?text=' + encodeURIComponent(title + ' — THE WATCHER') + '&url=' + encodeURIComponent(shareUrl);
+    var lineHref = 'https://social-plugins.line.me/lineit/share?url=' + encodeURIComponent(shareUrl);
     return '<div class="share-row">' +
       '<a class="share-btn share-btn-x" href="' + esc(xHref) + '" target="_blank" rel="noopener">' +
         '<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.851L2.25 2.25h6.861l4.258 5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>' +
@@ -407,7 +411,7 @@
             sourceNamesHtml +
           '</div>' +
           '<h1 class="article-title">' + esc(article.title) + '</h1>' +
-          buildShareButtons(article.title, pageUrl) +
+          buildShareButtons(article.title, article.id) +
           '<div class="article-divider"></div>' +
           bodyHtml +
           hashtagsHtml +
