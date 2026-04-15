@@ -40,8 +40,8 @@
         "pageviews": 8
       },
       {
-        "path": "/article.html?id=340913ba47ba81bf878adcc04aee20a8",
-        "pageviews": 5
+        "path": "/article.html?id=342913ba47ba813ca8bbf726828891de",
+        "pageviews": 6
       }
     ],
     "リリース": [
@@ -114,6 +114,10 @@
       {
         "path": "/article.html?id=33f913ba47ba813bbbb7d130546a142d",
         "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=343913ba47ba81cc8c90e16c9c728b09",
+        "pageviews": 1
       }
     ],
     "ビジネス": [
@@ -131,5 +135,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-15T03:40:05"
+  "updated_at": "2026-04-15T06:45:48"
 }
