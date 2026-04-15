@@ -13,11 +13,11 @@
       "pageviews": 9
     },
     {
-      "path": "/article.html?id=340913ba47ba81bf878adcc04aee20a8",
-      "pageviews": 5
+      "path": "/article.html?id=342913ba47ba8108b2bce3b8264ff146",
+      "pageviews": 8
     },
     {
-      "path": "/article.html?id=341913ba47ba8174bc17d72e81c2d4b8",
+      "path": "/article.html?id=340913ba47ba81bf878adcc04aee20a8",
       "pageviews": 5
     }
   ],
@@ -32,16 +32,16 @@
         "pageviews": 9
       },
       {
+        "path": "/article.html?id=342913ba47ba8108b2bce3b8264ff146",
+        "pageviews": 8
+      },
+      {
         "path": "/article.html?id=340913ba47ba81bf878adcc04aee20a8",
         "pageviews": 5
       },
       {
         "path": "/article.html?id=342913ba47ba813ca8bbf726828891de",
         "pageviews": 5
-      },
-      {
-        "path": "/article.html?id=340913ba47ba81d5aea4f89a65ebb00d",
-        "pageviews": 4
       }
     ],
     "リリース": [
@@ -103,7 +103,7 @@
       },
       {
         "path": "/article.html?id=342913ba47ba8185be45f3ebceaf83b0",
-        "pageviews": 3
+        "pageviews": 4
       },
       {
         "path": "/article.html?id=342913ba47ba81faa3b3dd76716d5283",
@@ -124,8 +124,12 @@
       {
         "path": "/article.html?id=33f913ba47ba8199865cc478141edd11",
         "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=342913ba47ba8176b846fbe15810ac89",
+        "pageviews": 1
       }
     ]
   },
-  "updated_at": "2026-04-14T23:39:30"
+  "updated_at": "2026-04-15T00:52:12"
 }
