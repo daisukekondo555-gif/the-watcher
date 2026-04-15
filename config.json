@@ -32,6 +32,7 @@
     { "name": "Vibe",        "rss_url": "https://www.vibe.com/feed/" },
     { "name": "Billboard",   "rss_url": "https://www.billboard.com/t/hip-hop/feed/" },
     { "name": "Ambrosia for Heads", "rss_url": "https://ambrosiaforheads.com/feed/" },
-    { "name": "Hip Hop Wired", "rss_url": "https://hiphopwired.com/feed/" }
+    { "name": "Hip Hop Wired", "rss_url": "https://hiphopwired.com/feed/" },
+    { "name": "HotNewHipHop", "rss_url": "https://www.hotnewhiphop.com/feed" }
   ]
 }
