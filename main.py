@@ -62,7 +62,7 @@ def main() -> None:
     logger.info("=" * 50)
 
     # ── Step 1: Fetch RSS ───────────────────────────────────────────────────
-    logger.info("STEP 1 / 4 - Fetching RSS feeds")
+    logger.info("STEP 1 / 5 - Fetching RSS feeds")
     articles = fetch_all(
         sources=config["sources"],
         max_articles=config.get("max_articles_per_source", 20),
@@ -73,8 +73,39 @@ def main() -> None:
         logger.warning("No articles fetched. Nothing to do.")
         return
 
-    # ── Step 2: Deduplicate ─────────────────────────────────────────────────
-    logger.info("STEP 2 / 4 - Deduplication")
+    # ── Step 2: Filter already-known URLs (コスト最適化) ─────────────────
+    # data/articles.json に既に記録されている URL は翻訳・保存済み。
+    # ここで事前除外しておかないと process_articles で Claude を
+    # 呼んでしまい、毎 run $2〜3 の重複課金が発生する。
+    # (既存の save_article にも _article_exists チェックはあるが、それは
+    #  翻訳の "後" なので Claude 呼び出しを止められない)
+    logger.info("STEP 2 / 5 - Filtering already-known URLs")
+    known_urls: set[str] = set()
+    try:
+        with open("data/articles.json", encoding="utf-8") as f:
+            for a in json.load(f).get("articles", []):
+                for u in (a.get("source_urls") or "").split(","):
+                    u = u.strip()
+                    if u:
+                        known_urls.add(u)
+    except FileNotFoundError:
+        logger.info("  data/articles.json 不在 → 全件を新規として扱う")
+    except Exception as e:
+        logger.warning(f"  data/articles.json 読み込み失敗 (全件処理続行): {e}")
+
+    before = len(articles)
+    articles = [a for a in articles if a.get("url") not in known_urls]
+    logger.info(
+        f"  既知URL除外: {before} → {len(articles)} 件 "
+        f"(除外 {before - len(articles)} 件, 既知URL DB {len(known_urls)} 件)"
+    )
+
+    if not articles:
+        logger.info("新規記事なし。翻訳・保存はスキップ。")
+        return
+
+    # ── Step 3: Deduplicate ─────────────────────────────────────────────────
+    logger.info("STEP 3 / 5 - Deduplication")
     articles = deduplicate(
         articles,
         threshold=config.get("duplicate_threshold", 0.8),
@@ -84,12 +115,12 @@ def main() -> None:
         logger.warning("All articles were duplicates. Nothing new to save.")
         return
 
-    # ── Step 3: Translate & Categorise ──────────────────────────────────────
-    logger.info("STEP 3 / 4 - Translating & categorising with Claude")
+    # ── Step 4: Translate & Categorise ──────────────────────────────────────
+    logger.info("STEP 4 / 5 - Translating & categorising with Claude")
     articles = process_articles(articles, anthropic_key)
 
-    # ── Step 4: Save to Notion ───────────────────────────────────────────────
-    logger.info("STEP 4 / 4 - Saving to Notion")
+    # ── Step 5: Save to Notion ───────────────────────────────────────────────
+    logger.info("STEP 5 / 5 - Saving to Notion")
     saved = save_all(articles, notion_key, notion_db)
 
     logger.info("=" * 50)

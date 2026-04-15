@@ -3,7 +3,7 @@
   "site_url": "https://thewatcherjp.com",
   "genre": "hiphop",
   "color": "#FF6B35",
-  "max_age_hours": 30,
+  "max_age_hours": 12,
   "max_articles_per_source": 20,
   "duplicate_threshold": 0.8,
   "categories": [
