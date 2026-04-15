@@ -56,10 +56,23 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
+    # Cloudflare 等の WAF は Referer 欠落で bot 判定を強める傾向がある。
+    # 検索流入を模した汎用 Referer を付けるとデータセンターIPでも通過率が上がる。
+    "Referer": "https://www.google.com/",
 }
 FETCH_TIMEOUT = 20
 MAX_RETRIES = 2
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
+
+# WAF / CDN 系の瞬間ブロックで返りやすく、リトライする価値のあるステータス。
+# 404/410 (不在) や 401 (認証) はリトライしても意味がないので対象外。
+#   403  Forbidden        — Cloudflare / WAF の代表的ブロックコード
+#   429  Too Many Requests — レート制限
+#   503  Service Unavailable — 一時的不可
+#   520  Unknown Error (Cloudflare)
+#   522  Connection Timed Out (Cloudflare)
+#   524  A Timeout Occurred (Cloudflare)
+RETRYABLE_HTTP_CODES = frozenset({403, 429, 503, 520, 522, 524})
 
 
 def _is_image_url(url: str) -> bool:
@@ -68,7 +81,12 @@ def _is_image_url(url: str) -> bool:
 
 
 def _get_with_retry(url: str, retries: int = MAX_RETRIES) -> Optional[requests.Response]:
-    """GET with retry on timeout/connection errors."""
+    """GET with retry on timeout / connection errors and WAF-style HTTP errors.
+
+    HTTPError 分岐の挙動:
+      - 403/429/503/520/522/524 (WAF/CDN 系の瞬間ブロック) → 漸増バックオフでリトライ
+      - それ以外 (404/410/401 等) → リトライ無意味なので即 break
+    """
     for attempt in range(retries + 1):
         try:
             resp = requests.get(url, headers=HEADERS, timeout=FETCH_TIMEOUT)
@@ -86,6 +104,24 @@ def _get_with_retry(url: str, retries: int = MAX_RETRIES) -> Optional[requests.R
                 time.sleep(1)
             else:
                 logger.debug(f"Connection error after {retries + 1} attempts: {url}")
+        except requests.exceptions.HTTPError as e:
+            code = e.response.status_code if e.response is not None else 0
+            if code in RETRYABLE_HTTP_CODES and attempt < retries:
+                # 3s → 6s の漸増バックオフ。WAF のレート窓を少し跨がせる。
+                wait = 3 * (attempt + 1)
+                logger.debug(
+                    f"HTTP {code} ({attempt + 1}/{retries + 1}) for {url}, "
+                    f"retrying after {wait}s…"
+                )
+                time.sleep(wait)
+            else:
+                reason = (
+                    "attempts exhausted"
+                    if code in RETRYABLE_HTTP_CODES
+                    else "not retryable"
+                )
+                logger.debug(f"HTTP {code} for {url} ({reason})")
+                break
         except Exception as e:
             logger.debug(f"Request failed for {url}: {e}")
             break
