@@ -39,8 +39,10 @@ SYNC_STATE_PATH = Path("data/sync_state.json")
 
 # Notion サーバと GH Actions ランナーの時計ずれ対策マージン
 SYNC_MARGIN = timedelta(minutes=5)
-# Notion から削除されたレコードを回収するリコンサイル頻度
-RECONCILE_INTERVAL = timedelta(hours=24)
+# Notion から削除/アーカイブ/ステータス変更された記事を articles.json から
+# 即時に消すため、毎回フルID リコンサイルを実行する (timedelta(0))。
+# コスト: 公開ID 数百件のページネーション query 数回 = 数秒程度。
+RECONCILE_INTERVAL = timedelta(0)
 
 # content_hash に含めるフィールド
 # → フロントエンド表示に影響するフィールドのみ。id は対象外（変わらない）、

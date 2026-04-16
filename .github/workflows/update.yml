@@ -1,13 +1,9 @@
 name: THE WATCHER — Auto Update
 
 on:
-  schedule:
-    # JST 9:17 = UTC 0:17
-    - cron: "17 0 * * *"
-    # JST 15:23 = UTC 6:23
-    - cron: "23 6 * * *"
-    # JST 21:41 = UTC 12:41
-    - cron: "41 12 * * *"
+  # GitHub Actions の schedule は外部 cron-job.org に一本化したため削除。
+  # cron-job.org が POST /actions/workflows/update.yml/dispatches を 1日3回叩く
+  # (JST 7:30 / 11:45 / 20:45)。GH 側 schedule の遅延・skip 不確実性から脱却。
   workflow_dispatch:
     inputs:
       skip_rss:
@@ -15,8 +11,9 @@ on:
         type: boolean
         default: false
 
-# workflow_dispatch と cron の重なりによる push 競合を予防する。
-# cancel-in-progress: false で進行中ジョブを中断せず、次をキュー待ちにする。
+# 手動 dispatch / cron-job.org からの workflow_dispatch / weekly_summary が
+# 重なった場合の push 競合を防ぐ。cancel-in-progress: false で進行中は完走させ、
+# 次をキュー待ちにする。
 concurrency:
   group: update-main
   cancel-in-progress: false

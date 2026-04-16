@@ -17,7 +17,7 @@ import os
 import sys
 
 from src.rss_fetcher import fetch_all
-from src.duplicate_checker import deduplicate
+from src.duplicate_checker import deduplicate, filter_against_history
 from src.translator import process_articles
 from src.notion_writer import save_all
 
@@ -79,15 +79,17 @@ def main() -> None:
     # 呼んでしまい、毎 run $2〜3 の重複課金が発生する。
     # (既存の save_article にも _article_exists チェックはあるが、それは
     #  翻訳の "後" なので Claude 呼び出しを止められない)
-    logger.info("STEP 2 / 5 - Filtering already-known URLs")
+    logger.info("STEP 2 / 6 - Filtering already-known URLs")
     known_urls: set[str] = set()
+    past_articles: list[dict] = []
     try:
         with open("data/articles.json", encoding="utf-8") as f:
-            for a in json.load(f).get("articles", []):
-                for u in (a.get("source_urls") or "").split(","):
-                    u = u.strip()
-                    if u:
-                        known_urls.add(u)
+            past_articles = json.load(f).get("articles", [])
+        for a in past_articles:
+            for u in (a.get("source_urls") or "").split(","):
+                u = u.strip()
+                if u:
+                    known_urls.add(u)
     except FileNotFoundError:
         logger.info("  data/articles.json 不在 → 全件を新規として扱う")
     except Exception as e:
@@ -104,8 +106,9 @@ def main() -> None:
         logger.info("新規記事なし。翻訳・保存はスキップ。")
         return
 
-    # ── Step 3: Deduplicate ─────────────────────────────────────────────────
-    logger.info("STEP 3 / 5 - Deduplication")
+    # ── Step 3: Deduplicate within current run ──────────────────────────────
+    # 同一 cron run 内で複数サイトが同一話題を報じている場合の重複統合
+    logger.info("STEP 3 / 6 - Deduplication (within-run)")
     articles = deduplicate(
         articles,
         threshold=config.get("duplicate_threshold", 0.8),
@@ -115,12 +118,23 @@ def main() -> None:
         logger.warning("All articles were duplicates. Nothing new to save.")
         return
 
-    # ── Step 4: Translate & Categorise ──────────────────────────────────────
-    logger.info("STEP 4 / 5 - Translating & categorising with Claude")
+    # ── Step 4: Filter cross-run duplicates against history ─────────────────
+    # 過去 cron run で既に保存された記事と同一出来事を報じる新規記事を
+    # 翻訳前に除外する (Claude コストとサイト上の記事重複を同時に防止)。
+    # 言語混在のため英語固有名詞トークンの集合一致で判定。
+    logger.info("STEP 4 / 6 - Filtering cross-run duplicates against history")
+    articles = filter_against_history(articles, past_articles)
+
+    if not articles:
+        logger.info("全記事が履歴と重複。翻訳・保存はスキップ。")
+        return
+
+    # ── Step 5: Translate & Categorise ──────────────────────────────────────
+    logger.info("STEP 5 / 6 - Translating & categorising with Claude")
     articles = process_articles(articles, anthropic_key)
 
-    # ── Step 5: Save to Notion ───────────────────────────────────────────────
-    logger.info("STEP 5 / 5 - Saving to Notion")
+    # ── Step 6: Save to Notion ───────────────────────────────────────────────
+    logger.info("STEP 6 / 6 - Saving to Notion")
     saved = save_all(articles, notion_key, notion_db)
 
     logger.info("=" * 50)
