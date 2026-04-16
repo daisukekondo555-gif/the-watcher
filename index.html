@@ -267,7 +267,7 @@
 <div class="sec-label"><span>LATEST NEWS</span></div>
 <div class="news-grid" id="latestGrid"></div>
 <div class="more-btn-wrap" id="latestMore" style="display:none;">
-  <button class="more-btn" id="latestMoreBtn">MORE NEWS</button>
+  <button class="more-btn" id="latestMoreBtn">MORE LATEST NEWS</button>
 </div>
 
 <!-- AD SLOT -->
@@ -556,10 +556,10 @@
   // ── カテゴリ別セクション動的生成 ──────────────────────────────────
   var CATEGORY_SECTIONS = [
     { key: 'リリース',   label: 'RELEASE',  btnLabel: 'MORE RELEASES' },
-    { key: 'ビーフ',     label: 'BEEF',     btnLabel: 'MORE' },
-    { key: 'ライブ',     label: 'LIVE',     btnLabel: 'MORE' },
-    { key: 'チャート',   label: 'CHART',    btnLabel: 'MORE' },
-    { key: 'ビジネス',   label: 'BUSINESS', btnLabel: 'MORE' },
+    { key: 'ビーフ',     label: 'BEEF',     btnLabel: 'MORE BEEF' },
+    { key: 'ライブ',     label: 'LIVE',     btnLabel: 'MORE LIVE' },
+    { key: 'ビジネス',   label: 'BUSINESS', btnLabel: 'MORE BUSINESS' },
+    { key: 'チャート',   label: 'CHART',    btnLabel: 'MORE CHART' },
   ];
 
   function renderCategorySections(allArticles) {
@@ -729,7 +729,7 @@
 
       // LATEST NEWS: 全記事を新着順、遅延レンダリング
       createPaginator('latestGrid', 'latestMore', allArticles, {
-        pcBatch: 9, mobileBatch: 6, btnLabel: 'MORE NEWS'
+        pcBatch: 9, mobileBatch: 6, btnLabel: 'MORE LATEST NEWS'
       });
 
       // カテゴリ別セクション: 動的生成 + 各 paginator 接続
