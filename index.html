@@ -39,20 +39,22 @@
   .hero-img-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #0f1f38 0%, #1c3060 100%); display: flex; align-items: center; justify-content: center; font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: rgba(255,255,255,0.08); letter-spacing: 6px; }
 
   /* BEST5 SLIDESHOW */
-  .best5-slideshow { position: relative; overflow: hidden; background: #fff; border-bottom: 2px solid #0f1f38; cursor: pointer; }
+  /* BEST5 スライドショーの CLS 対策:
+     .best5-slideshow に min-height を設定して JS 描画前に領域を確保。
+     .best5-img-wrap は aspect-ratio で幅に応じた高さを自動計算。
+     → 画像読み込み前後でコンテナサイズが変わらずレイアウトシフトが起きない。 */
+  .best5-slideshow { position: relative; overflow: hidden; background: #fff; border-bottom: 2px solid #0f1f38; cursor: pointer; min-height: 420px; }
   .best5-slide { width: 100%; opacity: 0; transition: opacity 0.55s ease; pointer-events: none; }
   .best5-slide.is-active { opacity: 1; pointer-events: auto; }
   .best5-slide:not(.is-active) { position: absolute; top: 0; left: 0; }
-  /* 固定高さコンテナ: 画像比率に関わらず統一した高さで表示 */
-  .best5-img-wrap { position: relative; width: 100%; height: 260px; overflow: hidden; }
-  /* object-position: center 20% で顔・人物が映りやすい上寄せクロップ */
+  .best5-img-wrap { position: relative; width: 100%; aspect-ratio: 16/9; overflow: hidden; background: linear-gradient(135deg, #0f1f38 0%, #1c3060 100%); }
   .best5-img-wrap img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; display: block; }
   .best5-dots { position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%); display: flex; gap: 9px; z-index: 5; pointer-events: none; }
   .best5-dot { width: 9px; height: 9px; border-radius: 50%; background: rgba(255,255,255,0.4); border: 1.5px solid rgba(255,255,255,0.85); cursor: pointer; transition: all 0.25s; padding: 0; pointer-events: auto; }
   .best5-dot.is-active { background: #ffffff; border-color: #ffffff; transform: scale(1.3); }
   .best5-dot:hover { background: rgba(255,255,255,0.75); }
   @media (min-width: 768px) {
-    .best5-img-wrap { height: 420px; }
+    .best5-slideshow { min-height: 580px; }
   }
 
   .hero-body { padding: 28px 24px 32px; background: #ffffff; }
