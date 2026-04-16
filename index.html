@@ -190,16 +190,10 @@
   .ad-inner { display: inline-flex; width: 100%; max-width: 728px; height: 90px; background: #f0f0f0; align-items: center; justify-content: center; margin: 0 auto; }
   .ad-inner span { font-size: 11px; color: #bbb; letter-spacing: 2px; }
 
-  /* HIDDEN NEWS */
-  .news-hidden { display: none !important; }
-  .news-hidden.visible { display: block !important; }
-  /* LATEST NEWS 初期表示数: mobile=10件(2×5), PC=9件(3×3).
-     10枚目だけにこのクラスを付け、PCメディアクエリで非表示。
-     「もっと見る」で .visible が付いたら PC でも表示する。 */
-  @media (min-width: 768px) {
-    .news-mobile-extra { display: none; }
-    .news-mobile-extra.visible { display: block; }
-  }
+  /* BACK TO TOP */
+  .back-to-top { position: fixed; bottom: 28px; right: 24px; width: 44px; height: 44px; background: #0f1f38; border: none; cursor: pointer; display: none; align-items: center; justify-content: center; z-index: 50; opacity: 0; transition: opacity 0.25s; }
+  .back-to-top.visible { display: flex; opacity: 1; }
+  .back-to-top:hover { opacity: 0.75; }
 
   /* SECTION PADDING */
   #trendingTags { padding: 18px 24px 26px; }
@@ -271,23 +265,16 @@
 
 <!-- LATEST NEWS -->
 <div class="sec-label"><span>LATEST NEWS</span></div>
-<div class="news-grid" id="newsGrid"></div>
-<div class="more-btn-wrap" id="moreBtnWrap" style="display:none;">
-  <button class="more-btn" onclick="showMore()">MORE NEWS</button>
+<div class="news-grid" id="latestGrid"></div>
+<div class="more-btn-wrap" id="latestMore" style="display:none;">
+  <button class="more-btn" id="latestMoreBtn">MORE NEWS</button>
 </div>
 
 <!-- AD SLOT -->
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
 
-<!-- RELEASE -->
-<div class="sec-label"><span>RELEASE</span></div>
-<div class="news-grid" id="releaseGrid"></div>
-<div class="more-btn-wrap" id="moreReleaseBtnWrap" style="display:none;">
-  <button class="more-btn" onclick="showMoreRelease()">MORE RELEASES</button>
-</div>
-
-<!-- AD SLOT -->
-<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
+<!-- CATEGORY SECTIONS: JS で動的生成 (ニュース / リリース / ビーフ / ライブ / チャート / ビジネス) -->
+<div id="categorySections"></div>
 
 <!-- CATEGORY RANKING -->
 <div class="sec-label"><span>CATEGORY RANKING</span></div>
@@ -307,6 +294,13 @@
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
 
 </div><!-- /page-wrap -->
+
+<!-- BACK TO TOP -->
+<button class="back-to-top" id="backToTop" aria-label="ページトップへ">
+  <svg width="18" height="18" viewBox="0 0 24 24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg">
+    <path d="M12 4L4 12h5v8h6v-8h5L12 4z"/>
+  </svg>
+</button>
 
 <!-- FOOTER（page-wrap 外 / 全幅） -->
 <footer style="background:#0f1f38;border-top:2px solid #c8a830;padding:0;">
@@ -497,8 +491,8 @@
   }
 
   // ニュースカード HTML 生成（画像上・タイトル下グリッド型）
-  function newsItemHTML(a, hidden) {
-    var cls = hidden ? ' news-hidden' : '';
+  function newsItemHTML(a) {
+    var cls = '';
     var imgHtml = a.image_url
       ? '<img src="' + esc(proxyImg(a.image_url)) + '" data-orig="' + esc(a.image_url) + '" alt="" ' +
         'onerror="imgError(this,this.dataset.orig,\'news-card-img-ph\')" ' +
@@ -519,30 +513,81 @@
     '</div>';
   }
 
-  // LATEST NEWS 初期表示:
-  //   PC(3列):  9件 = 3×3 で完結
-  //   mobile(2列): 10件 = 2×5 で完結
-  // 10枚目(i===9) は news-mobile-extra でPCだけCSS非表示、
-  // 11件目以降(i>=10) は news-hidden で両環境非表示 →「もっと見る」で展開。
-  function renderLatestNews(articles) {
-    document.getElementById('newsGrid').innerHTML =
-      articles.map(function(a, i) {
-        var html = newsItemHTML(a, i >= 10);
-        if (i === 9) {
-          html = html.replace('class="news-card', 'class="news-card news-mobile-extra');
-        }
-        return html;
-      }).join('');
-    document.getElementById('moreBtnWrap').style.display = articles.length > 9 ? '' : 'none';
+  // ── 汎用ページネーション (遅延レンダリング) ──────────────────────
+  // 初期表示分だけ DOM に入れ、"More" クリックで次のバッチを append。
+  // pre-render (news-hidden) 方式を廃止し DOM 負荷を最小化する。
+  function createPaginator(gridId, btnWrapId, articles, opts) {
+    var pcBatch = (opts && opts.pcBatch) || 9;
+    var mobileBatch = (opts && opts.mobileBatch) || 6;
+    var btnLabel = (opts && opts.btnLabel) || 'MORE';
+    var shown = 0;
+    var grid = document.getElementById(gridId);
+    var btnWrap = document.getElementById(btnWrapId);
+
+    function batchSize() {
+      return window.matchMedia('(min-width:768px)').matches ? pcBatch : mobileBatch;
+    }
+
+    function showNext() {
+      var n = batchSize();
+      var batch = articles.slice(shown, shown + n);
+      var html = batch.map(function(a) { return newsItemHTML(a); }).join('');
+      grid.insertAdjacentHTML('beforeend', html);
+      shown += batch.length;
+      btnWrap.style.display = shown < articles.length ? '' : 'none';
+    }
+
+    // "More" ボタン接続
+    var btn = btnWrap.querySelector('.more-btn');
+    if (btn) {
+      btn.textContent = btnLabel;
+      btn.onclick = showNext;
+    }
+
+    // 初期表示
+    if (articles.length === 0) {
+      grid.innerHTML = '<div style="padding:24px;color:#aaa;font-size:13px;">記事はありません</div>';
+      btnWrap.style.display = 'none';
+    } else {
+      showNext();
+    }
   }
 
-  // RELEASE セクション（リリースカテゴリのみ、6件初期表示 = 3列×2行）
-  function renderReleaseGrid(articles) {
-    var releases = articles.filter(function(a) { return a.category === 'リリース'; });
-    document.getElementById('releaseGrid').innerHTML = releases.length
-      ? releases.map(function(a, i) { return newsItemHTML(a, i >= 6); }).join('')
-      : '<div style="padding:24px;color:#aaa;font-size:13px;">リリース記事はありません</div>';
-    document.getElementById('moreReleaseBtnWrap').style.display = releases.length > 6 ? '' : 'none';
+  // ── カテゴリ別セクション動的生成 ──────────────────────────────────
+  var CATEGORY_SECTIONS = [
+    { key: 'ニュース',   label: 'NEWS',     btnLabel: 'MORE NEWS' },
+    { key: 'リリース',   label: 'RELEASE',  btnLabel: 'MORE RELEASES' },
+    { key: 'ビーフ',     label: 'BEEF',     btnLabel: 'MORE' },
+    { key: 'ライブ',     label: 'LIVE',     btnLabel: 'MORE' },
+    { key: 'チャート',   label: 'CHART',    btnLabel: 'MORE' },
+    { key: 'ビジネス',   label: 'BUSINESS', btnLabel: 'MORE' },
+  ];
+
+  function renderCategorySections(allArticles) {
+    var container = document.getElementById('categorySections');
+    var html = '';
+    CATEGORY_SECTIONS.forEach(function(cat, i) {
+      var gridId  = 'catGrid-'  + i;
+      var moreId  = 'catMore-'  + i;
+      html += '<div class="sec-label"><span>' + esc(cat.label) + '</span></div>';
+      html += '<div class="news-grid" id="' + gridId + '"></div>';
+      html += '<div class="more-btn-wrap" id="' + moreId + '" style="display:none;">';
+      html += '  <button class="more-btn">' + esc(cat.btnLabel) + '</button>';
+      html += '</div>';
+      // 最後のカテゴリ以外に広告
+      if (i < CATEGORY_SECTIONS.length - 1) {
+        html += '<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>';
+      }
+    });
+    container.innerHTML = html;
+
+    // 各カテゴリに paginator を接続
+    CATEGORY_SECTIONS.forEach(function(cat, i) {
+      var filtered = allArticles.filter(function(a) { return a.category === cat.key; });
+      createPaginator('catGrid-' + i, 'catMore-' + i, filtered, {
+        pcBatch: 9, mobileBatch: 6, btnLabel: cat.btnLabel
+      });
+    });
   }
 
   // パス /article.html?id=xxx → id 部分を返す
@@ -682,8 +727,15 @@
       }
 
       if (best5.length > 0) renderBest5Slideshow(best5);
-      renderLatestNews(allArticles);
-      renderReleaseGrid(allArticles);
+
+      // LATEST NEWS: 全記事を新着順、遅延レンダリング
+      createPaginator('latestGrid', 'latestMore', allArticles, {
+        pcBatch: 9, mobileBatch: 6, btnLabel: 'MORE NEWS'
+      });
+
+      // カテゴリ別セクション: 動的生成 + 各 paginator 接続
+      renderCategorySections(allArticles);
+
       renderCategoryRanking(allArticles, rankingData);
       renderTrendingTags(allArticles);
     } catch(e) {
@@ -699,23 +751,19 @@
     document.getElementById('mobileNav').classList.toggle('open');
   }
 
-  // LATEST NEWS もっと見る
-  // news-hidden (11件目以降) と news-mobile-extra (10件目、PC限定非表示) の
-  // 両方を .visible で表示させる
-  function showMore() {
-    document.querySelectorAll('#newsGrid .news-hidden, #newsGrid .news-mobile-extra').forEach(function(el) {
-      el.classList.add('visible');
-    });
-    document.getElementById('moreBtnWrap').style.display = 'none';
+  // ページトップへスムーズスクロール
+  function scrollToTop() {
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
-
-  // RELEASE もっと見る
-  function showMoreRelease() {
-    document.querySelectorAll('#releaseGrid .news-hidden').forEach(function(el) {
-      el.classList.add('visible');
-    });
-    document.getElementById('moreReleaseBtnWrap').style.display = 'none';
-  }
+  (function() {
+    var btn = document.getElementById('backToTop');
+    if (!btn) return;
+    btn.addEventListener('click', scrollToTop);
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 200) { btn.classList.add('visible'); }
+      else { btn.classList.remove('visible'); }
+    }, { passive: true });
+  })();
 
   // カテゴリ絞り込み（ヘッダー nav から呼び出し）
   function filterCat(cat) {
