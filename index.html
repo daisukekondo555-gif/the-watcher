@@ -573,10 +573,7 @@
       html += '<div class="more-btn-wrap" id="' + moreId + '" style="display:none;">';
       html += '  <button class="more-btn">' + esc(cat.btnLabel) + '</button>';
       html += '</div>';
-      // 最後のカテゴリ以外に広告
-      if (i < CATEGORY_SECTIONS.length - 1) {
-        html += '<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>';
-      }
+      html += '<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>';
     });
     container.innerHTML = html;
 
