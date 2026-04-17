@@ -122,11 +122,11 @@
     ],
     "ビジネス": [
       {
-        "path": "/article.html?id=342913ba47ba81c78e34c5d5a115e6fd",
-        "pageviews": 2
+        "path": "/article.html?id=343913ba47ba81d38141ef25ba3623e7",
+        "pageviews": 3
       },
       {
-        "path": "/article.html?id=343913ba47ba81d38141ef25ba3623e7",
+        "path": "/article.html?id=342913ba47ba81c78e34c5d5a115e6fd",
         "pageviews": 2
       },
       {
@@ -138,10 +138,10 @@
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=344913ba47ba8146a030e32b235ea518",
+        "path": "/article.html?id=343913ba47ba8162ac46d28b1a283e37",
         "pageviews": 1
       }
     ]
   },
-  "updated_at": "2026-04-16T22:40:25"
+  "updated_at": "2026-04-17T02:47:29"
 }
