@@ -120,6 +120,34 @@ def _build_properties(article: dict) -> dict:
     if image_url:
         props["画像URL"] = {"url": image_url}
 
+    # SNS 投稿用テキスト
+    x_post = (article.get("x_post") or "")[:MAX_RICH_TEXT]
+    threads_post = (article.get("threads_post") or "")[:MAX_RICH_TEXT]
+    if x_post:
+        props["X要約"] = {"rich_text": [{"text": {"content": x_post}}]}
+    if threads_post:
+        props["Threads要約"] = {"rich_text": [{"text": {"content": threads_post}}]}
+
+    # SNS Intent URL (タップ1回で投稿画面を開く)
+    article_id = article.get("id") or ""
+    if not article_id:
+        # RSS 由来の article には id が無いことがある。url から生成
+        article_id = (article.get("url") or "").split("/")[-1][:50]
+    article_url = f"https://thewatcherjp.com/article.html?id={article_id}"
+
+    if x_post:
+        from urllib.parse import quote as _quote
+        x_full = x_post + "\n\n" + article_url
+        props["X投稿URL"] = {
+            "url": "https://twitter.com/intent/tweet?text=" + _quote(x_full, safe="")
+        }
+    if threads_post:
+        from urllib.parse import quote as _quote
+        threads_full = threads_post + "\n\n" + article_url
+        props["Threads投稿URL"] = {
+            "url": "https://www.threads.net/intent/post?text=" + _quote(threads_full, safe="")
+        }
+
     return props
 
 

@@ -155,8 +155,19 @@ def main() -> None:
         return
 
     # ── Step 5: Translate & Categorise ──────────────────────────────────────
+    # 固有名詞辞書を読み込み、プロンプト埋め込み + 後置換に使用
+    name_mapping: dict = {}
+    try:
+        with open("data/name_mapping.json", encoding="utf-8") as f:
+            name_mapping = json.load(f)
+        logger.info(f"  固有名詞辞書: {len(name_mapping) - (1 if '__keep_english' in name_mapping else 0)} エントリ")
+    except FileNotFoundError:
+        logger.info("  data/name_mapping.json 不在 → 辞書なしで翻訳")
+    except Exception as e:
+        logger.warning(f"  name_mapping.json 読み込み失敗: {e}")
+
     logger.info("STEP 5 / 6 - Translating & categorising with Claude")
-    articles = process_articles(articles, anthropic_key)
+    articles = process_articles(articles, anthropic_key, name_mapping=name_mapping)
 
     # 翻訳失敗した記事を除外 — 英語のまま公開されるのを防ぐ。
     # translation_failed=True の記事は URL フィルタ (STEP 2) に登録されないため
