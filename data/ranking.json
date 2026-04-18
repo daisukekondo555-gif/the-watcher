@@ -130,6 +130,10 @@
         "pageviews": 3
       },
       {
+        "path": "/article.html?id=346913ba47ba810ca0f5e317aad01c47",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=342913ba47ba81c78e34c5d5a115e6fd",
         "pageviews": 2
       },
@@ -140,12 +144,8 @@
       {
         "path": "/article.html?id=345913ba47ba81e588a5fa13b01d0179",
         "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=346913ba47ba810ca0f5e317aad01c47",
-        "pageviews": 2
       }
     ]
   },
-  "updated_at": "2026-04-18T06:15:21"
+  "updated_at": "2026-04-18T07:52:47"
 }
