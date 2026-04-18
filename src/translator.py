@@ -130,6 +130,9 @@ def _apply_name_replacements(text: str, name_mapping: dict) -> str:
         "リル・ウジ・ヴァート": "リル・ウージー・ヴァート",
         "プレイボイ・カルティ": "プレイボーイ・カルティ",
         "ニッキ・ミナージュ": "ニッキー・ミナージュ",
+        "トーリー・ランゲズ": "トリー・レーンズ",
+        "トリー・ランゲズ": "トリー・レーンズ",
+        "トーリー・レインズ": "トリー・レーンズ",
     }
 
     for wrong, right in corrections.items():
