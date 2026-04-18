@@ -46,7 +46,8 @@ def _clean_url(url: str) -> str:
         return url
 
 
-# Mimic a real browser to avoid bot-detection blocks
+# Mimic a real browser to avoid bot-detection blocks.
+# Sec-Fetch-* / Sec-Ch-Ua は Cloudflare の Browser Integrity Check が検査するため必須。
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
@@ -56,9 +57,13 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Accept-Language": "en-US,en;q=0.9",
     "Accept-Encoding": "gzip, deflate, br",
-    # Cloudflare 等の WAF は Referer 欠落で bot 判定を強める傾向がある。
-    # 検索流入を模した汎用 Referer を付けるとデータセンターIPでも通過率が上がる。
     "Referer": "https://www.google.com/",
+    "Sec-Fetch-Site": "none",
+    "Sec-Fetch-Mode": "navigate",
+    "Sec-Fetch-Dest": "document",
+    "Sec-Ch-Ua": '"Chromium";v="124", "Google Chrome";v="124", "Not-A.Brand";v="99"',
+    "Sec-Ch-Ua-Mobile": "?0",
+    "Sec-Ch-Ua-Platform": '"Windows"',
 }
 FETCH_TIMEOUT = 20
 MAX_RETRIES = 2
@@ -66,13 +71,7 @@ IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 
 # WAF / CDN 系の瞬間ブロックで返りやすく、リトライする価値のあるステータス。
 # 404/410 (不在) や 401 (認証) はリトライしても意味がないので対象外。
-#   403  Forbidden        — Cloudflare / WAF の代表的ブロックコード
-#   429  Too Many Requests — レート制限
-#   503  Service Unavailable — 一時的不可
-#   520  Unknown Error (Cloudflare)
-#   522  Connection Timed Out (Cloudflare)
-#   524  A Timeout Occurred (Cloudflare)
-RETRYABLE_HTTP_CODES = frozenset({403, 429, 503, 520, 522, 524})
+RETRYABLE_HTTP_CODES = frozenset({403, 429, 503, 520, 521, 522, 523, 524})
 
 
 def _is_image_url(url: str) -> bool:

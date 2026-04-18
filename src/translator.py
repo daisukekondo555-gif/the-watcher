@@ -181,14 +181,16 @@ def _translate_one(article: dict, client: anthropic.Anthropic) -> dict:
             if attempt < RETRY_ATTEMPTS:
                 time.sleep(RETRY_DELAY)
 
-    # Fallback: return with original title and raw content snippet
-    logger.error(f"All attempts failed for '{title}'. Using fallback values.")
+    # 翻訳失敗フラグ — main.py が save 前にこのフラグを見て除外する。
+    # 除外された記事は URL フィルタに登録されないため、次回 cron で再取得・再翻訳される。
+    logger.error(f"All attempts failed for '{title}'. Marking as translation_failed.")
     return {
         **article,
         "title_ja": title,
         "summary_ja": content[:300] if content else "",
         "category": "ニュース",
         "hashtags": [],
+        "translation_failed": True,
     }
 
 

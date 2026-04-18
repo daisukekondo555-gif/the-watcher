@@ -133,6 +133,22 @@ def main() -> None:
     logger.info("STEP 5 / 6 - Translating & categorising with Claude")
     articles = process_articles(articles, anthropic_key)
 
+    # 翻訳失敗した記事を除外 — 英語のまま公開されるのを防ぐ。
+    # translation_failed=True の記事は URL フィルタ (STEP 2) に登録されないため
+    # 次回 cron で再取得→再翻訳される。
+    failed = [a for a in articles if a.get("translation_failed")]
+    if failed:
+        articles = [a for a in articles if not a.get("translation_failed")]
+        logger.warning(
+            f"翻訳失敗 {len(failed)} 件を保存対象から除外 (次回 cron で再試行):"
+        )
+        for a in failed:
+            logger.warning(f"  - {a.get('title', '')[:80]}")
+
+    if not articles:
+        logger.info("翻訳成功した記事なし。保存はスキップ。")
+        return
+
     # ── Step 6: Save to Notion ───────────────────────────────────────────────
     logger.info("STEP 6 / 6 - Saving to Notion")
     saved = save_all(articles, notion_key, notion_db)

@@ -149,12 +149,11 @@ def deduplicate(articles: list[dict], threshold: float = 0.8) -> list[dict]:
 
 
 def _significant_tokens_from_title(title: str) -> set[str]:
-    """英語タイトルから "大文字始まり ≥3字 非ストップワード" を抽出。
-    タイトルケース表記の RSS フィードでは固有名詞を効率的に拾える。"""
+    """英語タイトルから有意な単語トークンを抽出。
+    大文字制約を撤廃し sentence case / lowercase タイトルも処理する。
+    ストップワードと文字数 (≥3) でフィルタ。"""
     tokens: set[str] = set()
     for word in (title or "").split():
-        if not word or not word[0].isupper():
-            continue
         clean = re.sub(r"[^\w]", "", word).lower()
         if (
             len(clean) >= 3
@@ -267,7 +266,12 @@ def filter_against_history(
         match = None
         for past, past_sig in past_sigs:
             overlap = new_tokens & past_sig
-            if len(overlap) >= min_shared_tokens:
+            if len(overlap) < min_shared_tokens:
+                continue
+            # Jaccard 類似度で false positive を防止
+            # (同じアーティストの別事件: overlap=1名前 だけでは通さない)
+            jaccard = len(overlap) / len(new_tokens | past_sig)
+            if jaccard >= 0.3:
                 match = (past, overlap)
                 break
 
