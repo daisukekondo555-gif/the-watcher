@@ -129,12 +129,6 @@ def _build_properties(article: dict) -> dict:
         props["Threads要約"] = {"rich_text": [{"text": {"content": threads_post}}]}
 
     # SNS Intent URL (タップ1回で投稿画面を開く)
-    article_id = article.get("id") or ""
-    if not article_id:
-        # RSS 由来の article には id が無いことがある。url から生成
-        article_id = (article.get("url") or "").split("/")[-1][:50]
-    article_url = f"https://thewatcherjp.com/article.html?id={article_id}"
-
     if x_post:
         from urllib.parse import quote as _quote
         props["X投稿URL"] = {
@@ -142,9 +136,8 @@ def _build_properties(article: dict) -> dict:
         }
     if threads_post:
         from urllib.parse import quote as _quote
-        threads_full = threads_post + "\n\n" + article_url
         props["Threads投稿URL"] = {
-            "url": "https://www.threads.net/intent/post?text=" + _quote(threads_full, safe="")
+            "url": "https://www.threads.net/intent/post?text=" + _quote(threads_post, safe="")
         }
 
     return props
