@@ -69,7 +69,7 @@
     "ビーフ": [
       {
         "path": "/article.html?id=343913ba47ba81d988adc763e1b26450",
-        "pageviews": 5
+        "pageviews": 6
       },
       {
         "path": "/article.html?id=341913ba47ba810080ebe8d9254f294b",
@@ -113,6 +113,14 @@
     "チャート": [
       {
         "path": "/article.html?id=345913ba47ba812dbc25f147266d05c2",
+        "pageviews": 4
+      },
+      {
+        "path": "/article.html?id=345913ba47ba814bbcbccd419dd6f6c7",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=345913ba47ba816c8644e87f2461fb87",
         "pageviews": 2
       },
       {
@@ -134,18 +142,18 @@
         "pageviews": 3
       },
       {
+        "path": "/article.html?id=346913ba47ba813ea3fdcf16d80e62be",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=342913ba47ba81c78e34c5d5a115e6fd",
         "pageviews": 2
       },
       {
         "path": "/article.html?id=344913ba47ba815da4ece08e5cbde4ca",
         "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=345913ba47ba81e588a5fa13b01d0179",
-        "pageviews": 2
       }
     ]
   },
-  "updated_at": "2026-04-18T07:52:47"
+  "updated_at": "2026-04-18T10:50:37"
 }
