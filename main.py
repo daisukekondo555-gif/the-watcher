@@ -48,6 +48,27 @@ def load_config(path: str) -> dict:
         return json.load(f)
 
 
+OFF_TOPIC_PATH = "data/off_topic_urls.json"
+
+
+def _load_off_topic_urls() -> set[str]:
+    """永続ブロック済み URL を読み込む。"""
+    try:
+        with open(OFF_TOPIC_PATH, encoding="utf-8") as f:
+            return set(json.load(f))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return set()
+
+
+def _save_off_topic_urls(new_urls: list[str]) -> None:
+    """off_topic URL をブロックリストに追記。"""
+    existing = _load_off_topic_urls()
+    existing.update(u for u in new_urls if u)
+    os.makedirs("data", exist_ok=True)
+    with open(OFF_TOPIC_PATH, "w", encoding="utf-8") as f:
+        json.dump(sorted(existing), f, ensure_ascii=False, indent=2)
+
+
 def main() -> None:
     config_path = os.environ.get("CONFIG_PATH", "config.json")
     config = load_config(config_path)
@@ -94,6 +115,10 @@ def main() -> None:
         logger.info("  data/articles.json 不在 → 全件を新規として扱う")
     except Exception as e:
         logger.warning(f"  data/articles.json 読み込み失敗 (全件処理続行): {e}")
+
+    # off_topic ブロックリストも統合 (翻訳済み + 非関連 = 二度と処理しない URL)
+    blocked = _load_off_topic_urls()
+    known_urls.update(blocked)
 
     before = len(articles)
     articles = [a for a in articles if a.get("url") not in known_urls]
@@ -144,6 +169,18 @@ def main() -> None:
         )
         for a in failed:
             logger.warning(f"  - {a.get('title', '')[:80]}")
+
+    # ヒップホップ無関係記事を除外 — off_topic=True の記事は Notion に保存しない。
+    # URL をブロックリストに追加して今後のcronでも再取得しないようにする。
+    off_topic = [a for a in articles if a.get("off_topic")]
+    if off_topic:
+        articles = [a for a in articles if not a.get("off_topic")]
+        _save_off_topic_urls([a.get("url") for a in off_topic if a.get("url")])
+        logger.info(
+            f"ヒップホップ無関係 {len(off_topic)} 件を除外 (永続ブロック):"
+        )
+        for a in off_topic:
+            logger.info(f"  - {a.get('title', '')[:80]}")
 
     if not articles:
         logger.info("翻訳成功した記事なし。保存はスキップ。")
