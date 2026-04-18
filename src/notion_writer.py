@@ -137,9 +137,8 @@ def _build_properties(article: dict) -> dict:
 
     if x_post:
         from urllib.parse import quote as _quote
-        x_full = x_post + "\n\n" + article_url
         props["X投稿URL"] = {
-            "url": "https://twitter.com/intent/tweet?text=" + _quote(x_full, safe="")
+            "url": "https://twitter.com/intent/tweet?text=" + _quote(x_post, safe="")
         }
     if threads_post:
         from urllib.parse import quote as _quote
