@@ -185,6 +185,7 @@ def _page_to_article(page: dict) -> dict:
         "source_names": _text(p.get("ソースサイト名", {})),
         "hashtags":     _text(p.get("ハッシュタグ", {})),
         "published_at": _date(p.get("公開日時", {})),
+        "imported_at":  page.get("created_time", ""),
     }
 
 
@@ -360,10 +361,11 @@ def main() -> None:
             logger.info("  削除対象なし")
         state["last_full_reconcile_at"] = sync_start.isoformat()
 
-    # 公開日降順でソート
+    # 取り込み順 (Notion ページ作成日時) 降順でソート。
+    # imported_at が無い旧記事は published_at にフォールバック。
     articles = sorted(
         by_id.values(),
-        key=lambda a: a.get("published_at") or "",
+        key=lambda a: a.get("imported_at") or a.get("published_at") or "",
         reverse=True,
     )
 
