@@ -18,7 +18,7 @@
     },
     {
       "path": "/article.html?id=342913ba47ba8108b2bce3b8264ff146",
-      "pageviews": 8
+      "pageviews": 9
     }
   ],
   "by_category": {
@@ -37,11 +37,11 @@
       },
       {
         "path": "/article.html?id=342913ba47ba8108b2bce3b8264ff146",
-        "pageviews": 8
+        "pageviews": 9
       },
       {
-        "path": "/article.html?id=343913ba47ba81d486b5fe70d4d6c57d",
-        "pageviews": 7
+        "path": "/article.html?id=345913ba47ba81f787c3d909d7812350",
+        "pageviews": 8
       }
     ],
     "リリース": [
@@ -50,19 +50,19 @@
         "pageviews": 3
       },
       {
+        "path": "/article.html?id=345913ba47ba812eb5fee286c4cf3b03",
+        "pageviews": 3
+      },
+      {
+        "path": "/article.html?id=345913ba47ba8150b343df1cea0a1d96",
+        "pageviews": 3
+      },
+      {
+        "path": "/article.html?id=345913ba47ba81db88eec0b0d65839c3",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=33f913ba47ba815cbe7ee34963744936",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=33f913ba47ba81b6b14ac8c6aa2a8d0e",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=340913ba47ba817d8c68dc78770b06f8",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=342913ba47ba8163a1f1e3776d22231d",
         "pageviews": 2
       }
     ],
@@ -76,15 +76,15 @@
         "pageviews": 4
       },
       {
+        "path": "/article.html?id=344913ba47ba8190ab6cd524730ad672",
+        "pageviews": 4
+      },
+      {
         "path": "/article.html?id=343913ba47ba81a09842cdab7e0c91d0",
         "pageviews": 3
       },
       {
         "path": "/article.html?id=342913ba47ba81e9aee9c76036e6c666",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=344913ba47ba8190ab6cd524730ad672",
         "pageviews": 2
       }
     ],
@@ -111,6 +111,10 @@
       }
     ],
     "チャート": [
+      {
+        "path": "/article.html?id=345913ba47ba812dbc25f147266d05c2",
+        "pageviews": 2
+      },
       {
         "path": "/article.html?id=33f913ba47ba813bbbb7d130546a142d",
         "pageviews": 1
@@ -143,5 +147,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-18T00:43:04"
+  "updated_at": "2026-04-18T02:50:36"
 }
