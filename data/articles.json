@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-19T05:13:53.482383+00:00",
-  "total": 581,
+  "generated_at": "2026-04-19T05:16:37.080811+00:00",
+  "total": 580,
   "articles": [
     {
       "id": "347913ba47ba8185a50edc9d02c2eefe",
@@ -196,19 +196,6 @@
       "published_at": "2026-04-18T16:00:00.000+00:00",
       "imported_at": "2026-04-18T19:28:00.000Z",
       "content_hash": "43083f2d6f9faa6d"
-    },
-    {
-      "id": "346913ba47ba819bbe66d3b7f5f72499",
-      "title": "ヒップホップ開拓者",
-      "summary": "本日、カーティス・フィッシャーの愛称で知られる",
-      "category": "ニュース",
-      "image_url": "https://thesource.com/wp-content/uploads/2026/04/tumblr_5af761284984883d773fc19b71722476_d162987b_1280-300x202.jpg",
-      "source_urls": "https://thesource.com/2026/04/18/happy-65th-birthday-to-hip-hop-pioneer-grandmaster-caz/",
-      "source_names": "The Source",
-      "hashtags": "#GrandmasterCaz #HipHopPioneer #HipHopHistory",
-      "published_at": "2026-04-18T15:12:00.000+00:00",
-      "imported_at": "2026-04-18T19:28:00.000Z",
-      "content_hash": "7cbaa8b198c587d3"
     },
     {
       "id": "346913ba47ba81e8afdbd60fdf12f338",
