@@ -58,12 +58,12 @@
         "pageviews": 3
       },
       {
-        "path": "/article.html?id=345913ba47ba81db88eec0b0d65839c3",
+        "path": "/article.html?id=345913ba47ba815db2b1f2142b1c6af2",
         "pageviews": 3
       },
       {
-        "path": "/article.html?id=33f913ba47ba815cbe7ee34963744936",
-        "pageviews": 2
+        "path": "/article.html?id=345913ba47ba81db88eec0b0d65839c3",
+        "pageviews": 3
       }
     ],
     "ビーフ": [
@@ -116,11 +116,11 @@
         "pageviews": 4
       },
       {
-        "path": "/article.html?id=345913ba47ba814bbcbccd419dd6f6c7",
-        "pageviews": 2
+        "path": "/article.html?id=345913ba47ba816c8644e87f2461fb87",
+        "pageviews": 3
       },
       {
-        "path": "/article.html?id=345913ba47ba816c8644e87f2461fb87",
+        "path": "/article.html?id=345913ba47ba814bbcbccd419dd6f6c7",
         "pageviews": 2
       },
       {
@@ -138,6 +138,10 @@
         "pageviews": 3
       },
       {
+        "path": "/article.html?id=344913ba47ba815da4ece08e5cbde4ca",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=346913ba47ba810ca0f5e317aad01c47",
         "pageviews": 3
       },
@@ -146,14 +150,10 @@
         "pageviews": 3
       },
       {
-        "path": "/article.html?id=342913ba47ba81c78e34c5d5a115e6fd",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=344913ba47ba815da4ece08e5cbde4ca",
-        "pageviews": 2
+        "path": "/article.html?id=346913ba47ba816f9fd6fa7e26071af9",
+        "pageviews": 3
       }
     ]
   },
-  "updated_at": "2026-04-18T22:33:03"
+  "updated_at": "2026-04-19T02:46:26"
 }
