@@ -2,7 +2,7 @@
   "weekly": [
     {
       "path": "/article.html?id=340913ba47ba81b1a7f2ea3287a77968",
-      "pageviews": 15
+      "pageviews": 14
     },
     {
       "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
@@ -46,8 +46,8 @@
     ],
     "リリース": [
       {
-        "path": "/article.html?id=33f913ba47ba811cbe54ef9731caf34b",
-        "pageviews": 3
+        "path": "/article.html?id=345913ba47ba815db2b1f2142b1c6af2",
+        "pageviews": 4
       },
       {
         "path": "/article.html?id=345913ba47ba812eb5fee286c4cf3b03",
@@ -58,12 +58,12 @@
         "pageviews": 3
       },
       {
-        "path": "/article.html?id=345913ba47ba815db2b1f2142b1c6af2",
+        "path": "/article.html?id=345913ba47ba81db88eec0b0d65839c3",
         "pageviews": 3
       },
       {
-        "path": "/article.html?id=345913ba47ba81db88eec0b0d65839c3",
-        "pageviews": 3
+        "path": "/article.html?id=342913ba47ba8163a1f1e3776d22231d",
+        "pageviews": 2
       }
     ],
     "ビーフ": [
@@ -91,7 +91,7 @@
     "ライブ": [
       {
         "path": "/article.html?id=340913ba47ba81b1a7f2ea3287a77968",
-        "pageviews": 15
+        "pageviews": 14
       },
       {
         "path": "/article.html?id=341913ba47ba810aaffdf5f05a3ba76f",
@@ -124,11 +124,11 @@
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=33f913ba47ba813bbbb7d130546a142d",
+        "path": "/article.html?id=343913ba47ba81cc8c90e16c9c728b09",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=343913ba47ba81cc8c90e16c9c728b09",
+        "path": "/article.html?id=345913ba47ba814bbcbccd419dd6f6c7&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeb2ChswYtdj9Y_t6P_TDpaMp7vtnQodc1ZZLTjLb5l95FNdqDq4hjDDg6NMs_aem_IImQvRBjHt4FPAoi2KiEKA",
         "pageviews": 1
       }
     ],
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-19T11:45:56"
+  "updated_at": "2026-04-19T16:37:30"
 }
