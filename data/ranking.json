@@ -1,14 +1,6 @@
 {
   "weekly": [
     {
-      "path": "/article.html?id=340913ba47ba81b1a7f2ea3287a77968",
-      "pageviews": 14
-    },
-    {
-      "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
-      "pageviews": 13
-    },
-    {
       "path": "/article.html?id=342913ba47ba81ee8755fb04684d08bb",
       "pageviews": 10
     },
@@ -17,16 +9,20 @@
       "pageviews": 10
     },
     {
-      "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
+      "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
+      "pageviews": 9
+    },
+    {
+      "path": "/article.html?id=342913ba47ba8108b2bce3b8264ff146",
+      "pageviews": 9
+    },
+    {
+      "path": "/article.html?id=343913ba47ba81d988adc763e1b26450",
       "pageviews": 9
     }
   ],
   "by_category": {
     "ニュース": [
-      {
-        "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
-        "pageviews": 13
-      },
       {
         "path": "/article.html?id=342913ba47ba81ee8755fb04684d08bb",
         "pageviews": 10
@@ -36,12 +32,16 @@
         "pageviews": 10
       },
       {
-        "path": "/article.html?id=340913ba47ba818babe1de09058fda2a",
+        "path": "/article.html?id=340913ba47ba81818fa8d1cfef87ceab",
         "pageviews": 9
       },
       {
         "path": "/article.html?id=342913ba47ba8108b2bce3b8264ff146",
         "pageviews": 9
+      },
+      {
+        "path": "/article.html?id=345913ba47ba81f787c3d909d7812350",
+        "pageviews": 8
       }
     ],
     "リリース": [
@@ -90,10 +90,6 @@
     ],
     "ライブ": [
       {
-        "path": "/article.html?id=340913ba47ba81b1a7f2ea3287a77968",
-        "pageviews": 14
-      },
-      {
         "path": "/article.html?id=341913ba47ba810aaffdf5f05a3ba76f",
         "pageviews": 5
       },
@@ -108,6 +104,10 @@
       {
         "path": "/article.html?id=342913ba47ba8185be45f3ebceaf83b0",
         "pageviews": 5
+      },
+      {
+        "path": "/article.html?id=342913ba47ba81faa3b3dd76716d5283",
+        "pageviews": 3
       }
     ],
     "チャート": [
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-20T14:26:03"
+  "updated_at": "2026-04-20T16:38:20"
 }
