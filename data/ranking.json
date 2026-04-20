@@ -50,6 +50,10 @@
         "pageviews": 4
       },
       {
+        "path": "/article.html?id=345913ba47ba81249b91fca30acaea41",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=345913ba47ba812eb5fee286c4cf3b03",
         "pageviews": 3
       },
@@ -59,10 +63,6 @@
       },
       {
         "path": "/article.html?id=345913ba47ba81db88eec0b0d65839c3",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=346913ba47ba810ab951f6097b6fbc20",
         "pageviews": 3
       }
     ],
@@ -113,11 +113,11 @@
     "チャート": [
       {
         "path": "/article.html?id=345913ba47ba812dbc25f147266d05c2",
-        "pageviews": 4
+        "pageviews": 5
       },
       {
         "path": "/article.html?id=345913ba47ba816c8644e87f2461fb87",
-        "pageviews": 3
+        "pageviews": 4
       },
       {
         "path": "/article.html?id=345913ba47ba814bbcbccd419dd6f6c7",
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-20T17:56:33"
+  "updated_at": "2026-04-20T22:37:00"
 }
