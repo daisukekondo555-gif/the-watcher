@@ -66,7 +66,7 @@ HEADERS = {
     "Sec-Ch-Ua-Platform": '"Windows"',
 }
 FETCH_TIMEOUT = 20
-MAX_RETRIES = 2
+MAX_RETRIES = 3
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 
 # WAF / CDN 系の瞬間ブロックで返りやすく、リトライする価値のあるステータス。
@@ -127,18 +127,47 @@ def _get_with_retry(url: str, retries: int = MAX_RETRIES) -> Optional[requests.R
     return None
 
 
+def _is_bad_image(url: str) -> bool:
+    """画像 URL が絵文字・ロゴ・広告・UI パーツなどの誤画像かを判定する。
+    誤爆を避けるため、パターンは厳密に絞る。"""
+    low = url.lower()
+
+    # 最優先除外: WordPress 絵文字 (変な画像問題の主犯)
+    if "s.w.org" in low:
+        return True
+    if "/emoji/" in low or "twemoji" in low:
+        return True
+
+    # 確実な広告ドメイン
+    if "doubleclick.net" in low or "googlesyndication" in low:
+        return True
+
+    # サイトロゴ (厳密パターンのみ — "logo" 単体マッチは誤爆するため避ける)
+    if "-logo." in low or "/site-logo/" in low or "-logo_" in low:
+        return True
+
+    # UI パーツ (パス区切り or 拡張子直前で判定して誤爆を防ぐ)
+    if "/spinner." in low or "/loading-" in low or "/placeholder." in low:
+        return True
+
+    # トラッキングピクセル
+    if "pixel" in low or "beacon" in low or "tracker" in low or "/1x1" in low or "spacer" in low:
+        return True
+
+    return False
+
+
 def _fetch_ogp_image(url: str) -> Optional[str]:
-    """
-    Scrape image from article page.
-    Priority: og:image → twitter:image → link[rel=image_src] → first <img>
-    """
+    """記事ページをスクレイプして画像 URL を取得する。
+    優先度: og:image → twitter:image → schema.org/JSON-LD → link[image_src] → <img> フォールバック"""
     try:
         resp = _get_with_retry(url)
         if not resp:
             return None
         soup = BeautifulSoup(resp.text, "html.parser")
 
-        # og:image — both property= and name= variants
+        # ── 中信頼: OGP メタタグ ──
+        # og:image (property= / name= 両対応)
         for attr, values in [
             ("property", ["og:image", "og:image:url"]),
             ("name",     ["og:image", "og:image:url"]),
@@ -146,7 +175,9 @@ def _fetch_ogp_image(url: str) -> Optional[str]:
             for val in values:
                 tag = soup.find("meta", attrs={attr: val})
                 if tag and tag.get("content"):
-                    return tag["content"].strip()
+                    img = tag["content"].strip()
+                    if img and not _is_bad_image(img):
+                        return img
 
         # twitter:image
         for attr, values in [
@@ -156,28 +187,50 @@ def _fetch_ogp_image(url: str) -> Optional[str]:
             for val in values:
                 tag = soup.find("meta", attrs={attr: val})
                 if tag and tag.get("content"):
-                    return tag["content"].strip()
+                    img = tag["content"].strip()
+                    if img and not _is_bad_image(img):
+                        return img
+
+        # schema.org / JSON-LD の image フィールド
+        for script in soup.find_all("script", type="application/ld+json"):
+            try:
+                import json as _json
+                ld = _json.loads(script.string or "")
+                if isinstance(ld, list):
+                    ld = ld[0] if ld else {}
+                img = ld.get("image")
+                if isinstance(img, dict):
+                    img = img.get("url")
+                elif isinstance(img, list):
+                    img = img[0] if img else None
+                    if isinstance(img, dict):
+                        img = img.get("url")
+                if img and isinstance(img, str) and not _is_bad_image(img):
+                    return img.strip()
+            except Exception:
+                pass
 
         # <link rel="image_src">
         link_tag = soup.find("link", rel="image_src")
         if link_tag and link_tag.get("href"):
-            return link_tag["href"].strip()
+            img = link_tag["href"].strip()
+            if img and not _is_bad_image(img):
+                return img
 
-        # First <img> with a reasonable size hint or just any src
-        for img in soup.find_all("img", src=True):
-            src = img["src"].strip()
+        # ── 低信頼: <img> フォールバック (厳格フィルタ) ──
+        for img_tag in soup.find_all("img", src=True):
+            src = img_tag["src"].strip()
             if not src.startswith("http"):
                 continue
-            # Skip tiny icons/tracking pixels
-            width = img.get("width") or img.get("data-width") or ""
-            height = img.get("height") or img.get("data-height") or ""
+            if _is_bad_image(src):
+                continue
+            width = img_tag.get("width") or img_tag.get("data-width") or ""
+            height = img_tag.get("height") or img_tag.get("data-height") or ""
             try:
                 if int(str(width)) < 100 or int(str(height)) < 100:
                     continue
             except (ValueError, TypeError):
                 pass
-            if any(skip in src for skip in ("pixel", "beacon", "tracker", "1x1", "spacer")):
-                continue
             return src
 
         return None
@@ -186,11 +239,12 @@ def _fetch_ogp_image(url: str) -> Optional[str]:
         return None
 
 
-def _get_image_from_entry(entry) -> Optional[str]:
-    """
-    Extract image URL from RSS entry fields (no network requests).
-    Priority: enclosure → media:content → media:thumbnail → content/summary <img>
-    """
+def _get_high_confidence_image(entry) -> Optional[str]:
+    """RSS フィードから高信頼度の画像を取得 (ネットワーク不要)。
+    enclosure と media:content のみ。これらが明示的に画像として提供されているため
+    絵文字やロゴが混入するリスクがない。
+    ここで画像が取れなかった記事は _fetch_ogp_image でスクレイプする。"""
+
     # 1. enclosure: image/* MIME or image-looking URL
     for enc in getattr(entry, "enclosures", []):
         url = enc.get("url", "").strip()
@@ -198,7 +252,8 @@ def _get_image_from_entry(entry) -> Optional[str]:
             continue
         mime = enc.get("type", "")
         if mime.startswith("image/") or _is_image_url(url):
-            return url
+            if not _is_bad_image(url):
+                return url
 
     # 2. media:content
     for media in getattr(entry, "media_content", []):
@@ -208,26 +263,38 @@ def _get_image_from_entry(entry) -> Optional[str]:
         mime = media.get("type", "")
         medium = media.get("medium", "")
         if medium == "image" or mime.startswith("image/") or _is_image_url(url):
-            return url
+            if not _is_bad_image(url):
+                return url
 
-    # 3. media:thumbnail
+    return None
+
+
+def _get_low_confidence_image(entry) -> Optional[str]:
+    """RSS フィードから低信頼度の画像を取得 (OGP スクレイプ失敗時のフォールバック)。
+    media:thumbnail と RSS 本文内の <img> を対象とし、厳格なフィルタを適用する。"""
+
+    # media:thumbnail
     thumbnails = getattr(entry, "media_thumbnail", [])
     if thumbnails and thumbnails[0].get("url"):
-        return thumbnails[0]["url"].strip()
+        url = thumbnails[0]["url"].strip()
+        if url and not _is_bad_image(url):
+            return url
 
-    # 4. First <img> inside RSS content/summary HTML
+    # RSS content/summary 内の <img> (絵文字・ロゴのリスクあり → 厳格フィルタ)
     raw_html = ""
     if getattr(entry, "content", None):
         raw_html = entry.content[0].get("value", "")
     if not raw_html:
         raw_html = getattr(entry, "summary", "") or ""
-
     if raw_html:
         soup = BeautifulSoup(raw_html, "html.parser")
         for img in soup.find_all("img", src=True):
             src = img["src"].strip()
-            if src.startswith("http"):
-                return src
+            if not src.startswith("http"):
+                continue
+            if _is_bad_image(src):
+                continue
+            return src
 
     return None
 
@@ -306,8 +373,9 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
             content = full_content[:CONTENT_LIMIT]
             input_truncated = len(full_content) > CONTENT_LIMIT
 
-            # Image from RSS fields (no network)
-            image_url = _get_image_from_entry(entry)
+            # 画像取得 Phase 1: 高信頼 RSS フィールドのみ (ネットワーク不要)
+            # enclosure / media:content があれば確定。なければ None → Phase 2 で OGP スクレイプ。
+            image_url = _get_high_confidence_image(entry)
 
             article_dict = {
                 "title": title,
@@ -316,6 +384,7 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
                 "content": content,
                 "image_url": image_url,
                 "source_name": name,
+                "_rss_entry": entry,  # Phase 2 フォールバック用に保持
             }
             if input_truncated:
                 article_dict["input_truncated"] = True
@@ -333,10 +402,26 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
 
 
 def _enrich_image(article: dict) -> dict:
-    """If image_url is still None, scrape the article page for an image."""
-    if not article["image_url"] and article["url"]:
+    """高信頼 RSS 画像がなかった記事に対して OGP スクレイプ → 低信頼 RSS フォールバック。
+    優先度: og:image → twitter:image → schema.org → thumbnail → RSS <img> → page <img>"""
+    if article["image_url"]:
+        return article  # 高信頼 RSS 画像あり → スキップ
+
+    # Phase 2: OGP スクレイプ (中信頼)
+    if article["url"]:
         logger.debug(f"Page scrape for image: {article['url']}")
-        article["image_url"] = _fetch_ogp_image(article["url"])
+        ogp_img = _fetch_ogp_image(article["url"])
+        if ogp_img:
+            article["image_url"] = ogp_img
+            return article
+
+    # Phase 3: 低信頼 RSS フォールバック (thumbnail, content <img>)
+    entry = article.pop("_rss_entry", None)
+    if entry:
+        low_img = _get_low_confidence_image(entry)
+        if low_img:
+            article["image_url"] = low_img
+
     return article
 
 
@@ -383,6 +468,10 @@ def fetch_all(sources: list[dict], max_articles: int = 20, max_age_hours: int = 
         f"Image hit rate after page scrape: {final_with_img}/{total} "
         f"({100 * final_with_img // max(total, 1)}%)"
     )
+
+    # _rss_entry を後続処理に渡さないよう除去
+    for a in all_articles:
+        a.pop("_rss_entry", None)
 
     # Sort newest-first
     all_articles.sort(key=lambda a: a["published"], reverse=True)
