@@ -53,6 +53,14 @@ jobs:
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: python main.py
 
+      # Notion API の eventual consistency 対策:
+      # main.py が POST /pages で保存した新規ページが database query に
+      # 反映されるまで数秒〜数十秒のラグがある。URL フィルタ導入後
+      # main.py が高速化 (17分→1-2分) し、save 直後に export が走るように
+      # なったため、この待機が必要になった。
+      - name: Wait for Notion indexing
+        run: sleep 30
+
       # ── Step 2: 公開記事を articles.json にエクスポート ──────────────────
       - name: Export published articles to JSON
         env:
