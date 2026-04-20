@@ -175,7 +175,10 @@ def _page_to_article(page: dict) -> dict:
             f"Notion-signed な失効URLを検出: {title_preview!r}. "
             "画像URLは外部URLで保存することを推奨。"
         )
-    return {
+    # 翻訳警告 (入力切れ / 出力切れ / 両方 / 空)
+    warning = _select(p.get("翻訳警告", {}))
+
+    article = {
         "id":           page["id"].replace("-", ""),
         "title":        _text(p.get("タイトル", {})),
         "summary":      _text(p.get("本文", {})),
@@ -187,6 +190,9 @@ def _page_to_article(page: dict) -> dict:
         "published_at": _date(p.get("公開日時", {})),
         "imported_at":  page.get("created_time", ""),
     }
+    if warning:
+        article["translation_warning"] = warning
+    return article
 
 
 def _query_database(

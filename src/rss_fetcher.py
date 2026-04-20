@@ -301,19 +301,25 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
                 raw_html = entry.content[0].get("value", "")
             if not raw_html:
                 raw_html = getattr(entry, "summary", "") or ""
-            content = _clean_text(raw_html)[:3000] if raw_html else ""
+            CONTENT_LIMIT = 8000
+            full_content = _clean_text(raw_html) if raw_html else ""
+            content = full_content[:CONTENT_LIMIT]
+            input_truncated = len(full_content) > CONTENT_LIMIT
 
             # Image from RSS fields (no network)
             image_url = _get_image_from_entry(entry)
 
-            articles.append({
+            article_dict = {
                 "title": title,
                 "url": link,
                 "published": published,
                 "content": content,
                 "image_url": image_url,
                 "source_name": name,
-            })
+            }
+            if input_truncated:
+                article_dict["input_truncated"] = True
+            articles.append(article_dict)
 
         with_img = sum(1 for a in articles if a["image_url"])
         logger.info(

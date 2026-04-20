@@ -140,6 +140,16 @@ def _build_properties(article: dict) -> dict:
             "url": "https://www.threads.net/intent/post?text=" + _quote(threads_post, safe="")
         }
 
+    # 翻訳警告 (入力切れ / 出力切れ / 両方)
+    inp_trunc = article.get("input_truncated", False)
+    out_trunc = article.get("output_truncated", False)
+    if inp_trunc and out_trunc:
+        props["翻訳警告"] = {"select": {"name": "両方"}}
+    elif out_trunc:
+        props["翻訳警告"] = {"select": {"name": "出力切れ"}}
+    elif inp_trunc:
+        props["翻訳警告"] = {"select": {"name": "入力切れ"}}
+
     return props
 
 

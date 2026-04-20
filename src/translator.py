@@ -191,7 +191,7 @@ def _translate_one(
 
     user_message = (
         f"タイトル: {title}\n\n"
-        f"本文:\n{content[:6000] if content else '（本文なし）'}"
+        f"本文:\n{content[:8000] if content else '（本文なし）'}"
     )
 
     for attempt in range(1, RETRY_ATTEMPTS + 1):
@@ -210,7 +210,14 @@ def _translate_one(
             )
 
             raw = response.content[0].text
+            stop = response.stop_reason  # "end_turn" | "max_tokens"
             parsed = _parse_json_response(raw)
+
+            if stop == "max_tokens":
+                logger.warning(
+                    f"Output truncated (max_tokens) for '{title}'. "
+                    f"stop_reason={stop}, raw_len={len(raw)}"
+                )
 
             if parsed:
                 hashtags = _normalise_hashtags(parsed.get("hashtags", []))
@@ -240,6 +247,8 @@ def _translate_one(
                 }
                 if parsed.get("off_topic"):
                     result["off_topic"] = True
+                if stop == "max_tokens":
+                    result["output_truncated"] = True
                 return result
             else:
                 logger.warning(
