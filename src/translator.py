@@ -22,7 +22,7 @@ import anthropic
 logger = logging.getLogger(__name__)
 
 MODEL = "claude-haiku-4-5-20251001"
-MAX_TOKENS = 2560
+MAX_TOKENS = 4096
 RETRY_ATTEMPTS = 3
 RETRY_DELAY = 5  # seconds
 

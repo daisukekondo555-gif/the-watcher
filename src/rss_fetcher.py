@@ -1,14 +1,18 @@
 """
 RSS fetch module.
 Fetches articles from configured sources in parallel.
-Image priority:
-  1. RSS enclosure (image/* or image-extension URL)
-  2. media:content / media:thumbnail
-  3. First <img> in RSS content/summary HTML
-  4. OGP (og:image, twitter:image, link[rel=image_src])
-  5. First <img> on actual article page
+
+Image priority (3 phase):
+  高信頼: RSS enclosure / media:content
+  中信頼: og:image → twitter:image → schema.org/JSON-LD → link[image_src]
+  低信頼: RSS thumbnail → RSS 本文 <img> → ページ <img>
+
+Content enrichment:
+  RSS content が 500 字未満の場合、trafilatura でページ本文を補完。
+  trafilatura 結果が RSS より短ければ RSS を維持。
 """
 
+import json as _json
 import logging
 import re
 import time
@@ -19,6 +23,7 @@ from urllib.parse import urlparse, urlencode, parse_qsl
 
 import feedparser
 import requests
+import trafilatura
 from bs4 import BeautifulSoup
 from dateutil import parser as dateparser
 
@@ -157,86 +162,98 @@ def _is_bad_image(url: str) -> bool:
     return False
 
 
-def _fetch_ogp_image(url: str) -> Optional[str]:
-    """記事ページをスクレイプして画像 URL を取得する。
+def _extract_image_from_html(soup: BeautifulSoup) -> Optional[str]:
+    """パース済み HTML から画像 URL を取得する (HTTP fetch は呼び出し元が行う)。
     優先度: og:image → twitter:image → schema.org/JSON-LD → link[image_src] → <img> フォールバック"""
-    try:
-        resp = _get_with_retry(url)
-        if not resp:
-            return None
-        soup = BeautifulSoup(resp.text, "html.parser")
 
-        # ── 中信頼: OGP メタタグ ──
-        # og:image (property= / name= 両対応)
-        for attr, values in [
-            ("property", ["og:image", "og:image:url"]),
-            ("name",     ["og:image", "og:image:url"]),
-        ]:
-            for val in values:
-                tag = soup.find("meta", attrs={attr: val})
-                if tag and tag.get("content"):
-                    img = tag["content"].strip()
-                    if img and not _is_bad_image(img):
-                        return img
+    # ── 中信頼: OGP メタタグ ──
+    for attr, values in [
+        ("property", ["og:image", "og:image:url"]),
+        ("name",     ["og:image", "og:image:url"]),
+    ]:
+        for val in values:
+            tag = soup.find("meta", attrs={attr: val})
+            if tag and tag.get("content"):
+                img = tag["content"].strip()
+                if img and not _is_bad_image(img):
+                    return img
 
-        # twitter:image
-        for attr, values in [
-            ("name",     ["twitter:image", "twitter:image:src"]),
-            ("property", ["twitter:image", "twitter:image:src"]),
-        ]:
-            for val in values:
-                tag = soup.find("meta", attrs={attr: val})
-                if tag and tag.get("content"):
-                    img = tag["content"].strip()
-                    if img and not _is_bad_image(img):
-                        return img
+    # twitter:image
+    for attr, values in [
+        ("name",     ["twitter:image", "twitter:image:src"]),
+        ("property", ["twitter:image", "twitter:image:src"]),
+    ]:
+        for val in values:
+            tag = soup.find("meta", attrs={attr: val})
+            if tag and tag.get("content"):
+                img = tag["content"].strip()
+                if img and not _is_bad_image(img):
+                    return img
 
-        # schema.org / JSON-LD の image フィールド
-        for script in soup.find_all("script", type="application/ld+json"):
-            try:
-                import json as _json
-                ld = _json.loads(script.string or "")
-                if isinstance(ld, list):
-                    ld = ld[0] if ld else {}
-                img = ld.get("image")
+    # schema.org / JSON-LD
+    for script in soup.find_all("script", type="application/ld+json"):
+        try:
+            ld = _json.loads(script.string or "")
+            if isinstance(ld, list):
+                ld = ld[0] if ld else {}
+            img = ld.get("image")
+            if isinstance(img, dict):
+                img = img.get("url")
+            elif isinstance(img, list):
+                img = img[0] if img else None
                 if isinstance(img, dict):
                     img = img.get("url")
-                elif isinstance(img, list):
-                    img = img[0] if img else None
-                    if isinstance(img, dict):
-                        img = img.get("url")
-                if img and isinstance(img, str) and not _is_bad_image(img):
-                    return img.strip()
-            except Exception:
-                pass
+            if img and isinstance(img, str) and not _is_bad_image(img):
+                return img.strip()
+        except Exception:
+            pass
 
-        # <link rel="image_src">
-        link_tag = soup.find("link", rel="image_src")
-        if link_tag and link_tag.get("href"):
-            img = link_tag["href"].strip()
-            if img and not _is_bad_image(img):
-                return img
+    # <link rel="image_src">
+    link_tag = soup.find("link", rel="image_src")
+    if link_tag and link_tag.get("href"):
+        img = link_tag["href"].strip()
+        if img and not _is_bad_image(img):
+            return img
 
-        # ── 低信頼: <img> フォールバック (厳格フィルタ) ──
-        for img_tag in soup.find_all("img", src=True):
-            src = img_tag["src"].strip()
-            if not src.startswith("http"):
+    # ── 低信頼: <img> フォールバック (厳格フィルタ) ──
+    for img_tag in soup.find_all("img", src=True):
+        src = img_tag["src"].strip()
+        if not src.startswith("http"):
+            continue
+        if _is_bad_image(src):
+            continue
+        width = img_tag.get("width") or img_tag.get("data-width") or ""
+        height = img_tag.get("height") or img_tag.get("data-height") or ""
+        try:
+            if int(str(width)) < 100 or int(str(height)) < 100:
                 continue
-            if _is_bad_image(src):
-                continue
-            width = img_tag.get("width") or img_tag.get("data-width") or ""
-            height = img_tag.get("height") or img_tag.get("data-height") or ""
-            try:
-                if int(str(width)) < 100 or int(str(height)) < 100:
-                    continue
-            except (ValueError, TypeError):
-                pass
-            return src
+        except (ValueError, TypeError):
+            pass
+        return src
 
-        return None
+    return None
+
+
+def _enrich_content(article: dict, html: str) -> None:
+    """RSS content が短い場合、trafilatura でページ本文を補完する。
+    trafilatura 結果が RSS より短ければ RSS をそのまま維持 (フォールバック)。"""
+    current = article.get("content", "")
+    if len(current) >= 500:
+        return
+
+    if not html:
+        return
+
+    try:
+        page_text = trafilatura.extract(
+            html, include_comments=False, include_tables=False
+        ) or ""
     except Exception as e:
-        logger.debug(f"OGP fetch failed for {url}: {e}")
-        return None
+        logger.debug(f"trafilatura failed for {article.get('url','')}: {e}")
+        return
+
+    if len(page_text) > len(current):
+        article["content"] = page_text[:8000]
 
 
 def _get_high_confidence_image(entry) -> Optional[str]:
@@ -401,26 +418,46 @@ def _fetch_source(source: dict, max_articles: int, max_age_hours: int) -> list[d
     return articles
 
 
-def _enrich_image(article: dict) -> dict:
-    """高信頼 RSS 画像がなかった記事に対して OGP スクレイプ → 低信頼 RSS フォールバック。
-    優先度: og:image → twitter:image → schema.org → thumbnail → RSS <img> → page <img>"""
-    if article["image_url"]:
-        return article  # 高信頼 RSS 画像あり → スキップ
+def _enrich_article(article: dict) -> dict:
+    """画像取得 + 本文補完を 1 回の HTTP fetch で行う。
+    画像: 高信頼 RSS → OGP (中信頼) → 低信頼 RSS フォールバック
+    本文: RSS content < 500 字 → trafilatura でページ本文補完"""
+    needs_image = not article["image_url"]
+    needs_content = len(article.get("content", "")) < 500
 
-    # Phase 2: OGP スクレイプ (中信頼)
+    # 画像も本文も不要 → スキップ
+    if not needs_image and not needs_content:
+        return article
+
+    # 1 回の fetch で HTML を取得 (画像 + 本文の両方に使う)
+    html = ""
+    soup = None
     if article["url"]:
-        logger.debug(f"Page scrape for image: {article['url']}")
-        ogp_img = _fetch_ogp_image(article["url"])
+        try:
+            resp = _get_with_retry(article["url"])
+            if resp:
+                html = resp.text
+                soup = BeautifulSoup(html, "html.parser")
+        except Exception as e:
+            logger.debug(f"Page fetch failed for {article['url']}: {e}")
+
+    # 画像取得 (中信頼: OGP)
+    if needs_image and soup:
+        ogp_img = _extract_image_from_html(soup)
         if ogp_img:
             article["image_url"] = ogp_img
-            return article
 
-    # Phase 3: 低信頼 RSS フォールバック (thumbnail, content <img>)
-    entry = article.pop("_rss_entry", None)
-    if entry:
-        low_img = _get_low_confidence_image(entry)
-        if low_img:
-            article["image_url"] = low_img
+    # 本文補完 (trafilatura)
+    if needs_content:
+        _enrich_content(article, html)
+
+    # 画像がまだない → 低信頼 RSS フォールバック
+    if not article["image_url"]:
+        entry = article.pop("_rss_entry", None)
+        if entry:
+            low_img = _get_low_confidence_image(entry)
+            if low_img:
+                article["image_url"] = low_img
 
     return article
 
@@ -451,22 +488,32 @@ def fetch_all(sources: list[dict], max_articles: int = 20, max_age_hours: int = 
         f"— image hit rate from RSS: {with_img}/{total} ({100 * with_img // max(total, 1)}%)"
     )
 
-    # Parallel page scrape for articles still missing an image
-    needs_scrape = [a for a in all_articles if not a["image_url"]]
-    if needs_scrape:
-        logger.info(f"Scraping article pages for images: {len(needs_scrape)} articles…")
-        # Throttle to 8 workers to avoid triggering rate limits
+    # 画像取得 + 本文補完 (1 回の HTTP fetch で両方処理)
+    needs_enrich = [a for a in all_articles
+                    if not a["image_url"] or len(a.get("content", "")) < 500]
+    if needs_enrich:
+        logger.info(
+            f"Enriching articles (image + content): {len(needs_enrich)} articles…"
+        )
         with ThreadPoolExecutor(max_workers=8) as pool:
-            enriched = list(pool.map(_enrich_image, needs_scrape))
-        ogp_map = {a["url"]: a["image_url"] for a in enriched}
+            enriched = list(pool.map(_enrich_article, needs_enrich))
+        # enriched は同じオブジェクト参照なので all_articles にも反映済み
+        # ただし ogp_map 方式で明示的にマージ (安全策)
+        enrich_map = {a["url"]: a for a in enriched}
         for a in all_articles:
-            if not a["image_url"] and a["url"] in ogp_map:
-                a["image_url"] = ogp_map[a["url"]]
+            if a["url"] in enrich_map:
+                e = enrich_map[a["url"]]
+                if not a["image_url"] and e["image_url"]:
+                    a["image_url"] = e["image_url"]
+                if len(a.get("content", "")) < len(e.get("content", "")):
+                    a["content"] = e["content"]
 
     final_with_img = sum(1 for a in all_articles if a["image_url"])
+    enriched_content = sum(1 for a in all_articles if len(a.get("content", "")) >= 500)
     logger.info(
-        f"Image hit rate after page scrape: {final_with_img}/{total} "
-        f"({100 * final_with_img // max(total, 1)}%)"
+        f"After enrichment: images {final_with_img}/{total} "
+        f"({100 * final_with_img // max(total, 1)}%), "
+        f"content>=500ch {enriched_content}/{total}"
     )
 
     # _rss_entry を後続処理に渡さないよう除去
