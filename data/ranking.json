@@ -6,47 +6,51 @@
     },
     {
       "path": "/article.html?id=345913ba47ba81f787c3d909d7812350",
-      "pageviews": 8
+      "pageviews": 9
+    },
+    {
+      "path": "/article.html?id=346913ba47ba81399bf2e5045117b14c",
+      "pageviews": 9
     },
     {
       "path": "/article.html?id=346913ba47ba813686b2d6e462d11fab",
       "pageviews": 8
     },
     {
-      "path": "/article.html?id=346913ba47ba81399bf2e5045117b14c",
-      "pageviews": 7
-    },
-    {
       "path": "/article.html?id=347913ba47ba811095d2feb3711a6274",
-      "pageviews": 7
+      "pageviews": 8
     }
   ],
   "by_category": {
     "ニュース": [
       {
         "path": "/article.html?id=345913ba47ba81f787c3d909d7812350",
-        "pageviews": 8
+        "pageviews": 9
+      },
+      {
+        "path": "/article.html?id=346913ba47ba81399bf2e5045117b14c",
+        "pageviews": 9
       },
       {
         "path": "/article.html?id=346913ba47ba813686b2d6e462d11fab",
         "pageviews": 8
       },
       {
-        "path": "/article.html?id=346913ba47ba81399bf2e5045117b14c",
-        "pageviews": 7
-      },
-      {
         "path": "/article.html?id=347913ba47ba811095d2feb3711a6274",
-        "pageviews": 7
+        "pageviews": 8
       },
       {
-        "path": "/article.html?id=345913ba47ba813e9662d68a555919d8",
-        "pageviews": 6
+        "path": "/article.html?id=349913ba47ba8168ae9ee4f3b240fc44",
+        "pageviews": 7
       }
     ],
     "リリース": [
       {
         "path": "/article.html?id=345913ba47ba815db2b1f2142b1c6af2",
+        "pageviews": 4
+      },
+      {
+        "path": "/article.html?id=348913ba47ba81febc7bea4ccce00c86",
         "pageviews": 4
       },
       {
@@ -59,10 +63,6 @@
       },
       {
         "path": "/article.html?id=345913ba47ba8150b343df1cea0a1d96",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=345913ba47ba81db88eec0b0d65839c3",
         "pageviews": 3
       }
     ],
@@ -94,6 +94,10 @@
         "pageviews": 2
       },
       {
+        "path": "/article.html?id=343913ba47ba81529adcf4481ab93d9b",
+        "pageviews": 1
+      },
+      {
         "path": "/article.html?id=344913ba47ba81749936d7bdf318bd84",
         "pageviews": 1
       },
@@ -103,10 +107,6 @@
       },
       {
         "path": "/article.html?id=347913ba47ba8119abd8f1c3bbb29f05",
-        "pageviews": 1
-      },
-      {
-        "path": "/article.html?id=348913ba47ba81ee913cf66fd176c7ae",
         "pageviews": 1
       }
     ],
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-21T04:19:33"
+  "updated_at": "2026-04-21T11:47:14"
 }
