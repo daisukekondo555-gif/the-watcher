@@ -17,8 +17,8 @@
       "pageviews": 7
     },
     {
-      "path": "/article.html?id=345913ba47ba813e9662d68a555919d8",
-      "pageviews": 6
+      "path": "/article.html?id=347913ba47ba811095d2feb3711a6274",
+      "pageviews": 7
     }
   ],
   "by_category": {
@@ -36,11 +36,11 @@
         "pageviews": 7
       },
       {
-        "path": "/article.html?id=345913ba47ba813e9662d68a555919d8",
-        "pageviews": 6
+        "path": "/article.html?id=347913ba47ba811095d2feb3711a6274",
+        "pageviews": 7
       },
       {
-        "path": "/article.html?id=346913ba47ba81e8afdbd60fdf12f338",
+        "path": "/article.html?id=345913ba47ba813e9662d68a555919d8",
         "pageviews": 6
       }
     ],
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-21T02:47:53"
+  "updated_at": "2026-04-21T04:19:33"
 }
