@@ -48,8 +48,8 @@ OUTPUT_DIR = ROOT / "articles"
 SITE_URL = "https://thewatcherjp.com"
 SITE_NAME = "THE WATCHER"
 SITE_TAGLINE = "ヒップホップ・ジャーナル"
-# 画像が無い記事用フォールバック。Phase 3 で OGP 専用画像に差し替え予定。
 DEFAULT_OGP_IMAGE = f"{SITE_URL}/assets/logo-mark.png"
+LOGO_URL = f"{SITE_URL}/assets/logo-mark.png"
 DESC_MAX_LEN = 120
 
 # content_hash マーカー（ファイル2行目に埋め込む）
@@ -59,6 +59,47 @@ HASH_MARKER_RE = re.compile(r"<!--\s*content_hash:\s*([0-9a-f]+)\s*-->")
 def _esc(value: str) -> str:
     """HTML属性値用エスケープ（&/ </ > /" /'）"""
     return html.escape(value or "", quote=True)
+
+
+def _build_json_ld(article: dict) -> str:
+    """記事の NewsArticle 構造化データ (JSON-LD) を生成する。"""
+    aid = article["id"]
+    title = article.get("title", SITE_NAME)
+    full_title = f"{title} — {SITE_NAME}"
+    desc = _summarize(article.get("summary", ""))
+    image_url = article.get("image_url") or DEFAULT_OGP_IMAGE
+    published = article.get("published_at", "")
+    source_url = (article.get("source_urls") or "").split(",")[0].strip()
+
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "NewsArticle",
+        "headline": full_title,
+        "description": desc,
+        "image": image_url,
+        "datePublished": published,
+        "dateModified": article.get("imported_at") or published,
+        "author": {
+            "@type": "Organization",
+            "name": "THE WATCHER編集部",
+            "url": f"{SITE_URL}/about.html",
+        },
+        "publisher": {
+            "@type": "NewsMediaOrganization",
+            "name": SITE_NAME,
+            "url": SITE_URL,
+            "logo": {
+                "@type": "ImageObject",
+                "url": LOGO_URL,
+            },
+        },
+        "mainEntityOfPage": f"{SITE_URL}/articles/{aid}.html",
+        "inLanguage": "ja",
+    }
+    if source_url:
+        ld["isBasedOn"] = source_url
+
+    return json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
 
 
 def _summarize(text: str, limit: int = DESC_MAX_LEN) -> str:
@@ -117,6 +158,7 @@ def _render_share_page(article: dict) -> str:
 <!-- 通常ユーザーは即座に本来の記事ページへ転送 (SNSクローラはここより上のOGPを読み取り済) -->
 <meta http-equiv="refresh" content="0; url={noscript_url}">
 <script>location.replace({json.dumps(f"/article.html?id={aid}")});</script>
+<script type="application/ld+json">{_build_json_ld(article)}</script>
 </head>
 <body style="font-family:sans-serif;padding:2em;color:#333;">
 <p>記事ページへ遷移しています…<br>
@@ -141,6 +183,24 @@ def _read_existing_hash(path: Path) -> str | None:
         return None
 
 
+def _ensure_structured_data(path: Path, article: dict) -> bool:
+    """既存 HTML に構造化データがなければ </head> 直前に追記する。
+    既にあればスキップ (冪等性)。既存 HTML の他の部分は一切変更しない。"""
+    try:
+        file_html = path.read_text(encoding="utf-8")
+    except FileNotFoundError:
+        return False
+
+    if "application/ld+json" in file_html:
+        return False
+
+    json_ld = _build_json_ld(article)
+    script_tag = f'<script type="application/ld+json">{json_ld}</script>\n'
+    new_html = file_html.replace("</head>", script_tag + "</head>", 1)
+    path.write_text(new_html, encoding="utf-8")
+    return True
+
+
 def build() -> dict:
     """差分ビルドを実行。カウントを返す。"""
     if not ARTICLES_JSON.exists():
@@ -151,13 +211,14 @@ def build() -> dict:
     articles = data.get("articles", [])
     if not articles:
         logger.warning("articles.json が空。何もしない。")
-        return {"generated": 0, "skipped": 0, "deleted": 0}
+        return {"generated": 0, "skipped": 0, "deleted": 0, "enriched": 0}
 
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     valid_ids: set[str] = set()
     generated = 0
     skipped = 0
+    enriched = 0
 
     for article in articles:
         aid = article.get("id")
@@ -170,6 +231,9 @@ def build() -> dict:
         existing_hash = _read_existing_hash(out_path)
 
         if existing_hash and current_hash and existing_hash == current_hash:
+            # 既存ファイルに構造化データがなければ追記
+            if _ensure_structured_data(out_path, article):
+                enriched += 1
             skipped += 1
             continue
 
@@ -185,10 +249,10 @@ def build() -> dict:
             logger.info(f"  removed stale: {path.name}")
 
     logger.info(
-        f"OGP共有ページ生成完了: generated={generated}, skipped={skipped}, deleted={deleted} "
-        f"(total articles={len(valid_ids)})"
+        f"OGP共有ページ生成完了: generated={generated}, skipped={skipped}, "
+        f"enriched={enriched}, deleted={deleted} (total={len(valid_ids)})"
     )
-    return {"generated": generated, "skipped": skipped, "deleted": deleted}
+    return {"generated": generated, "skipped": skipped, "enriched": enriched, "deleted": deleted}
 
 
 if __name__ == "__main__":
