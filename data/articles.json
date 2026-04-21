@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-21T17:21:42.872412+00:00",
-  "total": 328,
+  "generated_at": "2026-04-21T17:31:07.620609+00:00",
+  "total": 327,
   "articles": [
     {
       "id": "349913ba47ba8177a166e5036ead82a5",
@@ -66,19 +66,6 @@
       "published_at": "2026-04-21T15:58:00.000+00:00",
       "imported_at": "2026-04-21T16:59:00.000Z",
       "content_hash": "7c5161608c2d3b1b"
-    },
-    {
-      "id": "349913ba47ba81dea4cfc1016021a1a8",
-      "title": "ドレイクの新作を巡ってファンが過激な行動に",
-      "summary": "ドレイクのアルバム『Ice Block』のリリース日を求めて、ファンが過激な行動を取っているという。詳細については記事内で続報が提供されている。",
-      "category": "ニュース",
-      "image_url": "https://townsquare.media/site/812/files/2026/04/attachment-drake-ice-day-1-header.jpg?format=natural",
-      "source_urls": "https://www.xxlmag.com/drake-ice-structure-release-date-fans/",
-      "source_names": "XXL",
-      "hashtags": "#Drake #IceBlock #HipHopNews",
-      "published_at": "2026-04-21T15:33:00.000+00:00",
-      "imported_at": "2026-04-21T16:59:00.000Z",
-      "content_hash": "c8038815e3af49c6"
     },
     {
       "id": "349913ba47ba81cdb577c83b2905791c",
