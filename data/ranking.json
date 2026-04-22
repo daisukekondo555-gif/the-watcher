@@ -41,17 +41,17 @@
       },
       {
         "path": "/article.html?id=349913ba47ba8168ae9ee4f3b240fc44",
-        "pageviews": 7
+        "pageviews": 8
       }
     ],
     "リリース": [
       {
-        "path": "/article.html?id=345913ba47ba815db2b1f2142b1c6af2",
-        "pageviews": 4
+        "path": "/article.html?id=348913ba47ba81febc7bea4ccce00c86",
+        "pageviews": 6
       },
       {
-        "path": "/article.html?id=348913ba47ba81febc7bea4ccce00c86",
-        "pageviews": 4
+        "path": "/article.html?id=345913ba47ba815db2b1f2142b1c6af2",
+        "pageviews": 5
       },
       {
         "path": "/article.html?id=345913ba47ba81249b91fca30acaea41",
@@ -117,7 +117,7 @@
       },
       {
         "path": "/article.html?id=345913ba47ba816c8644e87f2461fb87",
-        "pageviews": 4
+        "pageviews": 5
       },
       {
         "path": "/article.html?id=345913ba47ba814bbcbccd419dd6f6c7",
@@ -134,6 +134,10 @@
     ],
     "ビジネス": [
       {
+        "path": "/article.html?id=348913ba47ba8143856cc78935c3b9a1",
+        "pageviews": 5
+      },
+      {
         "path": "/article.html?id=343913ba47ba81d38141ef25ba3623e7",
         "pageviews": 3
       },
@@ -148,12 +152,8 @@
       {
         "path": "/article.html?id=346913ba47ba813ea3fdcf16d80e62be",
         "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=346913ba47ba816f9fd6fa7e26071af9",
-        "pageviews": 3
       }
     ]
   },
-  "updated_at": "2026-04-21T22:40:46"
+  "updated_at": "2026-04-22T02:48:20"
 }
