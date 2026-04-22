@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-04-22T05:58:55.296359+00:00",
-  "total": 377,
+  "generated_at": "2026-04-22T07:27:59.680242+00:00",
+  "total": 374,
   "articles": [
     {
       "id": "34a913ba47ba81efaf4efaf13e92230f",
@@ -40,19 +40,6 @@
       "published_at": "2026-04-22T00:00:00.000+00:00",
       "imported_at": "2026-04-22T02:47:00.000Z",
       "content_hash": "5650a2e9bae97d37"
-    },
-    {
-      "id": "34a913ba47ba81b59ae8ca21fa7d7691",
-      "title": "エイサップ・ロッキーとリアーナの娘、初めて公開",
-      "summary": "エイサップ・ロッキー（A$AP Rocky）とリアーナの娘が初めて公開された。",
-      "category": "ニュース",
-      "image_url": "https://townsquare.media/site/812/files/2026/04/attachment-asap-rocky-rihanna-baby-rocki-1.jpg?format=natural",
-      "source_urls": "https://www.xxlmag.com/asap-rocky-rihanna-daughter-magazine/",
-      "source_names": "XXL",
-      "hashtags": "#ASAPRocky #Rihanna #CelebrityNews",
-      "published_at": "2026-04-21T23:33:00.000+00:00",
-      "imported_at": "2026-04-22T02:47:00.000Z",
-      "content_hash": "462758207fc5209a"
     },
     {
       "id": "34a913ba47ba819998c5d9eb0b19e4fd",
@@ -170,19 +157,6 @@
       "published_at": "2026-04-21T15:57:00.000+00:00",
       "imported_at": "2026-04-21T22:40:00.000Z",
       "content_hash": "1a395e73c77ca878"
-    },
-    {
-      "id": "349913ba47ba8179b0f4c08844dcb384",
-      "title": "ドレイクの新作をめぐるファンの過激な動き",
-      "summary": "ドレイク（Drake）のファンが、新作のリリース日を巡って過激な行動に出ている。",
-      "category": "ニュース",
-      "image_url": "https://townsquare.media/site/812/files/2026/04/attachment-drake-ice-day-1-header.jpg?format=natural",
-      "source_urls": "https://www.xxlmag.com/drake-ice-structure-release-date-fans/",
-      "source_names": "XXL",
-      "hashtags": "#Drake #HipHopNews #NewMusic",
-      "published_at": "2026-04-21T15:33:00.000+00:00",
-      "imported_at": "2026-04-21T22:40:00.000Z",
-      "content_hash": "4df1d04b6faec16f"
     },
     {
       "id": "349913ba47ba81d980cad7bbbe4279d8",
@@ -391,19 +365,6 @@
       "published_at": "2026-04-21T20:46:00.000+00:00",
       "imported_at": "2026-04-21T22:39:00.000Z",
       "content_hash": "7266d57d3f29df60"
-    },
-    {
-      "id": "349913ba47ba812e876bf52dbb00edf7",
-      "title": "ストリーマーがドレイクの『アイスマン』アルバムのリリース日を明かす",
-      "summary": "ストリーマーがドレイク（Drake）の新作アルバム『アイスマン』（Iceman）のリリース日を公開したと報じられている。",
-      "category": "ニュース",
-      "image_url": "https://townsquare.media/site/812/files/2026/04/attachment-streamer-drake-iceman-release-date.jpg?format=natural",
-      "source_urls": "https://www.xxlmag.com/drake-streamer-iceman-release-date-ice-block/",
-      "source_names": "XXL",
-      "hashtags": "#Drake #IcemanAlbum #HipHopNews",
-      "published_at": "2026-04-21T20:41:00.000+00:00",
-      "imported_at": "2026-04-21T22:39:00.000Z",
-      "content_hash": "e5edc11765ed6e06"
     },
     {
       "id": "349913ba47ba813fb172f71c9261607a",
