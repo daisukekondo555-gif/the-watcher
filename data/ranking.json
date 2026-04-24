@@ -2,10 +2,14 @@
   "weekly": [
     {
       "path": "/article.html?id=345913ba47ba81f787c3d909d7812350",
-      "pageviews": 10
+      "pageviews": 11
     },
     {
       "path": "/article.html?id=346913ba47ba81399bf2e5045117b14c",
+      "pageviews": 9
+    },
+    {
+      "path": "/article.html?id=349913ba47ba8168ae9ee4f3b240fc44",
       "pageviews": 9
     },
     {
@@ -15,20 +19,20 @@
     {
       "path": "/article.html?id=346913ba47ba813686b2d6e462d11fab",
       "pageviews": 8
-    },
-    {
-      "path": "/article.html?id=347913ba47ba811095d2feb3711a6274",
-      "pageviews": 8
     }
   ],
   "by_category": {
     "ニュース": [
       {
         "path": "/article.html?id=345913ba47ba81f787c3d909d7812350",
-        "pageviews": 10
+        "pageviews": 11
       },
       {
         "path": "/article.html?id=346913ba47ba81399bf2e5045117b14c",
+        "pageviews": 9
+      },
+      {
+        "path": "/article.html?id=349913ba47ba8168ae9ee4f3b240fc44",
         "pageviews": 9
       },
       {
@@ -37,10 +41,6 @@
       },
       {
         "path": "/article.html?id=346913ba47ba813686b2d6e462d11fab",
-        "pageviews": 8
-      },
-      {
-        "path": "/article.html?id=347913ba47ba811095d2feb3711a6274",
         "pageviews": 8
       }
     ],
@@ -155,5 +155,5 @@
       }
     ]
   },
-  "updated_at": "2026-04-24T11:48:36"
+  "updated_at": "2026-04-24T13:05:47"
 }
