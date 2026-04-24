@@ -1,28 +1,28 @@
 """
-OGP共有ページ生成スクリプト（Phase 1・差分ビルド）
+静的記事ページ生成スクリプト (方向性D)
 
-SNSクローラ (X / LINE Bot 等) は JS を実行しないため、SPA方式の
-article.html?id=X では記事固有の OGP が反映されない。
-この問題を既存URL構造を維持したまま解決するため、各記事に対して
-SNSクローラ専用の静的ページ articles/<id>.html を生成する。
+articles/<id>.html を「完全な静的記事ページ」として生成する。
+Google が JS 実行なしに記事本文を読めるため、インデックス登録率が根本的に改善される。
 
-生成ページの動作:
-  - <head> に記事固有の OGP / Twitter Card メタタグを埋め込み
-    → SNSクローラはこれを読み取ってサムネイル・タイトルを表示
-  - <link rel="canonical"> で "本物の記事URL" (article.html?id=X) を指示
-    → 検索エンジンは article.html 側をインデックスし、SEO影響を最小化
-  - <meta http-equiv="refresh" content="0; url=/article.html?id=X">
-    → 通常ユーザー (JS実行可) は即座に本来の記事ページへ転送
-  - SNSシェアボタンの URL だけ articles/<id>.html を指す
-    → 一般ユーザーがアドレスバー経由でこの静的ページを踏むことはない
+含まれる要素:
+  - 記事本文 (articles.json の summary)
+  - 記事固有の title / meta description / OGP / Twitter Card
+  - canonical (自己参照: articles/XXX.html)
+  - JSON-LD NewsArticle 構造化データ
+  - ヒーロー画像 (wsrv.nl プロキシ経由)
+  - カテゴリ・日付・読了時間・ソース情報
+  - ハッシュタグリンク
+  - シェアボタン (X + LINE)
+  - 前後記事ナビゲーション
+  - 同カテゴリ関連記事 (最大4件)
+  - ヘッダー・フッター・ナビゲーション
+  - 広告スロット
+  - GA4 + AdSense
 
 差分ビルド:
-  各ファイル先頭に `<!-- content_hash: XXX -->` マーカーを埋め込み、
-  articles.json 側の content_hash (既存実装済) と比較。
-  ハッシュ一致なら skip、不一致なら再生成、消失した ID は削除。
-  → 通常運用時は 0〜数件しか触らず、push 競合リスクを最小化する。
-
-GitHub Actions の export_notion.py の後に実行される想定。
+  content_hash + TEMPLATE_VERSION で判定。
+  テンプレートバージョンが変わると全件再生成。
+  記事データだけ変わった場合は該当記事のみ再生成。
 """
 
 from __future__ import annotations
@@ -30,9 +30,11 @@ from __future__ import annotations
 import html
 import json
 import logging
+import math
 import re
 import sys
 from pathlib import Path
+from urllib.parse import quote, urlencode
 
 logger = logging.getLogger(__name__)
 logging.basicConfig(
@@ -52,17 +54,53 @@ DEFAULT_OGP_IMAGE = f"{SITE_URL}/assets/logo-mark.png"
 LOGO_URL = f"{SITE_URL}/assets/logo-mark.png"
 DESC_MAX_LEN = 120
 
-# content_hash マーカー（ファイル2行目に埋め込む）
-HASH_MARKER_RE = re.compile(r"<!--\s*content_hash:\s*([0-9a-f]+)\s*-->")
+TEMPLATE_VERSION = 2
+HASH_MARKER_RE = re.compile(
+    r"<!--\s*content_hash:\s*([0-9a-f]+)(?:\s+template_v:(\d+))?\s*-->"
+)
 
+GA_ID = "G-SWZML504ND"
+ADSENSE_ID = "ca-pub-8582205342495931"
+
+
+# ── Helpers ──────────────────────────────────────────────────────────────
 
 def _esc(value: str) -> str:
-    """HTML属性値用エスケープ（&/ </ > /" /'）"""
     return html.escape(value or "", quote=True)
 
 
+def _summarize(text: str, limit: int = DESC_MAX_LEN) -> str:
+    s = (text or "").replace("\n", " ").replace("\r", " ").strip()
+    s = re.sub(r"\s{2,}", " ", s)
+    if len(s) > limit:
+        s = s[: limit - 1].rstrip() + "…"
+    return s
+
+
+def _proxy_img(url: str, w: int = 640) -> str:
+    if not url:
+        return ""
+    if "wsrv.nl" in url:
+        return url
+    return f"https://wsrv.nl/?url={quote(url, safe='')}&w={w}&output=webp"
+
+
+def _fmt_date_ja(iso: str) -> str:
+    if not iso:
+        return ""
+    m = re.match(r"(\d{4})-(\d{2})-(\d{2})T(\d{2}):(\d{2})", iso)
+    if not m:
+        return ""
+    y, mo, d, h, mi = m.groups()
+    return f"{y}年{int(mo)}月{int(d)}日 {h}:{mi}"
+
+
+def _calc_read_time(text: str) -> int:
+    length = len(re.sub(r"\s", "", text or ""))
+    return max(1, math.ceil(length / 500))
+
+
 def _build_json_ld(article: dict) -> str:
-    """記事の NewsArticle 構造化データ (JSON-LD) を生成する。"""
     aid = article["id"]
     title = article.get("title", SITE_NAME)
     full_title = f"{title} — {SITE_NAME}"
@@ -88,139 +126,319 @@ def _build_json_ld(article: dict) -> str:
             "@type": "NewsMediaOrganization",
             "name": SITE_NAME,
             "url": SITE_URL,
-            "logo": {
-                "@type": "ImageObject",
-                "url": LOGO_URL,
-            },
+            "logo": {"@type": "ImageObject", "url": LOGO_URL},
         },
         "mainEntityOfPage": f"{SITE_URL}/articles/{aid}.html",
         "inLanguage": "ja",
     }
     if source_url:
         ld["isBasedOn"] = source_url
-
     return json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
 
 
-def _summarize(text: str, limit: int = DESC_MAX_LEN) -> str:
-    """description 用に改行を半角空白に潰して指定文字数で丸める。"""
-    s = (text or "").replace("\n", " ").replace("\r", " ").strip()
-    # 連続空白を単一空白に
-    s = re.sub(r"\s{2,}", " ", s)
-    if len(s) > limit:
-        s = s[: limit - 1].rstrip() + "…"
-    return s
+def _build_hashtag_links(hashtags: str) -> str:
+    tags = [t.strip() for t in (hashtags or "").split() if t.startswith("#")]
+    if not tags:
+        return _esc(hashtags or "")
+    return " ".join(
+        f'<a href="/tag.html?tag={quote(t)}">{_esc(t)}</a>' for t in tags
+    )
 
 
-def _render_share_page(article: dict) -> str:
-    """記事1件分の OGP 共有ページ HTML を生成する。"""
+def _build_share_buttons(title: str, article_id: str) -> str:
+    share_url = f"{SITE_URL}/articles/{article_id}.html"
+    x_text = quote(f"{title} — {SITE_NAME}", safe="")
+    x_href = f"https://twitter.com/intent/tweet?text={x_text}&url={quote(share_url, safe='')}"
+    line_href = f"https://social-plugins.line.me/lineit/share?url={quote(share_url, safe='')}"
+    return f"""<div class="share-row">
+<a class="share-btn share-btn-x" href="{_esc(x_href)}" target="_blank" rel="noopener">
+<svg width="13" height="13" viewBox="0 0 24 24" fill="currentColor"><path d="M18.244 2.25h3.308l-7.227 8.26 8.502 11.24H16.17l-4.714-6.231-5.401 6.231H2.744l7.736-8.851L2.25 2.25h6.861l4.258 5.631zm-1.161 17.52h1.833L7.084 4.126H5.117z"/></svg>
+POST</a>
+<a class="share-btn share-btn-line" href="{_esc(line_href)}" target="_blank" rel="noopener">
+<svg width="13" height="13" viewBox="0 0 512 512" fill="currentColor"><path d="M256 48C141 48 48 124.5 48 219c0 70.5 47.5 131.7 118.4 163.4-5.2 19.4-18.8 70.5-21.6 81.5-.3 1.3.5 2.6 1.8 2.9.7.2 1.4 0 2-.5 2.7-2 99.1-65.7 111.1-73.7C267.3 394.4 275.5 396 284 396c-5.3-1.2-10.5-2.3 0 0h-28c115 0 208-76.5 208-171S371 48 256 48z"/></svg>
+LINE</a>
+</div>"""
+
+
+def _build_article_nav(articles: list[dict], idx: int) -> str:
+    prev_a = articles[idx + 1] if idx + 1 < len(articles) else None
+    next_a = articles[idx - 1] if idx > 0 else None
+    if not prev_a and not next_a:
+        return ""
+
+    def _nav_link(a, direction, css_extra=""):
+        if not a:
+            return '<div class="article-nav-spacer"></div>'
+        label = "← 前の記事" if direction == "prev" else "次の記事 →"
+        return (
+            f'<a class="article-nav-link{css_extra}" href="/articles/{a["id"]}.html">'
+            f'<div class="article-nav-dir">{label}</div>'
+            f'<div class="article-nav-title">{_esc(a.get("title",""))}</div></a>'
+        )
+
+    return (
+        '<div class="article-nav">'
+        + _nav_link(prev_a, "prev", " nav-prev")
+        + _nav_link(next_a, "next", " nav-next")
+        + "</div>"
+    )
+
+
+def _build_related(article: dict, articles: list[dict], max_items: int = 4) -> str:
+    cat = article.get("category", "")
+    aid = article["id"]
+    related = [a for a in articles if a.get("category") == cat and a["id"] != aid][:max_items]
+    if not related:
+        return ""
+
+    items_html = ""
+    for a in related:
+        img_url = a.get("image_url", "")
+        if img_url:
+            img = (
+                f'<img src="{_esc(_proxy_img(img_url))}" '
+                f'style="width:90px;height:60px;object-fit:cover;flex-shrink:0;" alt="">'
+            )
+        else:
+            img = '<div class="news-thumb-placeholder"></div>'
+        items_html += (
+            f'<a href="/articles/{a["id"]}.html" class="news-item" style="text-decoration:none;">'
+            f'{img}<div class="news-content">'
+            f'<div class="news-cat">{_esc(a.get("category",""))}</div>'
+            f'<div class="news-title">{_esc(a.get("title",""))}</div>'
+            f'<div class="news-meta">{_fmt_date_ja(a.get("published_at",""))}</div>'
+            f'</div></a>'
+        )
+
+    return (
+        '<div class="sec-label"><span>RELATED ARTICLES</span></div>'
+        f'<div class="related-grid">{items_html}</div>'
+    )
+
+
+def _build_source_block(source_urls: str, source_names: str) -> str:
+    urls = [u.strip() for u in (source_urls or "").split(",") if u.strip()]
+    names = [n.strip() for n in (source_names or "").split(",") if n.strip()]
+    if not urls:
+        return ""
+    links = "".join(
+        f'<a href="{_esc(u)}" target="_blank" rel="noopener">via {_esc(names[i] if i < len(names) else u)} ↗</a>'
+        for i, u in enumerate(urls)
+    )
+    return (
+        '<div class="article-source-block">'
+        '<div class="article-source-label">SOURCE</div>'
+        f'<div class="article-via-links">{links}</div></div>'
+    )
+
+
+# ── Main template ────────────────────────────────────────────────────────
+
+def _render_article_page(article: dict, articles: list[dict], idx: int) -> str:
     aid = article["id"]
     raw_title = article.get("title", SITE_NAME)
     full_title = f"{raw_title} — {SITE_NAME}"
     desc = _summarize(article.get("summary", "")) or f"{SITE_NAME} — {SITE_TAGLINE}"
     image_url = article.get("image_url") or DEFAULT_OGP_IMAGE
-    canonical_url = f"{SITE_URL}/article.html?id={aid}"
+    summary = article.get("summary", "")
+    category = article.get("category", "")
+    published = article.get("published_at", "")
+    source_urls = article.get("source_urls", "")
+    source_names = article.get("source_names", "")
+    hashtags = article.get("hashtags", "")
     content_hash = article.get("content_hash", "")
 
-    # 値をすべてエスケープして埋め込み
     t = _esc(full_title)
     d = _esc(desc)
     img = _esc(image_url)
-    url = _esc(canonical_url)
-    noscript_url = _esc(f"/article.html?id={aid}")
+    canonical = f"{SITE_URL}/articles/{aid}.html"
+
+    # Source names for meta row
+    src_list = [n.strip() for n in source_names.split(",") if n.strip()]
+    src_meta = ""
+    if src_list:
+        src_meta = (
+            '<span class="article-meta-sep">·</span>'
+            f'<span class="article-source-name">{_esc(" / ".join(src_list))}</span>'
+        )
+
+    read_time = _calc_read_time(summary)
+
+    # Hero image
+    if image_url:
+        hero = (
+            f'<img class="article-hero-img" src="{_esc(_proxy_img(image_url, 1200))}" alt="{_esc(raw_title)}"'
+            f' onerror="this.outerHTML=\'<div class=article-hero-placeholder>THE WATCHER</div>\'">'
+        )
+    else:
+        hero = '<div class="article-hero-placeholder">THE WATCHER</div>'
+
+    body_html = f'<div class="article-text">{_esc(summary)}</div>' if summary else ""
+    hashtag_html = f'<div class="article-hashtags">{_build_hashtag_links(hashtags)}</div>' if hashtags else ""
 
     return f"""<!doctype html>
-<!-- content_hash: {content_hash} -->
+<!-- content_hash: {content_hash} template_v:{TEMPLATE_VERSION} -->
 <html lang="ja">
 <head>
+<script async src="https://www.googletagmanager.com/gtag/js?id={GA_ID}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){{dataLayer.push(arguments)}}gtag('js',new Date());gtag('config','{GA_ID}');</script>
 <meta charset="UTF-8">
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client={ADSENSE_ID}" crossorigin="anonymous"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="icon" type="image/png" href="/assets/favicon.png">
+<link rel="apple-touch-icon" href="/assets/favicon.png">
 <title>{t}</title>
 <meta name="description" content="{d}">
-<link rel="canonical" href="{url}">
-<meta name="robots" content="noindex,follow">
-
-<!-- Open Graph Protocol -->
+<link rel="canonical" href="{_esc(canonical)}">
+<meta name="robots" content="index,follow">
 <meta property="og:type" content="article">
 <meta property="og:site_name" content="{_esc(SITE_NAME)}">
 <meta property="og:title" content="{t}">
 <meta property="og:description" content="{d}">
 <meta property="og:image" content="{img}">
-<meta property="og:url" content="{url}">
+<meta property="og:url" content="{_esc(canonical)}">
 <meta property="og:locale" content="ja_JP">
-
-<!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{t}">
 <meta name="twitter:description" content="{d}">
 <meta name="twitter:image" content="{img}">
-
-<!-- 通常ユーザーは即座に本来の記事ページへ転送 (SNSクローラはここより上のOGPを読み取り済) -->
-<meta http-equiv="refresh" content="0; url={noscript_url}">
-<script>location.replace({json.dumps(f"/article.html?id={aid}")});</script>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/assets/header.css">
+<style>
+*{{box-sizing:border-box;margin:0;padding:0}}
+html,body{{background:#fff!important;color:#111!important;font-family:'Noto Sans JP',sans-serif;font-size:15px;line-height:1.6;overflow-x:hidden}}
+.breadcrumb{{background:#fff;border-bottom:1px solid #f0f0f0;padding:10px 24px;font-size:11px;color:#bbb;display:flex;align-items:center;gap:6px;flex-wrap:wrap}}
+.breadcrumb a{{color:#0f1f38;text-decoration:none}}.breadcrumb a:hover{{text-decoration:underline}}
+.breadcrumb-sep{{color:#ddd}}.breadcrumb-current{{color:#aaa;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:300px}}
+.article-hero-img{{width:100%;max-height:360px;object-fit:contain;display:block;background:#0f1f38}}
+@media(min-width:768px){{.article-hero-img{{max-height:520px}}}}
+.article-hero-placeholder{{width:100%;height:260px;background:linear-gradient(135deg,#0f1f38 0%,#1c3060 100%);display:flex;align-items:center;justify-content:center;font-family:'Bebas Neue',sans-serif;font-size:48px;color:rgba(255,255,255,.08);letter-spacing:6px}}
+.article-wrap{{padding:36px 24px 60px;max-width:700px;margin:0 auto}}
+.article-meta-row{{display:flex;align-items:center;gap:10px;margin-bottom:14px;flex-wrap:wrap}}
+.article-cat{{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#0f1f38;font-weight:700}}
+.article-meta-sep{{color:#ddd}}.article-date{{font-size:11px;color:#999}}
+.article-readtime{{font-size:11px;color:#bbb}}.article-source-name{{font-size:11px;color:#aaa}}
+.article-title{{font-family:'Noto Serif JP',serif;font-size:26px;font-weight:900;line-height:1.7;color:#111;margin-bottom:20px}}
+@media(min-width:768px){{.article-title{{font-size:34px}}}}
+.article-divider{{height:2px;background:#0f1f38;margin-bottom:28px}}
+.article-text{{font-size:17px;line-height:2.0;color:#333;margin-bottom:32px;white-space:pre-wrap}}
+.article-hashtags{{font-size:13px;color:#3a6bc4;line-height:2;margin-bottom:28px}}
+.article-hashtags a{{color:inherit;text-decoration:none}}.article-hashtags a:hover{{text-decoration:underline}}
+.article-source-block{{border-top:1px solid #e0e0e0;padding-top:20px}}
+.article-source-label{{font-family:'Bebas Neue',sans-serif;font-size:12px;letter-spacing:2px;color:#aaa;margin-bottom:8px}}
+.article-via-links{{font-size:13px;display:flex;flex-wrap:wrap;gap:12px}}
+.article-via-links a{{color:#0f1f38;text-decoration:none;font-weight:700;border-bottom:1px solid #0f1f38;padding-bottom:1px}}
+.article-via-links a:hover{{color:#c8a830;border-color:#c8a830}}
+.share-row{{display:flex;gap:10px;margin-bottom:28px;flex-wrap:wrap}}
+.share-btn{{display:inline-flex;align-items:center;gap:7px;padding:8px 18px;font-size:12px;font-family:'Bebas Neue',sans-serif;letter-spacing:2px;cursor:pointer;text-decoration:none;border:1px solid;transition:all .15s;line-height:1}}
+.share-btn-x{{color:#111;border-color:#111}}.share-btn-x:hover{{background:#111;color:#fff}}
+.share-btn-line{{color:#06c755;border-color:#06c755}}.share-btn-line:hover{{background:#06c755;color:#fff}}
+.ad-slot{{background:#f9f9f9;border-top:1px solid #e0e0e0;border-bottom:1px solid #e0e0e0;padding:16px 24px;text-align:center}}
+.ad-inner{{display:inline-flex;width:100%;max-width:728px;height:90px;background:#f0f0f0;align-items:center;justify-content:center;margin:0 auto}}
+.ad-inner span{{font-size:11px;color:#bbb;letter-spacing:2px}}
+.sec-label{{padding:26px 24px 18px;display:flex;align-items:center;gap:14px;border-bottom:1px solid #e0e0e0}}
+.sec-label span{{font-family:'Bebas Neue',sans-serif;font-size:30px;letter-spacing:4px;color:#111;white-space:nowrap}}
+.sec-label::after{{content:'';flex:1;height:3px;background:#111}}
+.news-item{{background:#fff;padding:22px 24px;cursor:pointer;display:flex;gap:16px;align-items:flex-start;transition:background .15s;position:relative;text-decoration:none;color:inherit}}
+.news-item::after{{content:'';position:absolute;bottom:0;left:10%;right:10%;height:1px;background:#e0e0e0}}
+.news-item:hover{{background:#f9f9f7}}
+.news-thumb-placeholder{{flex-shrink:0;width:90px;height:60px;background:linear-gradient(135deg,#0f1f38,#1c3060)}}
+.news-content{{flex:1;min-width:0}}.news-cat{{font-size:11px;letter-spacing:2px;text-transform:uppercase;color:#0f1f38;font-weight:700;margin-bottom:3px}}
+.news-title{{font-family:'Noto Serif JP',serif;font-size:14px;font-weight:700;line-height:1.5;color:#111;margin-bottom:5px}}
+.news-meta{{font-size:10px;color:#999}}
+@media(min-width:768px){{.related-grid{{display:grid;grid-template-columns:1fr 1fr}}}}
+.article-nav{{display:flex;justify-content:space-between;gap:12px;border-top:1px solid #e0e0e0;padding-top:20px;margin-top:28px}}
+.article-nav-link{{flex:1;min-width:0;text-decoration:none;color:#111;padding:14px 16px;transition:background .15s}}
+.article-nav-link:hover{{background:#f9f9f7}}.article-nav-link.nav-next{{text-align:right}}
+.article-nav-dir{{font-family:'Bebas Neue',sans-serif;font-size:11px;letter-spacing:2px;color:#c8a830;margin-bottom:6px}}
+.article-nav-title{{font-family:'Noto Serif JP',serif;font-size:13px;line-height:1.5;color:#111;overflow:hidden;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical}}
+.article-nav-spacer{{flex:1}}
+.back-to-top{{position:fixed;bottom:28px;right:24px;width:44px;height:44px;background:#0f1f38;border:none;cursor:pointer;display:none;align-items:center;justify-content:center;z-index:50;opacity:0;transition:opacity .25s}}
+.back-to-top.visible{{display:flex;opacity:1}}.back-to-top:hover{{opacity:.75}}
+.page-wrap{{max-width:1200px;margin:0 auto}}
+footer{{background:#0f1f38;border-top:2px solid #c8a830}}.footer-inner{{padding:0 24px;height:58px;display:flex;align-items:center;justify-content:flex-end}}
+</style>
 <script type="application/ld+json">{_build_json_ld(article)}</script>
 </head>
-<body style="font-family:sans-serif;padding:2em;color:#333;">
-<p>記事ページへ遷移しています…<br>
-<a href="{noscript_url}">自動で遷移しない場合はこちら</a></p>
+<body style="background:#fff">
+<div style="background:#fff;min-height:100vh">
+<header>
+<a class="logo-wrap" href="/"><div class="logo-en"><span>THE</span><img class="logo-mark" src="/assets/logo-mark.png" alt=""><span>WATCHER</span></div><div class="logo-ja">ザ・ウォッチャー</div></a>
+</header>
+<div class="page-wrap">
+<div class="breadcrumb"><a href="/">ホーム</a><span class="breadcrumb-sep">›</span><a href="/category.html?cat={quote(category)}">{_esc(category)}</a><span class="breadcrumb-sep">›</span><span class="breadcrumb-current">{_esc(raw_title)}</span></div>
+{hero}
+<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
+<div class="article-wrap">
+<div class="article-meta-row">
+<span class="article-cat">{_esc(category)}</span>
+<span class="article-meta-sep">·</span>
+<span class="article-date">{_fmt_date_ja(published)}</span>
+<span class="article-meta-sep">·</span>
+<span class="article-readtime">読了 {read_time}分</span>
+{src_meta}
+</div>
+<h1 class="article-title">{_esc(raw_title)}</h1>
+{_build_share_buttons(raw_title, aid)}
+<div class="article-divider"></div>
+{body_html}
+{hashtag_html}
+{_build_source_block(source_urls, source_names)}
+{_build_article_nav(articles, idx)}
+</div>
+<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
+<div style="margin-top:20px">{_build_related(article, articles)}</div>
+</div>
+<footer><div class="footer-inner"><div style="display:flex;flex-direction:row;align-items:center;gap:24px">
+<a href="/about.html" style="font-size:10px;color:rgba(255,255,255,.4);letter-spacing:1px;text-decoration:none">About Us</a>
+<a href="/privacy.html" style="font-size:10px;color:rgba(255,255,255,.4);letter-spacing:1px;text-decoration:none">プライバシーポリシー</a>
+<a href="/contact.html" style="font-size:10px;color:rgba(255,255,255,.4);letter-spacing:1px;text-decoration:none">お問い合わせ</a>
+<div style="font-size:10px;color:rgba(255,255,255,.25);letter-spacing:1px">© 2026 THE WATCHER</div>
+</div></div></footer>
+<button class="back-to-top" id="backToTop" aria-label="ページトップへ" onclick="window.scrollTo({{top:0,behavior:'smooth'}})">
+<svg width="18" height="18" viewBox="0 0 24 24" fill="#fff"><path d="M12 4L4 12h5v8h6v-8h5L12 4z"/></svg>
+</button>
+<script>window.addEventListener('scroll',function(){{var b=document.getElementById('backToTop');if(window.scrollY>200)b.classList.add('visible');else b.classList.remove('visible')}},{{passive:true}})</script>
+</div>
 </body>
-</html>
-"""
+</html>"""
 
 
-def _read_existing_hash(path: Path) -> str | None:
-    """既存の share page ファイルから content_hash マーカーを読み出す。"""
+# ── Build logic ──────────────────────────────────────────────────────────
+
+def _read_existing_marker(path: Path) -> tuple[str | None, int | None]:
     try:
-        # 先頭数行だけ読めば十分（マーカーは2行目）
         with path.open("r", encoding="utf-8") as f:
             head = "".join(next(f, "") for _ in range(5))
         m = HASH_MARKER_RE.search(head)
-        return m.group(1) if m else None
+        if m:
+            return m.group(1), int(m.group(2)) if m.group(2) else None
+        return None, None
     except FileNotFoundError:
-        return None
+        return None, None
     except Exception as e:
-        logger.warning(f"hash 読み取り失敗 {path.name}: {e}")
-        return None
-
-
-def _ensure_structured_data(path: Path, article: dict) -> bool:
-    """既存 HTML に構造化データがなければ </head> 直前に追記する。
-    既にあればスキップ (冪等性)。既存 HTML の他の部分は一切変更しない。"""
-    try:
-        file_html = path.read_text(encoding="utf-8")
-    except FileNotFoundError:
-        return False
-
-    if "application/ld+json" in file_html:
-        return False
-
-    json_ld = _build_json_ld(article)
-    script_tag = f'<script type="application/ld+json">{json_ld}</script>\n'
-    new_html = file_html.replace("</head>", script_tag + "</head>", 1)
-    path.write_text(new_html, encoding="utf-8")
-    return True
+        logger.warning(f"marker read failed {path.name}: {e}")
+        return None, None
 
 
 def build() -> dict:
-    """差分ビルドを実行。カウントを返す。"""
     if not ARTICLES_JSON.exists():
-        logger.error(f"articles.json が見つからない: {ARTICLES_JSON}")
+        logger.error(f"articles.json not found: {ARTICLES_JSON}")
         sys.exit(1)
 
     data = json.loads(ARTICLES_JSON.read_text(encoding="utf-8"))
     articles = data.get("articles", [])
     if not articles:
-        logger.warning("articles.json が空。何もしない。")
-        return {"generated": 0, "skipped": 0, "deleted": 0, "enriched": 0}
+        logger.warning("articles.json is empty")
+        return {"generated": 0, "skipped": 0, "deleted": 0}
 
     OUTPUT_DIR.mkdir(exist_ok=True)
 
     valid_ids: set[str] = set()
     generated = 0
     skipped = 0
-    enriched = 0
 
-    for article in articles:
+    for idx, article in enumerate(articles):
         aid = article.get("id")
         if not aid:
             continue
@@ -228,19 +446,22 @@ def build() -> dict:
 
         current_hash = article.get("content_hash", "")
         out_path = OUTPUT_DIR / f"{aid}.html"
-        existing_hash = _read_existing_hash(out_path)
+        existing_hash, existing_tv = _read_existing_marker(out_path)
 
-        if existing_hash and current_hash and existing_hash == current_hash:
-            # 既存ファイルに構造化データがなければ追記
-            if _ensure_structured_data(out_path, article):
-                enriched += 1
+        if (
+            existing_hash
+            and current_hash
+            and existing_hash == current_hash
+            and existing_tv == TEMPLATE_VERSION
+        ):
             skipped += 1
             continue
 
-        out_path.write_text(_render_share_page(article), encoding="utf-8")
+        out_path.write_text(
+            _render_article_page(article, articles, idx), encoding="utf-8"
+        )
         generated += 1
 
-    # 削除リコンサイル: articles/ 内で articles.json に存在しない id のファイルを除去
     deleted = 0
     for path in OUTPUT_DIR.glob("*.html"):
         if path.stem not in valid_ids:
@@ -249,10 +470,10 @@ def build() -> dict:
             logger.info(f"  removed stale: {path.name}")
 
     logger.info(
-        f"OGP共有ページ生成完了: generated={generated}, skipped={skipped}, "
-        f"enriched={enriched}, deleted={deleted} (total={len(valid_ids)})"
+        f"Static article pages: generated={generated}, skipped={skipped}, "
+        f"deleted={deleted} (total={len(valid_ids)}, template_v={TEMPLATE_VERSION})"
     )
-    return {"generated": generated, "skipped": skipped, "enriched": enriched, "deleted": deleted}
+    return {"generated": generated, "skipped": skipped, "deleted": deleted}
 
 
 if __name__ == "__main__":

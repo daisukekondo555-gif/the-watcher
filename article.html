@@ -352,6 +352,12 @@
       var description = (article.summary || '').replace(/\n/g, ' ').slice(0, 120);
       updateOGP(article.title, description, article.image_url || '', pageUrl);
 
+      // canonical を articles/XXX.html (静的記事ページ = 正規URL) に向ける
+      var canonicalLink = document.createElement('link');
+      canonicalLink.rel = 'canonical';
+      canonicalLink.href = location.origin + '/articles/' + article.id + '.html';
+      document.head.appendChild(canonicalLink);
+
       // パンくずリスト
       renderBreadcrumb(article.category, article.title);
 

@@ -264,6 +264,7 @@ def generate_sitemap(articles: list[dict], site_url: str) -> None:
         '<?xml version="1.0" encoding="UTF-8"?>',
         '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">',
         f'  <url><loc>{site_url}/</loc><lastmod>{today}</lastmod><changefreq>daily</changefreq><priority>1.0</priority></url>',
+        f'  <url><loc>{site_url}/about.html</loc><lastmod>2026-04-22</lastmod><changefreq>monthly</changefreq><priority>0.5</priority></url>',
     ]
     categories = sorted({a["category"] for a in articles if a.get("category")})
     for cat in categories:
@@ -274,7 +275,7 @@ def generate_sitemap(articles: list[dict], site_url: str) -> None:
     for article in articles:
         if not article.get("id"):
             continue
-        art_url = f'{site_url}/article.html?id={article["id"]}'
+        art_url = f'{site_url}/articles/{article["id"]}.html'
         lastmod = (article.get("published_at") or today)[:10]
         lines.append(
             f'  <url><loc>{art_url}</loc><lastmod>{lastmod}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>'
