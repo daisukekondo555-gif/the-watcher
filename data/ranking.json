@@ -2,56 +2,52 @@
   "weekly": [
     {
       "path": "/article.html?id=34b913ba47ba812a8bfdce18c6fc7349",
-      "pageviews": 9
-    },
-    {
-      "path": "/article.html?id=34a913ba47ba8188971aec9c7a9ae498",
-      "pageviews": 7
-    },
-    {
-      "path": "/article.html?id=34a913ba47ba817c8c7fc119d0b30a81",
-      "pageviews": 5
+      "pageviews": 10
     },
     {
       "path": "/article.html?id=34b913ba47ba81419351f3eda7c8bf4e",
-      "pageviews": 5
+      "pageviews": 6
     },
     {
       "path": "/article.html?id=34b913ba47ba81b5b07dd9390402a3e4",
-      "pageviews": 5
+      "pageviews": 6
+    },
+    {
+      "path": "/article.html?id=34b913ba47ba81d3b7ffc2bff54211cd",
+      "pageviews": 4
+    },
+    {
+      "path": "/article.html?id=34d913ba47ba810ca017e3f575ee6f4e",
+      "pageviews": 4
     }
   ],
   "by_category": {
     "ニュース": [
       {
         "path": "/article.html?id=34b913ba47ba812a8bfdce18c6fc7349",
-        "pageviews": 9
-      },
-      {
-        "path": "/article.html?id=34a913ba47ba8188971aec9c7a9ae498",
-        "pageviews": 7
-      },
-      {
-        "path": "/article.html?id=34a913ba47ba817c8c7fc119d0b30a81",
-        "pageviews": 5
+        "pageviews": 10
       },
       {
         "path": "/article.html?id=34b913ba47ba81419351f3eda7c8bf4e",
-        "pageviews": 5
+        "pageviews": 6
       },
       {
         "path": "/article.html?id=34b913ba47ba81b5b07dd9390402a3e4",
-        "pageviews": 5
+        "pageviews": 6
+      },
+      {
+        "path": "/article.html?id=34b913ba47ba81d3b7ffc2bff54211cd",
+        "pageviews": 4
+      },
+      {
+        "path": "/article.html?id=34c913ba47ba812a8b5ce468eae4e3b3",
+        "pageviews": 3
       }
     ],
     "リリース": [
       {
         "path": "/article.html?id=34d913ba47ba810ca017e3f575ee6f4e",
         "pageviews": 4
-      },
-      {
-        "path": "/article.html?id=34a913ba47ba81e1952dd20962bdc9a6",
-        "pageviews": 2
       },
       {
         "path": "/article.html?id=34d913ba47ba81f68b1ffbc589cfa4be",
@@ -64,16 +60,16 @@
       {
         "path": "/article.html?id=34f913ba47ba816abe39efca723f7057",
         "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=351913ba47ba815d8266e0f40467b92c",
+        "pageviews": 2
       }
     ],
     "ビーフ": [
       {
         "path": "/article.html?id=34d913ba47ba81c1b4a0c20a909c0b0a",
         "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=34a913ba47ba813a8da0ee28d4f0e513",
-        "pageviews": 1
       },
       {
         "path": "/article.html?id=34b913ba47ba81fa98dbcd90458f5242",
@@ -86,31 +82,39 @@
       {
         "path": "/article.html?id=34f913ba47ba812a8569e1f114f79d8b",
         "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=350913ba47ba813ba61ef89ccf0cc593",
+        "pageviews": 1
       }
     ],
     "ライブ": [
       {
-        "path": "/article.html?id=34a913ba47ba81af913ad199cd6ab0b4",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=34a913ba47ba81bfa6afd5b418f4baaa",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=34a913ba47ba81af913ad199cd6ab0b4&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeaCzGpa6MoHKGY1zxoZSLx9g9Dh2k3of8ufQw8L68VQUEyl04WQo7KPzAasQ_aem_XiVZU2m2AotWaC3CkgVvgg",
-        "pageviews": 1
-      },
-      {
-        "path": "/article.html?id=34a913ba47ba81bfa6afd5b418f4baaa&fbclid=IwZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAEeCjGHqoDkQAaqVVGYB34D2dWkJeZw0wXHrhQFcNsch-3D6tvjBUSBT2RMKYw_aem_rJ34I4sMY5LPk5BcPzggyw",
-        "pageviews": 1
-      },
-      {
         "path": "/article.html?id=34c913ba47ba81d394fef9200afedb97",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=34f913ba47ba81d19062f16fcf058989",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=350913ba47ba81ed821bd940fe5e6917",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=351913ba47ba816cb11fc3679e3753d8",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=351913ba47ba81fca8a3c8062aa541ca",
         "pageviews": 1
       }
     ],
     "チャート": [
+      {
+        "path": "/article.html?id=34f913ba47ba81d3a47dffa363f206f3",
+        "pageviews": 2
+      },
       {
         "path": "/article.html?id=350913ba47ba819693d7ebe0d363f739",
         "pageviews": 2
@@ -121,10 +125,6 @@
       },
       {
         "path": "/article.html?id=34c913ba47ba8182b6b8cc30ddb4b888",
-        "pageviews": 1
-      },
-      {
-        "path": "/article.html?id=34f913ba47ba81d3a47dffa363f206f3",
         "pageviews": 1
       }
     ],
@@ -138,18 +138,18 @@
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=34a913ba47ba815ab537efb488b65f29",
-        "pageviews": 1
-      },
-      {
         "path": "/article.html?id=34c913ba47ba81778bf4d7ea1ebed3a1",
         "pageviews": 1
       },
       {
         "path": "/article.html?id=34c913ba47ba81858f35ecb1a25cb422",
         "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=34c913ba47ba8199a317edcc5e8d6524",
+        "pageviews": 1
       }
     ]
   },
-  "updated_at": "2026-04-30T11:47:51"
+  "updated_at": "2026-04-30T19:07:07"
 }
