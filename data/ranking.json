@@ -2,7 +2,7 @@
   "weekly": [
     {
       "path": "/article.html?id=34d913ba47ba810ca017e3f575ee6f4e",
-      "pageviews": 4
+      "pageviews": 5
     },
     {
       "path": "/article.html?id=350913ba47ba81fe96e9d381ade4d2c9",
@@ -47,7 +47,11 @@
     "リリース": [
       {
         "path": "/article.html?id=34d913ba47ba810ca017e3f575ee6f4e",
-        "pageviews": 4
+        "pageviews": 5
+      },
+      {
+        "path": "/article.html?id=353913ba47ba81688ffcc73c059e27ce",
+        "pageviews": 3
       },
       {
         "path": "/article.html?id=34d913ba47ba81f68b1ffbc589cfa4be",
@@ -59,10 +63,6 @@
       },
       {
         "path": "/article.html?id=34f913ba47ba816abe39efca723f7057",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=351913ba47ba8104aab6dd736cf17a9f",
         "pageviews": 2
       }
     ],
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-01T16:53:40"
+  "updated_at": "2026-05-01T22:39:43"
 }
