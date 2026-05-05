@@ -2,7 +2,7 @@
   "weekly": [
     {
       "path": "/article.html?id=355913ba47ba8193ae9fc4ea884b7081",
-      "pageviews": 5
+      "pageviews": 6
     },
     {
       "path": "/article.html?id=34f913ba47ba812692efc231a9232934",
@@ -25,7 +25,7 @@
     "ニュース": [
       {
         "path": "/article.html?id=355913ba47ba8193ae9fc4ea884b7081",
-        "pageviews": 5
+        "pageviews": 6
       },
       {
         "path": "/article.html?id=34f913ba47ba812692efc231a9232934",
@@ -68,6 +68,10 @@
     ],
     "ビーフ": [
       {
+        "path": "/article.html?id=356913ba47ba8116adb2e3e3a4ce53c1",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=353913ba47ba819d9faadfdd016fe6ba",
         "pageviews": 2
       },
@@ -80,12 +84,8 @@
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=34d913ba47ba81c1b4a0c20a909c0b0a",
-        "pageviews": 1
-      },
-      {
-        "path": "/article.html?id=34f913ba47ba812a8569e1f114f79d8b",
-        "pageviews": 1
+        "path": "/article.html?id=356913ba47ba811b8dd9e8319c73e7d0",
+        "pageviews": 2
       }
     ],
     "ライブ": [
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-05T08:37:43"
+  "updated_at": "2026-05-05T11:48:57"
 }
