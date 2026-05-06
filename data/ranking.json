@@ -102,11 +102,11 @@
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=34b913ba47ba819b8ff0f463dbf177bf",
-        "pageviews": 1
+        "path": "/article.html?id=357913ba47ba817d9729fc53d5315363",
+        "pageviews": 2
       },
       {
-        "path": "/article.html?id=350913ba47ba81ed821bd940fe5e6917",
+        "path": "/article.html?id=34b913ba47ba819b8ff0f463dbf177bf",
         "pageviews": 1
       }
     ],
@@ -147,5 +147,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-06T09:27:55"
+  "updated_at": "2026-05-06T11:48:52"
 }
