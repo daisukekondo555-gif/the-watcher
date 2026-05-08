@@ -98,15 +98,15 @@
         "pageviews": 3
       },
       {
+        "path": "/article.html?id=359913ba47ba8115ab9ee3eda473dff4",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=352913ba47ba818c8e92e052d1c6897a",
         "pageviews": 2
       },
       {
         "path": "/article.html?id=354913ba47ba8176b6b7fc4d0b9e90dc",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=357913ba47ba817d9729fc53d5315363",
         "pageviews": 2
       }
     ],
@@ -130,6 +130,10 @@
         "pageviews": 3
       },
       {
+        "path": "/article.html?id=356913ba47ba818c80eacddd177733ca",
+        "pageviews": 3
+      },
+      {
         "path": "/article.html?id=351913ba47ba81078631e5d3b6ed121e",
         "pageviews": 2
       },
@@ -140,12 +144,8 @@
       {
         "path": "/article.html?id=354913ba47ba81719718ecefe597083a",
         "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=356913ba47ba818c80eacddd177733ca",
-        "pageviews": 2
       }
     ]
   },
-  "updated_at": "2026-05-08T12:21:15"
+  "updated_at": "2026-05-08T13:52:17"
 }
