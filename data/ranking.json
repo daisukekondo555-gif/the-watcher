@@ -112,6 +112,10 @@
     ],
     "チャート": [
       {
+        "path": "/article.html?id=34b913ba47ba81f1ba25c57367002292",
+        "pageviews": 1
+      },
+      {
         "path": "/article.html?id=34f913ba47ba81d3a47dffa363f206f3",
         "pageviews": 1
       },
@@ -143,5 +147,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-08T11:49:53"
+  "updated_at": "2026-05-08T12:21:15"
 }
