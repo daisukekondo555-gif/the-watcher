@@ -17,7 +17,6 @@
   ],
   "sources": [
     { "name": "HipHopDX",   "rss_url": "https://hiphopdx.com/rss" },
-    { "name": "XXL",         "rss_url": "https://xxlmag.com/feed/" },
     { "name": "Hot97",       "rss_url": "https://www.hot97.com/feed/" },
     { "name": "Pitchfork",   "rss_url": "https://pitchfork.com/rss/news/" },
     { "name": "The Source",  "rss_url": "https://thesource.com/feed/" },
