@@ -70,7 +70,7 @@ HEADERS = {
     "Sec-Ch-Ua-Mobile": "?0",
     "Sec-Ch-Ua-Platform": '"Windows"',
 }
-FETCH_TIMEOUT = 20
+FETCH_TIMEOUT = 45
 MAX_RETRIES = 3
 IMAGE_EXTENSIONS = (".jpg", ".jpeg", ".png", ".webp", ".gif")
 
