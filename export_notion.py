@@ -315,7 +315,14 @@ def generate_news_sitemap(articles: list[dict], site_url: str) -> None:
     ]
     for a in recent:
         art_url = f'{site_url}/articles/{a["id"]}.html'
-        pub_date = a["published_at"][:25]
+        try:
+            pub_dt = dateparser.parse(a["published_at"])
+            if pub_dt.tzinfo is None:
+                pub_dt = pub_dt.replace(tzinfo=timezone.utc)
+            pub_date = pub_dt.strftime("%Y-%m-%dT%H:%M:%S%z")
+            pub_date = pub_date[:-2] + ":" + pub_date[-2:]
+        except Exception:
+            continue
         title = (a.get("title") or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
         lines.append("  <url>")
         lines.append(f"    <loc>{art_url}</loc>")
