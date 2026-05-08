@@ -641,9 +641,11 @@
           ? '<div class="rank-thumb"><img src="' + esc(proxyImg(a.image_url, 200)) + '" data-orig="' + esc(a.image_url) + '" alt="" ' +
             'onerror="imgError(this,this.dataset.orig,\'\')"></div>'
           : '<div class="rank-thumb"></div>';
-        var pvHtml = showPv && a._pv
-          ? '<span class="rank-pv">' + Number(a._pv).toLocaleString() + ' PV</span>'
-          : '';
+        // PV 数表示は一時的に非表示 (数値が育ってから復元)
+        // var pvHtml = showPv && a._pv
+        //   ? '<span class="rank-pv">' + Number(a._pv).toLocaleString() + ' PV</span>'
+        //   : '';
+        var pvHtml = '';
         return '<div class="rank-row" onclick="openArticle(\'' + esc(a.id) + '\')">' +
           '<span class="rank-row-num">' + (i + 1) + '</span>' +
           thumb +
