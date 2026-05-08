@@ -54,7 +54,7 @@ DEFAULT_OGP_IMAGE = f"{SITE_URL}/assets/logo-mark.png"
 LOGO_URL = f"{SITE_URL}/assets/logo-mark.png"
 DESC_MAX_LEN = 120
 
-TEMPLATE_VERSION = 2
+TEMPLATE_VERSION = 3
 HASH_MARKER_RE = re.compile(
     r"<!--\s*content_hash:\s*([0-9a-f]+)(?:\s+template_v:(\d+))?\s*-->"
 )
@@ -98,6 +98,33 @@ def _fmt_date_ja(iso: str) -> str:
 def _calc_read_time(text: str) -> int:
     length = len(re.sub(r"\s", "", text or ""))
     return max(1, math.ceil(length / 500))
+
+
+def _build_breadcrumb_ld(article: dict) -> str:
+    """BreadcrumbList 構造化データを生成する。"""
+    category = article.get("category", "")
+    title = article.get("title", "")
+    aid = article["id"]
+    items = [
+        {"@type": "ListItem", "position": 1, "name": "ホーム", "item": SITE_URL + "/"},
+    ]
+    if category:
+        items.append({
+            "@type": "ListItem", "position": 2,
+            "name": category,
+            "item": f"{SITE_URL}/category.html?cat={quote(category)}",
+        })
+    items.append({
+        "@type": "ListItem",
+        "position": len(items) + 1,
+        "name": title,
+    })
+    ld = {
+        "@context": "https://schema.org",
+        "@type": "BreadcrumbList",
+        "itemListElement": items,
+    }
+    return json.dumps(ld, ensure_ascii=False, separators=(",", ":"))
 
 
 def _build_json_ld(article: dict) -> str:
@@ -268,6 +295,7 @@ def _render_article_page(article: dict, articles: list[dict], idx: int) -> str:
     if image_url:
         hero = (
             f'<img class="article-hero-img" src="{_esc(_proxy_img(image_url, 1200))}" alt="{_esc(raw_title)}"'
+            f' fetchpriority="high"'
             f' onerror="this.outerHTML=\'<div class=article-hero-placeholder>THE WATCHER</div>\'">'
         )
     else:
@@ -359,6 +387,7 @@ html,body{{background:#fff!important;color:#111!important;font-family:'Noto Sans
 footer{{background:#0f1f38;border-top:2px solid #c8a830}}.footer-inner{{padding:0 24px;height:58px;display:flex;align-items:center;justify-content:flex-end}}
 </style>
 <script type="application/ld+json">{_build_json_ld(article)}</script>
+<script type="application/ld+json">{_build_breadcrumb_ld(article)}</script>
 </head>
 <body style="background:#fff">
 <div style="background:#fff;min-height:100vh">
