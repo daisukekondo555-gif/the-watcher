@@ -287,6 +287,53 @@ def generate_sitemap(articles: list[dict], site_url: str) -> None:
     )
 
 
+def generate_news_sitemap(articles: list[dict], site_url: str) -> None:
+    """Google News sitemap (sitemap-news.xml) を生成する。
+    過去48時間以内に公開された記事のみを含む (最大1000件)。
+    https://support.google.com/news/publisher-center/answer/74288"""
+    from dateutil import parser as dateparser
+
+    cutoff = datetime.now(timezone.utc) - timedelta(hours=48)
+    recent = []
+    for a in articles:
+        if not a.get("id") or not a.get("published_at"):
+            continue
+        try:
+            pub = dateparser.parse(a["published_at"])
+            if pub.tzinfo is None:
+                pub = pub.replace(tzinfo=timezone.utc)
+            if pub >= cutoff:
+                recent.append(a)
+        except Exception:
+            continue
+    recent = recent[:1000]
+
+    lines = [
+        '<?xml version="1.0" encoding="UTF-8"?>',
+        '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"',
+        '        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">',
+    ]
+    for a in recent:
+        art_url = f'{site_url}/articles/{a["id"]}.html'
+        pub_date = a["published_at"][:25]
+        title = (a.get("title") or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
+        lines.append("  <url>")
+        lines.append(f"    <loc>{art_url}</loc>")
+        lines.append("    <news:news>")
+        lines.append("      <news:publication>")
+        lines.append("        <news:name>THE WATCHER</news:name>")
+        lines.append("        <news:language>ja</news:language>")
+        lines.append("      </news:publication>")
+        lines.append(f"      <news:publication_date>{pub_date}</news:publication_date>")
+        lines.append(f"      <news:title>{title}</news:title>")
+        lines.append("    </news:news>")
+        lines.append("  </url>")
+    lines.append("</urlset>")
+
+    Path("sitemap-news.xml").write_text("\n".join(lines) + "\n", encoding="utf-8")
+    logger.info(f"  Saved → sitemap-news.xml ({len(recent)} articles within 48h)")
+
+
 # ── メイン処理 ───────────────────────────────────────────────────────────
 def main() -> None:
     api_key = os.environ.get("NOTION_API_KEY", "")
@@ -412,8 +459,9 @@ def main() -> None:
     # sitemap
     if site_url:
         generate_sitemap(articles, site_url.rstrip("/"))
+        generate_news_sitemap(articles, site_url.rstrip("/"))
     else:
-        logger.info("  SITE_URL 未設定 — sitemap.xml をスキップ")
+        logger.info("  SITE_URL 未設定 — sitemap をスキップ")
 
     # 状態ファイル更新（全処理成功後のみ）
     state["last_sync_at"] = sync_start.isoformat()
