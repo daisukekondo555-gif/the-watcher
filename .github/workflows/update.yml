@@ -85,11 +85,17 @@ jobs:
         run: |
           git config user.name  "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/ articles/ sitemap.xml sitemap-news.xml
+          git add data/ articles/ sitemap.xml sitemap-news.xml 3490238cb3a04943932db648a6af084e.txt
           git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
           git push
 
-      # ── Step 6: Instagram に新着記事をカルーセル投稿 ────────────────────
+      # ── Step 6: IndexNow で新規記事 URL を検索エンジンに即時通知 ────────
+      # エラー時もメイン処理には影響しない (continue-on-error)
+      - name: Notify IndexNow
+        continue-on-error: true
+        run: python src/indexnow.py
+
+      # ── Step 7: Instagram に新着記事をカルーセル投稿 ────────────────────
       - name: Post new articles to Instagram
         env:
           INSTAGRAM_ACCESS_TOKEN:        ${{ secrets.INSTAGRAM_ACCESS_TOKEN }}
