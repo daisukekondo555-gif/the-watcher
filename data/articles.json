@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-08T02:48:33.716822+00:00",
-  "total": 1162,
+  "generated_at": "2026-05-08T09:22:56.091166+00:00",
+  "total": 1160,
   "articles": [
     {
       "id": "35a913ba47ba81a59467ea81cd8329bb",
@@ -27,19 +27,6 @@
       "published_at": "2026-05-07T18:24:00.000+00:00",
       "imported_at": "2026-05-08T02:48:00.000Z",
       "content_hash": "a09700c6d5ce3d1b"
-    },
-    {
-      "id": "35a913ba47ba813ba79dc848320f8cc3",
-      "title": "YNW メリー、7年の獄中生活後、再び保釈を否認される",
-      "summary": "YNW メリー（YNW Melly）は7年間の獄中生活の後、再度保釈を否認された。",
-      "category": "ニュース",
-      "image_url": "https://townsquare.media/site/812/files/2026/05/attachment-ynw-melly-no-bond-header.jpg?format=natural",
-      "source_urls": "https://www.xxlmag.com/ynw-melly-denied-bond-seven-years-jail/",
-      "source_names": "XXL",
-      "hashtags": "#YNWMelly #HipHopNews #Legal",
-      "published_at": "2026-05-07T16:05:00.000+00:00",
-      "imported_at": "2026-05-08T02:48:00.000Z",
-      "content_hash": "3d0335dd5e550799"
     },
     {
       "id": "35a913ba47ba81b5bc41e54f40db422b",
@@ -92,19 +79,6 @@
       "published_at": "2026-05-07T23:36:00.000+00:00",
       "imported_at": "2026-05-08T02:47:00.000Z",
       "content_hash": "0957a4f3ec3ca347"
-    },
-    {
-      "id": "35a913ba47ba816e9053ebccd31a6462",
-      "title": "ケンドリック・ラマーが母校の起工式に参加",
-      "summary": "ケンドリック・ラマー（Kendrick Lamar）が自身の母校の起工式に姿を見せた。",
-      "category": "ニュース",
-      "image_url": "https://townsquare.media/site/812/files/2026/05/attachment-kendrick-lamar-groundbreaking-ceremony.jpg?format=natural",
-      "source_urls": "https://www.xxlmag.com/kendrick-lamar-dr-dre-will-i-am-high-school-groundbreaking/",
-      "source_names": "XXL",
-      "hashtags": "#KendrickLamar #HipHopNews #Compton",
-      "published_at": "2026-05-07T23:35:00.000+00:00",
-      "imported_at": "2026-05-08T02:47:00.000Z",
-      "content_hash": "2a4a95e0a94c7319"
     },
     {
       "id": "35a913ba47ba81918bf5d62a8d1efa9a",

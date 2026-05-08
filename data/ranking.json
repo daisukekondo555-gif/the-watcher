@@ -1,6 +1,10 @@
 {
   "weekly": [
     {
+      "path": "/article.html?id=359913ba47ba812ab37fde3f44b51fcb",
+      "pageviews": 7
+    },
+    {
       "path": "/article.html?id=355913ba47ba8193ae9fc4ea884b7081",
       "pageviews": 6
     },
@@ -15,14 +19,14 @@
     {
       "path": "/article.html?id=356913ba47ba8116adb2e3e3a4ce53c1",
       "pageviews": 5
-    },
-    {
-      "path": "/article.html?id=355913ba47ba8156a20cfddd5ed80baa",
-      "pageviews": 4
     }
   ],
   "by_category": {
     "ニュース": [
+      {
+        "path": "/article.html?id=359913ba47ba812ab37fde3f44b51fcb",
+        "pageviews": 7
+      },
       {
         "path": "/article.html?id=355913ba47ba8193ae9fc4ea884b7081",
         "pageviews": 6
@@ -37,10 +41,6 @@
       },
       {
         "path": "/article.html?id=353913ba47ba819289b3ddf2ee95a70a",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=353913ba47ba81dcaa99fca39ab0a83f",
         "pageviews": 3
       }
     ],
@@ -112,6 +112,10 @@
     ],
     "チャート": [
       {
+        "path": "/article.html?id=34c913ba47ba8182b6b8cc30ddb4b888",
+        "pageviews": 1
+      },
+      {
         "path": "/article.html?id=34f913ba47ba81d3a47dffa363f206f3",
         "pageviews": 1
       },
@@ -143,5 +147,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-08T02:48:47"
+  "updated_at": "2026-05-08T09:23:14"
 }
