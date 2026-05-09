@@ -2,7 +2,7 @@
   "weekly": [
     {
       "path": "/article.html?id=359913ba47ba812ab37fde3f44b51fcb",
-      "pageviews": 15
+      "pageviews": 18
     },
     {
       "path": "/article.html?id=355913ba47ba8193ae9fc4ea884b7081",
@@ -25,11 +25,15 @@
     "ニュース": [
       {
         "path": "/article.html?id=359913ba47ba812ab37fde3f44b51fcb",
-        "pageviews": 15
+        "pageviews": 18
       },
       {
         "path": "/article.html?id=355913ba47ba8193ae9fc4ea884b7081",
         "pageviews": 6
+      },
+      {
+        "path": "/article.html?id=35a913ba47ba81119818eeb93b619fb8",
+        "pageviews": 4
       },
       {
         "path": "/article.html?id=353913ba47ba81dcaa99fca39ab0a83f",
@@ -37,10 +41,6 @@
       },
       {
         "path": "/article.html?id=354913ba47ba816bb2f0d899bc9bfb32",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=355913ba47ba8198bef9d6364aa6bd7e",
         "pageviews": 3
       }
     ],
@@ -143,5 +143,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-09T00:01:57"
+  "updated_at": "2026-05-09T02:46:51"
 }

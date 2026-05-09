@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/35b913ba47ba819fa31dec0d8a96d276.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-09T02:30:00+00:00</news:publication_date>
+      <news:title>ニック・キャノンのビジネス会計士が200万ドル横領、ウガンダに逃亡で連邦告発</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/35b913ba47ba8105af5cc97b499d5dd3.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-09T01:38:00+00:00</news:publication_date>
+      <news:title>ラッパー・フーリオ殺害事件で4人に有罪判決</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/35a913ba47ba81f9bda4fbff828c5d6d.html</loc>
     <news:news>
       <news:publication>
@@ -1011,50 +1033,6 @@
       </news:publication>
       <news:publication_date>2026-05-07T04:07:00+00:00</news:publication_date>
       <news:title>Father John Mistyが新曲「The Payoff」をリリース</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/359913ba47ba81baa5f3c82b492e30e9.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T01:00:00+00:00</news:publication_date>
-      <news:title>ルダクリス、2026年ブラック・ミュージック・ウォーク・オブ・フェイム殿堂入り決定</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/359913ba47ba81869832eb3672d145d7.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T02:35:00+00:00</news:publication_date>
-      <news:title>ブロンクスにヒップホップ専門高校がこの秋開校</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/359913ba47ba81c1b9daee6341f20e5e.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T02:00:00+00:00</news:publication_date>
-      <news:title>アンバー・ローズ、カニエ・ウェストのテイラー・スウィフト VMA 乱入前の飲酒を勧めたことを明かす</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/359913ba47ba81538ae3c777de320573.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T01:36:00+00:00</news:publication_date>
-      <news:title>NYPD警察官、NYC市長を「恥さらし」と呼んだ後に配置転換</news:title>
     </news:news>
   </url>
 </urlset>
