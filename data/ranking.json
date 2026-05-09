@@ -36,11 +36,11 @@
         "pageviews": 4
       },
       {
-        "path": "/article.html?id=353913ba47ba81dcaa99fca39ab0a83f",
+        "path": "/article.html?id=354913ba47ba816bb2f0d899bc9bfb32",
         "pageviews": 3
       },
       {
-        "path": "/article.html?id=354913ba47ba816bb2f0d899bc9bfb32",
+        "path": "/article.html?id=355913ba47ba8198bef9d6364aa6bd7e",
         "pageviews": 3
       }
     ],
@@ -54,16 +54,16 @@
         "pageviews": 4
       },
       {
-        "path": "/article.html?id=353913ba47ba8123802ced1f7a26ed7e",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=353913ba47ba81688ffcc73c059e27ce",
-        "pageviews": 3
-      },
-      {
         "path": "/article.html?id=356913ba47ba81aaab00d471a73e12ae",
         "pageviews": 3
+      },
+      {
+        "path": "/article.html?id=353913ba47ba8123802ced1f7a26ed7e",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=354913ba47ba8178b70dc20cff0a8080",
+        "pageviews": 2
       }
     ],
     "ビーフ": [
@@ -143,5 +143,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-09T14:00:15"
+  "updated_at": "2026-05-09T22:36:26"
 }
