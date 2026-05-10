@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/35c913ba47ba811e8770d1b42d217a69.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-10T12:40:00+00:00</news:publication_date>
+      <news:title>【今週のまとめ】2026/5/4〜5/10のヒップホップ</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/35c913ba47ba81fdba1df37c76990fe4.html</loc>
     <news:news>
       <news:publication>
