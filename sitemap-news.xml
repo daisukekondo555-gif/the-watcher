@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/35c913ba47ba81da856cc8666b34b7d2.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-10T00:00:00+00:00</news:publication_date>
+      <news:title>ジェイ・Z の競争心がルペ・フィアスコとの契約を破談に、ダメ・ダッシュが明かす</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/35c913ba47ba8152a65ec3432f6ad9de.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-09T21:40:00+00:00</news:publication_date>
+      <news:title>カーディ・B、元彼ステフォン・ディッグスと再接近で復縁説浮上</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/35b913ba47ba813e8dc7ec3d3789f0a4.html</loc>
     <news:news>
       <news:publication>
@@ -747,72 +769,6 @@
       </news:publication>
       <news:publication_date>2026-05-08T07:17:00+00:00</news:publication_date>
       <news:title>ザット・メキシカン・OT、テハス・ラップとテハーノの融合「La Cumbia de Virgil」発表</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35a913ba47ba81a59467ea81cd8329bb.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T23:00:00+00:00</news:publication_date>
-      <news:title>ドレイク、イタリアサッカークラブ・ヴェネツィアFCに1億ドル超の資金調達を実現</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35a913ba47ba81b5bc41e54f40db422b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-08T02:02:00+00:00</news:publication_date>
-      <news:title>Lil Wayne コラボレーター PCTweezie が武器所持容疑で逮捕</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35a913ba47ba81019fb8eabe4ca7849f.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-08T01:00:00+00:00</news:publication_date>
-      <news:title>ジューリオ・フーリオ殺人事件公判で検事が ギャング所属と ライバル勢力の挑発行為を立証</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35a913ba47ba81f9aed4cd4882c09662.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-08T00:55:00+00:00</news:publication_date>
-      <news:title>Rolling Loud 2026 オーランド公演のライブストリーム日程・詳細を発表</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35a913ba47ba812c8a86ebce428c3191.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T23:36:00+00:00</news:publication_date>
-      <news:title>ジェイレン・ブラウン、スティーブン・A・スミスに引退を勧告</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35a913ba47ba81918bf5d62a8d1efa9a.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-07T23:01:00+00:00</news:publication_date>
-      <news:title>トレイ・モーガンが明かす極端なスニーカー購入法</news:title>
     </news:news>
   </url>
 </urlset>
