@@ -113,7 +113,8 @@ def _fetch_rss(channel_id: str) -> list[dict]:
         return []
 
     videos = []
-    cutoff = datetime.now(timezone.utc) - timedelta(days=MAX_AGE_DAYS)
+    now = datetime.now(timezone.utc)
+    cutoff = now - timedelta(days=MAX_AGE_DAYS)
 
     for entry in root.findall("atom:entry", ns):
         video_id_el = entry.find("yt:videoId", ns)
@@ -131,7 +132,7 @@ def _fetch_rss(channel_id: str) -> list[dict]:
         if published:
             try:
                 pub_dt = datetime.fromisoformat(published.replace("Z", "+00:00"))
-                if pub_dt < cutoff:
+                if pub_dt < cutoff or pub_dt > now:
                     continue
             except ValueError:
                 pass

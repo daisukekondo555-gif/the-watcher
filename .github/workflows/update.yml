@@ -75,6 +75,9 @@ jobs:
           NOTION_VIDEO_DB_ID:  ${{ secrets.NOTION_VIDEO_DB_ID }}
         run: python src/fetch_videos.py
 
+      - name: Wait for Notion video indexing
+        run: sleep 15
+
       # ── Step 2.6: Notion Videos DB → videos.json にエクスポート ──────────
       - name: Export videos from Notion
         env:
