@@ -73,8 +73,13 @@
       "category": "PERFORMANCES"
     },
     {
-      "name": "Vevo Hip-Hop",
-      "channel_id": "UCp78DDUEelqnRkqecX1-v0Q",
+      "name": "WORLDSTARHIPHOP",
+      "channel_id": "UC-yXuc1__OzjwpsJPlxYUCQ",
+      "category": "MV"
+    },
+    {
+      "name": "Lyrical Lemonade",
+      "channel_id": "UCtylTUUVIGY_i5afsQYeBZA",
       "category": "MV"
     }
   ],
