@@ -19,6 +19,8 @@
 <meta name="description" content="ヒップホップの最新ニュース、リリース情報、ビーフ、ビジネスを日本語でお届けするメディア。">
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Serif+JP:wght@700;900&family=Noto+Sans+JP:wght@400;500&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="assets/header.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.css">
+<script src="https://cdn.jsdelivr.net/npm/lite-youtube-embed@0.3.3/src/lite-yt-embed.min.js" defer></script>
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   html, body { background: #ffffff !important; color: #111111 !important; font-family: 'Noto Sans JP', sans-serif; font-size: 15px; line-height: 1.6; overflow-x: hidden; }
@@ -189,6 +191,16 @@
     .best5-cards-scroll-hint { display: none; }
   }
 
+  /* WATCH CARD (top page) */
+  .watch-card { background: #fff; overflow: hidden; }
+  .watch-card lite-youtube { border-radius: 2px; overflow: hidden; }
+  .watch-card-body { padding: 12px 0 0; }
+  .watch-card-cat { font-size: 10px; letter-spacing: 2px; text-transform: uppercase; color: #c8a830; font-weight: 700; margin-bottom: 4px; }
+  .watch-card-title { font-family: 'Noto Serif JP', serif; font-size: 14px; font-weight: 700; line-height: 1.55; margin-bottom: 6px; }
+  .watch-card-title a { color: #111; text-decoration: none; }
+  .watch-card-title a:hover { color: #0f1f38; text-decoration: underline; }
+  .watch-card-meta { font-size: 11px; color: #999; }
+
   /* AD SLOT */
   .ad-slot { background: #f9f9f9; border-top: 1px solid #e0e0e0; border-bottom: 1px solid #e0e0e0; padding: 16px 24px; text-align: center; }
   .ad-inner { display: inline-flex; width: 100%; max-width: 728px; height: 90px; background: #f0f0f0; align-items: center; justify-content: center; margin: 0 auto; }
@@ -283,7 +295,7 @@
 
 <!-- WATCH SECTION -->
 <div class="sec-label"><span>WATCH</span></div>
-<div class="news-grid" id="watchGrid" style="grid-template-columns:1fr 1fr;"></div>
+<div class="news-grid" id="watchGrid" style="grid-template-columns:1fr 1fr;gap:20px;padding:20px 24px;border-bottom:1px solid #e0e0e0;"></div>
 <div class="more-btn-wrap" id="watchMore" style="display:none;">
   <a href="watch/" class="more-btn" style="text-decoration:none;display:inline-block;">MORE VIDEOS</a>
 </div>
@@ -705,7 +717,7 @@
     }).join('');
   }
 
-  // WATCH セクション（トップページ用: 最新4件のサムネ + タイトル）
+  // WATCH セクション（トップページ用: 最新4件、lite-youtube-embed で直接再生）
   async function renderWatchSection() {
     var grid = document.getElementById('watchGrid');
     var more = document.getElementById('watchMore');
@@ -716,15 +728,13 @@
       var videos = (data.videos || []).slice(0, 4);
       if (!videos.length) { grid.style.display = 'none'; return; }
       grid.innerHTML = videos.map(function(v) {
-        var thumb = v.thumbnail_url
-          ? '<img src="' + esc(v.thumbnail_url) + '" alt="" style="width:100%;height:100%;object-fit:cover;display:block;">'
-          : '<div class="news-card-img-ph"></div>';
-        return '<div class="news-card" onclick="location.href=\'watch/\'" style="cursor:pointer;">' +
-          '<div class="news-card-img-wrap">' + thumb + '</div>' +
-          '<div class="news-card-body">' +
-            '<div class="news-card-cat">' + esc(v.category) + (v.editor_pick ? ' <span style="background:#c8a830;color:#fff;font-size:9px;padding:1px 5px;font-weight:700;">PICK</span>' : '') + '</div>' +
-            '<div class="news-card-title">' + esc(v.title) + '</div>' +
-            '<div class="news-card-meta">' + esc(v.channel_name) + ' · ' + fmtDate(v.published_at) + '</div>' +
+        var pickBadge = v.editor_pick ? ' <span style="background:#c8a830;color:#fff;font-size:9px;padding:1px 5px;font-weight:700;">PICK</span>' : '';
+        return '<div class="watch-card">' +
+          '<lite-youtube videoid="' + esc(v.id) + '" playlabel="Play"></lite-youtube>' +
+          '<div class="watch-card-body">' +
+            '<div class="watch-card-cat">' + esc(v.category) + pickBadge + '</div>' +
+            '<div class="watch-card-title"><a href="watch/">' + esc(v.title) + '</a></div>' +
+            '<div class="watch-card-meta">' + esc(v.channel_name) + ' · ' + fmtDate(v.published_at) + '</div>' +
           '</div>' +
         '</div>';
       }).join('');
