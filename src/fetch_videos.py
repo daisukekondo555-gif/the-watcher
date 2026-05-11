@@ -34,6 +34,7 @@ logging.basicConfig(
 ROOT = Path(__file__).resolve().parent.parent
 CHANNELS_PATH = ROOT / "config" / "channels.json"
 NAME_MAPPING_PATH = ROOT / "data" / "name_mapping.json"
+SENT_IDS_PATH = ROOT / "data" / "video_ids_sent.json"
 
 NOTION_VERSION = "2022-06-28"
 NOTION_BASE = "https://api.notion.com/v1"
@@ -60,6 +61,20 @@ def _load_name_mapping() -> dict:
         return json.loads(NAME_MAPPING_PATH.read_text(encoding="utf-8"))
     except Exception:
         return {}
+
+
+def _load_sent_ids() -> set[str]:
+    try:
+        return set(json.loads(SENT_IDS_PATH.read_text(encoding="utf-8")))
+    except (FileNotFoundError, json.JSONDecodeError):
+        return set()
+
+
+def _save_sent_ids(ids: set[str]) -> None:
+    SENT_IDS_PATH.parent.mkdir(exist_ok=True)
+    SENT_IDS_PATH.write_text(
+        json.dumps(sorted(ids), ensure_ascii=False), encoding="utf-8"
+    )
 
 
 def _extract_artists(title: str, name_mapping: dict) -> list[str]:
@@ -325,7 +340,12 @@ def main() -> None:
     _setup_database(api_key, db_id)
 
     existing_ids = _get_existing_video_ids(api_key, db_id)
-    logger.info(f"  Notion 既存動画: {len(existing_ids)} 件")
+    sent_ids = _load_sent_ids()
+    known_ids = existing_ids | sent_ids
+    logger.info(
+        f"  重複チェック: Notion {len(existing_ids)}件 + 送信済み {len(sent_ids)}件"
+        f" → 和集合 {len(known_ids)}件"
+    )
 
     total_new = 0
     total_skipped = 0
@@ -341,7 +361,7 @@ def main() -> None:
         logger.info(f"    取得: {len(videos)} 件")
 
         for v in videos:
-            if v["video_id"] in existing_ids:
+            if v["video_id"] in known_ids:
                 total_skipped += 1
                 continue
 
@@ -353,12 +373,13 @@ def main() -> None:
 
             try:
                 _create_video_page(api_key, db_id, v, ch_name, ch_cat, artists)
-                existing_ids.add(v["video_id"])
+                known_ids.add(v["video_id"])
                 total_new += 1
                 logger.info(f"    + {v['title'][:60]}")
             except Exception as e:
                 logger.warning(f"    Notion書き込み失敗: {v['title'][:40]}: {e}")
 
+    _save_sent_ids(known_ids)
     logger.info(f"=== 完了: 新規{total_new}件, スキップ{total_skipped}件, フィルタ除外{total_filtered}件 ===")
 
 

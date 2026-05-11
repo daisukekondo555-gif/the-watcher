@@ -70,6 +70,7 @@ jobs:
 
       # ── Step 2.5: YouTube RSS → Notion Videos DB に動画を保存 ────────────
       - name: Fetch YouTube videos to Notion
+        if: github.event.inputs.skip_rss != 'true'
         env:
           NOTION_API_KEY:      ${{ secrets.NOTION_API_KEY }}
           NOTION_VIDEO_DB_ID:  ${{ secrets.NOTION_VIDEO_DB_ID }}
