@@ -1,5 +1,6 @@
 User-agent: *
 Allow: /
+Disallow: /data/
 
 Sitemap: https://thewatcherjp.com/sitemap.xml
 Sitemap: https://thewatcherjp.com/sitemap-news.xml
