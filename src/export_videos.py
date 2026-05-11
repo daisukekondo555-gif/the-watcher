@@ -37,8 +37,6 @@ NAME_MAPPING_PATH = ROOT / "data" / "name_mapping.json"
 NOTION_VERSION = "2022-06-28"
 NOTION_BASE = "https://api.notion.com/v1"
 
-MAX_VIDEOS = 30
-
 
 def _notion_headers(api_key: str) -> dict:
     return {
@@ -190,7 +188,6 @@ def main() -> None:
 
     videos = [_page_to_video(p) for p in pages]
     videos = [v for v in videos if v.get("id")]
-    videos = videos[:MAX_VIDEOS]
 
     articles = _load_articles()
     name_mapping = _load_name_mapping()
