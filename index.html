@@ -295,7 +295,7 @@
 
 <!-- WATCH SECTION -->
 <div class="sec-label"><span>WATCH</span></div>
-<div class="news-grid" id="watchGrid" style="grid-template-columns:1fr 1fr;gap:20px;padding:20px 24px;border-bottom:1px solid #e0e0e0;"></div>
+<div class="news-grid" id="watchGrid"></div>
 <div class="more-btn-wrap" id="watchMore" style="display:none;">
   <a href="watch/" class="more-btn" style="text-decoration:none;display:inline-block;">MORE VIDEOS</a>
 </div>
@@ -725,7 +725,8 @@
       var res = await fetch('./data/videos.json');
       if (!res.ok) { grid.style.display = 'none'; return; }
       var data = await res.json();
-      var videos = (data.videos || []).slice(0, 4);
+      var count = window.matchMedia('(min-width:768px)').matches ? 6 : 4;
+      var videos = (data.videos || []).slice(0, count);
       if (!videos.length) { grid.style.display = 'none'; return; }
       grid.innerHTML = videos.map(function(v) {
         var pickBadge = v.editor_pick ? ' <span style="background:#c8a830;color:#fff;font-size:9px;padding:1px 5px;font-weight:700;">PICK</span>' : '';
