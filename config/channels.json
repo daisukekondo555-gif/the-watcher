@@ -1,0 +1,94 @@
+{
+  "channels": [
+    {
+      "name": "HOT 97",
+      "channel_id": "UC5RwNJQSINkzIazWaM-lM3Q",
+      "category": "INTERVIEWS"
+    },
+    {
+      "name": "Breakfast Club Power 105.1 FM",
+      "channel_id": "UChi08h4577eFsNXGd3sxYhw",
+      "category": "INTERVIEWS",
+      "skip_filter": true
+    },
+    {
+      "name": "Million Dollaz Worth of Game",
+      "channel_id": "UC16Ne7V6Fe_bp1omKLiymFg",
+      "category": "PODCASTS",
+      "skip_filter": true
+    },
+    {
+      "name": "Drink Champs",
+      "channel_id": "UCUseCJIxUbK_WIn0sUvBZVg",
+      "category": "PODCASTS",
+      "skip_filter": true
+    },
+    {
+      "name": "Roc Solid",
+      "channel_id": "UCMwQdheuDUKFyYUekLzLqww",
+      "category": "PODCASTS",
+      "skip_filter": true
+    },
+    {
+      "name": "Joe and Jada",
+      "channel_id": "UC0bcklFKnBGDYdjsNGWXJHA",
+      "category": "PODCASTS",
+      "skip_filter": true
+    },
+    {
+      "name": "Joe Budden TV",
+      "channel_id": "UC23_r1bpkTWaBltbXsQxysA",
+      "category": "PODCASTS",
+      "skip_filter": true
+    },
+    {
+      "name": "Math Hoffa",
+      "channel_id": "UCNvT0TFwZLziSd9C38c2Gjw",
+      "category": "INTERVIEWS",
+      "skip_filter": true
+    },
+    {
+      "name": "NPR Music",
+      "channel_id": "UC4eYXhJI4-7wSWc8UNRwD4A",
+      "category": "PERFORMANCES"
+    },
+    {
+      "name": "On The Radar Radio",
+      "channel_id": "UCa8b7nZo-iPKoJxspOplnWg",
+      "category": "PERFORMANCES"
+    },
+    {
+      "name": "COLORS",
+      "channel_id": "UC2Qw1dzXDBAZPwS7zm37g8g",
+      "category": "PERFORMANCES"
+    },
+    {
+      "name": "From The Block",
+      "channel_id": "UCE86oyLVAcsSkRAEWVtDUlA",
+      "category": "PERFORMANCES"
+    },
+    {
+      "name": "Genius",
+      "channel_id": "UCyFZMEnm1il5Wv3a6tPscbA",
+      "category": "PERFORMANCES"
+    },
+    {
+      "name": "Vevo Hip-Hop",
+      "channel_id": "UCp78DDUEelqnRkqecX1-v0Q",
+      "category": "MV"
+    }
+  ],
+  "filter": {
+    "allow_keywords": [
+      "Official Video", "Official Music Video", "Music Video",
+      "Official Audio", "Visualizer",
+      "Interview", "Freestyle", "Live", "Live Performance",
+      "Tiny Desk", "Colors", "From The Block", "On The Radar"
+    ],
+    "deny_keywords": [
+      "Shorts", "Reaction", "Clip", "Snippet",
+      "Top 10", "Best of", "Compilation",
+      "Teaser", "Trailer", "Preview", "Recap"
+    ]
+  }
+}

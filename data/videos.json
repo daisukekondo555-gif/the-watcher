@@ -1,0 +1,30 @@
+{
+  "generated_at": "2026-05-11T08:09:35.094898+00:00",
+  "total": 2,
+  "videos": [
+    {
+      "id": "WKLQ9uHrr0w",
+      "title": "HOT 97 National News Live! 5/8/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-09T13:22:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WKLQ9uHrr0w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "63bop5VzFKY",
+      "title": "HOT 97 Atlanta News Live! 5/8/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-09T12:22:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/63bop5VzFKY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    }
+  ]
+}

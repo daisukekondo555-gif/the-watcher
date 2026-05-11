@@ -228,6 +228,7 @@
     <a href="category.html?cat=ビーフ"><span class="nav-ja">ビーフ</span><span class="nav-en">BEEF</span></a>
     <a href="category.html?cat=リリース"><span class="nav-ja">リリース</span><span class="nav-en">RELEASE</span></a>
     <a href="category.html?cat=ライブ"><span class="nav-ja">ライブ</span><span class="nav-en">LIVE</span></a>
+    <a href="watch/"><span class="nav-ja">動画</span><span class="nav-en">WATCH</span></a>
   </nav>
 </header>
 <div class="page-wrap">
@@ -240,6 +241,7 @@
   <a href="category.html?cat=ビーフ">ビーフ</a>
   <a href="category.html?cat=リリース">リリース</a>
   <a href="category.html?cat=ライブ">ライブ</a>
+  <a href="watch/">WATCH</a>
 </div>
 
 <!-- SEARCH -->
@@ -274,6 +276,16 @@
 <div class="news-grid" id="latestGrid"></div>
 <div class="more-btn-wrap" id="latestMore" style="display:none;">
   <button class="more-btn" id="latestMoreBtn">MORE LATEST NEWS</button>
+</div>
+
+<!-- AD SLOT -->
+<div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
+
+<!-- WATCH SECTION -->
+<div class="sec-label"><span>WATCH</span></div>
+<div class="news-grid" id="watchGrid" style="grid-template-columns:1fr 1fr;"></div>
+<div class="more-btn-wrap" id="watchMore" style="display:none;">
+  <a href="watch/" class="more-btn" style="text-decoration:none;display:inline-block;">MORE VIDEOS</a>
 </div>
 
 <!-- AD SLOT -->
@@ -584,11 +596,11 @@
     });
     container.innerHTML = html;
 
-    // 各カテゴリに paginator を接続
+    // 各カテゴリに paginator を接続 (2行: PC=6件, モバイル=4件)
     CATEGORY_SECTIONS.forEach(function(cat, i) {
       var filtered = allArticles.filter(function(a) { return a.category === cat.key; });
       createPaginator('catGrid-' + i, 'catMore-' + i, filtered, {
-        pcBatch: 9, mobileBatch: 6, btnLabel: cat.btnLabel
+        pcBatch: 6, mobileBatch: 4, btnLabel: cat.btnLabel
       });
     });
   }
@@ -693,6 +705,35 @@
     }).join('');
   }
 
+  // WATCH セクション（トップページ用: 最新4件のサムネ + タイトル）
+  async function renderWatchSection() {
+    var grid = document.getElementById('watchGrid');
+    var more = document.getElementById('watchMore');
+    try {
+      var res = await fetch('./data/videos.json');
+      if (!res.ok) { grid.style.display = 'none'; return; }
+      var data = await res.json();
+      var videos = (data.videos || []).slice(0, 4);
+      if (!videos.length) { grid.style.display = 'none'; return; }
+      grid.innerHTML = videos.map(function(v) {
+        var thumb = v.thumbnail_url
+          ? '<img src="' + esc(v.thumbnail_url) + '" alt="" style="width:100%;height:100%;object-fit:cover;display:block;">'
+          : '<div class="news-card-img-ph"></div>';
+        return '<div class="news-card" onclick="location.href=\'watch/\'" style="cursor:pointer;">' +
+          '<div class="news-card-img-wrap">' + thumb + '</div>' +
+          '<div class="news-card-body">' +
+            '<div class="news-card-cat">' + esc(v.category) + (v.editor_pick ? ' <span style="background:#c8a830;color:#fff;font-size:9px;padding:1px 5px;font-weight:700;">PICK</span>' : '') + '</div>' +
+            '<div class="news-card-title">' + esc(v.title) + '</div>' +
+            '<div class="news-card-meta">' + esc(v.channel_name) + ' · ' + fmtDate(v.published_at) + '</div>' +
+          '</div>' +
+        '</div>';
+      }).join('');
+      more.style.display = '';
+    } catch(e) {
+      grid.style.display = 'none';
+    }
+  }
+
   // データ読み込みと全セクション初期化
   async function init() {
     try {
@@ -737,6 +778,9 @@
       createPaginator('latestGrid', 'latestMore', allArticles, {
         pcBatch: 9, mobileBatch: 6, btnLabel: 'MORE LATEST NEWS'
       });
+
+      // WATCH セクション: videos.json から最新動画を表示
+      renderWatchSection();
 
       // カテゴリ別セクション: 動的生成 + 各 paginator 接続
       renderCategorySections(allArticles);

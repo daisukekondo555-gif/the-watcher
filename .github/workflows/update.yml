@@ -68,6 +68,20 @@ jobs:
           NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
         run: python export_notion.py
 
+      # ── Step 2.5: YouTube RSS → Notion Videos DB に動画を保存 ────────────
+      - name: Fetch YouTube videos to Notion
+        env:
+          NOTION_API_KEY:      ${{ secrets.NOTION_API_KEY }}
+          NOTION_VIDEO_DB_ID:  ${{ secrets.NOTION_VIDEO_DB_ID }}
+        run: python src/fetch_videos.py
+
+      # ── Step 2.6: Notion Videos DB → videos.json にエクスポート ──────────
+      - name: Export videos from Notion
+        env:
+          NOTION_API_KEY:      ${{ secrets.NOTION_API_KEY }}
+          NOTION_VIDEO_DB_ID:  ${{ secrets.NOTION_VIDEO_DB_ID }}
+        run: python src/export_videos.py
+
       # ── Step 3: GA4 アクセスランキングを ranking.json に保存 ─────────────
       - name: Fetch GA4 ranking
         env:
