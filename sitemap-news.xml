@@ -2,6 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/35d913ba47ba81598b7af9db5ec9739e.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-10T18:01:00+00:00</news:publication_date>
+      <news:title>シャーラメーン、ダナ・ホワイトのトランプ「ヨイショ」をBreakfast Clubで指摘</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/35d913ba47ba819cb1c6fb8ea7d11373.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-11T01:43:00+00:00</news:publication_date>
+      <news:title>デビー・ハリー、パメラ・アンダーソン主演映画で彼女の母親役に出演</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/35d913ba47ba81b6849fd9653fa6f96b.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-11T01:29:00+00:00</news:publication_date>
+      <news:title>ナイキ エアフォース1 ロー「ニックス」最新作の購入方法</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/35d913ba47ba81269976f77c08993cb4.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-11T01:00:00+00:00</news:publication_date>
+      <news:title>エア・ジョーダン5コラボ全ランキング</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/35d913ba47ba81b592d6ea7464ec8760.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-10T23:00:00+00:00</news:publication_date>
+      <news:title>Red Hot Chili Peppers、WMGに楽曲カタログ3億ドルで売却</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/35c913ba47ba8145b21edf69423583e6.html</loc>
     <news:news>
       <news:publication>
@@ -549,28 +604,6 @@
       </news:publication>
       <news:publication_date>2026-05-09T04:17:00+00:00</news:publication_date>
       <news:title>Rap SnacksとBlockWork TVが全米6都市でヒップホップ新人発掘ツアーを開催</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35b913ba47ba819fa31dec0d8a96d276.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-09T02:30:00+00:00</news:publication_date>
-      <news:title>ニック・キャノンのビジネス会計士が200万ドル横領、ウガンダに逃亡で連邦告発</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35b913ba47ba8105af5cc97b499d5dd3.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-09T01:38:00+00:00</news:publication_date>
-      <news:title>ラッパー・フーリオ殺害事件で4人に有罪判決</news:title>
     </news:news>
   </url>
 </urlset>
