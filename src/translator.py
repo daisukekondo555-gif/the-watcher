@@ -135,6 +135,7 @@ def _apply_name_replacements(text: str, name_mapping: dict) -> str:
         "トーリー・レインズ": "トリー・レーンズ",
         "ダメ・ダッシュ": "デイム・ダッシュ",
         "デーム・ダッシュ": "デイム・ダッシュ",
+        "アコン": "エイコン",
     }
 
     for wrong, right in corrections.items():
