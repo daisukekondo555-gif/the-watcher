@@ -98,7 +98,14 @@ jobs:
       - name: Build OGP share pages (differential)
         run: python src/build_share_pages.py
 
-      # ── Step 5: articles.json / ranking.json / articles/ をリポジトリにコミット ──
+      # ── Step 5: IndexNow で新規記事 URL を検索エンジンに即時通知 ────────
+      # git push の直前に実行し、data/indexnow_sent.json を git add data/ で
+      # 永続化する。エラー時もコミット・プッシュに影響しない (continue-on-error)。
+      - name: Notify IndexNow
+        continue-on-error: true
+        run: python src/indexnow.py
+
+      # ── Step 6: data/ / articles/ をリポジトリにコミット ──────────────────
       - name: Commit and push data files
         run: |
           git config user.name  "github-actions[bot]"
@@ -106,12 +113,6 @@ jobs:
           git add data/ articles/ sitemap.xml sitemap-news.xml 3490238cb3a04943932db648a6af084e.txt
           git diff --staged --quiet || git commit -m "chore: update articles.json [skip ci]"
           git push
-
-      # ── Step 6: IndexNow で新規記事 URL を検索エンジンに即時通知 ────────
-      # エラー時もメイン処理には影響しない (continue-on-error)
-      - name: Notify IndexNow
-        continue-on-error: true
-        run: python src/indexnow.py
 
       # ── Step 7: Instagram に新着記事をカルーセル投稿 ────────────────────
       - name: Post new articles to Instagram
