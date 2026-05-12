@@ -108,7 +108,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-12T01:32:00+00:00</news:publication_date>
-      <news:title>リック・ロスがBigXThaPlugを「ヤング・ロザイ」として認める</news:title>
+      <news:title>リック・ロスがBigXThaPlugを「ヤング・ロゼイ」として認める</news:title>
     </news:news>
   </url>
   <url>
@@ -783,28 +783,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://thewatcherjp.com/articles/35c913ba47ba81fab21adf2a5c058d07.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-10T11:16:00+00:00</news:publication_date>
-      <news:title>失敗の意味を理解しなかったSteph G</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35c913ba47ba81ee9874e77abbf92bab.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-10T10:42:00+00:00</news:publication_date>
-      <news:title>ニックス・ファンが直面する「プレイオフ・プレミアム」の重い負担</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thewatcherjp.com/articles/35c913ba47ba81789554ea99d9da4b7f.html</loc>
     <news:news>
       <news:publication>
@@ -890,50 +868,6 @@
       </news:publication>
       <news:publication_date>2026-05-10T11:39:00+00:00</news:publication_date>
       <news:title>PJタッカー、バスケから引退も「スニーカー界の遺産」は永遠に</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35c913ba47ba819b9d31c61d10a4d79c.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-10T08:30:00+00:00</news:publication_date>
-      <news:title>ナオミ・シャロン、新曲「Better Days」をリリース</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35c913ba47ba81a08444c429acd06817.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-10T08:00:00+00:00</news:publication_date>
-      <news:title>DDGの新曲「Top Of The Hill」がリリース</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35c913ba47ba816fabf2e828df13300e.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-10T07:30:00+00:00</news:publication_date>
-      <news:title>トリム「COCONUT WATER」新曲リリース</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35c913ba47ba81b49cacf9eb6ca7e3b4.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-10T07:00:00+00:00</news:publication_date>
-      <news:title>Navy Blue「Ocean Light (Phase 1: Prelude)」</news:title>
     </news:news>
   </url>
 </urlset>
