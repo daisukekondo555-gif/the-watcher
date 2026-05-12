@@ -240,7 +240,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-11T17:01:00+00:00</news:publication_date>
-      <news:title>ネ・ヨが多角的恋愛関係はビジネス機会を失わせたと語る</news:title>
+      <news:title>ニー・ヨが多角的恋愛関係はビジネス機会を失わせたと語る</news:title>
     </news:news>
   </url>
   <url>
@@ -824,17 +824,6 @@
       </news:publication>
       <news:publication_date>2026-05-10T07:00:00+00:00</news:publication_date>
       <news:title>Navy Blue「Ocean Light (Phase 1: Prelude)」</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35c913ba47ba81da856cc8666b34b7d2.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-10T00:00:00+00:00</news:publication_date>
-      <news:title>ジェイ・Z の競争心がルペ・フィアスコとの契約を破談に、デイム・ダッシュが明かす</news:title>
     </news:news>
   </url>
 </urlset>
