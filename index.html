@@ -31,6 +31,9 @@
   @media (min-width: 768px) { .search-bar { padding: 10px 24px; gap: 10px; } .search-bar input { font-size: 13px; } }
   .search-bar input:focus { border-color: #0f1f38; }
   .search-bar button { flex-shrink: 0; background: #0f1f38; color: #fff; border: none; padding: 8px 16px; font-size: 12px; cursor: pointer; font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; white-space: nowrap; }
+  .pc-search { display: none; }
+  @media (min-width: 768px) { .pc-search { display: flex; } .mobile-search { display: none !important; } }
+  .mobile-search { padding: 10px 0 6px; border-bottom: none; }
 
 
 
@@ -246,6 +249,11 @@
 
 <!-- MOBILE NAV -->
 <div class="mobile-nav" id="mobileNav">
+  <div class="search-bar mobile-search">
+    <input type="text" id="mobileSearchInput" placeholder="検索..."
+      onkeydown="if(event.key==='Enter')handleSearch('mobileSearchInput')">
+    <button onclick="handleSearch('mobileSearchInput')">SEARCH</button>
+  </div>
   <a href="./">すべて</a>
   <a href="category.html?cat=ニュース">ニュース</a>
   <a href="category.html?cat=ビジネス">ビジネス</a>
@@ -255,8 +263,8 @@
   <a href="watch/">WATCH</a>
 </div>
 
-<!-- SEARCH -->
-<div class="search-bar">
+<!-- SEARCH (PC only) -->
+<div class="search-bar pc-search">
   <input type="text" id="searchInput" placeholder="アーティスト名・キーワードで検索..."
     onkeydown="if(event.key==='Enter')handleSearch()">
   <button onclick="handleSearch()">SEARCH</button>
@@ -863,8 +871,8 @@
   }
 
   // 検索 → search.html へ遷移
-  function handleSearch() {
-    var q = document.getElementById('searchInput').value.trim();
+  function handleSearch(inputId) {
+    var q = document.getElementById(inputId || 'searchInput').value.trim();
     if (!q) return;
     location.href = 'search.html?q=' + encodeURIComponent(q);
   }
