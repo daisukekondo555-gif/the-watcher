@@ -306,8 +306,8 @@
 <!-- CATEGORY SECTIONS: JS で動的生成 (ニュース / リリース / ビーフ / ライブ / チャート / ビジネス) -->
 <div id="categorySections"></div>
 
-<!-- CATEGORY RANKING -->
-<div class="sec-label"><span>CATEGORY RANKING</span></div>
+<!-- RANKING -->
+<div class="sec-label"><span>RANKING</span></div>
 <div class="rank-tabs-wrap">
 <div class="rank-tabs" id="rankTabs"></div>
 </div>
@@ -624,16 +624,14 @@
     return m ? decodeURIComponent(m[1]) : null;
   }
 
-  // CATEGORY RANKING（カテゴリ別上位5件 — ranking.json があれば PV 順、なければ新着順）
+  // RANKING（ウィークリー + カテゴリ別上位5件）
   function renderCategoryRanking(articles, rankingData) {
-    var cats = ['ニュース', 'リリース', 'ビーフ', 'ライブ', 'チャート', 'ビジネス'];
+    var cats = ['ウィークリー', 'ニュース', 'リリース', 'ビーフ', 'ライブ', 'チャート', 'ビジネス'];
     var defaultCat = cats[0];
 
-    // 記事 id → article オブジェクトのマップ
     var idMap = {};
     articles.forEach(function(a) { if (a.id) idMap[a.id] = a; });
 
-    // タブバー（デスクトップ用）
     var tabsEl = document.getElementById('rankTabs');
     if (tabsEl) {
       tabsEl.innerHTML = cats.map(function(cat) {
@@ -642,21 +640,25 @@
       }).join('');
     }
 
-    // パネル（モバイル横スクロール用 + デスクトップタブパネル兼用）
     document.getElementById('categoryRanking').innerHTML = cats.map(function(cat) {
       var items = [];
-      var showPv = false;
 
-      if (rankingData && rankingData.by_category && rankingData.by_category[cat] && rankingData.by_category[cat].length) {
-        // ranking.json の PV 順で並べる
+      if (cat === 'ウィークリー') {
+        if (rankingData && rankingData.weekly && rankingData.weekly.length >= 2) {
+          rankingData.weekly.forEach(function(ri) {
+            var aid = pathToId(ri.path);
+            var article = aid ? idMap[aid] : null;
+            if (article) items.push(article);
+          });
+        }
+        if (items.length < 2) items = articles.slice(0, 5);
+      } else if (rankingData && rankingData.by_category && rankingData.by_category[cat] && rankingData.by_category[cat].length) {
         rankingData.by_category[cat].forEach(function(ri) {
           var aid = pathToId(ri.path);
           var article = aid ? idMap[aid] : null;
-          if (article) items.push(Object.assign({}, article, { _pv: ri.pageviews }));
+          if (article) items.push(article);
         });
-        showPv = true;
       } else {
-        // フォールバック: articles.json の新着順
         items = articles.filter(function(a) { return a.category === cat; }).slice(0, 5);
       }
 
@@ -665,16 +667,10 @@
           ? '<div class="rank-thumb"><img src="' + esc(proxyImg(a.image_url, 200)) + '" data-orig="' + esc(a.image_url) + '" alt="" ' +
             'onerror="imgError(this,this.dataset.orig,\'\')"></div>'
           : '<div class="rank-thumb"></div>';
-        // PV 数表示は一時的に非表示 (数値が育ってから復元)
-        // var pvHtml = showPv && a._pv
-        //   ? '<span class="rank-pv">' + Number(a._pv).toLocaleString() + ' PV</span>'
-        //   : '';
-        var pvHtml = '';
         return '<div class="rank-row" onclick="openArticle(\'' + esc(a.id) + '\')">' +
           '<span class="rank-row-num">' + (i + 1) + '</span>' +
           thumb +
           '<span class="rank-title">' + esc(a.title) + '</span>' +
-          pvHtml +
         '</div>';
       }).join('');
 
