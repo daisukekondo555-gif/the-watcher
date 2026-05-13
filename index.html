@@ -56,6 +56,9 @@
     .best5-img-wrap { height: 420px; }
   }
 
+  /* DROPS DATE (sec-label 内の日付部分) */
+  .drops-date { font-size: 14px; color: #888; letter-spacing: 1px; }
+
   /* RELATIVE TIME BADGE */
   .drops-time { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.6); color: #fff; font-family: 'Bebas Neue', sans-serif; font-size: 11px; letter-spacing: 1px; padding: 3px 8px; z-index: 3; }
 
@@ -472,9 +475,9 @@
     }
 
     var weekdays = ['日','月','火','水','木','金','土'];
-    var label = 'TODAY\'S DROPS — ' + (m + 1) + '月' + d + '日(' + weekdays[targetDate.getUTCDay()] + ')';
+    var dateStr = '— ' + (m + 1) + '月' + d + '日(' + weekdays[targetDate.getUTCDay()] + ')';
 
-    return { articles: candidates.slice(0, 5), label: label };
+    return { articles: candidates.slice(0, 5), dateStr: dateStr };
   }
 
   // TODAY'S DROPS — スライドショー (既存カルーセル UI を流用)
@@ -821,7 +824,7 @@
       // TODAY'S DROPS: 当日公開記事からランダム5件
       var drops = getTodaysDrops(allArticles);
       var dropsLabel = document.getElementById('dropsLabel');
-      if (dropsLabel) dropsLabel.textContent = drops.label;
+      if (dropsLabel) dropsLabel.innerHTML = 'TODAY\'S DROPS <span class="drops-date">' + esc(drops.dateStr) + '</span>';
       if (drops.articles.length > 0) renderBest5Slideshow(drops.articles);
 
       // LATEST NEWS: 全記事を新着順、遅延レンダリング
