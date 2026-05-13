@@ -1211,26 +1211,4 @@
       <news:title>「Murder Rate」- ロケット・レセの新曲</news:title>
     </news:news>
   </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35d913ba47ba81d7814ac697b28a038b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-11T05:16:00+00:00</news:publication_date>
-      <news:title>Red Hot Chili Peppers、ワーナー・ミュージックに音楽カタログを3億ドル以上で売却</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35d913ba47ba810487d9da10610e5041.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-11T03:31:00+00:00</news:publication_date>
-      <news:title>ボルチモア市長がトゥーパック・シャクールの名を冠した通りを再献納</news:title>
-    </news:news>
-  </url>
 </urlset>
