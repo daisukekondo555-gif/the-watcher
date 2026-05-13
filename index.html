@@ -33,8 +33,6 @@
   .search-bar button { flex-shrink: 0; background: #0f1f38; color: #fff; border: none; padding: 8px 16px; font-size: 12px; cursor: pointer; font-family: 'Bebas Neue', sans-serif; letter-spacing: 2px; white-space: nowrap; }
 
 
-  /* DATELINE */
-  .dateline { background: #ffffff; border-bottom: 1px solid #e0e0e0; padding: 10px 24px; font-size: 10px; color: #888; letter-spacing: 1px; display: flex; justify-content: space-between; }
 
   /* HERO */
   .hero { background: #ffffff; cursor: pointer; border-bottom: 2px solid #0f1f38; }
@@ -264,11 +262,6 @@
   <button onclick="handleSearch()">SEARCH</button>
 </div>
 
-
-<div class="dateline">
-  <span id="dateline">読み込み中...</span>
-  <span>FOR THE CULTURE</span>
-</div>
 
 <!-- AD SLOT -->
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
@@ -815,12 +808,6 @@
         if (rres && rres.ok) rankingData = await rres.json();
       } catch(e) { /* ranking.json 未生成でも問題なし */ }
 
-      // デートライン（今日の日付）
-      var now = new Date();
-      var weekdays = ['日','月','火','水','木','金','土'];
-      document.getElementById('dateline').textContent =
-        now.getFullYear() + '年' + (now.getMonth() + 1) + '月' + now.getDate() + '日（' + weekdays[now.getDay()] + '）';
-
       // TODAY'S DROPS: 当日公開記事からランダム5件
       var drops = getTodaysDrops(allArticles);
       var dropsDate = document.getElementById('dropsDate');
@@ -842,7 +829,7 @@
       renderTrendingTags(allArticles);
     } catch(e) {
       console.error('articles.json の読み込みに失敗しました:', e);
-      document.getElementById('dateline').textContent = '読み込みエラー';
+      console.error('データ読み込みエラー');
     }
   }
 
