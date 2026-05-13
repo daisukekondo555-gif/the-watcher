@@ -41,12 +41,7 @@
   /* hero-img-placeholder: コンテナの高さに追従 */
   .hero-img-placeholder { width: 100%; height: 100%; background: linear-gradient(135deg, #0f1f38 0%, #1c3060 100%); display: flex; align-items: center; justify-content: center; font-family: 'Bebas Neue', sans-serif; font-size: 48px; color: rgba(255,255,255,0.08); letter-spacing: 6px; }
 
-  /* BEST5 SLIDESHOW */
-  /* BEST5 スライドショー CLS 対策:
-     CSS Grid overlap で全スライドを同一セルに重ねる。
-     コンテナ高 = 最も高いスライドの高さで固定されるため
-     スライド切り替え時も高さが変わらずレイアウトシフトが起きない。
-     min-height は JS 描画前のプレースホルダ用。 */
+  /* TODAY'S DROPS SLIDESHOW */
   .best5-slideshow { display: grid; overflow: hidden; background: #fff; border-bottom: 2px solid #0f1f38; cursor: pointer; min-height: 440px; }
   .best5-slide { grid-area: 1 / 1; width: 100%; opacity: 0; transition: opacity 0.55s ease; pointer-events: none; }
   .best5-slide.is-active { opacity: 1; pointer-events: auto; }
@@ -172,7 +167,7 @@
     .rank-title { font-size: 14px; }
   }
 
-  /* BEST5 CARDS（スライドショー下の全5件横並び） */
+  /* TODAY'S DROPS CARDS */
   .best5-cards-outer { position: relative; }
   .best5-cards-wrap { background: #0f1f38; padding: 20px 0 20px 24px; overflow-x: auto; display: flex; gap: 14px; scrollbar-width: none; border-bottom: 1px solid #1c3060; }
   .best5-cards-wrap::-webkit-scrollbar { display: none; }
