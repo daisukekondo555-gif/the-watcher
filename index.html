@@ -61,6 +61,9 @@
     .best5-img-wrap { height: 420px; }
   }
 
+  /* RELATIVE TIME BADGE */
+  .drops-time { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.6); color: #fff; font-family: 'Bebas Neue', sans-serif; font-size: 11px; letter-spacing: 1px; padding: 3px 8px; z-index: 3; }
+
   .hero-body { padding: 28px 24px 32px; background: #ffffff; }
   .cat { font-size: 11px; letter-spacing: 2px; text-transform: uppercase; color: #0f1f38; margin-bottom: 8px; font-weight: 700; }
   .hero-title { font-family: 'Noto Serif JP', serif; font-size: 22px; font-weight: 900; line-height: 1.5; color: #111111; margin-bottom: 10px; }
@@ -272,8 +275,8 @@
 <!-- AD SLOT -->
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
 
-<!-- WEEKLY BEST 5 -->
-<div class="sec-label"><span>WEEKLY BEST 5</span></div>
+<!-- TODAY'S DROPS -->
+<div class="sec-label"><span id="dropsLabel">TODAY'S DROPS</span></div>
 <div id="best5Slideshow" class="best5-slideshow"><div class="best5-img-wrap"><div class="hero-img-placeholder">THE WATCHER</div></div></div>
 <div class="best5-cards-outer">
   <div id="best5Cards" class="best5-cards-wrap"></div>
@@ -423,13 +426,69 @@
     location.href = 'article.html?id=' + encodeURIComponent(id);
   }
 
-  // WEEKLY BEST 5 — スライドショー
+  // 相対時間表示
+  function relativeTime(isoDate) {
+    if (!isoDate) return '';
+    var diff = Date.now() - new Date(isoDate).getTime();
+    var min = Math.floor(diff / 60000);
+    if (min < 1) return 'JUST NOW';
+    if (min < 60) return min + ' MIN AGO';
+    var hr = Math.floor(min / 60);
+    if (hr < 24) return hr + ' HOUR' + (hr > 1 ? 'S' : '') + ' AGO';
+    var days = Math.floor(hr / 24);
+    if (days === 1) return 'YESTERDAY';
+    return days + ' DAYS AGO';
+  }
+
+  // TODAY'S DROPS — 当日公開記事の抽出
+  function getTodaysDrops(articles) {
+    var now = new Date();
+    var jstNow = new Date(now.getTime() + 9 * 60 * 60 * 1000);
+    var jstHour = jstNow.getUTCHours();
+    var targetDate = new Date(jstNow);
+    if (jstHour < 7.5) {
+      targetDate.setUTCDate(targetDate.getUTCDate() - 1);
+    }
+    var y = targetDate.getUTCFullYear();
+    var m = targetDate.getUTCMonth();
+    var d = targetDate.getUTCDate();
+    var dayStart = new Date(Date.UTC(y, m, d) - 9 * 60 * 60 * 1000);
+    var dayEnd = new Date(dayStart.getTime() + 24 * 60 * 60 * 1000);
+
+    var candidates = articles.filter(function(a) {
+      if (!a.imported_at) return false;
+      var t = new Date(a.imported_at).getTime();
+      return t >= dayStart.getTime() && t < dayEnd.getTime();
+    });
+
+    if (candidates.length < 5) {
+      var prevStart = new Date(dayStart.getTime() - 24 * 60 * 60 * 1000);
+      var extra = articles.filter(function(a) {
+        if (!a.imported_at) return false;
+        var t = new Date(a.imported_at).getTime();
+        return t >= prevStart.getTime() && t < dayStart.getTime();
+      });
+      candidates = candidates.concat(extra);
+    }
+
+    for (var i = candidates.length - 1; i > 0; i--) {
+      var j = Math.floor(Math.random() * (i + 1));
+      var tmp = candidates[i]; candidates[i] = candidates[j]; candidates[j] = tmp;
+    }
+
+    var weekdays = ['日','月','火','水','木','金','土'];
+    var label = 'TODAY\'S DROPS — ' + (m + 1) + '月' + d + '日(' + weekdays[targetDate.getUTCDay()] + ')';
+
+    return { articles: candidates.slice(0, 5), label: label };
+  }
+
+  // TODAY'S DROPS — スライドショー (既存カルーセル UI を流用)
   var best5Articles = [];
   var best5Idx = 0;
   var best5Timer = null;
   var best5ResumeTimer = null;
-  var BEST5_INTERVAL = 4500;  // 自動切り替え間隔 (ms)
-  var BEST5_PAUSE    = 8000;  // 手動操作後の再開待機 (ms)
+  var BEST5_INTERVAL = 4500;
+  var BEST5_PAUSE    = 8000;
 
   function renderBest5Slideshow(articles) {
     if (!articles.length) return;
@@ -437,7 +496,6 @@
     var el = document.getElementById('best5Slideshow');
     if (!el) return;
 
-    // ドット HTML（全スライドに共通で配置）
     var dotsHtml = '<div class="best5-dots">' +
       articles.map(function(_, i) {
         return '<button class="best5-dot' + (i === 0 ? ' is-active' : '') + '" data-idx="' + i + '" ' +
@@ -445,18 +503,17 @@
       }).join('') +
     '</div>';
 
-    // 5枚のスライドを生成
     el.innerHTML = articles.map(function(a, i) {
       var img = imgOrPH(a.image_url, 'width:100%;height:100%;object-fit:cover;object-position:center 20%;display:block;', 'hero-img-placeholder');
+      var timeHtml = '<div class="drops-time">' + relativeTime(a.imported_at) + '</div>';
       return '<div class="best5-slide' + (i === 0 ? ' is-active' : '') + '" onclick="openArticle(\'' + esc(a.id) + '\')">' +
-        '<div class="best5-img-wrap">' + img + dotsHtml + '</div>' +
+        '<div class="best5-img-wrap">' + img + timeHtml + dotsHtml + '</div>' +
         '<div class="hero-body">' +
           '<div style="display:flex;align-items:center;gap:10px;margin-bottom:8px;">' +
-            '<span style="font-family:\'Bebas Neue\',sans-serif;font-size:48px;color:#0f1f38;line-height:1;">' + (i + 1) + '</span>' +
             '<div class="cat" style="margin-bottom:0;">' + esc(a.category) + '</div>' +
           '</div>' +
           '<h1 class="hero-title">' + esc(a.title) + '</h1>' +
-          '<div class="meta">' + fmtDate(a.published_at) + '<br>' +
+          '<div class="meta">' + fmtDate(a.imported_at) + '<br>' +
             '<span class="hashtag">' + buildHashtagLinks(a.hashtags) + '</span>' +
           '</div>' +
           buildVia(a.source_urls, a.source_names) +
@@ -469,7 +526,7 @@
     renderBest5Cards(articles);
   }
 
-  // WEEKLY BEST 5 — 全5件横並びカード
+  // TODAY'S DROPS — 全5件横並びカード
   function renderBest5Cards(articles) {
     var el = document.getElementById('best5Cards');
     if (!el) return;
@@ -483,11 +540,11 @@
         img +
         '<div class="best5-card-body">' +
           '<div class="best5-card-rank-row">' +
-            '<span class="best5-card-rank">' + (i + 1) + '</span>' +
             '<span class="best5-card-cat">' + esc(a.category) + '</span>' +
+            '<span style="font-size:9px;color:rgba(255,255,255,0.4);letter-spacing:1px;margin-left:auto;">' + relativeTime(a.imported_at) + '</span>' +
           '</div>' +
           '<div class="best5-card-title">' + esc(a.title) + '</div>' +
-          '<div class="best5-card-date">' + fmtDate(a.published_at) + '</div>' +
+          '<div class="best5-card-date">' + fmtDate(a.imported_at) + '</div>' +
         '</div>' +
       '</div>';
     }).join('') + '<div style="flex-shrink:0;width:4px;"></div>';
@@ -766,20 +823,11 @@
       document.getElementById('dateline').textContent =
         now.getFullYear() + '年' + (now.getMonth() + 1) + '月' + now.getDate() + '日（' + weekdays[now.getDay()] + '）';
 
-      // WEEKLY BEST 5: ranking.json の weekly 順 → なければ最新5件
-      var idMap = {};
-      allArticles.forEach(function(a) { if (a.id) idMap[a.id] = a; });
-
-      var best5 = allArticles.slice(0, 5);
-      if (rankingData && rankingData.weekly && rankingData.weekly.length >= 2) {
-        var ranked = rankingData.weekly.map(function(ri) {
-          var aid = pathToId(ri.path);
-          return aid ? idMap[aid] : null;
-        }).filter(Boolean);
-        if (ranked.length >= 2) best5 = ranked;
-      }
-
-      if (best5.length > 0) renderBest5Slideshow(best5);
+      // TODAY'S DROPS: 当日公開記事からランダム5件
+      var drops = getTodaysDrops(allArticles);
+      var dropsLabel = document.getElementById('dropsLabel');
+      if (dropsLabel) dropsLabel.textContent = drops.label;
+      if (drops.articles.length > 0) renderBest5Slideshow(drops.articles);
 
       // LATEST NEWS: 全記事を新着順、遅延レンダリング
       createPaginator('latestGrid', 'latestMore', allArticles, {
