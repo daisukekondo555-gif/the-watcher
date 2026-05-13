@@ -6,7 +6,7 @@
     },
     {
       "path": "/article.html?id=359913ba47ba8115ab9ee3eda473dff4",
-      "pageviews": 6
+      "pageviews": 7
     },
     {
       "path": "/article.html?id=357913ba47ba81cdba35d102c8021abe",
@@ -91,7 +91,7 @@
     "ライブ": [
       {
         "path": "/article.html?id=359913ba47ba8115ab9ee3eda473dff4",
-        "pageviews": 6
+        "pageviews": 7
       },
       {
         "path": "/article.html?id=357913ba47ba8163bb45e5b2fd972997",
@@ -113,6 +113,14 @@
     "チャート": [
       {
         "path": "/article.html?id=34b913ba47ba81f1ba25c57367002292",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=35e913ba47ba815082b8ea5d76cebda9",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=35e913ba47ba819eb78bd1ef986d6c32",
         "pageviews": 1
       }
     ],
@@ -139,5 +147,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-13T05:40:43"
+  "updated_at": "2026-05-13T11:47:34"
 }
