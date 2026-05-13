@@ -54,7 +54,8 @@
   .best5-dot:hover { background: rgba(255,255,255,0.75); }
   @media (min-width: 768px) {
     .best5-slideshow { min-height: 620px; }
-    .best5-img-wrap { height: 420px; }
+    .best5-img-wrap { height: 420px; background: #fff; }
+    .best5-img-wrap img { object-fit: contain; object-position: center center; }
   }
 
   /* DROPS DATE */
@@ -503,7 +504,7 @@
     '</div>';
 
     el.innerHTML = articles.map(function(a, i) {
-      var img = imgOrPH(a.image_url, 'width:100%;height:100%;object-fit:cover;object-position:center 30%;display:block;', 'hero-img-placeholder');
+      var img = imgOrPH(a.image_url, 'width:100%;height:100%;display:block;', 'hero-img-placeholder');
       var timeHtml = '<div class="drops-time">' + relativeTime(a.imported_at) + '</div>';
       return '<div class="best5-slide' + (i === 0 ? ' is-active' : '') + '" onclick="openArticle(\'' + esc(a.id) + '\')">' +
         '<div class="best5-img-wrap">' + img + timeHtml + dotsHtml + '</div>' +
