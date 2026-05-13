@@ -56,8 +56,8 @@
     .best5-img-wrap { height: 420px; }
   }
 
-  /* DROPS DATE (sec-label 内の日付部分) */
-  .drops-date { font-size: 14px; color: #888; letter-spacing: 1px; }
+  /* DROPS DATE */
+  .drops-date { font-family: 'Noto Sans JP', sans-serif !important; font-size: 13px !important; letter-spacing: 1px !important; color: #888 !important; font-weight: 400; white-space: nowrap; }
 
   /* RELATIVE TIME BADGE */
   .drops-time { position: absolute; top: 10px; right: 10px; background: rgba(0,0,0,0.6); color: #fff; font-family: 'Bebas Neue', sans-serif; font-size: 11px; letter-spacing: 1px; padding: 3px 8px; z-index: 3; }
@@ -274,7 +274,7 @@
 <div class="ad-slot"><div class="ad-inner"><span>ADVERTISEMENT</span></div></div>
 
 <!-- TODAY'S DROPS -->
-<div class="sec-label"><span id="dropsLabel">TODAY'S DROPS</span></div>
+<div class="sec-label"><span>TODAY'S DROPS</span><span class="drops-date" id="dropsDate"></span></div>
 <div id="best5Slideshow" class="best5-slideshow"><div class="best5-img-wrap"><div class="hero-img-placeholder">THE WATCHER</div></div></div>
 <div class="best5-cards-outer">
   <div id="best5Cards" class="best5-cards-wrap"></div>
@@ -823,8 +823,8 @@
 
       // TODAY'S DROPS: 当日公開記事からランダム5件
       var drops = getTodaysDrops(allArticles);
-      var dropsLabel = document.getElementById('dropsLabel');
-      if (dropsLabel) dropsLabel.innerHTML = 'TODAY\'S DROPS <span class="drops-date">' + esc(drops.dateStr) + '</span>';
+      var dropsDate = document.getElementById('dropsDate');
+      if (dropsDate) dropsDate.textContent = drops.dateStr;
       if (drops.articles.length > 0) renderBest5Slideshow(drops.articles);
 
       // LATEST NEWS: 全記事を新着順、遅延レンダリング
