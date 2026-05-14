@@ -254,20 +254,6 @@ def main() -> None:
             total_new += 1
             logger.info(f"    Checking: {v['title'][:60]}")
 
-            try:
-                info = _get_video_info(v["url"])
-                duration = info.get("duration", 0)
-                if duration > max_duration:
-                    logger.info(f"    Too long ({duration}s), skip")
-                    processed.add(vid)
-                    total_filtered += 1
-                    continue
-            except Exception as e:
-                logger.warning(f"    Info fetch failed: {e}")
-                processed.add(vid)
-                total_filtered += 1
-                continue
-
             with tempfile.TemporaryDirectory() as tmpdir:
                 try:
                     judge_frames, video_path = _extract_judge_frames(v["url"], tmpdir)
@@ -276,6 +262,19 @@ def main() -> None:
                     processed.add(vid)
                     total_filtered += 1
                     continue
+
+                try:
+                    dur_cmd = ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                               "-of", "default=noprint_wrappers=1:nokey=1", video_path]
+                    dur_result = subprocess.run(dur_cmd, capture_output=True, text=True)
+                    duration = float(dur_result.stdout.strip()) if dur_result.returncode == 0 else 0
+                    if duration > max_duration:
+                        logger.info(f"    Too long ({duration:.0f}s), skip")
+                        processed.add(vid)
+                        total_filtered += 1
+                        continue
+                except Exception:
+                    pass
 
                 if not judge_frames:
                     processed.add(vid)

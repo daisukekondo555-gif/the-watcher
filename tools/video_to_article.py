@@ -61,8 +61,22 @@ def _load_name_mapping() -> dict:
 
 
 def _download_video(url: str, output_dir: str) -> str:
-    """yt-dlp で動画をダウンロードする。"""
+    """動画をダウンロードする。pytubefix → yt-dlp のフォールバック。"""
     output_path = os.path.join(output_dir, "video.mp4")
+
+    try:
+        from pytubefix import YouTube
+        yt = YouTube(url)
+        stream = yt.streams.filter(progressive=True, file_extension="mp4").order_by("resolution").first()
+        if stream:
+            logger.info(f"Downloading via pytubefix: {url}")
+            stream.download(output_path=output_dir, filename="video.mp4")
+            if os.path.exists(output_path):
+                logger.info(f"Downloaded: {output_path}")
+                return output_path
+    except Exception as e:
+        logger.warning(f"pytubefix failed, trying yt-dlp: {e}")
+
     cmd = [
         "yt-dlp",
         "-f", "worst[ext=mp4]/worst",
@@ -70,12 +84,11 @@ def _download_video(url: str, output_dir: str) -> str:
         "-o", output_path,
         url,
     ]
-    logger.info(f"Downloading video: {url}")
+    logger.info(f"Downloading via yt-dlp: {url}")
     result = subprocess.run(cmd, capture_output=True, text=True)
     if result.returncode != 0:
-        logger.warning(f"yt-dlp download returncode: {result.returncode}")
         logger.warning(f"yt-dlp stderr: {result.stderr[:500]}")
-        raise RuntimeError(f"yt-dlp download failed: exit {result.returncode}")
+        raise RuntimeError(f"Download failed for {url}")
     if not os.path.exists(output_path):
         mp4s = list(Path(output_dir).glob("video.*"))
         if mp4s:
@@ -273,19 +286,32 @@ def process_video(video_url: str) -> None:
     max_duration = config.get("max_video_duration_sec", 180)
     name_mapping = _load_name_mapping()
 
-    info = _get_video_info(video_url)
-    channel_name = info.get("channel", info.get("uploader", "Unknown"))
-    video_title = info.get("title", "")
-    duration = info.get("duration", 0)
-
-    logger.info(f"Video: {video_title} ({duration}s) by {channel_name}")
-
-    if duration > max_duration:
-        logger.warning(f"Video too long ({duration}s > {max_duration}s), skipping")
-        return
+    channel_name = "Unknown"
+    try:
+        from pytubefix import YouTube
+        yt = YouTube(video_url)
+        channel_name = yt.author or "Unknown"
+    except Exception:
+        pass
 
     with tempfile.TemporaryDirectory() as tmpdir:
         video_path = _download_video(video_url, tmpdir)
+
+        duration = 0
+        try:
+            dur_cmd = ["ffprobe", "-v", "error", "-show_entries", "format=duration",
+                       "-of", "default=noprint_wrappers=1:nokey=1", video_path]
+            dur_result = subprocess.run(dur_cmd, capture_output=True, text=True)
+            if dur_result.returncode == 0:
+                duration = float(dur_result.stdout.strip())
+        except Exception:
+            pass
+
+        logger.info(f"Video: {duration:.0f}s by {channel_name}")
+
+        if duration > max_duration:
+            logger.warning(f"Video too long ({duration:.0f}s > {max_duration}s), skipping")
+            return
         frames = _extract_frames(video_path, tmpdir, interval, crop_ratio)
 
         if not frames:
