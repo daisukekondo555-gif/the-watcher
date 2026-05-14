@@ -258,6 +258,8 @@ def main() -> None:
                     continue
             except Exception as e:
                 logger.warning(f"    Info fetch failed: {e}")
+                processed.add(vid)
+                total_filtered += 1
                 continue
 
             with tempfile.TemporaryDirectory() as tmpdir:
@@ -265,6 +267,8 @@ def main() -> None:
                     judge_frames, video_path = _extract_judge_frames(v["url"], tmpdir)
                 except Exception as e:
                     logger.warning(f"    Download/extract failed: {e}")
+                    processed.add(vid)
+                    total_filtered += 1
                     continue
 
                 if not judge_frames:

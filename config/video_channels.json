@@ -11,8 +11,8 @@
       "enabled": true
     },
     {
-      "name": "DJ Akademiks",
-      "channel_id": "UCZ3wkMqETrOGBMFpFmmcuuQ",
+      "name": "King Akademiks",
+      "channel_id": "UCg5iO7Pbg7f4gmufzOLD_zA",
       "enabled": true
     },
     {
@@ -34,5 +34,5 @@
   "ocr_engine": "tesseract",
   "frame_interval_sec": 0.5,
   "subtitle_crop_ratio": 0.35,
-  "max_video_duration_sec": 180
+  "max_video_duration_sec": 600
 }
