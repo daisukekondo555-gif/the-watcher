@@ -71,7 +71,11 @@ def _download_video(url: str, output_dir: str) -> str:
         url,
     ]
     logger.info(f"Downloading video: {url}")
-    subprocess.run(cmd, check=True, capture_output=True, text=True)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        logger.warning(f"yt-dlp download returncode: {result.returncode}")
+        logger.warning(f"yt-dlp stderr: {result.stderr[:500]}")
+        raise RuntimeError(f"yt-dlp download failed: exit {result.returncode}")
     if not os.path.exists(output_path):
         mp4s = list(Path(output_dir).glob("video.*"))
         if mp4s:
@@ -112,7 +116,11 @@ def _extract_frames(video_path: str, output_dir: str, interval: float, crop_rati
         "-y",
     ]
     logger.info(f"Extracting frames (interval={interval}s, crop bottom {int(crop_ratio*100)}%)")
-    subprocess.run(cmd, check=True, capture_output=True, text=True)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        logger.warning(f"ffmpeg returncode: {result.returncode}")
+        logger.warning(f"ffmpeg stderr: {result.stderr[:500]}")
+        raise RuntimeError(f"ffmpeg failed: exit {result.returncode}")
 
     frames = sorted(Path(frames_dir).glob("frame_*.jpg"))
     logger.info(f"Extracted {len(frames)} frames")
@@ -238,7 +246,12 @@ def _save_to_notion(
 def _get_video_info(url: str) -> dict:
     """yt-dlp で動画メタデータを取得する。"""
     cmd = ["yt-dlp", "--dump-json", "--no-playlist", url]
-    result = subprocess.run(cmd, capture_output=True, text=True, check=True)
+    result = subprocess.run(cmd, capture_output=True, text=True)
+    if result.returncode != 0:
+        logger.warning(f"yt-dlp info returncode: {result.returncode}")
+        logger.warning(f"yt-dlp stdout: {result.stdout[:500]}")
+        logger.warning(f"yt-dlp stderr: {result.stderr[:500]}")
+        raise RuntimeError(f"yt-dlp info failed: exit {result.returncode}")
     return json.loads(result.stdout)
 
 

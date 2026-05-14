@@ -138,6 +138,10 @@ def _extract_judge_frames(video_url: str, tmpdir: str) -> list[str]:
         "-of", "default=noprint_wrappers=1:nokey=1", video_path,
     ]
     result = subprocess.run(cmd_probe, capture_output=True, text=True)
+    if result.returncode != 0:
+        logger.warning(f"ffprobe returncode: {result.returncode}")
+        logger.warning(f"ffprobe stderr: {result.stderr[:500]}")
+        raise RuntimeError(f"ffprobe failed: exit {result.returncode}")
     height = int(result.stdout.strip())
     crop_h = int(height * 0.35)
     crop_y = height - crop_h
@@ -153,7 +157,9 @@ def _extract_judge_frames(video_url: str, tmpdir: str) -> list[str]:
             os.path.join(frames_dir, f"judge_{i}.jpg"),
             "-y",
         ]
-        subprocess.run(cmd, capture_output=True, text=True)
+        r = subprocess.run(cmd, capture_output=True, text=True)
+        if r.returncode != 0:
+            logger.warning(f"ffmpeg judge frame {i} failed: {r.stderr[:200]}")
 
     frames = sorted(Path(frames_dir).glob("judge_*.jpg"))
     return [str(f) for f in frames], video_path
