@@ -40,7 +40,7 @@ jobs:
         env:
           ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
           NOTION_API_KEY:     ${{ secrets.NOTION_API_KEY }}
-          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+          NOTION_VIDEO_DB_ID: ${{ secrets.NOTION_VIDEO_DB_ID }}
         run: python tools/video_monitor.py
 
       - name: Commit processed state

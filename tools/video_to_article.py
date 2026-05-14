@@ -223,12 +223,13 @@ def _save_to_notion(
     }
 
     properties = {
-        "タイトル": {"title": [{"text": {"content": title[:2000]}}]},
+        "名前": {"title": [{"text": {"content": title[:2000]}}]},
         "本文": {"rich_text": [{"text": {"content": body[:2000]}}]},
-        "元記事URL": {"rich_text": [{"text": {"content": video_url}}]},
-        "ソースサイト名": {"rich_text": [{"text": {"content": channel_name}}]},
-        "カテゴリ": {"select": {"name": "インタビュー"}},
+        "動画URL": {"url": video_url},
+        "チャンネル名": {"rich_text": [{"text": {"content": channel_name}}]},
+        "カテゴリ": {"select": {"name": "INTERVIEWS"}},
         "ステータス": {"select": {"name": "下書き"}},
+        "ソース": {"select": {"name": "手動追加"}},
     }
 
     resp = requests.post(
@@ -259,7 +260,7 @@ def process_video(video_url: str) -> None:
     """1本の動画を処理して Notion 下書きを生成する。"""
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     notion_key = os.environ.get("NOTION_API_KEY", "")
-    notion_db = os.environ.get("NOTION_DATABASE_ID", "")
+    notion_db = os.environ.get("NOTION_VIDEO_DB_ID", "")
 
     if not api_key or not notion_key or not notion_db:
         logger.error("ANTHROPIC_API_KEY / NOTION_API_KEY / NOTION_DATABASE_ID not set")

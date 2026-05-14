@@ -215,7 +215,7 @@ def _judge_with_vision(frames: list[str], api_key: str) -> dict:
 def main() -> None:
     api_key = os.environ.get("ANTHROPIC_API_KEY", "")
     notion_key = os.environ.get("NOTION_API_KEY", "")
-    notion_db = os.environ.get("NOTION_DATABASE_ID", "")
+    notion_db = os.environ.get("NOTION_VIDEO_DB_ID", "")
 
     if not api_key or not notion_key or not notion_db:
         logger.error("Required env vars not set")
