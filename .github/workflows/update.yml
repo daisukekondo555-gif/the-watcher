@@ -40,7 +40,9 @@ jobs:
           cache: "pip"
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          playwright install chromium --with-deps
 
       # ── Step 1: Notion に新着記事を翻訳・保存 ──────────────────────────
       # workflow_dispatch で skip_rss=true が指定されたときはスキップ。

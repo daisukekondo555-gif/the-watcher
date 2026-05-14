@@ -25,6 +25,7 @@ import feedparser
 import requests
 import trafilatura
 from bs4 import BeautifulSoup
+from curl_cffi import requests as cffi_requests
 from dateutil import parser as dateparser
 
 logger = logging.getLogger(__name__)
@@ -84,51 +85,66 @@ def _is_image_url(url: str) -> bool:
     return any(url.lower().split("?")[0].endswith(ext) for ext in IMAGE_EXTENSIONS)
 
 
-def _get_with_retry(url: str, retries: int = MAX_RETRIES) -> Optional[requests.Response]:
-    """GET with retry on timeout / connection errors and WAF-style HTTP errors.
+def _get_with_playwright(url: str) -> Optional[str]:
+    """Playwright で Cloudflare JS チャレンジを突破して HTML を取得する。"""
+    try:
+        from playwright.sync_api import sync_playwright
+        with sync_playwright() as p:
+            browser = p.chromium.launch(headless=True)
+            page = browser.new_page()
+            page.goto(url, wait_until="domcontentloaded", timeout=30000)
+            html = page.content()
+            browser.close()
+            logger.info(f"Playwright fallback succeeded for {url[:60]}")
+            return html
+    except Exception as e:
+        logger.debug(f"Playwright fallback failed for {url}: {e}")
+        return None
 
-    HTTPError 分岐の挙動:
-      - 403/429/503/520/522/524 (WAF/CDN 系の瞬間ブロック) → 漸増バックオフでリトライ
-      - それ以外 (404/410/401 等) → リトライ無意味なので即 break
+
+def _get_with_retry(url: str, retries: int = MAX_RETRIES) -> Optional[requests.Response]:
+    """GET with curl_cffi (TLS fingerprint) + retry + Playwright fallback.
+
+    1. curl_cffi で TLS fingerprint 偽装してリクエスト（Cloudflare 基本バイパス）
+    2. WAF 系エラー (403/503 等) → 漸増バックオフでリトライ
+    3. 全リトライ失敗 → Playwright で JS チャレンジ突破を試行
     """
+    last_code = 0
     for attempt in range(retries + 1):
         try:
-            resp = requests.get(url, headers=HEADERS, timeout=FETCH_TIMEOUT)
+            resp = cffi_requests.get(
+                url, headers=HEADERS, timeout=FETCH_TIMEOUT, impersonate="chrome"
+            )
             resp.raise_for_status()
             return resp
-        except requests.exceptions.Timeout:
-            if attempt < retries:
-                logger.debug(f"Timeout ({attempt + 1}/{retries + 1}) for {url}, retrying…")
-                time.sleep(1)
-            else:
-                logger.debug(f"Timeout after {retries + 1} attempts: {url}")
-        except requests.exceptions.ConnectionError:
-            if attempt < retries:
-                logger.debug(f"Connection error ({attempt + 1}/{retries + 1}) for {url}, retrying…")
-                time.sleep(1)
-            else:
-                logger.debug(f"Connection error after {retries + 1} attempts: {url}")
-        except requests.exceptions.HTTPError as e:
-            code = e.response.status_code if e.response is not None else 0
+        except Exception as e:
+            code = getattr(getattr(e, "response", None), "status_code", 0)
+            last_code = code or last_code
             if code in RETRYABLE_HTTP_CODES and attempt < retries:
-                # 3s → 6s の漸増バックオフ。WAF のレート窓を少し跨がせる。
                 wait = 3 * (attempt + 1)
                 logger.debug(
                     f"HTTP {code} ({attempt + 1}/{retries + 1}) for {url}, "
                     f"retrying after {wait}s…"
                 )
                 time.sleep(wait)
-            else:
-                reason = (
-                    "attempts exhausted"
-                    if code in RETRYABLE_HTTP_CODES
-                    else "not retryable"
-                )
-                logger.debug(f"HTTP {code} for {url} ({reason})")
+            elif code and code not in RETRYABLE_HTTP_CODES:
+                logger.debug(f"HTTP {code} for {url} (not retryable)")
                 break
-        except Exception as e:
-            logger.debug(f"Request failed for {url}: {e}")
-            break
+            elif attempt < retries:
+                logger.debug(f"Request error ({attempt + 1}/{retries + 1}) for {url}: {e}")
+                time.sleep(1)
+            else:
+                logger.debug(f"All retries exhausted for {url}: {e}")
+
+    if last_code in RETRYABLE_HTTP_CODES or last_code == 0:
+        html = _get_with_playwright(url)
+        if html:
+            fake_resp = requests.models.Response()
+            fake_resp.status_code = 200
+            fake_resp._content = html.encode("utf-8")
+            fake_resp.headers["Content-Type"] = "text/html; charset=utf-8"
+            return fake_resp
+
     return None
 
 
