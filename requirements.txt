@@ -11,3 +11,6 @@ google-auth>=2.0.0
 trafilatura>=2.0.0
 curl_cffi>=0.7.0
 playwright>=1.40.0
+pytesseract>=0.3.10
+Pillow>=10.0.0
+yt-dlp>=2024.0.0

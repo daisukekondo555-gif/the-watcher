@@ -1,0 +1,38 @@
+{
+  "channels": [
+    {
+      "name": "Joe and Jada",
+      "channel_id": "UC0bcklFKnBGDYdjsNGWXJHA",
+      "enabled": true
+    },
+    {
+      "name": "Drink Champs",
+      "channel_id": "UCUseCJIxUbK_WIn0sUvBZVg",
+      "enabled": true
+    },
+    {
+      "name": "DJ Akademiks",
+      "channel_id": "UCZ3wkMqETrOGBMFpFmmcuuQ",
+      "enabled": true
+    },
+    {
+      "name": "Breakfast Club Power 105.1 FM",
+      "channel_id": "UChi08h4577eFsNXGd3sxYhw",
+      "enabled": true
+    },
+    {
+      "name": "Kai Cenat",
+      "channel_id": "UCaQ2tzLkV1wbfJFkvOPSuTQ",
+      "enabled": false
+    },
+    {
+      "name": "Shannon Sharpe",
+      "channel_id": "UCa5PoJGkEn0GXegJCgrPSNw",
+      "enabled": false
+    }
+  ],
+  "ocr_engine": "tesseract",
+  "frame_interval_sec": 0.5,
+  "subtitle_crop_ratio": 0.35,
+  "max_video_duration_sec": 180
+}

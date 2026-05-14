@@ -1,0 +1,52 @@
+name: THE WATCHER — Video Monitor
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: "0 15 * * *"  # UTC 15:00 = JST 0:00（1日1回）
+
+concurrency:
+  group: video-monitor
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  monitor:
+    name: Scan channels & generate article drafts
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Set up Python 3.11
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: "pip"
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          sudo apt-get update -qq
+          sudo apt-get install -y -qq tesseract-ocr ffmpeg
+
+      - name: Run video monitor
+        env:
+          ANTHROPIC_API_KEY:  ${{ secrets.ANTHROPIC_API_KEY }}
+          NOTION_API_KEY:     ${{ secrets.NOTION_API_KEY }}
+          NOTION_DATABASE_ID: ${{ secrets.NOTION_DATABASE_ID }}
+        run: python tools/video_monitor.py
+
+      - name: Commit processed state
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/video_processed.json
+          git diff --staged --quiet || git commit -m "chore: update video processed list [skip ci]"
+          git push
