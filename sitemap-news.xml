@@ -141,7 +141,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-14T14:44:00+00:00</news:publication_date>
-      <news:title>ジャネット・ジャクソンのビルボード・ホット100最大ヒト曲</news:title>
+      <news:title>ジャネット・ジャクソンのビルボード・ホット100最大ヒット曲</news:title>
     </news:news>
   </url>
   <url>
@@ -438,7 +438,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-14T18:14:00+00:00</news:publication_date>
-      <news:title>トニー・ヤーヨ、ドレイクとフューチャーの関係修復の立役者を明かす</news:title>
+      <news:title>トニー・イェヨ、ドレイクとフューチャーの関係修復の立役者を明かす</news:title>
     </news:news>
   </url>
   <url>
@@ -460,7 +460,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-14T18:00:00+00:00</news:publication_date>
-      <news:title>チャカ・カーン &amp; メロ・メルが歴史的コラボで全米録音登録簿入り</news:title>
+      <news:title>チャカ・カーン &amp; </news:title>
     </news:news>
   </url>
   <url>
@@ -1121,17 +1121,6 @@
       </news:publication>
       <news:publication_date>2026-05-13T07:33:00+00:00</news:publication_date>
       <news:title>ティアナ・テイラー、第52回アメリカン・ミュージック・アワードに出演</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35f913ba47ba81b8b527db9a3c9ef07b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T07:12:00+00:00</news:publication_date>
-      <news:title>ビヨンセの未発表音源盗難犯、司法取引で懲役刑に</news:title>
     </news:news>
   </url>
 </urlset>
