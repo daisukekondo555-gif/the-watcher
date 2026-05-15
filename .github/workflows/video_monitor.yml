@@ -2,8 +2,8 @@ name: THE WATCHER — Video Monitor
 
 on:
   workflow_dispatch:
-  schedule:
-    - cron: "0 15 * * *"  # UTC 15:00 = JST 0:00（1日1回）
+  # schedule:
+  #   - cron: "0 15 * * *"  # UTC 15:00 = JST 0:00（1日1回）
 
 concurrency:
   group: video-monitor
