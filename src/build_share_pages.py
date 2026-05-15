@@ -54,7 +54,7 @@ DEFAULT_OGP_IMAGE = f"{SITE_URL}/assets/logo-mark.png"
 LOGO_URL = f"{SITE_URL}/assets/logo-mark.png"
 DESC_MAX_LEN = 120
 
-TEMPLATE_VERSION = 3
+TEMPLATE_VERSION = 4
 HASH_MARKER_RE = re.compile(
     r"<!--\s*content_hash:\s*([0-9a-f]+)(?:\s+template_v:(\d+))?\s*-->"
 )
@@ -212,9 +212,35 @@ def _build_article_nav(articles: list[dict], idx: int) -> str:
 
 
 def _build_related(article: dict, articles: list[dict], max_items: int = 4) -> str:
-    cat = article.get("category", "")
     aid = article["id"]
-    related = [a for a in articles if a.get("category") == cat and a["id"] != aid][:max_items]
+    cat = article.get("category", "")
+    tags = set(article.get("hashtags", "").split())
+    pub = article.get("published_at", "")
+
+    scored: list[tuple[int, dict]] = []
+    for a in articles:
+        if a["id"] == aid:
+            continue
+        a_tags = set(a.get("hashtags", "").split())
+        shared = len(tags & a_tags)
+        score = shared * 10
+        if a.get("category") == cat:
+            score += 1
+        if pub and a.get("published_at"):
+            try:
+                from dateutil import parser as dp
+                diff = abs((dp.parse(pub) - dp.parse(a["published_at"])).total_seconds())
+                if diff < 7 * 86400:
+                    score += 3
+                elif diff < 30 * 86400:
+                    score += 1
+            except Exception:
+                pass
+        if score > 0:
+            scored.append((score, a))
+
+    scored.sort(key=lambda x: -x[0])
+    related = [a for _, a in scored[:max_items]]
     if not related:
         return ""
 
