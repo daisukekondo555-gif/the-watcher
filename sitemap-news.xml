@@ -2,6 +2,72 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/361913ba47ba814ebe7fdee62798d807.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T11:37:00+00:00</news:publication_date>
+      <news:title>ドレイク、トロント・ライブストリーム後に3作同時リリースを発表</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/361913ba47ba817ab078c0af913e4105.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T11:00:00+00:00</news:publication_date>
+      <news:title>ドレイク、『ICEMAN』でJ・コールのビッグ3バトル撤退を痛烈ディス</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/361913ba47ba817d9091cb0597d46348.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T10:59:00+00:00</news:publication_date>
+      <news:title>ニック・グラント、豪華ゲスト陣を迎えた新作アルバム『Smile』をリリース</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/361913ba47ba8178a85cf5ab74ce2711.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T09:48:00+00:00</news:publication_date>
+      <news:title>ボビー・ヘイゲンス、内省的シングル「Check On Me」をリリース</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/361913ba47ba818fab77f7007d1228e5.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T06:45:00+00:00</news:publication_date>
+      <news:title>ドレイクのトリプルアルバムリリース発表にDJ Akademiksが驚愕</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/361913ba47ba813f909fc622106a4634.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-15T06:43:00+00:00</news:publication_date>
+      <news:title>アダナ・ドゥル、Basをフィーチャーした新曲「One on One」をリリース</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/361913ba47ba8195891cd8ec0ef011f6.html</loc>
     <news:news>
       <news:publication>
@@ -1077,50 +1143,6 @@
       </news:publication>
       <news:publication_date>2026-05-13T14:24:00+00:00</news:publication_date>
       <news:title>カーディ・B とステフォン・ディッグス、数ヶ月ぶりに関係を修復か</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35f913ba47ba8109a3fbc32e6fa55c7d.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T11:00:00+00:00</news:publication_date>
-      <news:title>ドレイク、マイケル・ジャクソンのビルボード200記録を更新 3度目の10年超ロングラン達成</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35f913ba47ba81d7ac2ac13064db00b0.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T11:38:00+00:00</news:publication_date>
-      <news:title>ボルディ・ジェームスとリアル・バッド・マンが『ADU 3』をリリース</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35f913ba47ba814989c3dc0364b51fae.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T11:26:00+00:00</news:publication_date>
-      <news:title>レロが新曲「Get Geeked」をリリース</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/35f913ba47ba81b6a6e0d54027648951.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-13T07:33:00+00:00</news:publication_date>
-      <news:title>ティアナ・テイラー、第52回アメリカン・ミュージック・アワードに出演</news:title>
     </news:news>
   </url>
 </urlset>
