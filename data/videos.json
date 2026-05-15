@@ -1,7 +1,317 @@
 {
-  "generated_at": "2026-05-15T11:50:27.490424+00:00",
-  "total": 263,
+  "generated_at": "2026-05-15T22:41:11.751083+00:00",
+  "total": 285,
   "videos": [
+    {
+      "id": "zVi8S1L8Pe8",
+      "title": "HOT 97 Atlanta News Live! 5/15/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T20:44:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zVi8S1L8Pe8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9BIt08NKrh8",
+      "title": "HOT 97 National News Live! 5/15/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T20:43:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9BIt08NKrh8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KG7njjoZQVI",
+      "title": "Rick Ross on how his relationship with DRAKE went LEFT!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-05-15T19:07:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KG7njjoZQVI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_pDkb9KyHms",
+      "title": "Chris Brown \"BROWN\" Album Review | Joe Budden Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-05-15T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_pDkb9KyHms/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0tIYoPzL5yY",
+      "title": "Peech. - Middlemen | From The Block Performance 🎙️(Nashville)",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-05-15T18:55:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0tIYoPzL5yY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "35a913ba47ba81b9906aee994b469dd0",
+          "title": "AZ、『Doe Or Die III』でトリロジーを完結"
+        },
+        {
+          "id": "35a913ba47ba812c8a86ebce428c3191",
+          "title": "ジェイレン・ブラウン、スティーブン・A・スミスに引退を勧告"
+        },
+        {
+          "id": "351913ba47ba81ed9c29fd2caf4b9d39",
+          "title": "Nas、クイーンズのリゾーツ・ワールド・ニューヨーク・シティ・カジノ開業式で歴史を刻む"
+        }
+      ]
+    },
+    {
+      "id": "IaJQk-3xFgQ",
+      "title": "Peech. - Middlemen | From The Block Performance 🎙️(Nashville)🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-05-15T18:55:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IaJQk-3xFgQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "35a913ba47ba81b9906aee994b469dd0",
+          "title": "AZ、『Doe Or Die III』でトリロジーを完結"
+        },
+        {
+          "id": "35a913ba47ba812c8a86ebce428c3191",
+          "title": "ジェイレン・ブラウン、スティーブン・A・スミスに引退を勧告"
+        },
+        {
+          "id": "351913ba47ba81ed9c29fd2caf4b9d39",
+          "title": "Nas、クイーンズのリゾーツ・ワールド・ニューヨーク・シティ・カジノ開業式で歴史を刻む"
+        }
+      ]
+    },
+    {
+      "id": "ZiuO_l78zDM",
+      "title": "Gillie went off on this weeks episode of Gillie & Wallo Adventures 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-05-15T18:10:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZiuO_l78zDM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JuACOVkTQeI",
+      "title": "DJ Nyla Symone Talks New Music From Drake, Fergie Baby, Giveon + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T17:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JuACOVkTQeI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nXB2AYDkk1w",
+      "title": "The Breakfast Club FULL SHOW 05-15-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T17:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nXB2AYDkk1w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "McmRNqWBft4",
+      "title": "Hood Brat x Krissy Celess \"F.A.B\" | On The Radar X Rolling Loud 2026",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-05-15T16:28:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/McmRNqWBft4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GDwv9WLmqfA",
+      "title": "Where.t.at \"she goes by.\" | On The Radar X Rolling Loud 2026",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-05-15T16:27:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GDwv9WLmqfA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8KhXgJb7_ho",
+      "title": "Lane Gang Wells \"10 B4 10\" Freestyle | On The Radar X Rolling Loud 2026",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-05-15T16:25:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8KhXgJb7_ho/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "u7qNjsE7PbQ",
+      "title": "K CARBON \"Stay Strapped\" | On The Radar X Rolling Loud 2026",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-05-15T16:24:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/u7qNjsE7PbQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pOdkpgwdqRc",
+      "title": "RAPPER WANTS TO WORK WITH ICE CUBE GETS EPIC ADVICE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T16:01:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pOdkpgwdqRc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ixgT4rm7ib0",
+      "title": "Would Ish and Flip Survive a Podcast Together? | The JBP Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-05-15T16:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ixgT4rm7ib0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "o0sG_Zpcuc0",
+      "title": "Jay Pharoah with the BEST impersonation of Rick Ross and Katt Williams",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-05-15T14:39:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o0sG_Zpcuc0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-0AnyHWerbY",
+      "title": "Chris Rock Opens Up About Clashing With Tupac",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T14:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-0AnyHWerbY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yHl2o8vZwA0",
+      "title": "Skeet Carter On Kevin Hart Supporting His Career, Tyrese Not Thinking He’s Funny + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T13:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yHl2o8vZwA0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "quK5VbPoh0E",
+      "title": "REAL TALK MENTOR TAUGHT ME TO BE A MAN STAND UP",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T13:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/quK5VbPoh0E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PKG-tSEBIPg",
+      "title": "Joe Budden Podcast Debates Whether Classic Albums Are Dead",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-05-15T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PKG-tSEBIPg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "l_4CXzmaaqU",
+      "title": "Jason Lee Talks Public Service, Hollywood Unlocked Impact Awards + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/l_4CXzmaaqU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zjEu02rJF1g",
+      "title": "Drake Drops ‘ICEMAN’, ‘MAID OF HONOUR’, & ‘HABIBTI’ Albums At Once, Calls Out Jay-Z, DJ Khaled +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-15T12:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zjEu02rJF1g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "DJ Khaled",
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "361913ba47ba81f4868bc7f01cfb12dc",
+          "title": "DrakeがICEMANの「Make Them Pay」でDJ Khaledをディス"
+        },
+        {
+          "id": "353913ba47ba81f99ae9da96e0a732c1",
+          "title": "デーモン・ダッシュ、カニエ・ウェストのカタログは「JAY-Zより遥かに優れている」と主張"
+        },
+        {
+          "id": "353913ba47ba8195a518c5926d8e76e9",
+          "title": "デイム・ダッシュがJAY-Zの『Reasonable Doubt』を酷評、カニエ・ウェストの方が優れていると主張"
+        }
+      ]
+    },
     {
       "id": "8QSYI-EId_0",
       "title": "Mornings With Mero Livestream | 5-15-26",
@@ -160,16 +470,16 @@
       ],
       "related_articles": [
         {
+          "id": "361913ba47ba814a95f2e0638f0cf048",
+          "title": "レディー・ガガ、ライブアルバム『Mayhem Requiem』をリリース"
+        },
+        {
           "id": "35e913ba47ba81ea899dd9d1f962f505",
           "title": "ヤング・マイアミ、年上男性との交際について語る「もう一人子どもを持つ準備ができている」"
         },
         {
           "id": "35e913ba47ba81d4a0fdd20f2daa69af",
           "title": "ヤング・マイアミ、次の恋愛で子どもは欲しいが同棲は拒否"
-        },
-        {
-          "id": "35d913ba47ba81a5819bf30296c4bb34",
-          "title": "ヤング・マイアミが業界の手のひら返しに心破裂「皆に見捨てられた」"
         }
       ]
     },
@@ -745,16 +1055,16 @@
       ],
       "related_articles": [
         {
+          "id": "361913ba47ba81bdb7b8f25beffbb6fe",
+          "title": "Offset、Finesse2tymes、Adrien Broner出席のパーティーで喧嘩が勃発"
+        },
+        {
           "id": "360913ba47ba81eba051d649f39e3ebf",
           "title": "タシャ・K、カーディ・Bの弁護士費用支払いを命じられ投稿削除を強制"
         },
         {
           "id": "35f913ba47ba81a89a75e10d44b0c818",
           "title": "リル・ティジェイ、オフセットとの関係修復に前向き姿勢を示す"
-        },
-        {
-          "id": "359913ba47ba8194bb08d6fdab80d1de",
-          "title": "Migovがインスタグラム投稿で再結成の噂を加熱"
         }
       ]
     },
@@ -2137,16 +2447,16 @@
       ],
       "related_articles": [
         {
+          "id": "361913ba47ba814a95f2e0638f0cf048",
+          "title": "レディー・ガガ、ライブアルバム『Mayhem Requiem』をリリース"
+        },
+        {
           "id": "35e913ba47ba81ea899dd9d1f962f505",
           "title": "ヤング・マイアミ、年上男性との交際について語る「もう一人子どもを持つ準備ができている」"
         },
         {
           "id": "35e913ba47ba81d4a0fdd20f2daa69af",
           "title": "ヤング・マイアミ、次の恋愛で子どもは欲しいが同棲は拒否"
-        },
-        {
-          "id": "35d913ba47ba81a5819bf30296c4bb34",
-          "title": "ヤング・マイアミが業界の手のひら返しに心破裂「皆に見捨てられた」"
         }
       ]
     },
