@@ -153,6 +153,42 @@ def _build_properties(article: dict) -> dict:
     return props
 
 
+SITE_URL = "https://thewatcherjp.com"
+
+
+def _patch_sns_with_url(api_key: str, page_id: str, article: dict) -> None:
+    """ページ作成後に Threads要約・X要約に記事URLと改行を付与して PATCH 更新する。"""
+    article_id = page_id.replace("-", "")
+    article_url = f"{SITE_URL}/articles/{article_id}.html"
+
+    patches: dict = {}
+
+    threads_post = article.get("threads_post") or ""
+    if threads_post:
+        formatted = threads_post.replace("。", "。\n\n").rstrip() + "\n\n" + article_url
+        patches["Threads要約"] = {"rich_text": [{"text": {"content": formatted[:MAX_RICH_TEXT]}}]}
+
+    x_post = article.get("x_post") or ""
+    if x_post:
+        formatted_x = x_post.rstrip() + "\n\n" + article_url
+        patches["X要約"] = {"rich_text": [{"text": {"content": formatted_x[:MAX_RICH_TEXT]}}]}
+
+    if not patches:
+        return
+
+    try:
+        resp = requests.patch(
+            f"{NOTION_BASE}/pages/{page_id}",
+            headers=_headers(api_key),
+            json={"properties": patches},
+            timeout=15,
+        )
+        resp.raise_for_status()
+        logger.debug(f"SNS properties updated with URL for {page_id}")
+    except Exception as e:
+        logger.warning(f"SNS URL patch failed (non-critical): {e}")
+
+
 def save_article(api_key: str, database_id: str, article: dict) -> bool:
     """
     Save one article to Notion.
@@ -177,6 +213,8 @@ def save_article(api_key: str, database_id: str, article: dict) -> bool:
         )
         resp.raise_for_status()
         logger.info(f"Saved: {article.get('title_ja', article.get('title', ''))[:60]}")
+
+        _patch_sns_with_url(api_key, resp.json()["id"], article)
         return True
 
     except requests.HTTPError as e:
