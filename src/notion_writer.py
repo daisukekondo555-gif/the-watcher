@@ -157,24 +157,18 @@ SITE_URL = "https://thewatcherjp.com"
 
 
 def _patch_sns_with_url(api_key: str, page_id: str, article: dict) -> None:
-    """ページ作成後に Threads要約・X要約に記事URLと改行を付与して PATCH 更新する。"""
+    """ページ作成後に Threads要約に改行整形と記事URLを付与して PATCH 更新する。"""
+    threads_post = article.get("threads_post") or ""
+    if not threads_post:
+        return
+
     article_id = page_id.replace("-", "")
     article_url = f"{SITE_URL}/articles/{article_id}.html"
 
-    patches: dict = {}
-
-    threads_post = article.get("threads_post") or ""
-    if threads_post:
-        formatted = threads_post.replace("。", "。\n\n").rstrip() + "\n\n" + article_url
-        patches["Threads要約"] = {"rich_text": [{"text": {"content": formatted[:MAX_RICH_TEXT]}}]}
-
-    x_post = article.get("x_post") or ""
-    if x_post:
-        formatted_x = x_post.rstrip() + "\n\n" + article_url
-        patches["X要約"] = {"rich_text": [{"text": {"content": formatted_x[:MAX_RICH_TEXT]}}]}
-
-    if not patches:
-        return
+    formatted = threads_post.replace("。", "。\n\n").rstrip() + "\n\n" + article_url
+    patches = {
+        "Threads要約": {"rich_text": [{"text": {"content": formatted[:MAX_RICH_TEXT]}}]},
+    }
 
     try:
         resp = requests.patch(
