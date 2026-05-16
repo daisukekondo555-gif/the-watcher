@@ -112,17 +112,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://thewatcherjp.com/articles/362913ba47ba81ec9a3fe76dba942ded.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T20:38:00+00:00</news:publication_date>
-      <news:title>Snow Manの『BANG!!』が日本ホット100で首位獲得、BE:FIRSTが2位に</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thewatcherjp.com/articles/362913ba47ba81caad3fc122a7871c4f.html</loc>
     <news:news>
       <news:publication>
@@ -1286,28 +1275,6 @@
       </news:publication>
       <news:publication_date>2026-05-14T10:36:00+00:00</news:publication_date>
       <news:title>ドレイク、ジョー・バデンの彼女と寝たと主張し、ドクター・ドレは獄中にいるべきだと示唆</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/360913ba47ba819b8205c233755f8694.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T07:48:00+00:00</news:publication_date>
-      <news:title>レイ・J、『ザ・ジェイソン・リー・ショー』でドナルド・トランプとの関係について語る</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/360913ba47ba8166b4ddc73329913ba3.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-14T07:00:00+00:00</news:publication_date>
-      <news:title>Mudbaby Ruが新曲「Black Truck」をリリース</news:title>
     </news:news>
   </url>
 </urlset>
