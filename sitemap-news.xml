@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/363913ba47ba81d8a378e9fd041b8534.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-17T12:39:00+00:00</news:publication_date>
+      <news:title>【今週のまとめ】2026/5/11〜5/17のヒップホップ</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/363913ba47ba81e491bac213bebbca41.html</loc>
     <news:news>
       <news:publication>
@@ -835,39 +846,6 @@
       </news:publication>
       <news:publication_date>2026-05-15T12:43:00+00:00</news:publication_date>
       <news:title>ドレイクの新作アルバムから全MV公開</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/361913ba47ba81e9a631c4bd055b3a06.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T12:20:00+00:00</news:publication_date>
-      <news:title>ドレイクの3部作『ICEMAN』『MAID OF HONOUR』『HABIBTI』の完全トラックリスト公開</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/361913ba47ba818ea73fc1c4f63bf32e.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T12:18:00+00:00</news:publication_date>
-      <news:title>ドレイク『アイスマン』ライブストリーム完結編、『Not Like Us』への言及を含むボットファーム炎上シーン披露</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/361913ba47ba819092d2e14e910375e3.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-15T12:17:00+00:00</news:publication_date>
-      <news:title>ドレイク、ラップビーフと ガザ情勢の沈黙でDJ カレドを批判</news:title>
     </news:news>
   </url>
 </urlset>
