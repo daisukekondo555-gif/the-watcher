@@ -165,9 +165,11 @@ def _patch_sns_with_url(api_key: str, page_id: str, article: dict) -> None:
     article_id = page_id.replace("-", "")
     article_url = f"{SITE_URL}/articles/{article_id}.html"
 
+    from urllib.parse import quote as _quote
     formatted = threads_post.replace("。", "。\n\n").rstrip() + "\n\n" + article_url
     patches = {
         "Threads要約": {"rich_text": [{"text": {"content": formatted[:MAX_RICH_TEXT]}}]},
+        "Threads投稿URL": {"url": "https://www.threads.net/intent/post?text=" + _quote(formatted[:500], safe="")},
     }
 
     try:
