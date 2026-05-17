@@ -151,14 +151,17 @@ def _find_related_articles(
         if katakana and not katakana.startswith("__"):
             search_terms.append(katakana)
 
+    import re
+    patterns = [re.compile(r'\b' + re.escape(t) + r'\b', re.IGNORECASE) for t in search_terms]
+
     matched = []
     seen_ids: set[str] = set()
     for article in articles:
         title = article.get("title", "")
         hashtags = article.get("hashtags", "")
         text = f"{title} {hashtags}"
-        for term in search_terms:
-            if term.lower() in text.lower():
+        for pat in patterns:
+            if pat.search(text):
                 aid = article.get("id", "")
                 if aid and aid not in seen_ids:
                     matched.append({
