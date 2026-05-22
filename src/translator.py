@@ -239,7 +239,7 @@ def _translate_one(
                 input=user_message,
                 text={"format": OUTPUT_FORMAT},
                 max_output_tokens=MAX_OUTPUT_TOKENS,
-                reasoning={"effort": "none"},
+                reasoning={"effort": "minimal"},
             )
 
             raw = response.output_text
