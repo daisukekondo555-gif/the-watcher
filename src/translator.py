@@ -174,6 +174,8 @@ def _apply_name_replacements(text: str, name_mapping: dict) -> str:
         "ニック・ミナージュ": "ニッキー・ミナージュ",
         "ニキ・ミナージュ": "ニッキー・ミナージュ",
         "エロン・マスク": "イーロン・マスク",
+        "スター基地": "Starbase",
+        "配信サービス": "ストリーミングサービス",
     }
 
     for wrong, right in corrections.items():
