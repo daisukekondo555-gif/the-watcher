@@ -239,7 +239,7 @@ def _translate_one(
                 model=MODEL,
                 instructions=system_prompt,
                 input=user_message,
-                text=OUTPUT_SCHEMA,
+                text={"format": OUTPUT_SCHEMA},
                 max_output_tokens=MAX_OUTPUT_TOKENS,
             )
 
