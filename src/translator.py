@@ -144,7 +144,7 @@ def _build_name_dict_block(name_mapping: dict) -> str:
 
 def _apply_name_replacements(text: str, name_mapping: dict) -> str:
     """翻訳結果のカタカナ表記を辞書で後置換する安全ネット。
-    Claude が辞書を見落とした場合の補正用。よくある誤表記パターンを修正。"""
+    Claude/Nano が辞書を見落とした場合の補正用。よくある誤表記パターンを修正。"""
     if not text or not name_mapping:
         return text
 
@@ -169,6 +169,12 @@ def _apply_name_replacements(text: str, name_mapping: dict) -> str:
         "ダメ・ダッシュ": "デイム・ダッシュ",
         "デーム・ダッシュ": "デイム・ダッシュ",
         "アコン": "エイコン",
+        "ア・サップ・ロッキー": "エイサップ・ロッキー",
+        "アサップ・ロッキー": "エイサップ・ロッキー",
+        "ドラケ": "ドレイク",
+        "ニック・ミナージュ": "ニッキー・ミナージュ",
+        "ニキ・ミナージュ": "ニッキー・ミナージュ",
+        "エロン・マスク": "イーロン・マスク",
     }
 
     for wrong, right in corrections.items():
