@@ -27,6 +27,7 @@ RETRY_ATTEMPTS = 3
 RETRY_DELAY = 5  # seconds
 
 SITE_URL = "https://thewatcherjp.com"
+MIN_JP_RATIO = 0.40  # summary_ja の日本語比率がこの閾値未満なら翻訳失敗と判定
 
 # Nano pricing ($/MTok)
 NANO_INPUT_PRICE = 0.05 / 1_000_000
@@ -220,6 +221,16 @@ def _parse_json_response(raw: str) -> Optional[dict]:
     return None
 
 
+def _jp_ratio(text: str) -> float:
+    """日本語文字比率を返す。日本語文字数 / (日本語文字数 + ASCII英字数)。"""
+    if not text:
+        return 0.0
+    jp = sum(1 for c in text if '\u3040' <= c <= '\u9fff' or '\uff00' <= c <= '\uffef')
+    en = sum(1 for c in text if 'A' <= c <= 'Z' or 'a' <= c <= 'z')
+    total = jp + en
+    return jp / total if total > 0 else 0.0
+
+
 def _translate_one(
     article: dict,
     client: openai.OpenAI,
@@ -274,6 +285,32 @@ def _translate_one(
                 threads_post = _apply_name_replacements(
                     str(parsed.get("threads_post", ""))[:500], name_mapping
                 )
+
+                # 言語チェック: summary_ja の日本語比率が低すぎる場合は翻訳失敗
+                ratio = _jp_ratio(summary_ja)
+                if ratio < MIN_JP_RATIO and len(summary_ja) > 50 and not parsed.get("off_topic"):
+                    if attempt < RETRY_ATTEMPTS:
+                        logger.warning(
+                            f"[attempt {attempt}] JP ratio too low ({ratio:.0%}) "
+                            f"for '{title}', retrying…"
+                        )
+                        time.sleep(RETRY_DELAY)
+                        continue
+                    else:
+                        logger.warning(
+                            f"JP ratio too low ({ratio:.0%}) after all retries "
+                            f"for '{title}'. Marking as translation_failed."
+                        )
+                        return {
+                            **article,
+                            "title_ja": title_ja,
+                            "summary_ja": "",
+                            "category": "ニュース",
+                            "hashtags": [],
+                            "x_post": "",
+                            "threads_post": "",
+                            "translation_failed": True,
+                        }
 
                 result = {
                     **article,
