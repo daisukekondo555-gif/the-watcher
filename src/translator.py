@@ -1,13 +1,13 @@
 """
-Translation, categorisation & SNS summary via Claude API.
-
-Uses prompt caching on the system prompt to reduce cost when
-processing many articles per run.
+Translation, categorisation & SNS summary via OpenAI GPT-5 Nano.
 
 Supports:
   - name_mapping dict for accurate proper noun transliteration
   - x_post / threads_post SNS summary generation (integrated into single API call)
   - off_topic detection for non-hip-hop articles
+  - Structured Outputs (strict JSON schema) for reliable output format
+
+Claude Haiku 4.5 fallback is preserved as _translate_one_claude() for emergency use.
 """
 
 import json
@@ -17,16 +17,51 @@ import time
 from typing import Optional
 from urllib.parse import quote
 
-import anthropic
+import openai
 
 logger = logging.getLogger(__name__)
 
-MODEL = "claude-haiku-4-5-20251001"
-MAX_TOKENS = 4096
+MODEL = "gpt-5-nano"
+MAX_OUTPUT_TOKENS = 1600
 RETRY_ATTEMPTS = 3
 RETRY_DELAY = 5  # seconds
 
 SITE_URL = "https://thewatcherjp.com"
+
+# Nano pricing ($/MTok)
+NANO_INPUT_PRICE = 0.05 / 1_000_000
+NANO_OUTPUT_PRICE = 0.40 / 1_000_000
+
+# Structured Outputs JSON Schema for strict mode
+OUTPUT_SCHEMA = {
+    "type": "json_schema",
+    "json_schema": {
+        "name": "translation_output",
+        "strict": True,
+        "schema": {
+            "type": "object",
+            "properties": {
+                "title_ja": {"type": "string"},
+                "summary_ja": {"type": "string"},
+                "category": {
+                    "type": "string",
+                    "enum": ["ニュース", "リリース", "ビーフ", "インタビュー",
+                             "ライブ", "ビジネス", "チャート"],
+                },
+                "hashtags": {
+                    "type": "array",
+                    "items": {"type": "string"},
+                },
+                "off_topic": {"type": "boolean"},
+                "x_post": {"type": "string"},
+                "threads_post": {"type": "string"},
+            },
+            "required": ["title_ja", "summary_ja", "category", "hashtags",
+                         "off_topic", "x_post", "threads_post"],
+            "additionalProperties": False,
+        },
+    },
+}
 
 # --- System prompt (template) ------------------------------------------------
 # {name_dict_block} はランタイムで固有名詞辞書テーブルに置換される。
@@ -185,10 +220,11 @@ def _parse_json_response(raw: str) -> Optional[dict]:
 
 def _translate_one(
     article: dict,
-    client: anthropic.Anthropic,
+    client: openai.OpenAI,
     system_prompt: str,
     name_mapping: dict,
 ) -> dict:
+    """GPT-5 Nano で翻訳・カテゴリ判定・ハッシュタグ・SNS投稿文を一括生成する。"""
     title = article["title"]
     content = article.get("content", "")
 
@@ -199,33 +235,30 @@ def _translate_one(
 
     for attempt in range(1, RETRY_ATTEMPTS + 1):
         try:
-            response = client.messages.create(
+            response = client.responses.create(
                 model=MODEL,
-                max_tokens=MAX_TOKENS,
-                system=[
-                    {
-                        "type": "text",
-                        "text": system_prompt,
-                        "cache_control": {"type": "ephemeral"},
-                    }
-                ],
-                messages=[{"role": "user", "content": user_message}],
+                instructions=system_prompt,
+                input=user_message,
+                text=OUTPUT_SCHEMA,
+                max_output_tokens=MAX_OUTPUT_TOKENS,
             )
 
-            raw = response.content[0].text
-            stop = response.stop_reason  # "end_turn" | "max_tokens"
-            parsed = _parse_json_response(raw)
-
-            if stop == "max_tokens":
-                logger.warning(
-                    f"Output truncated (max_tokens) for '{title}'. "
-                    f"stop_reason={stop}, raw_len={len(raw)}"
+            raw = response.output_text
+            usage = response.usage
+            if usage:
+                input_tok = usage.input_tokens
+                output_tok = usage.output_tokens
+                cost = input_tok * NANO_INPUT_PRICE + output_tok * NANO_OUTPUT_PRICE
+                logger.info(
+                    f"  Nano usage: in={input_tok} out={output_tok} "
+                    f"total={input_tok + output_tok} cost=${cost:.5f}"
                 )
+
+            parsed = _parse_json_response(raw)
 
             if parsed:
                 hashtags = _normalise_hashtags(parsed.get("hashtags", []))
 
-                # 固有名詞の後置換 (安全ネット)
                 title_ja = _apply_name_replacements(
                     str(parsed.get("title_ja", title))[:200], name_mapping
                 )
@@ -250,8 +283,6 @@ def _translate_one(
                 }
                 if parsed.get("off_topic"):
                     result["off_topic"] = True
-                if stop == "max_tokens":
-                    result["output_truncated"] = True
                 return result
             else:
                 logger.warning(
@@ -259,23 +290,16 @@ def _translate_one(
                     f"Raw: {raw[:200]}"
                 )
 
-        except anthropic.RateLimitError:
+        except openai.RateLimitError:
             wait = RETRY_DELAY * attempt
-            logger.warning(
-                f"Rate limited. Waiting {wait}s before retry "
-                f"{attempt}/{RETRY_ATTEMPTS}…"
-            )
+            logger.warning(f"Rate limited. Waiting {wait}s…")
             time.sleep(wait)
-        except anthropic.APIError as e:
-            logger.error(
-                f"[attempt {attempt}] Claude API error for '{title}': {e}"
-            )
+        except openai.APIError as e:
+            logger.error(f"[attempt {attempt}] OpenAI API error for '{title}': {e}")
             if attempt < RETRY_ATTEMPTS:
                 time.sleep(RETRY_DELAY)
 
-    logger.error(
-        f"All attempts failed for '{title}'. Marking as translation_failed."
-    )
+    logger.error(f"All attempts failed for '{title}'. Marking as translation_failed.")
     return {
         **article,
         "title_ja": title,
@@ -288,16 +312,65 @@ def _translate_one(
     }
 
 
+# --- Claude Haiku 4.5 fallback (preserved for emergency use) ----------------
+# To revert to Claude: change process_articles to use _translate_one_claude
+# and pass anthropic.Anthropic(api_key=api_key) as client.
+
+def _translate_one_claude(
+    article: dict,
+    client,  # anthropic.Anthropic
+    system_prompt: str,
+    name_mapping: dict,
+) -> dict:
+    """Claude Haiku 4.5 fallback — preserved for emergency revert."""
+    import anthropic as _anthropic
+    title = article["title"]
+    content = article.get("content", "")
+    user_message = f"タイトル: {title}\n\n本文:\n{content[:8000] if content else '（本文なし）'}"
+
+    for attempt in range(1, RETRY_ATTEMPTS + 1):
+        try:
+            response = client.messages.create(
+                model="claude-haiku-4-5-20251001",
+                max_tokens=4096,
+                system=[{"type": "text", "text": system_prompt, "cache_control": {"type": "ephemeral"}}],
+                messages=[{"role": "user", "content": user_message}],
+            )
+            raw = response.content[0].text
+            parsed = _parse_json_response(raw)
+            if parsed:
+                hashtags = _normalise_hashtags(parsed.get("hashtags", []))
+                title_ja = _apply_name_replacements(str(parsed.get("title_ja", title))[:200], name_mapping)
+                summary_ja = _apply_name_replacements(str(parsed.get("summary_ja", ""))[:2000], name_mapping)
+                x_post = _apply_name_replacements(str(parsed.get("x_post", ""))[:140], name_mapping)
+                threads_post = _apply_name_replacements(str(parsed.get("threads_post", ""))[:500], name_mapping)
+                result = {**article, "title_ja": title_ja, "summary_ja": summary_ja,
+                          "category": str(parsed.get("category", "ニュース")), "hashtags": hashtags,
+                          "x_post": x_post, "threads_post": threads_post}
+                if parsed.get("off_topic"):
+                    result["off_topic"] = True
+                if response.stop_reason == "max_tokens":
+                    result["output_truncated"] = True
+                return result
+        except Exception as e:
+            logger.error(f"[Claude fallback attempt {attempt}] {e}")
+            if attempt < RETRY_ATTEMPTS:
+                time.sleep(RETRY_DELAY)
+
+    return {**article, "title_ja": title, "summary_ja": content[:300] if content else "",
+            "category": "ニュース", "hashtags": [], "x_post": "", "threads_post": "",
+            "translation_failed": True}
+
+
 def process_articles(
     articles: list[dict],
     api_key: str,
     name_mapping: Optional[dict] = None,
 ) -> list[dict]:
     """Translate, categorise, and generate SNS summaries for all articles."""
-    client = anthropic.Anthropic(api_key=api_key)
+    client = openai.OpenAI(api_key=api_key)
     name_mapping = name_mapping or {}
 
-    # Build system prompt with name dictionary embedded (cached across calls)
     name_block = _build_name_dict_block(name_mapping)
     system_prompt = SYSTEM_PROMPT_TEMPLATE.replace("{name_dict_block}", name_block)
 

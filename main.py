@@ -73,7 +73,7 @@ def main() -> None:
     config_path = os.environ.get("CONFIG_PATH", "config.json")
     config = load_config(config_path)
 
-    anthropic_key = _require_env("ANTHROPIC_API_KEY")
+    openai_key = _require_env("OPENAI_API_KEY")
     notion_key = _require_env("NOTION_API_KEY")
     notion_db = _require_env("NOTION_DATABASE_ID")
 
@@ -166,8 +166,8 @@ def main() -> None:
     except Exception as e:
         logger.warning(f"  name_mapping.json 読み込み失敗: {e}")
 
-    logger.info("STEP 5 / 6 - Translating & categorising with Claude")
-    articles = process_articles(articles, anthropic_key, name_mapping=name_mapping)
+    logger.info("STEP 5 / 6 - Translating & categorising with GPT-5 Nano")
+    articles = process_articles(articles, openai_key, name_mapping=name_mapping)
 
     # 翻訳失敗した記事を除外 — 英語のまま公開されるのを防ぐ。
     # translation_failed=True の記事は URL フィルタ (STEP 2) に登録されないため
