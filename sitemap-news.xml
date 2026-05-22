@@ -123,17 +123,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://thewatcherjp.com/articles/367913ba47ba8184ae3ee93553a7e0f4.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T17:25:00+00:00</news:publication_date>
-      <news:title>マイケル・ジャクソン、R&amp;B/ヒップホップ・アルバム・チャートで通算100週1位達成</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thewatcherjp.com/articles/366913ba47ba814590cce5dde3a0f000.html</loc>
     <news:news>
       <news:publication>
@@ -362,50 +351,6 @@
       </news:publication>
       <news:publication_date>2026-05-20T18:00:00+00:00</news:publication_date>
       <news:title>プー・シェスティがグッチ・メインへの強盗罪で7月に公判へ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/366913ba47ba8170a089f3cfce206aa7.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T17:31:00+00:00</news:publication_date>
-      <news:title>Rawkus Records共同創設者ジェームス・マードックがVoxメディア関連企業の買収を完了</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/366913ba47ba8132851cc6838fe29ba5.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T17:31:00+00:00</news:publication_date>
-      <news:title>『No Jumper』コホストのAnt Jefe、ロサンゼルス殺人容疑で逮捕</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/366913ba47ba8103a85dcbc035af33f5.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T17:30:00+00:00</news:publication_date>
-      <news:title>リアーナの自宅銃撃事件の容疑者、精神鑑定のため法廷出廷へ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/366913ba47ba81aa9cdfc1e97f2ca398.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T17:09:00+00:00</news:publication_date>
-      <news:title>アリアナ・グランデ、「Dangerous Woman」のアウトテイク「Knew Better Part Two」をリリース</news:title>
     </news:news>
   </url>
 </urlset>

@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-05-22T17:02:16.594841+00:00",
-  "total": 469,
+  "generated_at": "2026-05-22T17:39:33.726675+00:00",
+  "total": 470,
   "videos": [
+    {
+      "id": "1eLtQaCLCO0",
+      "title": "6lack Drops New Album, KAI CA$H Freestyles Over Drake's 'Make Them Pay' + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-05-22T17:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1eLtQaCLCO0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "6LACK"
+      ],
+      "related_articles": [
+        {
+          "id": "35a913ba47ba81db9ff5d3ee9728e167",
+          "title": "6LACKが新曲「Ashin' the Blunt」でYoung Thugをフィーチャー"
+        },
+        {
+          "id": "345913ba47ba8182b7f1c1ac98c61b19",
+          "title": "6LACKが2 Chainzをフィーチャーした新曲「Sunday Again」をリリース"
+        }
+      ]
+    },
     {
       "id": "-Q42rWMKZQA",
       "title": "Keke Palmer & Boots Riley on Capitalism, Hollywood & I Love Boosters",
