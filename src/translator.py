@@ -33,33 +33,31 @@ NANO_INPUT_PRICE = 0.05 / 1_000_000
 NANO_OUTPUT_PRICE = 0.40 / 1_000_000
 
 # Structured Outputs JSON Schema for strict mode
-OUTPUT_SCHEMA = {
+OUTPUT_FORMAT = {
     "type": "json_schema",
-    "json_schema": {
-        "name": "translation_output",
-        "strict": True,
-        "schema": {
-            "type": "object",
-            "properties": {
-                "title_ja": {"type": "string"},
-                "summary_ja": {"type": "string"},
-                "category": {
-                    "type": "string",
-                    "enum": ["ニュース", "リリース", "ビーフ", "インタビュー",
-                             "ライブ", "ビジネス", "チャート"],
-                },
-                "hashtags": {
-                    "type": "array",
-                    "items": {"type": "string"},
-                },
-                "off_topic": {"type": "boolean"},
-                "x_post": {"type": "string"},
-                "threads_post": {"type": "string"},
+    "name": "translation_output",
+    "strict": True,
+    "schema": {
+        "type": "object",
+        "properties": {
+            "title_ja": {"type": "string"},
+            "summary_ja": {"type": "string"},
+            "category": {
+                "type": "string",
+                "enum": ["ニュース", "リリース", "ビーフ", "インタビュー",
+                         "ライブ", "ビジネス", "チャート"],
             },
-            "required": ["title_ja", "summary_ja", "category", "hashtags",
-                         "off_topic", "x_post", "threads_post"],
-            "additionalProperties": False,
+            "hashtags": {
+                "type": "array",
+                "items": {"type": "string"},
+            },
+            "off_topic": {"type": "boolean"},
+            "x_post": {"type": "string"},
+            "threads_post": {"type": "string"},
         },
+        "required": ["title_ja", "summary_ja", "category", "hashtags",
+                     "off_topic", "x_post", "threads_post"],
+        "additionalProperties": False,
     },
 }
 
@@ -239,7 +237,7 @@ def _translate_one(
                 model=MODEL,
                 instructions=system_prompt,
                 input=user_message,
-                text={"format": OUTPUT_SCHEMA},
+                text={"format": OUTPUT_FORMAT},
                 max_output_tokens=MAX_OUTPUT_TOKENS,
             )
 
