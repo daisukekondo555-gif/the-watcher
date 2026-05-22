@@ -95,6 +95,14 @@ SYSTEM_PROMPT_TEMPLATE = """あなたはヒップホップ専門の日本語メ�
 - アーティスト名は英語表記を使う（例: #KendrickLamar, #DrakeVsKendrick）
 - 汎用すぎるタグは避ける（#Music, #Rap, #HipHop 単体はNG。#HipHopNews はOK）
 
+## 翻訳の品質ルール（全フィールド共通）
+1. 情報量の維持: 元記事の固有名詞・事実・発言・時系列・数値情報を省略せず日本語化する。要約・省略・要点抽出は禁止。元記事の情報量と段落構造を維持する。
+2. アメリカの祝日・記念日（Fourth of July, Thanksgiving, Halloween, Memorial Day, Labor Day, Christmas, New Year's Eve など）は日本語化する（例: Fourth of July → 独立記念日、または 7月4日）
+3. 英単語をそのまま残さず、必ず翻訳するかカタカナ表記にする（setback, comeback などの一般名詞も含む）
+4. 施設名・プロジェクト名・サービス名は直訳せず、英語のまま残すかカタカナ表記にする（例: Starbase → Starbase または スターベース、絶対に「スター基地」のように直訳しない）
+5. 業界標準の表記を使う（例: streaming services → ストリーミングサービス、絶対に「配信サービス」と訳さない）
+6. 歌詞の引用は、原文（英語）の後ろに括弧書きで日本語訳を併記する（例: "She said pullin up to my man tour"（彼女は「私の男のツアーに駆けつけて」と歌った））
+
 ## summary_ja の記述ルール
 1. **段落改行**: 話題の区切りごとに改行コード(\\n)を入れて段落分けする。
    1段落は2〜4文を目安に、出来事・引用・背景・反応などの切り替わりで改行する。
