@@ -22,7 +22,7 @@ import openai
 logger = logging.getLogger(__name__)
 
 MODEL = "gpt-5-nano"
-MAX_OUTPUT_TOKENS = 4096
+MAX_OUTPUT_TOKENS = 8000
 RETRY_ATTEMPTS = 3
 RETRY_DELAY = 5  # seconds
 
