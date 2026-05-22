@@ -20,7 +20,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-22T15:59:00+00:00</news:publication_date>
-      <news:title>ニック・ミナージュ、エロン・マスクのスター基地を訪問</news:title>
+      <news:title>ニッキー・ミナージュ、イーロン・マスクのStarbaseを訪問</news:title>
     </news:news>
   </url>
   <url>
@@ -64,7 +64,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-22T15:16:00+00:00</news:publication_date>
-      <news:title>アーカデミックスは支払いを受け取るとの疑惑に反論</news:title>
+      <news:title>アカデミックスは支払いを受け取るとの疑惑に反論</news:title>
     </news:news>
   </url>
   <url>
@@ -112,17 +112,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://thewatcherjp.com/articles/368913ba47ba81bc9011f53448bc02a9.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T14:27:00+00:00</news:publication_date>
-      <news:title>ジョーイ・バダッスが新作60秒フリースタイルを公開</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thewatcherjp.com/articles/368913ba47ba81058f37d9d49d9a1512.html</loc>
     <news:news>
       <news:publication>
@@ -163,7 +152,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-22T14:04:00+00:00</news:publication_date>
-      <news:title>ニキ・ミナージュ、エロン・マスクのロケット打ち上げにスター力を注ぐ</news:title>
+      <news:title>ニッキー・ミナージュ、イーロン・マスクのロケット打ち上げにスター力を注ぐ</news:title>
     </news:news>
   </url>
   <url>
@@ -295,7 +284,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-22T17:41:00+00:00</news:publication_date>
-      <news:title>A$APロキー、シャネル公演でドレイクファンに徹底的に愚弄される</news:title>
+      <news:title>エイサップ・ロッキー、シャネル公演でドレイクファンに徹底的に愚弄される</news:title>
     </news:news>
   </url>
   <url>
@@ -615,28 +604,6 @@
       </news:publication>
       <news:publication_date>2026-05-20T20:33:00+00:00</news:publication_date>
       <news:title>ロード・ジャマー、ストーブ・ゴッド・クックスのレーベル問題を否定「悪い契約ではない」</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/366913ba47ba81daa177ee10b7a72b27.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T19:01:00+00:00</news:publication_date>
-      <news:title>Wax Motifの新作『House of Wax II』がジャンルの慣例に挑戦</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/366913ba47ba81f5892fd0753f0c51aa.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-20T19:00:00+00:00</news:publication_date>
-      <news:title>ウィズ・カリファがルーマニアの国際手配者リストに登録、欧州全域での逮捕リスク直面</news:title>
     </news:news>
   </url>
 </urlset>
