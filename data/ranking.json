@@ -2,39 +2,27 @@
   "weekly": [
     {
       "path": "/article.html?id=360913ba47ba816cabc8ef7c5808d4ac",
-      "pageviews": 6
+      "pageviews": 2
     },
     {
-      "path": "/article.html?id=360913ba47ba812e8c6ed3502b7ec76b",
-      "pageviews": 3
+      "path": "/article.html?id=362913ba47ba8141ab40dbbf6c07a32e",
+      "pageviews": 2
     },
     {
-      "path": "/article.html?id=361913ba47ba8195891cd8ec0ef011f6",
-      "pageviews": 3
+      "path": "/article.html?id=362913ba47ba8155b666dc2e239d39cf",
+      "pageviews": 2
     },
     {
-      "path": "/article.html?id=361913ba47ba81d6aa52de61dc968b9a",
-      "pageviews": 3
+      "path": "/article.html?id=364913ba47ba810b88ebe1414c85b57c",
+      "pageviews": 2
     },
     {
-      "path": "/article.html?id=356913ba47ba811db006ecf23d988fb1",
+      "path": "/article.html?id=365913ba47ba8112b9c7f16229cdcfbc",
       "pageviews": 2
     }
   ],
   "by_category": {
     "ニュース": [
-      {
-        "path": "/article.html?id=360913ba47ba812e8c6ed3502b7ec76b",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=361913ba47ba8175a555c6e234138071",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=361913ba47ba819588acfd7aeae7db24",
-        "pageviews": 2
-      },
       {
         "path": "/article.html?id=365913ba47ba8112b9c7f16229cdcfbc",
         "pageviews": 2
@@ -42,19 +30,23 @@
       {
         "path": "/article.html?id=366913ba47ba81f3b516fc2c67bbf974",
         "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=362913ba47ba8138b730d07fb3a93361",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=362913ba47ba818fb810f111b71c81cf",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=362913ba47ba81f5bfedd597c5d2b635",
+        "pageviews": 1
       }
     ],
     "リリース": [
       {
         "path": "/article.html?id=360913ba47ba816cabc8ef7c5808d4ac",
-        "pageviews": 6
-      },
-      {
-        "path": "/article.html?id=361913ba47ba81d6aa52de61dc968b9a",
-        "pageviews": 3
-      },
-      {
-        "path": "/article.html?id=356913ba47ba811db006ecf23d988fb1",
         "pageviews": 2
       },
       {
@@ -62,15 +54,15 @@
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=360913ba47ba8188bf52daf0a6db0039",
+        "path": "/article.html?id=356913ba47ba811db006ecf23d988fb1",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=363913ba47ba81e491bac213bebbca41",
         "pageviews": 1
       }
     ],
     "ビーフ": [
-      {
-        "path": "/article.html?id=361913ba47ba8195891cd8ec0ef011f6",
-        "pageviews": 3
-      },
       {
         "path": "/article.html?id=362913ba47ba8141ab40dbbf6c07a32e",
         "pageviews": 2
@@ -80,29 +72,20 @@
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=35f913ba47ba81a89a75e10d44b0c818",
+        "path": "/article.html?id=362913ba47ba81c38db7ee6779c7ae08",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=360913ba47ba81018e1df475c5db3865",
-        "pageviews": 1
-      }
-    ],
-    "ライブ": [
-      {
-        "path": "/article.html?id=360913ba47ba818d8653c097f726824f",
+        "path": "/article.html?id=363913ba47ba8127ba77e7068faffc38",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=360913ba47ba81c2a048d061adc2ce95",
+        "path": "/article.html?id=363913ba47ba81afbe11f850c0c1fd4b",
         "pageviews": 1
       }
     ],
+    "ライブ": [],
     "チャート": [
-      {
-        "path": "/article.html?id=350913ba47ba819693d7ebe0d363f739",
-        "pageviews": 1
-      },
       {
         "path": "/article.html?id=362913ba47ba816f9572ca56810a56ac",
         "pageviews": 1
@@ -118,10 +101,6 @@
     ],
     "ビジネス": [
       {
-        "path": "/article.html?id=360913ba47ba810f8a62ec4247c60adf",
-        "pageviews": 2
-      },
-      {
         "path": "/article.html?id=365913ba47ba81c0b9adc6a1ae781443",
         "pageviews": 2
       },
@@ -136,8 +115,12 @@
       {
         "path": "/article.html?id=363913ba47ba81208849f13d75815bf8",
         "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=364913ba47ba8145b805f4cf2b28fe41",
+        "pageviews": 1
       }
     ]
   },
-  "updated_at": "2026-05-22T11:51:47"
+  "updated_at": "2026-05-22T16:46:30"
 }
