@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-23T02:49:19.507038+00:00",
-  "total": 478,
+  "generated_at": "2026-05-23T11:48:07.276095+00:00",
+  "total": 479,
   "videos": [
     {
       "id": "EM9xCkFctZc",
@@ -33,6 +33,18 @@
       "category": "PERFORMANCES",
       "published_at": "2026-05-22T23:00:00.000+00:00",
       "thumbnail_url": "https://i1.ytimg.com/vi/p8hsGCfJoiI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Edy-QGn-uV4",
+      "title": "John Leguizamo Gets Real on Drink Champs | Full Episode",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-05-22T22:22:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Edy-QGn-uV4/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
