@@ -2,6 +2,39 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/36a913ba47ba81e1aee4e0067944b2fe.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T09:00:00+00:00</news:publication_date>
+      <news:title>SPEAKERS CRANKIN – ロケット・リセによる楽曲</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/36a913ba47ba81dfa6c8edc35d0af4b4.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T08:00:00+00:00</news:publication_date>
+      <news:title>NEW YEAR NEW SWAG – midwxstの新曲</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/36a913ba47ba81dfb78ee4aa8e9e1e18.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T07:00:00+00:00</news:publication_date>
+      <news:title>How I’m Livin – Rob49の新曲</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/36a913ba47ba81aa83c3cebd660c060c.html</loc>
     <news:news>
       <news:publication>
@@ -295,7 +328,7 @@
         <news:language>ja</news:language>
       </news:publication>
       <news:publication_date>2026-05-23T10:32:00+00:00</news:publication_date>
-      <news:title>ラダクリス、デイヴ・マイヤーズと再タッグで『Pull Over』の wild ミュージックビデオ</news:title>
+      <news:title>ラルダクリス、デイヴ・マイヤーズと再タッグで『Pull Over』の wild ミュージックビデオ</news:title>
     </news:news>
   </url>
   <url>
@@ -791,50 +824,6 @@
       </news:publication>
       <news:publication_date>2026-05-22T13:32:00+00:00</news:publication_date>
       <news:title>ジム・ジョーンズの発言は誰に向けて？デイム・ダッシュか50セントか、それとも両方か</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/368913ba47ba81cba84cc26c924071a5.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T10:50:00+00:00</news:publication_date>
-      <news:title>Lil WayneとCraig Carton、Fanatics Fest NYCで「The Joint Venture」の初公開生番組を開催</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/368913ba47ba8163bd6ef366dbf01d9b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T10:49:00+00:00</news:publication_date>
-      <news:title>フィラデルフィア、スター揃いのワン・フィラデルフィア：アメリカ統一コンサートを発表</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/368913ba47ba812e9127c160d3857dd9.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T10:49:00+00:00</news:publication_date>
-      <news:title>Vince StaplesがCry Babyアルバム先行シングル“White Flag”をリリース</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/368913ba47ba816da781cb00d560c24b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T07:59:00+00:00</news:publication_date>
-      <news:title>FakeFree KPがDMXクラシックを再構築 新曲“What It Be”</news:title>
     </news:news>
   </url>
   <url>
