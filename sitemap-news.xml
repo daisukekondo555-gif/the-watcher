@@ -2,6 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/36b913ba47ba81bf9271c4931e98df45.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-25T01:10:00+00:00</news:publication_date>
+      <news:title>ドレイクがビルボード記録を塗り替え、ジェイ・Zを超え BTSを打ち負かす</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/36b913ba47ba815e802dcd112d72cb09.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-25T01:00:00+00:00</news:publication_date>
+      <news:title>メーガン・ザ・スタリオン、ホットガールサマーをMiami Swim Weekのステージへ展開</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/36b913ba47ba81b4b920c3df7d0f9cf3.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T22:54:00+00:00</news:publication_date>
+      <news:title>ホーパー・ジェームズ、Hot 107.9のバースデ Bash XXX Athlete of the Mic受賞でステージ炸裂</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/36b913ba47ba812fbb6ee0ab4e260e31.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-05-24T22:00:00+00:00</news:publication_date>
+      <news:title>フロリダの Sleep Number ベッドからカビ発見、 カスタマーサービスの女性が嘘だと非難し575ドルの修理を提案</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/36a913ba47ba81169ec3e5d9637af6b7.html</loc>
     <news:news>
       <news:publication>
@@ -637,61 +681,6 @@
       </news:publication>
       <news:publication_date>2026-05-23T07:00:00+00:00</news:publication_date>
       <news:title>In The Car – Jim Jones, Yung Bleu &amp; Kodie Shane の新曲</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/369913ba47ba81e587f5f9ce545656c6.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-23T00:50:00+00:00</news:publication_date>
-      <news:title>DJアカデミックスがDrakeからOVOフクロウチェーンを贈られる映像を公開</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/369913ba47ba814aa3a8d42f0fdc88b4.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-23T00:09:00+00:00</news:publication_date>
-      <news:title>スヌープ・ドッグ、マイケル・ジャクソン伝記映画に感銘を受け自身の映画を語る</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/369913ba47ba81718d13d745720986bd.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T23:38:00+00:00</news:publication_date>
-      <news:title>ヒップホップのアイコン ロブ・ベース、59歳で死去</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/369913ba47ba815a96d4c0da75a02f9b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T23:21:00+00:00</news:publication_date>
-      <news:title>リゾがSZAを称賛、業界の友達は多くないと語る</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/369913ba47ba818da666f7a857c4c3ab.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-22T22:43:00+00:00</news:publication_date>
-      <news:title>ドレイク、バッファローのファミリーを驚きの新 Escalade で迎える</news:title>
     </news:news>
   </url>
 </urlset>

@@ -96,6 +96,10 @@
       {
         "path": "/article.html?id=368913ba47ba81eba82fdbb448c46d6c",
         "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=36a913ba47ba81189c49f84e313d5714",
+        "pageviews": 1
       }
     ],
     "チャート": [
@@ -135,5 +139,5 @@
       }
     ]
   },
-  "updated_at": "2026-05-24T22:36:16"
+  "updated_at": "2026-05-25T02:47:52"
 }
