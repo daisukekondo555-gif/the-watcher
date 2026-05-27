@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-05-26T22:41:30.659647+00:00",
-  "total": 556,
+  "generated_at": "2026-05-27T02:50:13.526033+00:00",
+  "total": 557,
   "videos": [
+    {
+      "id": "H89P8CTsOF8",
+      "title": "6LACK “story is mine” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-05-26T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/H89P8CTsOF8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "6LACK"
+      ],
+      "related_articles": [
+        {
+          "id": "35a913ba47ba81db9ff5d3ee9728e167",
+          "title": "6LACKが新曲「Ashin' the Blunt」でYoung Thugをフィーチャー"
+        },
+        {
+          "id": "345913ba47ba8182b7f1c1ac98c61b19",
+          "title": "6LACKが2 Chainzをフィーチャーした新曲「Sunday Again」をリリース"
+        }
+      ]
+    },
     {
       "id": "mrhaZ50hKZE",
       "title": "Thee Sacred Souls - Live For You | A COLORS MOMENT",
@@ -3618,6 +3641,10 @@
       ],
       "related_articles": [
         {
+          "id": "36d913ba47ba812d879df8723546f780",
+          "title": "Jay-Z、 Brooks Adrenaline GTS 10“Coconut Milk”を着用してニューヨークに登場"
+        },
+        {
           "id": "351913ba47ba8150ada8f28672cb7854",
           "title": "Jay-Z、ニューヨーク・タイムズの「30人の偉大なアメリカ人ソングライター」に選出"
         },
@@ -5289,16 +5316,16 @@
       ],
       "related_articles": [
         {
+          "id": "36d913ba47ba812d879df8723546f780",
+          "title": "Jay-Z、 Brooks Adrenaline GTS 10“Coconut Milk”を着用してニューヨークに登場"
+        },
+        {
           "id": "36b913ba47ba810598b6d417eabc7e5b",
           "title": "Dame Dash、Dash Recordsを立ち上げ 音楽・メディア新 talent 発掘へ"
         },
         {
           "id": "36b913ba47ba816c9b94ff779d50b43d",
           "title": "デイム・ダッシュ、アーティストとクリエイターのための新レーベル「Dash Records」始動"
-        },
-        {
-          "id": "356913ba47ba811b8dd9e8319c73e7d0",
-          "title": "キャムロンが新曲「Dusky, Pt. 2」で Dame Dash をディス"
         }
       ]
     },
@@ -5742,6 +5769,10 @@
         "JAY-Z"
       ],
       "related_articles": [
+        {
+          "id": "36d913ba47ba812d879df8723546f780",
+          "title": "Jay-Z、 Brooks Adrenaline GTS 10“Coconut Milk”を着用してニューヨークに登場"
+        },
         {
           "id": "351913ba47ba8150ada8f28672cb7854",
           "title": "Jay-Z、ニューヨーク・タイムズの「30人の偉大なアメリカ人ソングライター」に選出"
