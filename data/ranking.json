@@ -1,102 +1,78 @@
 {
   "weekly": [
     {
-      "path": "/article.html?id=368913ba47ba810388efe2aa2bb4af5e",
-      "pageviews": 2
-    },
-    {
-      "path": "/article.html?id=368913ba47ba8163bd6ef366dbf01d9b",
-      "pageviews": 2
-    },
-    {
-      "path": "/article.html?id=368913ba47ba817a8a71da251ce90700",
-      "pageviews": 2
-    },
-    {
-      "path": "/article.html?id=368913ba47ba81c9a4e9c4cff8631032",
+      "path": "/article.html?id=369913ba47ba81e3a7d3e4c97fd5a97a",
       "pageviews": 2
     },
     {
       "path": "/article.html?id=369913ba47ba814aa3a8d42f0fdc88b4",
-      "pageviews": 2
+      "pageviews": 1
+    },
+    {
+      "path": "/article.html?id=369913ba47ba819ab32ce46cbf92f9d7",
+      "pageviews": 1
+    },
+    {
+      "path": "/article.html?id=369913ba47ba81e587f5f9ce545656c6",
+      "pageviews": 1
+    },
+    {
+      "path": "/article.html?id=369913ba47ba81e88b32eee7ceed3c16",
+      "pageviews": 1
     }
   ],
   "by_category": {
     "ニュース": [
       {
-        "path": "/article.html?id=368913ba47ba817a8a71da251ce90700",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=366913ba47ba8101889ec6801d97ba51",
+        "path": "/article.html?id=369913ba47ba81e587f5f9ce545656c6",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=366913ba47ba8132851cc6838fe29ba5",
+        "path": "/article.html?id=369913ba47ba81e88b32eee7ceed3c16",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=368913ba47ba81439b9af6d07ee2110d",
+        "path": "/article.html?id=36a913ba47ba81108f5def3830fbead4",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=368913ba47ba81939597d2f0518dba21",
+        "path": "/article.html?id=36a913ba47ba81d2a83aca7b85622aeb",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=36a913ba47ba81f79bb9e82d94b0d69a",
         "pageviews": 1
       }
     ],
     "リリース": [
       {
-        "path": "/article.html?id=369913ba47ba814aa3a8d42f0fdc88b4",
-        "pageviews": 2
-      },
-      {
         "path": "/article.html?id=369913ba47ba81e3a7d3e4c97fd5a97a",
         "pageviews": 2
       },
       {
-        "path": "/article.html?id=366913ba47ba81efbb7ff59cdd389d7b",
+        "path": "/article.html?id=369913ba47ba814aa3a8d42f0fdc88b4",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=368913ba47ba812e9127c160d3857dd9",
+        "path": "/article.html?id=36a913ba47ba81169ec3e5d9637af6b7",
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=368913ba47ba8133b624d32618801f98",
+        "path": "/article.html?id=36a913ba47ba818dad7ae7d672b429cd",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=36a913ba47ba81aa83c3cebd660c060c",
         "pageviews": 1
       }
     ],
     "ビーフ": [
-      {
-        "path": "/article.html?id=368913ba47ba810388efe2aa2bb4af5e",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=368913ba47ba81c9a4e9c4cff8631032",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=368913ba47ba810f9fd8ea89313b5cf9",
-        "pageviews": 1
-      },
-      {
-        "path": "/article.html?id=368913ba47ba81d08921cbeab42b739e",
-        "pageviews": 1
-      },
       {
         "path": "/article.html?id=369913ba47ba819ab32ce46cbf92f9d7",
         "pageviews": 1
       }
     ],
     "ライブ": [
-      {
-        "path": "/article.html?id=368913ba47ba8163bd6ef366dbf01d9b",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=368913ba47ba81eba82fdbb448c46d6c",
-        "pageviews": 1
-      },
       {
         "path": "/article.html?id=36a913ba47ba81189c49f84e313d5714",
         "pageviews": 1
@@ -106,18 +82,8 @@
         "pageviews": 1
       }
     ],
-    "チャート": [
-      {
-        "path": "/article.html?id=365913ba47ba8107b9fed36371b20191",
-        "pageviews": 1
-      }
-    ],
-    "ビジネス": [
-      {
-        "path": "/article.html?id=367913ba47ba81399fdceb1a7fe8693a",
-        "pageviews": 1
-      }
-    ]
+    "チャート": [],
+    "ビジネス": []
   },
-  "updated_at": "2026-05-30T11:49:05"
+  "updated_at": "2026-05-30T22:35:06"
 }
