@@ -1,36 +1,28 @@
 {
   "weekly": [
     {
-      "path": "/article.html?id=369913ba47ba81e3a7d3e4c97fd5a97a",
-      "pageviews": 2
-    },
-    {
-      "path": "/article.html?id=369913ba47ba814aa3a8d42f0fdc88b4",
+      "path": "/article.html?id=36a913ba47ba81108f5def3830fbead4",
       "pageviews": 1
     },
     {
-      "path": "/article.html?id=369913ba47ba819ab32ce46cbf92f9d7",
+      "path": "/article.html?id=36a913ba47ba81169ec3e5d9637af6b7",
       "pageviews": 1
     },
     {
-      "path": "/article.html?id=369913ba47ba81e587f5f9ce545656c6",
+      "path": "/article.html?id=36a913ba47ba81189c49f84e313d5714",
       "pageviews": 1
     },
     {
-      "path": "/article.html?id=369913ba47ba81e88b32eee7ceed3c16",
+      "path": "/article.html?id=36a913ba47ba818dad7ae7d672b429cd",
+      "pageviews": 1
+    },
+    {
+      "path": "/article.html?id=36a913ba47ba81d2a83aca7b85622aeb",
       "pageviews": 1
     }
   ],
   "by_category": {
     "ニュース": [
-      {
-        "path": "/article.html?id=369913ba47ba81e587f5f9ce545656c6",
-        "pageviews": 1
-      },
-      {
-        "path": "/article.html?id=369913ba47ba81e88b32eee7ceed3c16",
-        "pageviews": 1
-      },
       {
         "path": "/article.html?id=36a913ba47ba81108f5def3830fbead4",
         "pageviews": 1
@@ -40,19 +32,15 @@
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=36a913ba47ba81f79bb9e82d94b0d69a",
+        "path": "/article.html?id=36b913ba47ba81bf9271c4931e98df45",
+        "pageviews": 1
+      },
+      {
+        "path": "/article.html?id=36e913ba47ba81edac11dae32443b21d",
         "pageviews": 1
       }
     ],
     "リリース": [
-      {
-        "path": "/article.html?id=369913ba47ba81e3a7d3e4c97fd5a97a",
-        "pageviews": 2
-      },
-      {
-        "path": "/article.html?id=369913ba47ba814aa3a8d42f0fdc88b4",
-        "pageviews": 1
-      },
       {
         "path": "/article.html?id=36a913ba47ba81169ec3e5d9637af6b7",
         "pageviews": 1
@@ -62,16 +50,11 @@
         "pageviews": 1
       },
       {
-        "path": "/article.html?id=36a913ba47ba81aa83c3cebd660c060c",
+        "path": "/article.html?id=36c913ba47ba81f09969c8dbde3549da",
         "pageviews": 1
       }
     ],
-    "ビーフ": [
-      {
-        "path": "/article.html?id=369913ba47ba819ab32ce46cbf92f9d7",
-        "pageviews": 1
-      }
-    ],
+    "ビーフ": [],
     "ライブ": [
       {
         "path": "/article.html?id=36a913ba47ba81189c49f84e313d5714",
@@ -85,5 +68,5 @@
     "チャート": [],
     "ビジネス": []
   },
-  "updated_at": "2026-05-31T11:48:41"
+  "updated_at": "2026-05-31T22:36:47"
 }
