@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/373913ba47ba81cd9131c25b1803e097.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T03:05:00+00:00</news:publication_date>
+      <news:title>Sauce WalkaがDrakeの金を“分割”したと主張、BMと関係説の波紋</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/373913ba47ba817a87e0f340f7981114.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-02T03:00:00+00:00</news:publication_date>
+      <news:title>ティエラ・ホーク、ジューンティーンスに新作ミックステープ「Whack’s Museum」発売を発表</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/373913ba47ba81b8a7f4ca89750b8d92.html</loc>
     <news:news>
       <news:publication>
@@ -1088,83 +1110,6 @@
       </news:publication>
       <news:publication_date>2026-05-31T13:01:00+00:00</news:publication_date>
       <news:title>【今週のまとめ】2026/5/25〜5/31のヒップホップ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/371913ba47ba8175bc5ffcde7a8c79c4.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T07:30:00+00:00</news:publication_date>
-      <news:title>Payback – KOTA The Friendの新曲</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/371913ba47ba81b4b899dde763650c67.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T07:00:00+00:00</news:publication_date>
-      <news:title>Demon—ApolloRed1とBryant Barnesの新曲</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/371913ba47ba81889fd6e7076a4b86a0.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T06:30:00+00:00</news:publication_date>
-      <news:title>LOVE/HATE – JennaskeとBenny The Butcher の楽曲</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/371913ba47ba817f9dc2fdffef0d0855.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T06:00:00+00:00</news:publication_date>
-      <news:title>Could Be Worse—Bizzy Crook feat. Leon Thomasの楽曲</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/371913ba47ba8172a666d901197b8a6b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T11:30:00+00:00</news:publication_date>
-      <news:title>Moneybagg Yo、Converse Shai 001の3カラーを着こなす</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/371913ba47ba81b19268fa6698b633af.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T11:23:00+00:00</news:publication_date>
-      <news:title>Afro-Hov：Jaÿ-ZがRoots Picnicで Drake・Nicki・Dameらを狙うパフォーマンス</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/371913ba47ba81f1ba99e34fa205476c.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-05-31T10:00:00+00:00</news:publication_date>
-      <news:title>オハイオ州男性がウォルマートへ。水の偽装的窃盗を露呈した瞬間の“レシートを見せないで”</news:title>
     </news:news>
   </url>
 </urlset>
