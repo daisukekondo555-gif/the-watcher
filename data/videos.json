@@ -1,7 +1,340 @@
 {
-  "generated_at": "2026-06-03T11:53:11.705127+00:00",
-  "total": 760,
+  "generated_at": "2026-06-03T22:41:46.228422+00:00",
+  "total": 784,
   "videos": [
+    {
+      "id": "jMdFEd6nKdg",
+      "title": "OTR Rewind: The YTB Fatt Freestyle Pt 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jMdFEd6nKdg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EXl3QHylFBk",
+      "title": "Latto Drops ‘Big Mama’ Album | Joe Budden Insinuates Drake Wrote Her Rap",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-03T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EXl3QHylFBk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Latto"
+      ],
+      "related_articles": [
+        {
+          "id": "374913ba47ba81f98290f4bc48de5302",
+          "title": "Latto、Drakeが自作ライティングをしているとのジョー・バドマンの示唆に反論"
+        },
+        {
+          "id": "374913ba47ba81939efcf8275ade73bd",
+          "title": "ラットー、ジョー・バダンの示唆を否定 ドレイクが作詞したとの主張に反論"
+        },
+        {
+          "id": "373913ba47ba81648c3cef4dab5b85e7",
+          "title": "Afro Plus Fest、DC近郊で再来日へ、Davido・Alkaline・Wizkidがヘッドライナー"
+        }
+      ]
+    },
+    {
+      "id": "VMes0pl8W2k",
+      "title": "OTR IS LIVE! W/ Gabe P | SUBMIT YOUR MUSIC FOR LIVE FEEDBACK!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T21:43:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VMes0pl8W2k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3xqVa9SE8Ao",
+      "title": "Winners don’t HATE on WINNING! We know who’s at the TOP spot",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-03T21:16:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3xqVa9SE8Ao/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-48Ujy4V2wk",
+      "title": "Mya explains why she insists her PARENTS handle her Money",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-03T19:07:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-48Ujy4V2wk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "w-xEk_7RlxA",
+      "title": "Gayle King's Ex-Husband Apologizes for Cheating on Her 26 Years Ago",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-03T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/w-xEk_7RlxA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zE9EDv9LIbA",
+      "title": "🟡 Nicki Minaj's Iconic Flow: Unleashing Raw Bars Live",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zE9EDv9LIbA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nicki Minaj"
+      ],
+      "related_articles": [
+        {
+          "id": "368913ba47ba81eba82fdbb448c46d6c",
+          "title": "ニッキー・ミナージュ、イーロン・マスクのStarbaseを訪問"
+        },
+        {
+          "id": "368913ba47ba81939597d2f0518dba21",
+          "title": "ニッキー・ミナージュ、SpaceX打上げイベントでエロン・マスクを称賛"
+        },
+        {
+          "id": "368913ba47ba810388efe2aa2bb4af5e",
+          "title": "ニッキー・ミナージュ、イーロン・マスクのロケット打ち上げにスター力を注ぐ"
+        }
+      ]
+    },
+    {
+      "id": "53PgMS7-NUM",
+      "title": "Gorilla Zoe \"The Keys\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T18:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/53PgMS7-NUM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qWn3JGtP0Zs",
+      "title": "Ruthee \"Juliette + Roméo\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T17:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qWn3JGtP0Zs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4Y5zeQ-2UX4",
+      "title": "Joe Budden Responds to Claims Drake’s \"Janice STFU\" Is About Him: 'I'm That N***a'",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-03T17:15:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4Y5zeQ-2UX4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZkaG-HEILFQ",
+      "title": "414JungleBaby \"Rubberband That\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZkaG-HEILFQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5r1iBrGUm1A",
+      "title": "G Herbo on Rappers Incriminating Themselves The Streets vs Nice Talk",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5r1iBrGUm1A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rpitIKKI6j4",
+      "title": "The Breakfast Club FULL SHOW 06-03-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rpitIKKI6j4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JKefnwVqsLU",
+      "title": "lordkez - Wena Fela | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T15:58:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JKefnwVqsLU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7QBDaIB-qJo",
+      "title": "Mayor Mamdani Signs Executive Order To Repeal Kids’ Bedtimes During Knicks Finals",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T15:39:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7QBDaIB-qJo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-GvYFTlEdUs",
+      "title": "Mikey Muhammad the Prison lifeguard 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-03T15:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-GvYFTlEdUs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KrnWYetZHaE",
+      "title": "Aya Nakamura - Kouma | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KrnWYetZHaE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_W2-gG4MbU0",
+      "title": "Man Tears Down His Family’s Home Using Excavator With Them Still Inside",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T13:28:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_W2-gG4MbU0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CfbrHRH3k_I",
+      "title": "Tiny Desk Concert Giveaway",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CfbrHRH3k_I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2w-t-aZqvzQ",
+      "title": "G Herbo on Chicago vs Akademiks Whos Really Instigating.mp4",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2w-t-aZqvzQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cIPp4md5FOg",
+      "title": "Jeezy On Surviving Vs. Healing, Resolving Conflict Through Rap + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cIPp4md5FOg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yLoysaHcprk",
+      "title": "Megan Thee Stallion Teases New Song Snippet & Takes Aim At Her Ex-Boyfriend, Klay Thompson",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T12:41:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yLoysaHcprk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Megan Thee Stallion"
+      ],
+      "related_articles": [
+        {
+          "id": "36b913ba47ba81308a54da6ab4d7bdec",
+          "title": "メーガン・ザ・スタリオン、ポールダンスの実力を披露"
+        },
+        {
+          "id": "36b913ba47ba815e802dcd112d72cb09",
+          "title": "メーガン・ザ・スタリオン、ホットガールサマーをMiami Swim Weekのステージへ展開"
+        },
+        {
+          "id": "352913ba47ba817e8af2d8c272d32e65",
+          "title": "メーガン・ザ・スタリオン、高齢者住宅修復でHabitat for Humanityと提携"
+        }
+      ]
+    },
+    {
+      "id": "9Oknnbfu7XI",
+      "title": "Silvia Pérez Cruz | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-03T12:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9Oknnbfu7XI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-xgno0_lYIU",
+      "title": "Mornings With Mero Livestream | 6-3-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T11:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-xgno0_lYIU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "MXl7yMvNyVY",
       "title": "Leon Knight, Trinidad James & Fyre \"Whatcha Gon Do?\" | On The Radar Performance",
@@ -1516,16 +1849,16 @@
       ],
       "related_articles": [
         {
+          "id": "374913ba47ba81f98290f4bc48de5302",
+          "title": "Latto、Drakeが自作ライティングをしているとのジョー・バドマンの示唆に反論"
+        },
+        {
+          "id": "374913ba47ba81939efcf8275ade73bd",
+          "title": "ラットー、ジョー・バダンの示唆を否定 ドレイクが作詞したとの主張に反論"
+        },
+        {
           "id": "373913ba47ba81648c3cef4dab5b85e7",
           "title": "Afro Plus Fest、DC近郊で再来日へ、Davido・Alkaline・Wizkidがヘッドライナー"
-        },
-        {
-          "id": "371913ba47ba81bdae75f6c28e7a0acb",
-          "title": "Lattoが“引退発言”を感情的瞬間として受け止め postpartum体験を語る"
-        },
-        {
-          "id": "36f913ba47ba8143904dee5aa3196b7a",
-          "title": "ラトー、引退表明を撤回 postpartum depression を語る"
         }
       ]
     },
@@ -1568,16 +1901,16 @@
       ],
       "related_articles": [
         {
+          "id": "374913ba47ba81f98290f4bc48de5302",
+          "title": "Latto、Drakeが自作ライティングをしているとのジョー・バドマンの示唆に反論"
+        },
+        {
+          "id": "374913ba47ba81939efcf8275ade73bd",
+          "title": "ラットー、ジョー・バダンの示唆を否定 ドレイクが作詞したとの主張に反論"
+        },
+        {
           "id": "373913ba47ba81648c3cef4dab5b85e7",
           "title": "Afro Plus Fest、DC近郊で再来日へ、Davido・Alkaline・Wizkidがヘッドライナー"
-        },
-        {
-          "id": "371913ba47ba81bdae75f6c28e7a0acb",
-          "title": "Lattoが“引退発言”を感情的瞬間として受け止め postpartum体験を語る"
-        },
-        {
-          "id": "36f913ba47ba8143904dee5aa3196b7a",
-          "title": "ラトー、引退表明を撤回 postpartum depression を語る"
         }
       ]
     },
@@ -3341,16 +3674,16 @@
       ],
       "related_articles": [
         {
+          "id": "374913ba47ba8195871ff7fb64fc8588",
+          "title": "エミネムとReal Housewivesの訴訟、Reasonably Shadyの商標で2027年まで紛争延長"
+        },
+        {
           "id": "36d913ba47ba814588c4ca874d132dd9",
           "title": "50セントは最初はエミネムを嫌っていた：G-UnitのDJ Dominationが全てを語る"
         },
         {
           "id": "36c913ba47ba816da5f3dd2b41f00f73",
           "title": "エミネム・ショーが世に放たれた日の24年前"
-        },
-        {
-          "id": "36a913ba47ba814c9cacd9120e29e4cf",
-          "title": "エミネムが舞台を破壊する演出を称賛—スティーブン・コルベアのコミュニティアクセス番組"
         }
       ]
     },
