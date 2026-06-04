@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-06-03T22:41:46.228422+00:00",
-  "total": 784,
+  "generated_at": "2026-06-04T02:49:27.886080+00:00",
+  "total": 787,
   "videos": [
+    {
+      "id": "0RIKKWLlvds",
+      "title": "🟡 Donald Glover Flexes: 'Bino Won't Die, Illest Rapper Alive'",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0RIKKWLlvds/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tlLEgOs-Efo",
+      "title": "HOT 97 Atlanta News Live! 6/3/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T22:55:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tlLEgOs-Efo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZY7hhonDF-Q",
+      "title": "HOT 97 National News Live! 6/3/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-03T22:55:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZY7hhonDF-Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "jMdFEd6nKdg",
       "title": "OTR Rewind: The YTB Fatt Freestyle Pt 2",
