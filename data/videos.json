@@ -1,7 +1,355 @@
 {
-  "generated_at": "2026-06-04T11:48:03.914698+00:00",
-  "total": 797,
+  "generated_at": "2026-06-04T22:38:41.489787+00:00",
+  "total": 822,
   "videos": [
+    {
+      "id": "r6XBsziex0o",
+      "title": "My Name Mitchy (ft. JhonnieDamnD) - JELLY | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T21:38:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/r6XBsziex0o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MwTmXwbWK38",
+      "title": "Latto - Chrome Heart Diaper Bag | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T20:46:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MwTmXwbWK38/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Latto"
+      ],
+      "related_articles": [
+        {
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
+        },
+        {
+          "id": "375913ba47ba81768702c0c415142fed",
+          "title": "Lattoが21 Savageの結婚の噂を釈明"
+        },
+        {
+          "id": "375913ba47ba81aaa1b3e2db432d9eab",
+          "title": "ラットtoは21サヴェージが結婚しているかどうかを確認した"
+        }
+      ]
+    },
+    {
+      "id": "L9edxYQVKvo",
+      "title": "Skinny Joe name holds WEIGHT in Philly",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-04T20:20:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/L9edxYQVKvo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CG0WFRJs8Vs",
+      "title": "Latto - Chrome Heart Diaper Bag | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T20:17:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CG0WFRJs8Vs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Latto"
+      ],
+      "related_articles": [
+        {
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
+        },
+        {
+          "id": "375913ba47ba81768702c0c415142fed",
+          "title": "Lattoが21 Savageの結婚の噂を釈明"
+        },
+        {
+          "id": "375913ba47ba81aaa1b3e2db432d9eab",
+          "title": "ラットtoは21サヴェージが結婚しているかどうかを確認した"
+        }
+      ]
+    },
+    {
+      "id": "Nd_h3AAWZV0",
+      "title": "La Biggie \"TETEO\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T20:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Nd_h3AAWZV0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "a4gmMLiNRsI",
+      "title": "Desiigner - Outside (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-06-04T20:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/a4gmMLiNRsI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wB9CdaJEwFI",
+      "title": "Cedric Brazle \"mine.\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wB9CdaJEwFI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CqqvoICBnSE",
+      "title": "The Ron Browz x Veto Corli Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CqqvoICBnSE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KmycnyIleT4",
+      "title": "The JBP Debates Best Love Songs/Albums in Hip Hop",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-04T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KmycnyIleT4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YV7dIvf8UJc",
+      "title": "The Breakfast Club FULL SHOW 06-04-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T17:19:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YV7dIvf8UJc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "dlslm1K9jKQ",
+      "title": "The KB Wickk Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T17:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dlslm1K9jKQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zZvv3we0SEM",
+      "title": "50 Cent Comments On Ex Daphne Joy’s Leaked Sex Tape With Diddy",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T16:44:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zZvv3we0SEM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "x4d0XZ8dEg8",
+      "title": "Boosie Drops Tonight Is This 2023s BEST Album You Decide",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/x4d0XZ8dEg8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EnJtuomuzfc",
+      "title": "Young M.A Says She Prefers Straight Women but Doesn’t ‘Flip’ Them",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-04T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EnJtuomuzfc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jRWPj0P2aiM",
+      "title": "Some people just talk too damn much... 📞🫩",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T15:40:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jRWPj0P2aiM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ywp-f29wP4M",
+      "title": "Teddy Swims “Mr. Know It All” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-04T15:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ywp-f29wP4M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uypQiWR1Uqk",
+      "title": "🟡 Weezy F. Baby & Drizzy: Unstoppable Live Vibe",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T15:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uypQiWR1Uqk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tlxEgyEo8SM",
+      "title": "Jadakiss is NOT in the business of making his HATERS Famous..",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-04T14:07:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tlxEgyEo8SM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "b707mMd2Q3o",
+      "title": "Cop Arrested After Pointing Firearm At Fellow Officer Over Fish Odor",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/b707mMd2Q3o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2ckKODi_rIU",
+      "title": "One Drink A Day May Still Lead To Increased Risks Of Cancer 🫣🍸",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T13:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2ckKODi_rIU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QgZ1_iX2EYE",
+      "title": "The Breakfast Club Reacts To ‘Michael Jackson The Verdict’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T13:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QgZ1_iX2EYE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9S92PWwOcGw",
+      "title": "Boosie Reveals How Pimp C Got Him Outta Jail At 17",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9S92PWwOcGw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UFnOLE4NFag",
+      "title": "Latto Talks 'Big Mama,' Motherhood, 21 Savage, Drake, Ice Spice, Cardi B + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T12:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UFnOLE4NFag/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Ice Spice",
+        "21 Savage",
+        "Cardi B",
+        "Latto"
+      ],
+      "related_articles": [
+        {
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
+        },
+        {
+          "id": "375913ba47ba81768702c0c415142fed",
+          "title": "Lattoが21 Savageの結婚の噂を釈明"
+        },
+        {
+          "id": "375913ba47ba81aaa1b3e2db432d9eab",
+          "title": "ラットtoは21サヴェージが結婚しているかどうかを確認した"
+        }
+      ]
+    },
+    {
+      "id": "M6Xpa3QapHo",
+      "title": "The Joe Budden Podcast Episode 934 | The Roots Remember",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-04T12:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/M6Xpa3QapHo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "F6fnt-uhxGI",
+      "title": "Mornings With Mero Livestream | 6-4-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-04T11:13:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/F6fnt-uhxGI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "XYhtkxR5sV8",
       "title": "GENA: Tiny Desk Concert",
@@ -199,16 +547,16 @@
       ],
       "related_articles": [
         {
-          "id": "374913ba47ba81f98290f4bc48de5302",
-          "title": "Latto、Drakeが自作ライティングをしているとのジョー・バドマンの示唆に反論"
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
         },
         {
-          "id": "374913ba47ba81939efcf8275ade73bd",
-          "title": "ラットー、ジョー・バダンの示唆を否定 ドレイクが作詞したとの主張に反論"
+          "id": "375913ba47ba81768702c0c415142fed",
+          "title": "Lattoが21 Savageの結婚の噂を釈明"
         },
         {
-          "id": "373913ba47ba81648c3cef4dab5b85e7",
-          "title": "Afro Plus Fest、DC近郊で再来日へ、Davido・Alkaline・Wizkidがヘッドライナー"
+          "id": "375913ba47ba81aaa1b3e2db432d9eab",
+          "title": "ラットtoは21サヴェージが結婚しているかどうかを確認した"
         }
       ]
     },
@@ -700,16 +1048,16 @@
       ],
       "related_articles": [
         {
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
+        },
+        {
+          "id": "375913ba47ba8122ad83cf95e60044a5",
+          "title": "エクスクルーシブ： Cardi B が Tasha K に 弁護士費用11万ドル超の請求を提出、AI生成の訴訟資料が波紋を呼ぶ"
+        },
+        {
           "id": "36a913ba47ba816d85addb95312b8531",
           "title": "Cardi B、タイシャKと夫が資産隠しの計画を実行したと主張、連邦訴訟を提起"
-        },
-        {
-          "id": "365913ba47ba81208d1bfc4e4ab365c9",
-          "title": "2026 BET Awards アルバム・オブ・ザ・イヤー候補発表：Clipse、カーディ・B、Tyler, The Creator他"
-        },
-        {
-          "id": "360913ba47ba81ffabc4e6e224991658",
-          "title": "カーディ・B、ステフォン・ディッグスと言い争い　空腹が原因と説明"
         }
       ]
     },
@@ -2020,16 +2368,16 @@
       ],
       "related_articles": [
         {
-          "id": "374913ba47ba81f98290f4bc48de5302",
-          "title": "Latto、Drakeが自作ライティングをしているとのジョー・バドマンの示唆に反論"
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
         },
         {
-          "id": "374913ba47ba81939efcf8275ade73bd",
-          "title": "ラットー、ジョー・バダンの示唆を否定 ドレイクが作詞したとの主張に反論"
+          "id": "375913ba47ba81768702c0c415142fed",
+          "title": "Lattoが21 Savageの結婚の噂を釈明"
         },
         {
-          "id": "373913ba47ba81648c3cef4dab5b85e7",
-          "title": "Afro Plus Fest、DC近郊で再来日へ、Davido・Alkaline・Wizkidがヘッドライナー"
+          "id": "375913ba47ba81aaa1b3e2db432d9eab",
+          "title": "ラットtoは21サヴェージが結婚しているかどうかを確認した"
         }
       ]
     },
@@ -2072,16 +2420,16 @@
       ],
       "related_articles": [
         {
-          "id": "374913ba47ba81f98290f4bc48de5302",
-          "title": "Latto、Drakeが自作ライティングをしているとのジョー・バドマンの示唆に反論"
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
         },
         {
-          "id": "374913ba47ba81939efcf8275ade73bd",
-          "title": "ラットー、ジョー・バダンの示唆を否定 ドレイクが作詞したとの主張に反論"
+          "id": "375913ba47ba81768702c0c415142fed",
+          "title": "Lattoが21 Savageの結婚の噂を釈明"
         },
         {
-          "id": "373913ba47ba81648c3cef4dab5b85e7",
-          "title": "Afro Plus Fest、DC近郊で再来日へ、Davido・Alkaline・Wizkidがヘッドライナー"
+          "id": "375913ba47ba81aaa1b3e2db432d9eab",
+          "title": "ラットtoは21サヴェージが結婚しているかどうかを確認した"
         }
       ]
     },
@@ -2640,16 +2988,16 @@
       ],
       "related_articles": [
         {
+          "id": "375913ba47ba81779d31f7eb5e6d695c",
+          "title": "カーディ・B、ラットーとの和解試みを複数回語るも成功はわずか"
+        },
+        {
+          "id": "375913ba47ba8122ad83cf95e60044a5",
+          "title": "エクスクルーシブ： Cardi B が Tasha K に 弁護士費用11万ドル超の請求を提出、AI生成の訴訟資料が波紋を呼ぶ"
+        },
+        {
           "id": "36a913ba47ba816d85addb95312b8531",
           "title": "Cardi B、タイシャKと夫が資産隠しの計画を実行したと主張、連邦訴訟を提起"
-        },
-        {
-          "id": "368913ba47ba81eba82fdbb448c46d6c",
-          "title": "ニッキー・ミナージュ、イーロン・マスクのStarbaseを訪問"
-        },
-        {
-          "id": "368913ba47ba81939597d2f0518dba21",
-          "title": "ニッキー・ミナージュ、SpaceX打上げイベントでエロン・マスクを称賛"
         }
       ]
     },
