@@ -2,6 +2,28 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/375913ba47ba8132bc11e5826b74b197.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-04T11:34:00+00:00</news:publication_date>
+      <news:title>Hit ‘Em Up – 2Pacの楽曲</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/375913ba47ba81c78c51f491daae858a.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-04T00:00:00+00:00</news:publication_date>
+      <news:title> exclusive: Lil Durk に新たな組織的殺人罪を連邦案件で起訴へ（計画はロサンゼルス）</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/375913ba47ba81728235f3df46497692.html</loc>
     <news:news>
       <news:publication>
@@ -926,50 +948,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://thewatcherjp.com/articles/373913ba47ba81e386b7f85e8ba583d6.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T11:37:00+00:00</news:publication_date>
-      <news:title>ターゲットがJAY-Zの『Reasonable Doubt』30周年エディションを独占発売</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/373913ba47ba8143b53ded5d722552fd.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T11:14:00+00:00</news:publication_date>
-      <news:title>Vince StaplesがCry Babyの前哨として“Cotton”を公開</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/373913ba47ba81b28becdbd52ac5a84c.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T10:52:00+00:00</news:publication_date>
-      <news:title>シャキーラ、マドンナ、BTSが2026年ワールドカップ決勝に究極のスタジアム・エネルギーをもたらす</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/373913ba47ba8158a0edf77f02b33245.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T10:51:00+00:00</news:publication_date>
-      <news:title>Roots Picnic前イベントのThe Reserveが文化系インフルエンサーを結集、サプライズのファボラス公演も</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thewatcherjp.com/articles/373913ba47ba813db9f4c5492cd66a9b.html</loc>
     <news:news>
       <news:publication>
@@ -1143,28 +1121,6 @@
       </news:publication>
       <news:publication_date>2026-06-02T16:33:00+00:00</news:publication_date>
       <news:title>クアンド・ロンドが獄 incarcerations から釈放報道</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/373913ba47ba81cd9131c25b1803e097.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T03:05:00+00:00</news:publication_date>
-      <news:title>Sauce WalkaがDrakeの金を“分割”したと主張、BMと関係説の波紋</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/373913ba47ba817a87e0f340f7981114.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-02T03:00:00+00:00</news:publication_date>
-      <news:title>ティエラ・ホーク、ジューンティーンスに新作ミックステープ「Whack’s Museum」発売を発表</news:title>
     </news:news>
   </url>
 </urlset>
