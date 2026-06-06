@@ -2,6 +2,50 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/377913ba47ba8139b8f7c43ee6db25ab.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T10:00:00+00:00</news:publication_date>
+      <news:title>シアトル女性、アラスカ航空の前注文食を機内で提供されず怒りの訴え</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/377913ba47ba81de909aedb8a5847775.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T07:01:00+00:00</news:publication_date>
+      <news:title>SRT – チョーチイズの新曲</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/377913ba47ba81138e54c55045896f93.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T06:00:00+00:00</news:publication_date>
+      <news:title>Rylo Rodriguezの新曲“Bruddas”</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/377913ba47ba8127a4fcffa078d8b880.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-06T04:30:00+00:00</news:publication_date>
+      <news:title>メーガン・ザ・スタリオン、12万ドル超の衣装費請求訴訟に反論 事実関係を“不正”と主張</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/377913ba47ba81c8aba4d5d417a4f4eb.html</loc>
     <news:news>
       <news:publication>
@@ -1110,28 +1154,6 @@
       </news:publication>
       <news:publication_date>2026-06-04T12:30:00+00:00</news:publication_date>
       <news:title>50 Centがジャイ・Zは依然トップを狙うと uncle Murdaが語る</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/375913ba47ba81ffa40bebe0a05c3ae0.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T11:39:00+00:00</news:publication_date>
-      <news:title>A$APロッキー、家族の安寧を脅かす自宅銃撃未遂の感情的影響を回顧</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/375913ba47ba8132bc11e5826b74b197.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-04T11:34:00+00:00</news:publication_date>
-      <news:title>Hit ‘Em Up – 2Pacの楽曲</news:title>
     </news:news>
   </url>
 </urlset>
