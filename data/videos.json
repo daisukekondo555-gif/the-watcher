@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-06-06T22:37:38.220421+00:00",
-  "total": 872,
+  "generated_at": "2026-06-07T02:49:05.691016+00:00",
+  "total": 874,
   "videos": [
+    {
+      "id": "DtVqKply4Lg",
+      "title": "OTR Rewind: The DDG Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-07T01:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DtVqKply4Lg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8AMK5oSvH9c",
+      "title": "🇳🇱The Joost Klein Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-07T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8AMK5oSvH9c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "iIEk5kwR2iI",
       "title": "Forgiato Blow x Stitches x Bezz Believe x Haystak Flogo - CFWB REMIX (Official Music Video)",
