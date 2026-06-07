@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/378913ba47ba817196a9c3d6994b9166.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-07T13:09:00+00:00</news:publication_date>
+      <news:title>【今週のまとめ】2026/6/1〜6/7のヒップホップ</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/378913ba47ba81b1acb1feb4ee641b3f.html</loc>
     <news:news>
       <news:publication>
@@ -725,17 +736,6 @@
       </news:publication>
       <news:publication_date>2026-06-05T13:31:00+00:00</news:publication_date>
       <news:title>いま聴くべき14枚の新譜：Vince Staples, horsegiirL, Modest Mouse ほか</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/376913ba47ba8198b3b9d4e89b26fec0.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-05T13:01:00+00:00</news:publication_date>
-      <news:title>ノミー・シャロン、ニュー・シングル「Weak」をリリース</news:title>
     </news:news>
   </url>
 </urlset>
