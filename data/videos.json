@@ -1,7 +1,483 @@
 {
-  "generated_at": "2026-06-10T11:49:42.825843+00:00",
-  "total": 972,
+  "generated_at": "2026-06-10T22:39:57.691574+00:00",
+  "total": 1007,
   "videos": [
+    {
+      "id": "hH3sH9_8RvI",
+      "title": "HOT 97 Atlanta News Live! 6/10/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T21:36:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hH3sH9_8RvI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1xBP3Y8ttRo",
+      "title": "HOT 97 National News Live! 6/10/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T21:35:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1xBP3Y8ttRo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0zuqVyo7Xzg",
+      "title": "LilRedd \"Skinny Jean Reaper\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T21:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0zuqVyo7Xzg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bKUW6yaVdeQ",
+      "title": "Da Getta - Be On | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T20:11:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bKUW6yaVdeQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BtNkQiu-ZhE",
+      "title": "Da Getta - Be On | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T20:11:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BtNkQiu-ZhE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "I8XZH1Bb7uY",
+      "title": "Ronnie Gifting Crack and Kiss with some HEAT! Father’s Day came early!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T19:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/I8XZH1Bb7uY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jrDDMd1mi4Y",
+      "title": "Miss Kaniyah - Ain’t Got Time | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T19:11:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jrDDMd1mi4Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QE0i6I_97zI",
+      "title": "Miss Kaniyah - Ain’t Got Time | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T19:10:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QE0i6I_97zI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pS68S1MVc58",
+      "title": "Sauce Walka's Baby Mother Leaks Apparent Messages of Rapper's Threats",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pS68S1MVc58/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iSs1t7a83hc",
+      "title": "Nick Grant Talks ‘Bars & Books’ Listening Session At The Brooklyn Public Library, Success, JID +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iSs1t7a83hc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JID"
+      ],
+      "related_articles": [
+        {
+          "id": "37b913ba47ba817cb2fcd0faf5baed39",
+          "title": "ニック・グラントがJID論争と業界実情を『The Breakfast Club』で語る"
+        },
+        {
+          "id": "345913ba47ba819d8326cd1b7002c83f",
+          "title": "ブランドがヒップホップを使い損ねる理由——クリエイター、ロバート・クリフトン・Jr.が語る"
+        }
+      ]
+    },
+    {
+      "id": "4cd36O7MuW4",
+      "title": "Black Child on ROC Solid! 💎",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T18:50:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4cd36O7MuW4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Uwz8WyPqJyg",
+      "title": "Fat Joe & Jadakiss' SAME GAME PARLAY for Game 4 of Spurs-Knicks NBA Finals 💰 | Hard Rock Bet",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T18:49:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Uwz8WyPqJyg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "duyzqW63hI0",
+      "title": "Dystany Spurlock On Being The First Black Woman To Race In NASCAR, Career Journey, Faith, Name +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T18:15:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/duyzqW63hI0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        },
+        {
+          "id": "37a913ba47ba81d69f6cc53c80014efa",
+          "title": "Queensが無料のFIFAワールドカップ2026ファンフェスを開催、Nas・Wyclef Jeanらが出演"
+        },
+        {
+          "id": "36f913ba47ba8148bd72eab85b60bca0",
+          "title": "Nas、Yeとの2018年コラボ盤 NASIRに対する“がっかり”の感想を振り返る"
+        }
+      ]
+    },
+    {
+      "id": "lpfuvUvkH58",
+      "title": "Albee Al - Respect the Jux (Gucci mane diss) (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-06-10T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lpfuvUvkH58/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Gucci Mane"
+      ],
+      "related_articles": [
+        {
+          "id": "36e913ba47ba8145b9b6edcb843db9b1",
+          "title": "グッチ・メイン、ドレイクが自分を“おとなしい男”呼ばわりした件を許したと明かす"
+        },
+        {
+          "id": "36d913ba47ba817d8caadb56473eb526",
+          "title": "グッチ・メイン、躁うつ病と統合失調症の生活を告白"
+        },
+        {
+          "id": "348913ba47ba81ee913cf66fd176c7ae",
+          "title": "グッチ・メイン、バーミンガム・スタリオンズのホームオープナーでパフォーマンス"
+        }
+      ]
+    },
+    {
+      "id": "JAMLyvASInA",
+      "title": "BC TAE - In The 8 (Fanta) | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T17:58:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JAMLyvASInA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Zj7Aj6u2bnc",
+      "title": "BC TAE - In The 8 (Fanta) | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T17:58:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Zj7Aj6u2bnc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LwO95QQy_0o",
+      "title": "Florida 'Pastor' Charged With Child Neglect After Foster Children Found In Unsafe Living Conditions",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T17:57:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LwO95QQy_0o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "95JNkec76cc",
+      "title": "Street Stories & Rap Glory: Black Child Joins ROC Solid | Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T17:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/95JNkec76cc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Vg_SLJ1RsME",
+      "title": "Fat Joe blessed a cellmate with a Miss October magazine and he Loved Crack Forever",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T17:06:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Vg_SLJ1RsME/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "My0tqVBANpc",
+      "title": "The Launt5 Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T17:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/My0tqVBANpc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KL8ctLxMNxo",
+      "title": "Dr. Steven A. Chambers On Providing Mental Health Support For Young Men Of Color",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T17:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KL8ctLxMNxo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gfW4yah3Q9s",
+      "title": "The Breakfast Club FULL SHOW 06-10-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T16:51:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gfW4yah3Q9s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4Z-IsgggQbQ",
+      "title": "Boosie On Dad Life Finding His Peace Away From The Chaos",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4Z-IsgggQbQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-SJqiT9lCaA",
+      "title": "What Song Would You Pick to Represent Black Music Month? | The JBP Debates",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-SJqiT9lCaA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nQbnThzCSF0",
+      "title": "Stop dealing with Mike 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T15:40:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nQbnThzCSF0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZSDd8jqM3Mo",
+      "title": "LeBron James Named TIME Magazine’s Athlete of The Century",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T15:35:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZSDd8jqM3Mo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sUvRb_2fsd0",
+      "title": "Diddy Faces New Lawsuit Accusing Him Of Sexually Assaulting A Child Actor",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T15:10:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sUvRb_2fsd0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ga5JOaJC6Ls",
+      "title": "Skiifall - bloodclarrt business | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ga5JOaJC6Ls/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LGGDvl9pwkU",
+      "title": "OTR Rewind: The Kirko Bangz Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T14:37:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LGGDvl9pwkU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4RsNRz8m29A",
+      "title": "Crack said it’s a whole different WORLD in the Train Station",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T13:59:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4RsNRz8m29A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "dYH69WzR4uU",
+      "title": "Boosie On The Will Smith Slap Fed Up Or Just Surprised",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dYH69WzR4uU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kLwQ_pi1P68",
+      "title": "Joe Budden Explains Why He Didn't Like Jay-Z's Roots Picnic Freestyle",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-10T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kLwQ_pi1P68/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        },
+        {
+          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
+          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
+        },
+        {
+          "id": "36d913ba47ba812d879df8723546f780",
+          "title": "Jay-Z、 Brooks Adrenaline GTS 10“Coconut Milk”を着用してニューヨークに登場"
+        }
+      ]
+    },
+    {
+      "id": "bOQgJrjCdpc",
+      "title": "Admiral T | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-10T12:57:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bOQgJrjCdpc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "88zVBS9Xggk",
+      "title": "Serena Williams Wins In Her Tennis Return With Doubles Victory",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T12:40:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/88zVBS9Xggk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_vf-B2rM0jA",
+      "title": "Mornings With Mero Livestream | 6-10-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-10T11:17:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_vf-B2rM0jA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "YCbFsAwwyyg",
       "title": "Joe: Tiny Desk Concert",
