@@ -2,6 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/37e913ba47ba813c8a54ff31920a59d9.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T07:35:00+00:00</news:publication_date>
+      <news:title>リル・ゴティがソロで挑む Going Solo</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/37e913ba47ba8167a8aef4b28bfc95e4.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T07:00:00+00:00</news:publication_date>
+      <news:title>Time Out – Maxo Kreamの新曲</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/37e913ba47ba81a1afb4c58d16753dca.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T06:30:00+00:00</news:publication_date>
+      <news:title>Yesterday – Toosiiの新曲</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/37e913ba47ba81929723c1204c94cc01.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T06:00:00+00:00</news:publication_date>
+      <news:title>RMB（Ring My Bell）- エイトの新曲</news:title>
+    </news:news>
+  </url>
+  <url>
+    <loc>https://thewatcherjp.com/articles/37e913ba47ba81888978d5dd58de46eb.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-13T00:02:00+00:00</news:publication_date>
+      <news:title>EXCLUSIVE: Diddy に新たなNY州の児童虐待告発、LA訴訟の数日後</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/37e913ba47ba818f8ed1e383c818149d.html</loc>
     <news:news>
       <news:publication>
@@ -805,39 +860,6 @@
     </news:news>
   </url>
   <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba811f95e2fb0bcf74f182.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T11:41:00+00:00</news:publication_date>
-      <news:title>J・コール『2014 Forest Hills Drive』がBillboard 200で600週到達</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba81a484e5ced5da77643b.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T11:40:00+00:00</news:publication_date>
-      <news:title>デトロイト出身のディアラ 2 シーズン、7月29日一斉配信スタート</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba81c3ada5fcb0fc0e238a.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T11:37:00+00:00</news:publication_date>
-      <news:title>アレン・アイバーソン、ファンへ感謝のメッセージとともに51歳の誕生日を祝福</news:title>
-    </news:news>
-  </url>
-  <url>
     <loc>https://thewatcherjp.com/articles/37c913ba47ba8121aa44ffa839a88d51.html</loc>
     <news:news>
       <news:publication>
@@ -1154,94 +1176,6 @@
       </news:publication>
       <news:publication_date>2026-06-11T11:50:00+00:00</news:publication_date>
       <news:title>ニューヨーク・ニックス、歴史的な29点大逆転でNBA決勝まであと1勝</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba8143add8f3b56bf37b69.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T11:44:00+00:00</news:publication_date>
-      <news:title>NBAファイナルズ第3戦、ジョーダン以来の最高視聴者数を記録</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba81c78752c42d4b0fa6d6.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T11:04:00+00:00</news:publication_date>
-      <news:title>カルディ・B、初めてのFive Below訪問を viral反応で公開</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba81a1b5c9e313aecfdee9.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T11:02:00+00:00</news:publication_date>
-      <news:title>レブロンとカリーの共演に Warriors が依然関心を示す</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba81ff92d5c588404dae06.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T10:57:00+00:00</news:publication_date>
-      <news:title>スティーブン・A・スミスがトランプの“低IQ”発言に反論 Knicks決勝戦論争の中で</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba8188afdfe3581bbe3a12.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T10:54:00+00:00</news:publication_date>
-      <news:title>メーガン・グッドが新コメディ・ドラマシリーズ『15 Minutes of Fame』を監督へ</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba812fa9cdd10419d50224.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T10:52:00+00:00</news:publication_date>
-      <news:title>ドリュー・シドーラとラルフ・ピットマン、離婚合意を正式に成立</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba812b934dc9c806500959.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T03:47:00+00:00</news:publication_date>
-      <news:title>ドレイクの新フレグランス Cloudar が Ulta Beauty で発売開始</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/37c913ba47ba8158ace4c0e9bc52fd18.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-11T03:14:00+00:00</news:publication_date>
-      <news:title>ドレイクが公式マーチャンダイズをAmazonでローンチ</news:title>
     </news:news>
   </url>
 </urlset>
