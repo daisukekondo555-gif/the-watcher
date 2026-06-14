@@ -1,7 +1,251 @@
 {
-  "generated_at": "2026-06-14T11:48:25.795233+00:00",
-  "total": 1102,
+  "generated_at": "2026-06-14T22:38:19.737559+00:00",
+  "total": 1122,
   "videos": [
+    {
+      "id": "COP5pz3Gd6w",
+      "title": "OTR Rewind: The Fergie Baby Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T21:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/COP5pz3Gd6w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_UlKhW6TUp8",
+      "title": "OTR Rewind: The Mali Smith Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_UlKhW6TUp8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YizXXkaxpBg",
+      "title": "OTR Rewind: Ghostface Killah \"No Face\" Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T20:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YizXXkaxpBg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6qJXItNVsNY",
+      "title": "Dame Dash Says Jay-Z's Roots Picnic Freestyle Was 'Terrible,' Calls His Hair 'Funny'",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-14T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6qJXItNVsNY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash",
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "iKOrNFmxxFI",
+      "title": "BabyChiefDoit - Game Six | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T19:09:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iKOrNFmxxFI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6_PIMgDF0YU",
+      "title": "BabyChiefDoit - Game Six | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T19:07:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6_PIMgDF0YU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Vv6-QqsQM6I",
+      "title": "Cloud “We Go Together” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Vv6-QqsQM6I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "faXbjuClrPs",
+      "title": "OTR Rewind: Kranium \"UnFck You\" Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/faXbjuClrPs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mZD_WRzmROo",
+      "title": "French Montana On Source Mag Accountability Public Beefs And Untold Stories EXPOSED",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-14T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mZD_WRzmROo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "t-2Mcb6MrsI",
+      "title": "Joe Budden Calls Adam22 a “Mutt” after Divorce Hoax Filed by Impersonator",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-14T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/t-2Mcb6MrsI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KrafTWR2gOM",
+      "title": "SPKRBX Stage at Summer Smash 2026 (Official Livestream)",
+      "channel_name": "Lyrical Lemonade",
+      "category": "MV",
+      "published_at": "2026-06-14T17:43:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KrafTWR2gOM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0OuECkjFoy8",
+      "title": "Lyrical Lemonade Stage at Summer Smash 2026 (Official Livestream)",
+      "channel_name": "Lyrical Lemonade",
+      "category": "MV",
+      "published_at": "2026-06-14T17:22:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0OuECkjFoy8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PkIO_YV6V4s",
+      "title": "Lenny's Tent at Summer Smash 2026 (Official Livestream)",
+      "channel_name": "Lyrical Lemonade",
+      "category": "MV",
+      "published_at": "2026-06-14T17:19:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PkIO_YV6V4s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ntv73I3Vbe0",
+      "title": "Summer Smash 2026 (Official Livestream)",
+      "channel_name": "Lyrical Lemonade",
+      "category": "MV",
+      "published_at": "2026-06-14T17:17:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ntv73I3Vbe0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gEfB-QxleFA",
+      "title": "ICYMI: Layzie Bone on Drink Champs! 🏆",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-14T15:55:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gEfB-QxleFA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4-cQ3xxT3JM",
+      "title": "DANIEL OG - 411 | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-14T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4-cQ3xxT3JM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AtIfxQa7j2U",
+      "title": "Rooting for everybody named Sheryl 🤣",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-14T15:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AtIfxQa7j2U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "liUsrc6KrCo",
+      "title": "French Montana On How Fat Joes Threat Became An Unexpected Friendship",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-14T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/liUsrc6KrCo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "w3a94VpO1mk",
+      "title": "The Joe Budden Podcast Episode 937 | Put The Kids To Sleep",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-14T12:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/w3a94VpO1mk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "TekgPhqCnNw",
       "title": "Thirstin Howl the 3rd: Lo Lifes, Ralph Lauren & Hip Hop Culture | Grump OG’s x Drink Champs Network",
@@ -583,16 +827,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
           "id": "37b913ba47ba810a9910fac3b8eb5cb0",
           "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
         },
         {
           "id": "37a913ba47ba813a9bebeb7aeb508eee",
           "title": "Cardi B、NBAファイナル halftimeショーでチャールズ・バークレーを熱くさせる"
-        },
-        {
-          "id": "377913ba47ba81f7b6a4f1611a86969f",
-          "title": "Cardi B、DaphneJoyへ“ shot”を試みるDJ Akademiksをからかう"
         }
       ]
     },
@@ -951,6 +1195,18 @@
       "category": "PODCASTS",
       "published_at": "2026-06-11T16:00:00.000+00:00",
       "thumbnail_url": "https://i1.ytimg.com/vi/4i6Uv8E7Tyg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Gom1yZrp2bk",
+      "title": "Navy Blue | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-11T15:08:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Gom1yZrp2bk/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
@@ -3347,16 +3603,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
           "id": "37b913ba47ba810a9910fac3b8eb5cb0",
           "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
         },
         {
           "id": "37a913ba47ba813a9bebeb7aeb508eee",
           "title": "Cardi B、NBAファイナル halftimeショーでチャールズ・バークレーを熱くさせる"
-        },
-        {
-          "id": "378913ba47ba811fb218e3aee5bf4bf5",
-          "title": "Akbar VがCardi BとLattoにブースでのディス曲への反応を望む"
         }
       ]
     },
@@ -3851,16 +4107,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
           "id": "37b913ba47ba810a9910fac3b8eb5cb0",
           "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
         },
         {
           "id": "37a913ba47ba813a9bebeb7aeb508eee",
           "title": "Cardi B、NBAファイナル halftimeショーでチャールズ・バークレーを熱くさせる"
-        },
-        {
-          "id": "379913ba47ba8132b25adc97a1ed67fb",
-          "title": "アイス・スパイス、裁判所命令の提出陳述で対決へ（ウィッグ訴訟）"
         }
       ]
     },
@@ -4160,16 +4416,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba81fe91ecc92658e28ecc",
+          "title": "ニッキー・ミナージュ、ケネス・ペティとパパベアを連れFIFAワールドカップ観戦で結婚関係を否定"
+        },
+        {
           "id": "368913ba47ba81eba82fdbb448c46d6c",
           "title": "ニッキー・ミナージュ、イーロン・マスクのStarbaseを訪問"
         },
         {
           "id": "368913ba47ba81939597d2f0518dba21",
           "title": "ニッキー・ミナージュ、SpaceX打上げイベントでエロン・マスクを称賛"
-        },
-        {
-          "id": "368913ba47ba810388efe2aa2bb4af5e",
-          "title": "ニッキー・ミナージュ、イーロン・マスクのロケット打ち上げにスター力を注ぐ"
         }
       ]
     },
@@ -4586,16 +4842,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
           "id": "37b913ba47ba810a9910fac3b8eb5cb0",
           "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
         },
         {
           "id": "37a913ba47ba813a9bebeb7aeb508eee",
           "title": "Cardi B、NBAファイナル halftimeショーでチャールズ・バークレーを熱くさせる"
-        },
-        {
-          "id": "377913ba47ba81f7b6a4f1611a86969f",
-          "title": "Cardi B、DaphneJoyへ“ shot”を試みるDJ Akademiksをからかう"
         }
       ]
     },
@@ -5958,16 +6214,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
           "id": "37b913ba47ba810a9910fac3b8eb5cb0",
           "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
         },
         {
           "id": "37a913ba47ba813a9bebeb7aeb508eee",
           "title": "Cardi B、NBAファイナル halftimeショーでチャールズ・バークレーを熱くさせる"
-        },
-        {
-          "id": "378913ba47ba811fb218e3aee5bf4bf5",
-          "title": "Akbar VがCardi BとLattoにブースでのディス曲への反応を望む"
         }
       ]
     },
@@ -6526,16 +6782,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba81fe91ecc92658e28ecc",
+          "title": "ニッキー・ミナージュ、ケネス・ペティとパパベアを連れFIFAワールドカップ観戦で結婚関係を否定"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
           "id": "37b913ba47ba810a9910fac3b8eb5cb0",
           "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
-        },
-        {
-          "id": "37a913ba47ba813a9bebeb7aeb508eee",
-          "title": "Cardi B、NBAファイナル halftimeショーでチャールズ・バークレーを熱くさせる"
-        },
-        {
-          "id": "377913ba47ba81f7b6a4f1611a86969f",
-          "title": "Cardi B、DaphneJoyへ“ shot”を試みるDJ Akademiksをからかう"
         }
       ]
     },
@@ -10901,16 +11157,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba81fe91ecc92658e28ecc",
+          "title": "ニッキー・ミナージュ、ケネス・ペティとパパベアを連れFIFAワールドカップ観戦で結婚関係を否定"
+        },
+        {
           "id": "368913ba47ba81eba82fdbb448c46d6c",
           "title": "ニッキー・ミナージュ、イーロン・マスクのStarbaseを訪問"
         },
         {
           "id": "368913ba47ba81939597d2f0518dba21",
           "title": "ニッキー・ミナージュ、SpaceX打上げイベントでエロン・マスクを称賛"
-        },
-        {
-          "id": "368913ba47ba810388efe2aa2bb4af5e",
-          "title": "ニッキー・ミナージュ、イーロン・マスクのロケット打ち上げにスター力を注ぐ"
         }
       ]
     },

@@ -1,22 +1,13 @@
 {
   "weekly": [
     {
-      "path": "/article.html?id=376913ba47ba81e4b373c0f0c1076e1a",
-      "pageviews": 1
-    },
-    {
       "path": "/article.html?id=378913ba47ba814f82abe092daa77dd8",
       "pageviews": 1
     }
   ],
   "by_category": {
     "ニュース": [],
-    "リリース": [
-      {
-        "path": "/article.html?id=376913ba47ba81e4b373c0f0c1076e1a",
-        "pageviews": 1
-      }
-    ],
+    "リリース": [],
     "ビーフ": [
       {
         "path": "/article.html?id=378913ba47ba814f82abe092daa77dd8",
@@ -27,5 +18,5 @@
     "チャート": [],
     "ビジネス": []
   },
-  "updated_at": "2026-06-14T11:48:26"
+  "updated_at": "2026-06-14T22:38:20"
 }
