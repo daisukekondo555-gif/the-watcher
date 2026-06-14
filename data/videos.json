@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-06-14T02:48:25.746234+00:00",
-  "total": 1101,
+  "generated_at": "2026-06-14T11:48:25.795233+00:00",
+  "total": 1102,
   "videos": [
+    {
+      "id": "TekgPhqCnNw",
+      "title": "Thirstin Howl the 3rd: Lo Lifes, Ralph Lauren & Hip Hop Culture | Grump OG’s x Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-14T05:02:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TekgPhqCnNw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "ksAlZvoRtw0",
       "title": "OTR Rewind: The Puterrier Freestyle (OTR Brazil 🇧🇷)",
@@ -10201,16 +10213,16 @@
       ],
       "related_articles": [
         {
+          "id": "37f913ba47ba81e7a9c2ebe7932c6134",
+          "title": "DMXの息子ザビエル・シモンズ、街路名授与式で婚約者を批判"
+        },
+        {
           "id": "37e913ba47ba81cebbbddf7aee01c100",
           "title": "ヨンカーズ、DMXを永遠に顕彰　“Earl DMX Simmons Way”誕生"
         },
         {
           "id": "371913ba47ba8171983be6b5661f3c00",
           "title": "DMXの名を冠した Yonkers の新通り名が誕生"
-        },
-        {
-          "id": "36f913ba47ba814da6daf07762cc2513",
-          "title": "DMXの遺産、Yonkersでの通り名改名が確定（Earl DMX Simmons Way）"
         }
       ]
     },
