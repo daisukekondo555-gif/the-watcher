@@ -1,7 +1,94 @@
 {
-  "generated_at": "2026-06-15T02:49:29.751910+00:00",
-  "total": 1128,
+  "generated_at": "2026-06-15T11:49:26.220055+00:00",
+  "total": 1134,
   "videos": [
+    {
+      "id": "kVFcvizcZdk",
+      "title": "EFXTO \"Because of You\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-15T03:39:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kVFcvizcZdk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "umVpk99rB3M",
+      "title": "Homixide Osama “Exxon” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-15T03:39:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/umVpk99rB3M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "r-MEB7LjcZk",
+      "title": "The Big Key \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-15T03:38:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/r-MEB7LjcZk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Rtgf5MUE8UM",
+      "title": "Bizzy Crook \"Could Be Worse\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-15T03:38:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Rtgf5MUE8UM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Vn0m3OrTK-c",
+      "title": "Vvsmygwen \"FBC2\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-15T03:38:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Vn0m3OrTK-c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        },
+        {
+          "id": "36f913ba47ba81d281f5ebdc7cf6bf59",
+          "title": "GANG BIZNESS — YG featuring PayGottiの新曲が先行リリース"
+        },
+        {
+          "id": "36d913ba47ba81feb79fc98558f9331b",
+          "title": "YG、新アルバム「The Gentlemen’s Club」リリース日を発表"
+        }
+      ]
+    },
+    {
+      "id": "K686lz3MsBU",
+      "title": "OTR Rewind: The Ghostface Killah Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-15T02:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/K686lz3MsBU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "iSBZjwUObXA",
       "title": "OTR Rewind: The Don Q Freestyle",
