@@ -1,22 +1,12 @@
 {
-  "weekly": [
-    {
-      "path": "/article.html?id=378913ba47ba814f82abe092daa77dd8",
-      "pageviews": 1
-    }
-  ],
+  "weekly": [],
   "by_category": {
     "ニュース": [],
     "リリース": [],
-    "ビーフ": [
-      {
-        "path": "/article.html?id=378913ba47ba814f82abe092daa77dd8",
-        "pageviews": 1
-      }
-    ],
+    "ビーフ": [],
     "ライブ": [],
     "チャート": [],
     "ビジネス": []
   },
-  "updated_at": "2026-06-15T11:49:27"
+  "updated_at": "2026-06-15T22:40:55"
 }
