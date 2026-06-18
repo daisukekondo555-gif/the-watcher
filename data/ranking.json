@@ -3,11 +3,28 @@
     {
       "path": "/article.html?id=37f913ba47ba81cf9de5f090d37a505a",
       "pageviews": 2
+    },
+    {
+      "path": "/article.html?id=382913ba47ba81e8a82cd2f2b1fdf901",
+      "pageviews": 2
+    },
+    {
+      "path": "/article.html?id=383913ba47ba8127a6e8c577877eed60",
+      "pageviews": 1
     }
   ],
   "by_category": {
     "ニュース": [],
-    "リリース": [],
+    "リリース": [
+      {
+        "path": "/article.html?id=382913ba47ba81e8a82cd2f2b1fdf901",
+        "pageviews": 2
+      },
+      {
+        "path": "/article.html?id=383913ba47ba8127a6e8c577877eed60",
+        "pageviews": 1
+      }
+    ],
     "ビーフ": [
       {
         "path": "/article.html?id=37f913ba47ba81cf9de5f090d37a505a",
@@ -18,5 +35,5 @@
     "チャート": [],
     "ビジネス": []
   },
-  "updated_at": "2026-06-18T02:52:24"
+  "updated_at": "2026-06-18T11:49:35"
 }
