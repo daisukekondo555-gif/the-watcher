@@ -1,7 +1,331 @@
 {
-  "generated_at": "2026-06-18T11:49:34.239121+00:00",
-  "total": 1246,
+  "generated_at": "2026-06-18T22:44:03.420879+00:00",
+  "total": 1274,
   "videos": [
+    {
+      "id": "EhS4uUGwJf8",
+      "title": "HOT 97 Atlanta News Live! 6/18/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T22:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EhS4uUGwJf8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jl3yFCwHoMM",
+      "title": "HOT 97 National News Live! 6/18/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T22:29:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jl3yFCwHoMM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "43ohKflD2Pc",
+      "title": "Jaylanie \"Max B Freestyle\"",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T22:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/43ohKflD2Pc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XOjg8Nr9YRg",
+      "title": "The Breakfast Club FULL SHOW 06-18-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T21:46:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XOjg8Nr9YRg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "anmhdKbxEKU",
+      "title": "Miranda Rae 'My Bag' featuring Najee Janey | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T21:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/anmhdKbxEKU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "w3OOWxJ1BmI",
+      "title": "Papiana \"Serving Everybody\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/w3OOWxJ1BmI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bYOeXiPyKnk",
+      "title": "Jass Clutch x Gorilla Zoe \"Trap N----- 2\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T20:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bYOeXiPyKnk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4kEoi4ZMwik",
+      "title": "T.F X DJ Muggs \"Star Studded\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T20:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4kEoi4ZMwik/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "afLLzV7f5ZA",
+      "title": "Raekwon \"Incarcerated Scarfaces\" | On The Radar Classics",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T19:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/afLLzV7f5ZA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TQijkvIrhl0",
+      "title": "The Mafi D \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TQijkvIrhl0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9x7GsePXNiI",
+      "title": "The Mafi D Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9x7GsePXNiI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mWa-aDSza6k",
+      "title": "Joe Budden Recaps the Greatest Comeback In NBA History",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-18T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mWa-aDSza6k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MtNbRJRc0IA",
+      "title": "Wait Hold up... Let Fat Joe COOK!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-18T17:21:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MtNbRJRc0IA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BUG8zZ_4Ri8",
+      "title": "Should I Tell My Mom That My Dad And I Smashed The Same Girl? | Jess Fix My Mess",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T17:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BUG8zZ_4Ri8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "trthz0lN07U",
+      "title": "Derrick Rose On Building A Legacy And Being The FIRST In His Family",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/trthz0lN07U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Rc6WYuc7c9k",
+      "title": "Marc Lamont Hill’s Theory on the Key to Celebrity Marriages",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-18T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Rc6WYuc7c9k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XZmmMtqU2Jc",
+      "title": "YOU KNEW WE WAS PULLING UP‼️ NYC WE OUTSIDE 🏆",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-18T15:53:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XZmmMtqU2Jc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "px5GtYUY52E",
+      "title": "Protoje - BIG 45 | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/px5GtYUY52E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "aMSBUxEnxMw",
+      "title": "A'ja Wilson Is The Face Of The WNBA",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T14:48:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/aMSBUxEnxMw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bNF7fUsnHWU",
+      "title": "Cabarrus Commissioner Faces Backlash After Saying Juneteenth Is ‘Based On A Lie’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T14:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bNF7fUsnHWU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qbibi1BySQU",
+      "title": "Kevin Hart & Michelle Obama Discuss The Realities Of Aging & Maintenance Hardships",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T14:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qbibi1BySQU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "W4-KWuHkePM",
+      "title": "Jose Alvarado On NBA Finals Competitiveness, Wemby, Jalen Brunson & Reacts To Dolan's 'No-S3x' Joke",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/W4-KWuHkePM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "b3UcqqSaPc8",
+      "title": "Jose Alvarado On NY Roots, Getting Into The NBA & Why He Still Has A Chip On His Shoulder",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T13:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/b3UcqqSaPc8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vfsUvA5u38U",
+      "title": "Derrick Rose Reveals Why He Avoids Mainstream Media Barbershop Secrets",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vfsUvA5u38U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4wemvIKuMqE",
+      "title": "James Dolan Speaks On Knicks Accepting White House Invite",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4wemvIKuMqE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KiG6vIfM8xg",
+      "title": "Knicks Championship Parade Officially The Largest Ticker-Tape Parade In New York City History",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-18T12:33:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KiG6vIfM8xg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8bjHqj_lDN0",
+      "title": "The Joe Budden Podcast Episode 938 | The 30 or The 60",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-18T12:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8bjHqj_lDN0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "gQXf0PNreCo",
       "title": "8Ball & MJG: Tiny Desk Concert",
@@ -768,6 +1092,18 @@
       "category": "PODCASTS",
       "published_at": "2026-06-16T16:00:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/j6GqLQHIEpM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UaxI7SxManE",
+      "title": "TRISTÁN! | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-16T15:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UaxI7SxManE/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
@@ -3730,16 +4066,16 @@
       ],
       "related_articles": [
         {
+          "id": "383913ba47ba811b9e6ccbe2db4d36a2",
+          "title": "Quavo、Takeoffの32歳の誕生日を追悼で祝福"
+        },
+        {
+          "id": "383913ba47ba81c287a8d42d3a574c70",
+          "title": "Takeoffの32歳の誕生日に Quavo が心温まるメッセージ"
+        },
+        {
           "id": "380913ba47ba81d4ae15fd915d9b1e0a",
           "title": "クアボ、ラスベガスの valet に対する100万ドル超えの判決支払いを命じられる"
-        },
-        {
-          "id": "380913ba47ba81dab70ce5094074b0a2",
-          "title": "Quavoに対する120万ドルの和解金を求める valet運転手の訴訟"
-        },
-        {
-          "id": "36d913ba47ba8111adbaf549d9f2b375",
-          "title": "Quavo、Pharrell Williamsが総指揮の新アルバムを準備中"
         }
       ]
     },
@@ -9576,16 +9912,16 @@
       ],
       "related_articles": [
         {
+          "id": "383913ba47ba81968332dc1cbec274ad",
+          "title": "エミネム出版者が重要な裁判勝利、メタ対立は継続"
+        },
+        {
+          "id": "383913ba47ba81cd8dfcc2e95af5586b",
+          "title": "エミネムの出版社 Eight Mile StyleがMetaを相手取る1億0900万ドル訴訟を前進させる判決"
+        },
+        {
           "id": "37c913ba47ba813c8a9ee661d27d28f5",
           "title": "JAY-ZとEminem、RakimのCollabアルバムで再会へ（未発表作）"
-        },
-        {
-          "id": "37a913ba47ba818dbd68cb9168e8fd78",
-          "title": "エミネムとJAY-Z、新作アルバムへ再共演か"
-        },
-        {
-          "id": "374913ba47ba8195871ff7fb64fc8588",
-          "title": "エミネムとReal Housewivesの訴訟、Reasonably Shadyの商標で2027年まで紛争延長"
         }
       ]
     },
@@ -14424,6 +14760,10 @@
         "Travis Scott"
       ],
       "related_articles": [
+        {
+          "id": "383913ba47ba814e88a3e6a0a40e32c7",
+          "title": "テイ・キース死去： Drake・Travis Scott のヒットを生んだプロデューサーが29歳で逝去"
+        },
         {
           "id": "354913ba47ba818fa0e3f1f791974e57",
           "title": "Travis Scott × Cactus Plant Flea Market × Nike Flea 1 コラボが進行中"
