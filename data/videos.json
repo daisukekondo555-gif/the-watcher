@@ -1,7 +1,67 @@
 {
-  "generated_at": "2026-06-19T22:38:47.767242+00:00",
-  "total": 1307,
+  "generated_at": "2026-06-20T02:49:26.938006+00:00",
+  "total": 1312,
   "videos": [
+    {
+      "id": "If2kCPI_kxo",
+      "title": "Moyosworld \"Natural Selection\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-20T02:04:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/If2kCPI_kxo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tpRyVg9KdFw",
+      "title": "Plain White T's \"Hey There Delilah\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-20T01:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tpRyVg9KdFw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-1vwvUZ_a2g",
+      "title": "53 YEARS! Knicks in FIVE",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-20T00:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-1vwvUZ_a2g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nWafdhyGkBE",
+      "title": "8RO8 \"Monstah\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-20T00:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nWafdhyGkBE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RlVw5KcbSfI",
+      "title": "⚫ Mac Miller Interview: Reflecting on His Rise in Hip Hop | HOT 97",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-19T23:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RlVw5KcbSfI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "9Dj9QnFXmpw",
       "title": "BabyChiefDoIt - Ghetto Love Story | From The Block Performance 🎙🔥🔥🔥",
@@ -88,16 +148,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -1003,16 +1063,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -2380,16 +2440,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "381913ba47ba8145ba79e82c26de4403",
           "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
         },
         {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
-        },
-        {
-          "id": "37a913ba47ba81a9ae37c234ce81765b",
-          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
         }
       ]
     },
@@ -4182,16 +4242,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -4389,16 +4449,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -4576,16 +4636,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -6497,16 +6557,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -7700,16 +7760,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -12800,16 +12860,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8198b96ee3b76ec75882",
+          "title": "Swizz Beatz、DMXの“Party Up”未払いロイヤリティ巡りノースカロライナの夜’クラブ”を提訴"
+        },
+        {
           "id": "382913ba47ba81c5b307f7cb43ad2b3f",
           "title": "DMXのストリート称号授与、公開には見えなかったドラマの全て"
         },
         {
           "id": "381913ba47ba81d593c4edb419ba4a96",
           "title": "DMXの元妻が息子を擁護、儀式でラッパーの婚約者を名指し後"
-        },
-        {
-          "id": "37f913ba47ba81e7a9c2ebe7932c6134",
-          "title": "DMXの息子ザビエル・シモンズ、街路名授与式で婚約者を批判"
         }
       ]
     },
@@ -13170,16 +13230,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
@@ -14857,16 +14917,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "381913ba47ba8145ba79e82c26de4403",
           "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
         },
         {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
-        },
-        {
-          "id": "37a913ba47ba81a9ae37c234ce81765b",
-          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
         }
       ]
     },
@@ -15315,16 +15375,16 @@
       ],
       "related_articles": [
         {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
           "id": "380913ba47ba81ef939ec87f0642faec",
           "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
         },
         {
           "id": "37a913ba47ba81a9ae37c234ce81765b",
           "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
-        },
-        {
-          "id": "371913ba47ba8114a5d8ef44fc4a5f84",
-          "title": "Jay-Z、Nicki Minajへのルーツ・ピクニック・フリースタイルでの反応をついに発言"
         }
       ]
     },
