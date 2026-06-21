@@ -2,6 +2,17 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
   <url>
+    <loc>https://thewatcherjp.com/articles/386913ba47ba8163bbe4f4bb78cd0980.html</loc>
+    <news:news>
+      <news:publication>
+        <news:name>THE WATCHER</news:name>
+        <news:language>ja</news:language>
+      </news:publication>
+      <news:publication_date>2026-06-21T13:25:00+00:00</news:publication_date>
+      <news:title>【今週のまとめ】2026/6/15〜6/21のヒップホップ</news:title>
+    </news:news>
+  </url>
+  <url>
     <loc>https://thewatcherjp.com/articles/386913ba47ba814cbf6cc0d2e122350b.html</loc>
     <news:news>
       <news:publication>
@@ -582,50 +593,6 @@
       </news:publication>
       <news:publication_date>2026-06-19T13:40:00+00:00</news:publication_date>
       <news:title>D4vd の予備審問、7月21日に延期</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/384913ba47ba81d38026fe906d0ad801.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19T13:00:00+00:00</news:publication_date>
-      <news:title>ニューヨーク・ Liberty、Juneteenth Unity Night を開催</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/384913ba47ba819eb8e7f70e8520b754.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19T12:58:00+00:00</news:publication_date>
-      <news:title>50セントのG-ドーム、ルイジアナ州シュリーブポートで着工</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/384913ba47ba81d29c6ac5057f02be1d.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19T12:19:00+00:00</news:publication_date>
-      <news:title>バッド・バニー、1億ドル超えのツアー収入達成　初のラテン系アーティスト・非英語圏アーティストが記録更新</news:title>
-    </news:news>
-  </url>
-  <url>
-    <loc>https://thewatcherjp.com/articles/384913ba47ba81a88663e60325d5bc70.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-06-19T11:48:00+00:00</news:publication_date>
-      <news:title> Knicksの優勝祝賀で Dolanとマヘイアー・マムダニの間に起きたぎこちなさ</news:title>
     </news:news>
   </url>
   <url>
