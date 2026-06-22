@@ -1,7 +1,118 @@
 {
-  "generated_at": "2026-06-21T22:34:09.551173+00:00",
-  "total": 1342,
+  "generated_at": "2026-06-22T02:49:24.761228+00:00",
+  "total": 1350,
   "videos": [
+    {
+      "id": "srU2i74bX5Y",
+      "title": "DadouOGP \"#PACOMPLIKÉ” & Freestyle | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T01:12:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/srU2i74bX5Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yoReLfNPX1w",
+      "title": "Max B x French Montana \"Go Ladies\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T01:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yoReLfNPX1w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QYNFcrR7ZmA",
+      "title": "The Paxslim \"On The Radar\" Freestyle (PART 2)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T01:11:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QYNFcrR7ZmA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CyFiXKuuOZs",
+      "title": "The Manolo Rose \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T01:11:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CyFiXKuuOZs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XlQvC795eFc",
+      "title": "The Rich Rhymer \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T01:11:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XlQvC795eFc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YrIId6Bx8lo",
+      "title": "Niah Spazz “Management” & “8 Mile” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T01:10:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YrIId6Bx8lo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KOeJ6NkmirY",
+      "title": "Ria4Reel \"YGMFU\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T01:09:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KOeJ6NkmirY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        },
+        {
+          "id": "36f913ba47ba81d281f5ebdc7cf6bf59",
+          "title": "GANG BIZNESS — YG featuring PayGottiの新曲が先行リリース"
+        }
+      ]
+    },
+    {
+      "id": "YEbfsnIzENI",
+      "title": "Marlon Craft On The Internet Killed The Neighborhood, OTR Cypher, Havoc, Method Man, Live Residency",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-21T22:23:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YEbfsnIzENI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "5Z_GNIUBmi0",
       "title": "Marlon Craft On His New York City Residency & Incorporating A Live Band In The Show",
