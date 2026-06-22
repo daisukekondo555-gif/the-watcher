@@ -1,7 +1,382 @@
 {
-  "generated_at": "2026-06-22T11:48:20.306282+00:00",
-  "total": 1350,
+  "generated_at": "2026-06-22T22:40:18.625700+00:00",
+  "total": 1380,
   "videos": [
+    {
+      "id": "lvdDpgA-SJ0",
+      "title": "HOT 97 National News Live! 6/22/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T22:24:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lvdDpgA-SJ0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "w7TL8ngVV3Q",
+      "title": "HOT 97 Atlanta News Live! 6/22/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T22:24:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/w7TL8ngVV3Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "oziFNjEyf9k",
+      "title": "Moway - Maybach Jumpin | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T21:29:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oziFNjEyf9k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "o3m-Ux83X0k",
+      "title": "Moway - Maybach Jumpin | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T21:28:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o3m-Ux83X0k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jRIrGFcnxeo",
+      "title": "Fat Joe & Jadakiss at Knicks championship parade w/ Wu Tang, The LOX Teyana Taylor, Mary J & more!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-22T20:32:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jRIrGFcnxeo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nZ12-o1N7iE",
+      "title": "The Manolo Rose Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nZ12-o1N7iE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FDJMcHaTvIo",
+      "title": "Daboii & Slimy \"Crestside\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:57:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FDJMcHaTvIo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PbstvZjLDjg",
+      "title": "Quantrell \"F Da Club Up\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:56:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PbstvZjLDjg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "S2MKuXQ1JBA",
+      "title": "The Justice \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:55:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/S2MKuXQ1JBA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4rslURG5GYU",
+      "title": "Goldie \"nun 2 give\" & \"F--- My Friend\" feat BalloutDaDon | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:55:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4rslURG5GYU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ak5yDlCafFs",
+      "title": "Zhali \"WYD\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ak5yDlCafFs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MoYQXxpGFrI",
+      "title": "Gerald Wicks “here we go again” & “i get it, i get it” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MoYQXxpGFrI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "oMQL4ievUx0",
+      "title": "Young Wolf \"Wazzam\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:53:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oMQL4ievUx0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IYxpP4DkM6M",
+      "title": "Sharika & Talk2Pops - Last Friday | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:32:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IYxpP4DkM6M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "w03YK7V4_1Y",
+      "title": "Sharika & Talk2Pops - Last Friday | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T19:09:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/w03YK7V4_1Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "opQeGAAfSUk",
+      "title": "Amara La Negra Talks Afro-Latina Pride, Motherhood & Success on Latino Champs | Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-22T18:59:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/opQeGAAfSUk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bOPJcDDnPvM",
+      "title": "New customers use code: GILLIE at sign up! Presented by @draftkings @draftkings_sports #dkpartner",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-22T18:27:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bOPJcDDnPvM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "I5fWBXwc4GM",
+      "title": "Lightris and sero - Kwik Trip | From The Block Performance 🎙(Milwaukee)🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T18:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/I5fWBXwc4GM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ErXBmVYOzCY",
+      "title": "Lightris and sero - Kwik Trip | From The Block Performance 🎙(￼Milwaukee)",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-22T18:04:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ErXBmVYOzCY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "hST-1SfA0fg",
+      "title": "The Breakfast Club FULL SHOW 06-22-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T16:16:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hST-1SfA0fg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "c79TMsrkOv4",
+      "title": "Derrick Rose On This Ball Is My First Girlfriend An NBA Love Story",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/c79TMsrkOv4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "q8kEmdBXkbM",
+      "title": "Daphne Joy Speaks On Relationship With Diddy And If Size Matters",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/q8kEmdBXkbM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-OL8IFYp-Tw",
+      "title": "New episode with TI out now 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-22T15:43:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-OL8IFYp-Tw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "E27oKbvxA4k",
+      "title": "Student Loan Repayment Options Are Changing July 1st",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T14:43:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/E27oKbvxA4k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TZBanGwnEKU",
+      "title": "L.A.P.D. Officer Fatally Sh00ts Knicks Fan’s Dog",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T14:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TZBanGwnEKU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Q6lDHuqvfbw",
+      "title": "Tay Keith Passes Away At 29; Sexyy Red Label Dispute Clarified",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T13:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Q6lDHuqvfbw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Sexyy Red"
+      ],
+      "related_articles": [
+        {
+          "id": "384913ba47ba81688435d75df58c6eaa",
+          "title": "Sexyy Red、Tay Keith追悼の中で金銭の遺恨疑惑が浮上"
+        },
+        {
+          "id": "36f913ba47ba815aad7af74d5cb590d3",
+          "title": "エイサップ・ファーグ？いいえ、エリカ・ Banks が Sexyy Red にブロックされたと告白"
+        },
+        {
+          "id": "363913ba47ba81ff8857e202a2f67780",
+          "title": "セクシー・レッド、ドレイクの新作アルバムを巨大広告板でプロモーション"
+        }
+      ]
+    },
+    {
+      "id": "ptLe_kmgCek",
+      "title": "Derrick Rose Escape To Mexico He KNEW He Had To Marry Her",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/ptLe_kmgCek/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zpmHClmXPHk",
+      "title": "T.I. On ‘Kill The King’ Being His Final Album, Ray Daniels Claiming He ‘Chases Hits’ + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zpmHClmXPHk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1fD1PGQz1lQ",
+      "title": "Beyoncé Reveals Why JAŸ-Z  Grew (And Took Out) His Locs",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T12:20:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1fD1PGQz1lQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "c8fXuTkA_uQ",
+      "title": "Mornings With Mero Livestream | 6-22-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-22T11:39:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/c8fXuTkA_uQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "srU2i74bX5Y",
       "title": "DadouOGP \"#PACOMPLIKÉ” & Freestyle | On The Radar Performance",
@@ -88,16 +463,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
           "id": "384913ba47ba8101ac60e5a1d8f348e1",
           "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
         },
         {
           "id": "376913ba47ba810b8104f49bf99d6c09",
           "title": "YGが語るケンドリック・ラマーがくれた助言"
-        },
-        {
-          "id": "36f913ba47ba81d281f5ebdc7cf6bf59",
-          "title": "GANG BIZNESS — YG featuring PayGottiの新曲が先行リリース"
         }
       ]
     },
@@ -2763,16 +3138,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
           "id": "384913ba47ba8101ac60e5a1d8f348e1",
           "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
         },
         {
           "id": "376913ba47ba810b8104f49bf99d6c09",
           "title": "YGが語るケンドリック・ラマーがくれた助言"
-        },
-        {
-          "id": "36f913ba47ba81d281f5ebdc7cf6bf59",
-          "title": "GANG BIZNESS — YG featuring PayGottiの新曲が先行リリース"
         }
       ]
     },
@@ -6433,16 +6808,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba813b9ad4cbc039d484cc",
+          "title": "Meek Mill、 Atlantic Cityで手を負傷し医療支援を求める"
+        },
+        {
           "id": "371913ba47ba81f0aa78ccb37b9ea45c",
           "title": "ミーク・ミル、学生にSNS・暴力・目的の発見について忠告"
         },
         {
           "id": "36c913ba47ba81d2bb7cd70cb6f98a55",
           "title": "ミーク・ミル、ナイキのLeBron 23「Dreams & Nightmares」コレクションに不満を表明"
-        },
-        {
-          "id": "35e913ba47ba81fb9f3af70837d26e22",
-          "title": "ミーク・ミル、「Dreams and Nightmares」はラップ史上最高の楽曲の一つと主張"
         }
       ]
     },
@@ -8270,16 +8645,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba813b9ad4cbc039d484cc",
+          "title": "Meek Mill、 Atlantic Cityで手を負傷し医療支援を求める"
+        },
+        {
           "id": "371913ba47ba81f0aa78ccb37b9ea45c",
           "title": "ミーク・ミル、学生にSNS・暴力・目的の発見について忠告"
         },
         {
           "id": "36c913ba47ba81d2bb7cd70cb6f98a55",
           "title": "ミーク・ミル、ナイキのLeBron 23「Dreams & Nightmares」コレクションに不満を表明"
-        },
-        {
-          "id": "35e913ba47ba81fb9f3af70837d26e22",
-          "title": "ミーク・ミル、「Dreams and Nightmares」はラップ史上最高の楽曲の一つと主張"
         }
       ]
     },
@@ -13872,16 +14247,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
           "id": "384913ba47ba8101ac60e5a1d8f348e1",
           "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
         },
         {
           "id": "376913ba47ba810b8104f49bf99d6c09",
           "title": "YGが語るケンドリック・ラマーがくれた助言"
-        },
-        {
-          "id": "36f913ba47ba81d281f5ebdc7cf6bf59",
-          "title": "GANG BIZNESS — YG featuring PayGottiの新曲が先行リリース"
         }
       ]
     },
@@ -14310,16 +14685,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba813b9ad4cbc039d484cc",
+          "title": "Meek Mill、 Atlantic Cityで手を負傷し医療支援を求める"
+        },
+        {
           "id": "371913ba47ba81f0aa78ccb37b9ea45c",
           "title": "ミーク・ミル、学生にSNS・暴力・目的の発見について忠告"
         },
         {
           "id": "36c913ba47ba81d2bb7cd70cb6f98a55",
           "title": "ミーク・ミル、ナイキのLeBron 23「Dreams & Nightmares」コレクションに不満を表明"
-        },
-        {
-          "id": "35e913ba47ba81fb9f3af70837d26e22",
-          "title": "ミーク・ミル、「Dreams and Nightmares」はラップ史上最高の楽曲の一つと主張"
         }
       ]
     },
@@ -14469,16 +14844,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba81feae8afe5526eaf06a",
+          "title": "Cardi Bが元恋人の自傷・生命を脅す脅しを主張、別れ後の関係性にも言及"
+        },
+        {
           "id": "384913ba47ba81f1b0dee5f865934409",
           "title": "テイクオフの誕生日追悼がミーゴスの絆を今なお強固に示す"
         },
         {
           "id": "37b913ba47ba813fa308f78991ba31ae",
           "title": "オフセットが女性に触れた運転手に怒りをぶつける"
-        },
-        {
-          "id": "37a913ba47ba8163a7a5e18c49b255b7",
-          "title": "オフセット、モナコでドライバーと露骨な対立 ヘッドガード的に女性へ暴力介入疑惑"
         }
       ]
     },
@@ -15873,16 +16248,16 @@
       ],
       "related_articles": [
         {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
           "id": "384913ba47ba8101ac60e5a1d8f348e1",
           "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
         },
         {
           "id": "376913ba47ba810b8104f49bf99d6c09",
           "title": "YGが語るケンドリック・ラマーがくれた助言"
-        },
-        {
-          "id": "36f913ba47ba81d281f5ebdc7cf6bf59",
-          "title": "GANG BIZNESS — YG featuring PayGottiの新曲が先行リリース"
         }
       ]
     },
