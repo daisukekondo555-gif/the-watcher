@@ -5,10 +5,6 @@
       "pageviews": 3
     },
     {
-      "path": "/article.html?id=37f913ba47ba81cf9de5f090d37a505a",
-      "pageviews": 1
-    },
-    {
       "path": "/article.html?id=383913ba47ba8127a6e8c577877eed60",
       "pageviews": 1
     }
@@ -25,15 +21,10 @@
         "pageviews": 1
       }
     ],
-    "ビーフ": [
-      {
-        "path": "/article.html?id=37f913ba47ba81cf9de5f090d37a505a",
-        "pageviews": 1
-      }
-    ],
+    "ビーフ": [],
     "ライブ": [],
     "チャート": [],
     "ビジネス": []
   },
-  "updated_at": "2026-06-24T11:48:37"
+  "updated_at": "2026-06-24T22:41:56"
 }

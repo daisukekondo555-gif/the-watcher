@@ -1,7 +1,358 @@
 {
-  "generated_at": "2026-06-24T11:48:36.701031+00:00",
-  "total": 1422,
+  "generated_at": "2026-06-24T22:41:55.357956+00:00",
+  "total": 1451,
   "videos": [
+    {
+      "id": "NLLeSMXdkmY",
+      "title": "KD Picasso - Nights In The Black | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T22:06:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NLLeSMXdkmY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ANZ-0dFcf7c",
+      "title": "Bankroll Ni \"Replay\" & \"Tab\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ANZ-0dFcf7c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MGxBrgnBv_c",
+      "title": "DJ Enuff on ROC Solid Podcast! 💎",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T21:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MGxBrgnBv_c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AW0Efcc3X7w",
+      "title": "Grupo Frontera “Cuéntame” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T21:23:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AW0Efcc3X7w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RZ8__m45qRA",
+      "title": "The Mudbaby Ru Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T21:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RZ8__m45qRA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7jQhb9NpEj4",
+      "title": "KD Picasso - Nights In The Black | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T20:40:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7jQhb9NpEj4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "67Yu2zFxh_U",
+      "title": "A message from The #1 Hip-hop Platform Fat Joe just has a question for The Roots",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T19:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/67Yu2zFxh_U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ss0LT3UlAqM",
+      "title": "Jadearmanii - COOTIE CAT | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T19:21:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ss0LT3UlAqM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vVMsNhW6drg",
+      "title": "Jadearmanii - COOTIE CAT | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T19:21:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vVMsNhW6drg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nz-5L-ka-sI",
+      "title": "Jay-Z Catching Heat After Target Collab for 'Reasonable Doubt: Anniversary Edition'",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nz-5L-ka-sI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "xMQQDk7XKhI",
+      "title": "Malie Don \"Adios\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T18:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xMQQDk7XKhI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jxt8zC3GQS4",
+      "title": "Enuff Said: DJ Enuff Tells His Story on ROC Solid | Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T18:13:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jxt8zC3GQS4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lcopwRvBYaE",
+      "title": "CUSTOMERS USE CODE: GILLIE AT SIGN UP 🔥 Presented by @draftkings_sports @draftkings",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T18:06:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lcopwRvBYaE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gSc6MESBkZU",
+      "title": "The Breakfast Club FULL SHOW 06-24-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T17:11:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gSc6MESBkZU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TsoH7D7HXc4",
+      "title": "DJ Enuff & Memphis Bleek finally get THE ANSWERS about breaking hit records in NYC #drinkchamps",
+      "channel_name": "Roc Solid",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T16:33:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TsoH7D7HXc4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GFdm1N_1S3o",
+      "title": "Derrick Rose On Thibs Minutes Injury Risk Or Contract Booster",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GFdm1N_1S3o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2a36hFTUiwU",
+      "title": "LeBron Under Fire After Saying He Wouldn’t Want a Stay-at-Home Woman",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2a36hFTUiwU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4d5SrLesISE",
+      "title": "Kehlani - Folded | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-24T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4d5SrLesISE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9vFs2Mao1g0",
+      "title": "Dustin Poirier Breaks Silence After Arrest Video‘I Need Some Help’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T14:25:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9vFs2Mao1g0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Va6SqVlD2bg",
+      "title": "Woman Who Stole Knicks Trash Can Fired From JPMorgan Chase",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Va6SqVlD2bg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MoNdiyAG-1s",
+      "title": "Jess' Sit-down Service ⛪️ (Part 1)",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T13:49:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MoNdiyAG-1s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vroZgQv3Fuo",
+      "title": "Spurs NOT dapping up The Knicks? Wassup with that??",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T13:25:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vroZgQv3Fuo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "H06nr-7Lqwo",
+      "title": "Jaron 'Boots' Ennis On Upcoming Fight with Xander Zayas & Talks Terence Crawford, 'Tank' Davis +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T13:15:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/H06nr-7Lqwo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "L9ijZ8JPl8I",
+      "title": "Derrick Rose Sledgehammer Or Ant Unlock Your Winning Basketball Mentality",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/L9ijZ8JPl8I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KrkdtWm3Wq8",
+      "title": "Joe Budden Wasn’t Impressed with UFC 250",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-24T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KrkdtWm3Wq8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BC5XzjLLEoY",
+      "title": "Chlöe Bailey & Malcolm D. Lee On New Movie 'Strung', Meaningful Storytelling + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T12:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BC5XzjLLEoY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QtO_0dfrDOA",
+      "title": "Whitney Houston's Estate Responds To Claims Made By Oprah Winfrey",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T11:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QtO_0dfrDOA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bVi0u_xW3UM",
+      "title": "Mornings With Mero Livestream | 6-24-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-24T11:42:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bVi0u_xW3UM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "kwVmUlat9Io",
       "title": "Wallo was cooking Gil 😭",
@@ -1986,6 +2337,18 @@
       "category": "INTERVIEWS",
       "published_at": "2026-06-18T17:00:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/BUG8zZ_4Ri8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0ZbyU-bZzL4",
+      "title": "Infinity Song | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-18T16:58:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0ZbyU-bZzL4/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
@@ -5887,16 +6250,16 @@
       ],
       "related_articles": [
         {
+          "id": "389913ba47ba81b88ceddbed3fe39fbb",
+          "title": "テイクオフの両親、 wrongful death の和解金を誰が受け取るべきかを巡り対立"
+        },
+        {
           "id": "384913ba47ba81f1b0dee5f865934409",
           "title": "テイクオフの誕生日追悼がミーゴスの絆を今なお強固に示す"
         },
         {
           "id": "383913ba47ba811b9e6ccbe2db4d36a2",
           "title": "Quavo、Takeoffの32歳の誕生日を追悼で祝福"
-        },
-        {
-          "id": "383913ba47ba81c287a8d42d3a574c70",
-          "title": "Takeoffの32歳の誕生日に Quavo が心温まるメッセージ"
         }
       ]
     },
@@ -7844,16 +8207,16 @@
       ],
       "related_articles": [
         {
+          "id": "389913ba47ba8149848cd474efbab837",
+          "title": "Ice Spice、HOT 97 Summer Jamでステージを照らす"
+        },
+        {
           "id": "388913ba47ba8135b020c1ff4c0fcb21",
           "title": "ラットー、娘は21サベージに似ているとファンが一致見解"
         },
         {
           "id": "381913ba47ba8177a51dca0f0263a055",
           "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
-        },
-        {
-          "id": "37f913ba47ba8138b158f7a590232df3",
-          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
         }
       ]
     },
