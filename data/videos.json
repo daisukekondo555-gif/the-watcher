@@ -1,7 +1,436 @@
 {
-  "generated_at": "2026-06-25T11:55:31.159043+00:00",
-  "total": 1459,
+  "generated_at": "2026-06-26T03:12:52.161496+00:00",
+  "total": 1491,
   "videos": [
+    {
+      "id": "RSGXCyuZJLw",
+      "title": "EVERYBODY'S NORMAL \"Where You From\" & \"Agoraphobia\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T01:51:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RSGXCyuZJLw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6anXdHEkEnI",
+      "title": "Mornings With Mero Livestream | 6-25-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T01:18:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6anXdHEkEnI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "hN07kxp9k3E",
+      "title": "IMB Izzy \"STFU\" & \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T01:07:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hN07kxp9k3E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "03rIc0NNaBw",
+      "title": "Khari Isiah \"Her Eyes\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/03rIc0NNaBw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OGY7_LldqWI",
+      "title": "The Ahk Sair Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T23:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OGY7_LldqWI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yjr98kt0__c",
+      "title": "The Ahk Sair \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yjr98kt0__c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3P6wK4JmMUI",
+      "title": "The Ahk Sair Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3P6wK4JmMUI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TV5VeRyp9pk",
+      "title": "The Eli Youngblood Freestyle (Green Lights)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T22:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TV5VeRyp9pk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MOolX2wZL_U",
+      "title": "HOT 97 Atlanta News Live! 6/25/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T21:59:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MOolX2wZL_U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mfA60K6lwQM",
+      "title": "HOT 97 National News Live! 6/25/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T21:58:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mfA60K6lwQM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jlzbUERJ048",
+      "title": "The Dibiasi Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T21:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jlzbUERJ048/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DxF10bVyKnQ",
+      "title": "Ramir \"Eyes On Me\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T21:16:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DxF10bVyKnQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "G6J2e9v-rho",
+      "title": "The Que Dawg \"On The Radar\" Freestyle (Master P)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T21:15:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/G6J2e9v-rho/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FfLTOjfB7lY",
+      "title": "Dree Esprit - Grip | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T20:49:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FfLTOjfB7lY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0SKs2Sf6VcQ",
+      "title": "New episode out now with Boots & Eddie Hearn 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T20:36:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0SKs2Sf6VcQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "O4gAFiEEAPM",
+      "title": "JARON \"BOOTS\" ENNIS & EDDIE HEARN - MILLION DOLLAZ WORTH OF GAME EPISODE 385",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T20:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O4gAFiEEAPM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0-KVkM0v0-w",
+      "title": "Dree Esprit - Grip | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-25T20:09:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0-KVkM0v0-w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "F5LxRget87E",
+      "title": "Joe Budden Calls Akademiks Over Charlamagne Beef",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/F5LxRget87E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "l-tdrWlImg8",
+      "title": "T.I is NOT believing a word Crack is saying 🚩",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T17:07:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/l-tdrWlImg8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "633u1RCUTgQ",
+      "title": "Chef Gillie 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T16:35:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/633u1RCUTgQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Mtu_XSKvppU",
+      "title": "The Breakfast Club FULL SHOW 06-25-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T16:28:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Mtu_XSKvppU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WQDtuRKsEVk",
+      "title": "Jay-Z 'Reasonable Doubt' Turns 30, 'Roots Freestyle' Listed On Billboard’s ‘50 Best Songs Of 2026’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T16:02:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WQDtuRKsEVk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "4qYv2jgDZ98",
+      "title": "DAME DASH ON HARLEM HUSTLE AND BUILDING GENERATIONAL WEALTH",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4qYv2jgDZ98/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "_3GF1Mqyrt4",
+      "title": "James Harden Arrested in Texas Over Gun Charge! Was He in the Wrong?",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_3GF1Mqyrt4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "c7rwvTiwdj4",
+      "title": "High School Teacher S*xually Abuses Multiple Students & Is Found Having An OnlyFans Account",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/c7rwvTiwdj4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3SLNR1R0N1U",
+      "title": "The ONE time T.I and Fat Joe had to up the FIRE on a Raccoon? 😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T13:53:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3SLNR1R0N1U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1lEJL_crZL4",
+      "title": "DAME DASH ON EDUCATIONS SLAVE ROOTS AND REWRITING THE RULES",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1lEJL_crZL4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "a7TbQTEms2Y",
+      "title": "Joe Budden Reacts to Knicks Championship Win!",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/a7TbQTEms2Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1zuUCumqD-s",
+      "title": "Obama Speaks On Trump's Obsession With Him",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T12:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1zuUCumqD-s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2NJE59ibymg",
+      "title": "Dr. Sesha Joi Moon & Team Talk New Doc. ‘Declarations: Black Americans And The Revolutiuonary War’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T12:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2NJE59ibymg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EBq8Kk_NgFA",
+      "title": "The Obama's Reflect On Their Marriage ‘I Got More Out Of It Than She Has’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-25T12:10:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EBq8Kk_NgFA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "s9WRyer2IEk",
+      "title": "The Joe Budden Podcast Episode 940 | Good Kids",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-25T12:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/s9WRyer2IEk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "fEqGjypP5qY",
       "title": "Shaboozey: Tiny Desk Concert",
