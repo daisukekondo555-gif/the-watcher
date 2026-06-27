@@ -1,7 +1,388 @@
 {
-  "generated_at": "2026-06-26T12:06:08.796486+00:00",
-  "total": 1494,
+  "generated_at": "2026-06-27T03:12:54.480709+00:00",
+  "total": 1522,
   "videos": [
+    {
+      "id": "8zgCWJM1SAA",
+      "title": "Peekaboo | On The Radar DJ SET (Bass, Trap)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-27T01:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8zgCWJM1SAA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jagESWpp3JM",
+      "title": "New episode out now 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T23:49:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jagESWpp3JM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "f3X_0Mc51gw",
+      "title": "The Billy Vetti \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T23:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/f3X_0Mc51gw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Mnt2EigpU0c",
+      "title": "The Billy Vetti Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Mnt2EigpU0c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QgXR0dx0drM",
+      "title": "The Popeye Caution \"On The Radar\" Freestyle (G-shock)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T22:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QgXR0dx0drM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1e1GXOHMWUc",
+      "title": "HOT 97 Atlanta News Live! 6/26/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T22:29:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1e1GXOHMWUc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "boBYWizEYyY",
+      "title": "HOT 97 National News Live! 6/26/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T22:28:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/boBYWizEYyY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EhI73VIUnEM",
+      "title": "The Breakfast Club FULL SHOW 06-26-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T22:07:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EhI73VIUnEM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yN63t6IhOnU",
+      "title": "38Spesh “Speshal (Interlude)” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yN63t6IhOnU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XZFBbTtpOYw",
+      "title": "The Big Eph x Armonie Jay Freestyle (CHARGE)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T21:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XZFBbTtpOYw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YVVHRZa5GJo",
+      "title": "Jackson Knox - Toxic | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T19:53:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YVVHRZa5GJo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OpmRDpjD9uo",
+      "title": "Jackson Knox - Toxic | From The Block Performance 🎙🔥🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T19:53:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OpmRDpjD9uo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bC8G9pB39ZE",
+      "title": "That white Lexus GS everyone is talking about? It wasn’t just a car... #jayz #untoldstories #rap",
+      "channel_name": "Roc Solid",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T19:32:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bC8G9pB39ZE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XZE4MWf9J-k",
+      "title": "Is Darryn Peterson Too Entitled? Joe Budden Responds",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XZE4MWf9J-k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QCit-08bMac",
+      "title": "“Lil Badass Tip” stabbed every Basketball in the Hood because they didn’t let him play",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T17:02:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QCit-08bMac/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lz4t9XLPYPw",
+      "title": "Gillie cooks Rasheed Wallace in three point contest 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T16:59:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lz4t9XLPYPw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "F6OOplI0ndQ",
+      "title": "DAME DASH ON BREAKING BAD CYCLES AND GETTING STRONGER",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/F6OOplI0ndQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "KRzyHKYEvzM",
+      "title": "Joe Budden's ANGRY with Victor Wembanyama “He Came Off So Bad”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KRzyHKYEvzM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "j98r48XJXXE",
+      "title": "honestav - Conceited | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-26T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/j98r48XJXXE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "oyuLaFiNNcA",
+      "title": "DJ Nyla Symone Presents The New Regime: HONOR ROLL; R2D2 With Swavay, Wynne, Reuben Vincent + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oyuLaFiNNcA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mf8W54Fv6ro",
+      "title": "Jay-Z Fires Off Sync'd Firework Show With Power 105.1 + iHeartRadio Over NYC, Teases 8-part HBO Doc",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T14:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mf8W54Fv6ro/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "wMTFpjbxWEY",
+      "title": "Atlantic Records replaced their Biggest poster of Fat Joe with T.I.. years later WIZ took over 😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T14:34:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wMTFpjbxWEY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6H-hobELpg4",
+      "title": "When did Eddie Hearn know Boots was great?",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T14:29:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6H-hobELpg4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XL1yRjyiYxk",
+      "title": "Pretty Ricky vs. B2K Verzuz Goes Down With Trick Daddy Appearance, Pleasure P Sings B2K Song + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T14:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XL1yRjyiYxk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AKuRnNAhMAI",
+      "title": "DAME DASH ON OLD MONEY SECRETS AND WHY THE RICH DONT SHOW OFF",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AKuRnNAhMAI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "wSaP933p5vs",
+      "title": "Tyra Banks Hits Netflix with Defamation Lawsuit",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-26T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wSaP933p5vs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DsIysHb9IC4",
+      "title": "Beenie Man Delivers Fire Freestyle After Charlamagne Suggests Rap Clash Against Safaree",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DsIysHb9IC4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bMSEB44AAn4",
+      "title": "Young M.A Opens Up On Facing Her Mortality, Health Struggles & Self-Supression",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-26T12:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bMSEB44AAn4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "JPc2BKk3LFA",
       "title": "Mornings With Mero Livestream | 6-26-26",
