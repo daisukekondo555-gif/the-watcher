@@ -1,7 +1,181 @@
 {
-  "generated_at": "2026-06-28T11:49:47.815239+00:00",
-  "total": 1540,
+  "generated_at": "2026-06-28T22:48:25.646237+00:00",
+  "total": 1552,
   "videos": [
+    {
+      "id": "4C38Emk4qFk",
+      "title": "Marlon Craft Reacts To His First On The Radar Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-28T21:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4C38Emk4qFk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GUaIf9e2rvg",
+      "title": "Marlon Craft Reacts To His First On The Radar Freestyle & His New Class Cypher Verse (OTR REWIND)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-28T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GUaIf9e2rvg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Sz7B6rDxJ5A",
+      "title": "Joe Takes a Trip Down Memory Lane on things He Used to Love",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-28T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Sz7B6rDxJ5A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "O4g28hh7cus",
+      "title": "DAME DASH ON THE ULTIMATE COMEBACK STORY",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-28T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O4g28hh7cus/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "Gw6GyJU4Fy4",
+      "title": "All of NYC Showed Up for the Knicks Parade | “I Would NEVER Go\"",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-28T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Gw6GyJU4Fy4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ofbsWmzjAxw",
+      "title": "T.K. Kirkland Returns to Drink Champs! Untold Stories, Life Lessons & Comedy Gems | Full Episode",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-06-28T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ofbsWmzjAxw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lNi86kBhr5w",
+      "title": "OTR Rewind: The Jay Hound Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-28T14:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lNi86kBhr5w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0N_PgT-GgjE",
+      "title": "PATREON EXCLUSIVE | The Human Experience (feat. Eric Benet and T.I) | The Joe Budden Podcast",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-28T14:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0N_PgT-GgjE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NGI0qJKwjQQ",
+      "title": "DAME DASH ON HOW THE SYSTEM MAKES US CUSTOMERS OF CRIME",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-06-28T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NGI0qJKwjQQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "uUpzuKHtp4Q",
+      "title": "Joe Budden Says Chris Brown’s Deluxe Sounds Old and Dated",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-28T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uUpzuKHtp4Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zZBBJQq5cms",
+      "title": "The Joe Budden Podcast Episode 941 | 9th Wonder Is Watching",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-06-28T12:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zZBBJQq5cms/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EfjK15LJxeY",
+      "title": "Liim | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-06-28T11:32:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EfjK15LJxeY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "ygw3xAFt8rs",
       "title": "KLO \"Tanning\" | On The Radar Puerto Rico 🇵🇷",
