@@ -1,7 +1,409 @@
 {
-  "generated_at": "2026-07-01T12:02:51.224512+00:00",
-  "total": 1612,
+  "generated_at": "2026-07-02T11:54:01.661646+00:00",
+  "total": 1638,
   "videos": [
+    {
+      "id": "akcujs-CePQ",
+      "title": "The RillyRil \"On The Radar\" Freestyle (PARTY IN DISGUISE)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T03:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/akcujs-CePQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZOXWY6SW5Yk",
+      "title": "The vvsmygwen \"On The Radar\" Freestyle (Make it rain)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T01:26:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZOXWY6SW5Yk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "9VbJv-JR5MY",
+      "title": "B0yg1rl “Je M’appelle Têté” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T01:24:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9VbJv-JR5MY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "28Bjc5iFjuQ",
+      "title": "Emma Ogier \"Baby Don't Hurt Me\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T01:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/28Bjc5iFjuQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "39LpBBVs-MM",
+      "title": "Khari Isiah \"What's the WiFi?\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T01:22:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/39LpBBVs-MM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sY046mZYYwA",
+      "title": "Cheef Almighty \"Pz and Gz\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T01:22:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sY046mZYYwA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ft_Zsv3o6UY",
+      "title": "MRG & Maino \"Feeling Good Today 2\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T01:21:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Ft_Zsv3o6UY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "66eUM_u_jnU",
+      "title": "Welcome to Philly 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-01T23:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/66eUM_u_jnU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kHN0OSse9Sc",
+      "title": "HOT 97 Atlanta News Live! 7/1/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-01T23:12:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kHN0OSse9Sc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KAkDm1MKLHU",
+      "title": "EarthToEve \"Growing Up\" & \"NO KINGS\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KAkDm1MKLHU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2EbRjqBikpM",
+      "title": "Popeye Caution \"Gorgeous\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2EbRjqBikpM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7-8uIxYQdow",
+      "title": "OTR IS LIVE! W/ Gabe P | SUBMIT YOUR MUSIC FOR LIVE FEEDBACK!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T21:55:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7-8uIxYQdow/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AExCGo9hO-I",
+      "title": "MC Abdul - Wein Abdul? | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T20:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AExCGo9hO-I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_tk5DyprqGk",
+      "title": "MC Abdul - Wein Abdul? | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T20:01:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_tk5DyprqGk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_YrU44q80so",
+      "title": "VVSMYGWEN - SMJ | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T19:01:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_YrU44q80so/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "TMe09_ez8gw",
+      "title": "VVSMYGWEN - SMJ | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T19:01:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TMe09_ez8gw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "nSD0M4-1rYo",
+      "title": "Brandon Marshall Under Fire After Making His Son Run at 2 A.M.",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-01T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nSD0M4-1rYo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bV04ez7FGYc",
+      "title": "Terry Lewis and Jimmy Jam success after Prince “FIRED” them was off the Charts.. Literally",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-01T18:48:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bV04ez7FGYc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "b9nK0Y9eBnE",
+      "title": "TIFFANY - Treat Me Like A Princess | From The Block Performance 🎙️🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T18:02:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/b9nK0Y9eBnE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WKhQIpIK-q8",
+      "title": "TIFFANY - Treat Me Like A Princess | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T18:01:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WKhQIpIK-q8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "se4CNDy1RBA",
+      "title": "The Breakfast Club BEST OF (Dr. Cheyenne Interview, Plus Caller Topic (Can Men be Golddiggers)",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-01T17:59:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/se4CNDy1RBA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ogar_mJE5Gk",
+      "title": "Julia Wolf “Deep End” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-01T17:26:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ogar_mJE5Gk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vyDD8ECRZ6o",
+      "title": "DAME DASH ON WHY YOU SHOULD NEVER TRUST YOUR OPPRESSOR FOR FOOD",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-01T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vyDD8ECRZ6o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "l5jcGxScmQk",
+      "title": "Earth, Wind & Fire Finally Get the Documentary They Deserve",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-01T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/l5jcGxScmQk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vTRpP7PuxBs",
+      "title": "DAME DASH ON BARBERSHOP TOUGH LOVE AND BREAKING THE SYSTEM",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-01T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vTRpP7PuxBs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "ICRc0SIvFfM",
+      "title": "Music Legend Clive Davis Dies at 94 - Joe Budden Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-01T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ICRc0SIvFfM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "5EJWZL8AAQk",
       "title": "Mornings With Mero Livestream | 7-1-26",
