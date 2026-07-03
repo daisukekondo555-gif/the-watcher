@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-07-02T22:58:28.213009+00:00",
-  "total": 1662,
+  "generated_at": "2026-07-03T11:59:01.855038+00:00",
+  "total": 1666,
   "videos": [
+    {
+      "id": "973-CgNeCyM",
+      "title": "Ronnie Riggles \"BAGS V1.5\" & \"Hung Up\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-03T01:11:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/973-CgNeCyM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Uyng5EZ9Uyg",
+      "title": "The Darilo \"On The Radar\" Freestyle & \"Pacifica\" Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-03T01:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Uyng5EZ9Uyg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "eK_i8k4JcRc",
+      "title": "Margaux \"Name The Time and Place\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-03T00:25:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eK_i8k4JcRc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qClcd32INZQ",
+      "title": "Lala \"Do Better\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-02T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qClcd32INZQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "ZmrKRqUE3L0",
       "title": "HOT 97 National News Live! 7/2/26",
