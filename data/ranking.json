@@ -1,31 +1,12 @@
 {
-  "weekly": [
-    {
-      "path": "/article.html?id=389913ba47ba81d2a8bfe3407c97d25d",
-      "pageviews": 1
-    },
-    {
-      "path": "/article.html?id=38a913ba47ba816a9b92ec2102826a56",
-      "pageviews": 1
-    }
-  ],
+  "weekly": [],
   "by_category": {
-    "ニュース": [
-      {
-        "path": "/article.html?id=38a913ba47ba816a9b92ec2102826a56",
-        "pageviews": 1
-      }
-    ],
+    "ニュース": [],
     "リリース": [],
     "ビーフ": [],
     "ライブ": [],
     "チャート": [],
-    "ビジネス": [
-      {
-        "path": "/article.html?id=389913ba47ba81d2a8bfe3407c97d25d",
-        "pageviews": 1
-      }
-    ]
+    "ビジネス": []
   },
-  "updated_at": "2026-07-04T11:53:06"
+  "updated_at": "2026-07-04T22:40:24"
 }
