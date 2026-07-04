@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-07-04T03:07:43.843407+00:00",
-  "total": 1683,
+  "generated_at": "2026-07-04T11:53:05.418988+00:00",
+  "total": 1685,
   "videos": [
+    {
+      "id": "rk0FC52gykM",
+      "title": "On The Radar x Monster Music Live From BET Weekend",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-04T04:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rk0FC52gykM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DyaK_JuBXgk",
+      "title": "On The Radar x Monster Music Live From BET Weekend",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-04T03:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DyaK_JuBXgk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "avULPlaeWEQ",
       "title": "On The Radar x Monster Music Live From BET Weekend",
