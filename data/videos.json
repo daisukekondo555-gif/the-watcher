@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-07-06T02:55:51.497384+00:00",
-  "total": 1717,
+  "generated_at": "2026-07-06T11:55:36.490670+00:00",
+  "total": 1720,
   "videos": [
+    {
+      "id": "sR_jAeXEayI",
+      "title": "645AR X Swamp Izzo “Death Row” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-06T08:12:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sR_jAeXEayI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "jB_ZG-BKgG0",
       "title": "Nino Paid On His Viral XXL Freestyle",
@@ -33,6 +45,30 @@
       "category": "PERFORMANCES",
       "published_at": "2026-07-05T22:00:00.000+00:00",
       "thumbnail_url": "https://i1.ytimg.com/vi/LgbJbcwgrKk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6nBcPDc2Q5k",
+      "title": "Que Dawg \"Sealed\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-05T21:32:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6nBcPDc2Q5k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LReprHGGPL8",
+      "title": "The Quantrell \"On The Radar\" Freestyle (Road2Riches)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-05T21:32:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LReprHGGPL8/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
