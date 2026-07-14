@@ -1,7 +1,365 @@
 {
-  "generated_at": "2026-07-14T03:13:45.379549+00:00",
-  "total": 1906,
+  "generated_at": "2026-07-14T11:53:50.207002+00:00",
+  "total": 1932,
   "videos": [
+    {
+      "id": "ucy5gMRo_3E",
+      "title": "Mornings With Mero Livestream | 7-13-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T01:03:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ucy5gMRo_3E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GjiRLSc6JY8",
+      "title": "Do you think Jay-Z and Nas would ever perform ‘Takeover’ or ‘Ether’ live onstage together? 🤔 #jayz",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T00:16:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GjiRLSc6JY8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z",
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        }
+      ]
+    },
+    {
+      "id": "qBIxQ8wMSCE",
+      "title": "Loe Shimmy out now!",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T00:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qBIxQ8wMSCE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Qe31F_wngcs",
+      "title": "Zeekiooo \"Valid like Camden (Camden Bop)\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Qe31F_wngcs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FPnAPcHsx_Y",
+      "title": "HOT 97 National News Live! 7/13/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T22:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FPnAPcHsx_Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UbP7p8U7ap8",
+      "title": "Tymain Robbins \"You Gotta\" | On The Radar Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T22:18:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UbP7p8U7ap8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ORyPocHhO5U",
+      "title": "Nolan Wells Parents Speaks Out Amid New Developments",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ORyPocHhO5U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rSUK0p-7Tjc",
+      "title": "JAŸ-Z Responds to Target Boycott, Kaepernick Controversy In Yankee Stadium Freestyle",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T21:36:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rSUK0p-7Tjc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jf1AI-Re978",
+      "title": "Sura Ali \"RBF\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T21:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jf1AI-Re978/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pl_DWSjynk0",
+      "title": "lordkez “Think Twice” | On The Radar Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T21:23:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pl_DWSjynk0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IUW0mRO_-Jc",
+      "title": "AJ McQueen \"Jus' Like Music\" & \"Green Pastures\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T21:22:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IUW0mRO_-Jc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "eR0PtHn3Pwg",
+      "title": "Raylon “Who Knew” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T21:21:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eR0PtHn3Pwg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "a73cQtiZbK8",
+      "title": "The B0yg1rl \"On The Radar\" Freestyle (Machine)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T21:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/a73cQtiZbK8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "R1bQNHwYTDM",
+      "title": "The B0yg1rl Freestyle (Machine)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T21:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R1bQNHwYTDM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "sxyyiXTQ7JA",
+      "title": "Dreezy83rd “Ian Gone Lie” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sxyyiXTQ7JA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EdIFqza9XUM",
+      "title": "This week on ROC Solid - Live from Château de Cognac 💎",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-07-13T17:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EdIFqza9XUM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cEja51_H_-A",
+      "title": "Rich Dennis Talks Caroline Wanga & Moving Forward Despite Backlash Surrounding Essence Fest '25",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T17:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cEja51_H_-A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "R-VRsdXRyLc",
+      "title": "Tokischa - SuFrida | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-13T16:24:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R-VRsdXRyLc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bw8E8RSnpS0",
+      "title": "The Breakfast Club FULL SHOW 07-13-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T16:13:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bw8E8RSnpS0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZZFIjQr7x0E",
+      "title": "Rowdy Rebel Reveals What The Label REALLY Did For Artists Lawyer Support",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZZFIjQr7x0E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IDRaoSoFPS4",
+      "title": "Loe Shimmy wants to go 156 times diamond 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-13T15:13:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IDRaoSoFPS4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ji9AclygYXU",
+      "title": "It don’t get more New York than this. WE OUTSIDE 🗣️",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-13T15:06:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ji9AclygYXU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wWRUgN3scG0",
+      "title": "Tierra Whack On Honoring Lauryn Hill At The BET Awards 2026 For Living Legend Icon Award Tribute",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wWRUgN3scG0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "f787UaMZ2Pg",
+      "title": "Loe Shimmy out now!",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-13T13:24:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/f787UaMZ2Pg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bvk_D7rsJQI",
+      "title": "Rowdy Rebel On Gangster Life vs Family Values Whats Really Real",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bvk_D7rsJQI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UVePO0lCAcw",
+      "title": "JAŸ-Z Addresses Yankee Stadium Concert Delay, Rihanna Performs At Extra Innings & More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-13T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UVePO0lCAcw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "dQK2U-KrhuA",
       "title": "Flea and the Honora Band: Tiny Desk Concert",
