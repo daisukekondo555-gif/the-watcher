@@ -1,7 +1,476 @@
 {
-  "generated_at": "2026-07-14T11:53:50.207002+00:00",
-  "total": 1932,
+  "generated_at": "2026-07-15T11:54:28.797902+00:00",
+  "total": 1968,
   "videos": [
+    {
+      "id": "ACmY3x9X_NY",
+      "title": "New episode with Loe Shimmy out now on YT 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-15T11:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ACmY3x9X_NY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZoJCwHsGoW4",
+      "title": "Souly - Motte | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T10:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZoJCwHsGoW4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "e81LZCHhNKQ",
+      "title": "Napalm Death: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T09:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/e81LZCHhNKQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xgH0bpbMqPw",
+      "title": "Fulanito on Latino Champs!",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-07-15T03:23:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xgH0bpbMqPw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "neizkJ0Kv1I",
+      "title": "Afro B \"Drogba (Joanna)\" + \"Fine Wine & Hennessy\" | On The Radar Classics",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T01:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/neizkJ0Kv1I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uA5cQhSH2x8",
+      "title": "Full Blown \"No Stress\" | On The Radar Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T01:29:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uA5cQhSH2x8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-TBlVaC7TdQ",
+      "title": "Sajkeena “Ripped Up Jeans” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T01:08:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-TBlVaC7TdQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2ErR01eaapM",
+      "title": "Mornings With Mero Livestream | 7-14-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-15T01:08:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2ErR01eaapM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EyewVLvmHRE",
+      "title": "L Kimii \"Instagram\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T00:03:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EyewVLvmHRE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IpQdJEa8t38",
+      "title": "The Zero Mckenzie \"On The Radar\" Freestyle (PART 2)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T00:02:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IpQdJEa8t38/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WQVIGgppGmk",
+      "title": "T.I. \"U Don't Know Me\" | On The Radar Classic",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T00:01:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WQVIGgppGmk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "djTV4rJ_7Nk",
+      "title": "Boohavinn “North Pole” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-15T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/djTV4rJ_7Nk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "g8NUuzXuZJw",
+      "title": "Enphamus \"No Biggie\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-14T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/g8NUuzXuZJw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HQF_fP2nE-s",
+      "title": "HOT 97 National News Live! 7/14/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T22:29:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HQF_fP2nE-s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sA4nsvRj5is",
+      "title": "Tymain Robbins \"You Gotta\" Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-14T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sA4nsvRj5is/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5qGxpKc7mWs",
+      "title": "Shout out to Jess for filling in at her own job this week 🤣 👉🏽",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5qGxpKc7mWs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "J6k-vHbAkb4",
+      "title": "Gillie gives Loe Shimmy some game 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T20:11:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/J6k-vHbAkb4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kJ0K6Xigjdk",
+      "title": "Lesgokev \"RIGHT NOW\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-14T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kJ0K6Xigjdk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IBsvkLsjpjM",
+      "title": "Lance \"Un\" Rivera Says Jay-Z Keeps Using Him for Marketing",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IBsvkLsjpjM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "JIsKFwRereI",
+      "title": "The World Cup has a DIFFERENT atmosphere",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T18:20:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JIsKFwRereI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SY9ksYepXcY",
+      "title": "Women Over 40 Are Now Having More Babies Than Teenagers",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T17:04:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SY9ksYepXcY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OHGrSA5asAM",
+      "title": "earthsignchels - Daddy Died | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-14T17:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OHGrSA5asAM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uR0vt1k_TSI",
+      "title": "The Breakfast Club FULL SHOW 07-14-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T16:20:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uR0vt1k_TSI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Po1BzzubYes",
+      "title": "Trae Young and Tyrese Haliburton tried to rundown on Joe at the White Party but KAT held it down 🗽",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T16:10:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Po1BzzubYes/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "eKooUZOQRfo",
+      "title": "Loe Shimmy wants this bad!",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T16:02:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eKooUZOQRfo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Pxz9lgiooOU",
+      "title": "Rowdy Rebel Street Life Truths REAL Talk On Consequences And Resilience",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Pxz9lgiooOU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XcDBFag857E",
+      "title": "Big Tigger’s Viral Video Has the Internet Divided",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XcDBFag857E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nl_jWcZdB5I",
+      "title": "John Hope Bryant Speaks On How New Housing Affordability Bill Will Affect New Homeowners",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T15:36:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nl_jWcZdB5I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-SXENhs8njw",
+      "title": "Should You Take On Your Friend's Beef?",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T14:11:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-SXENhs8njw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VMqc7oHM1uI",
+      "title": "Woman Murders Pregnant Lash Tech Over $15 Dispute",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VMqc7oHM1uI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Dx6KZbEMyWM",
+      "title": "Flea x NPR: Tiny Desk Merch",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-14T13:58:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Dx6KZbEMyWM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iW3Pnlgeiek",
+      "title": "The LOX were in the Studio the SAME day Jay-Z recorded Reasonable Doubt",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T13:58:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iW3Pnlgeiek/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "njYb2GCf5EE",
+      "title": "Scottie Pippen Dating a 23-Year-Old Has the JBP Asking Bigger Questions",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-14T13:17:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/njYb2GCf5EE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UEwqynlau3w",
+      "title": "Rowdy Rebel DONT Play With Me His Life His Rules",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UEwqynlau3w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TUsoP1vThkI",
+      "title": "Memphis Bleek On The Legacy Of ‘Reasonable Doubt’, Tony Yayo’s Criticism Of JAŸ-Z + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T12:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TUsoP1vThkI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Tony Yayo"
+      ],
+      "related_articles": [
+        {
+          "id": "360913ba47ba81a6b528c706830c7599",
+          "title": "トニー・イェヨ、ドレイクとフューチャーの関係修復の立役者を明かす"
+        }
+      ]
+    },
+    {
+      "id": "wTFdNQ6DwcM",
+      "title": "Teyana Taylor Responds To Yankee Stadium Performance Backlash",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-14T12:09:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wTFdNQ6DwcM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "ucy5gMRo_3E",
       "title": "Mornings With Mero Livestream | 7-13-26",
