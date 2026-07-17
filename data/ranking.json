@@ -2,14 +2,14 @@
   "weekly": [
     {
       "path": "/article.html?id=38d913ba47ba813b9248d3ea4ceeddf6",
-      "pageviews": 1
+      "pageviews": 2
     }
   ],
   "by_category": {
     "ニュース": [
       {
         "path": "/article.html?id=38d913ba47ba813b9248d3ea4ceeddf6",
-        "pageviews": 1
+        "pageviews": 2
       }
     ],
     "リリース": [],
@@ -18,5 +18,5 @@
     "チャート": [],
     "ビジネス": []
   },
-  "updated_at": "2026-07-16T11:53:53"
+  "updated_at": "2026-07-17T12:01:46"
 }
