@@ -1,7 +1,328 @@
 {
-  "generated_at": "2026-07-17T12:01:45.397424+00:00",
-  "total": 2023,
+  "generated_at": "2026-07-18T11:55:55.657838+00:00",
+  "total": 2046,
   "videos": [
+    {
+      "id": "9pGHMwTDgaA",
+      "title": "The Skai Isyourgod \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-18T02:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9pGHMwTDgaA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wmmr4VI8lzM",
+      "title": "🇨🇳 The Skai Isyourgod Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-18T02:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wmmr4VI8lzM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NjFj4R20Luo",
+      "title": "Mornings With Mero Livestream | 7-17-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-18T01:11:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NjFj4R20Luo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rr4JeCZAtHQ",
+      "title": "Nino Paid Reacts To His Mafiathon 3 Freestyle, OTR Freestyle & All Star Cypher Verse (OTR REWIND)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-18T00:39:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rr4JeCZAtHQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TKx3-JWG_Zw",
+      "title": "Lilies of David \"Float\", \"Nightlite\" & \"119\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-18T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TKx3-JWG_Zw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "R65qbqCc5t8",
+      "title": "The Meshauwn & Byri Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-17T23:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R65qbqCc5t8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nvAd1UnCUYs",
+      "title": "HOT 97 National News Live! 7/17/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T22:20:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nvAd1UnCUYs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uz0YG2OAXvw",
+      "title": "Teejay - Celibate | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-17T19:22:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uz0YG2OAXvw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "F3-P5uryngU",
+      "title": "Spurs Announcer Fired After Cheating With NBA Player’s Sister",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-17T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/F3-P5uryngU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "hFz4oz7k6Q8",
+      "title": "DABABY Freestyle",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T18:06:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hFz4oz7k6Q8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "DaBaby"
+      ],
+      "related_articles": [
+        {
+          "id": "389913ba47ba8145870ede13d6b1c4eb",
+          "title": "DaBaby、HOT 97 Summer Jamで“炎のエネルギー”を見せる"
+        },
+        {
+          "id": "379913ba47ba8153a76cfd4653ce090b",
+          "title": "DaBaby、2022年ボウリング場の喧嘩訴訟で和解に達する"
+        },
+        {
+          "id": "379913ba47ba8131a931d840836353bc",
+          "title": "DaBaby、DaniLeighの兄を殴打したとしてのボウリング場訴訟を和解で終結"
+        }
+      ]
+    },
+    {
+      "id": "hKnm949SSeE",
+      "title": "So, Yes! Jason Phillips has been to Fayetteville, North Carolina 😅",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-17T17:27:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hKnm949SSeE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EhYPr4NVfBY",
+      "title": "Harlems Battle Rap Revival Rex Leads the Charge",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EhYPr4NVfBY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jRFVkrlE_Lk",
+      "title": "Kino Gets Into Backstage Fight at Premier & Alchemist Show",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-17T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jRFVkrlE_Lk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YYou5qBtNVA",
+      "title": "DJ Nyla Symone Talks JAŸ-Z Yankee Stadium Concert, New Music + More!",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YYou5qBtNVA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DbLV1jld8hA",
+      "title": "Tall Men Receive 60% More Messages Than Short Men On Dating Apps 👫",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T15:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DbLV1jld8hA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MebR_TYRYuc",
+      "title": "The Breakfast Club FULL SHOW 07-17-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T15:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MebR_TYRYuc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-tHymIrHnoE",
+      "title": "T.K. Kirkland On Being A Provider vs. Splitting The Bill With Women, Avoiding Messiness + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T14:39:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-tHymIrHnoE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9QbO6YEkAOM",
+      "title": "YG on his relationship with Nipsey Hussle and coming up in the West Coast",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-17T14:31:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9QbO6YEkAOM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "ueSp99Dov_I",
+      "title": "Terence Crawford On Why He Retired Despite His Four-Division Boxing Championship Goal",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ueSp99Dov_I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "E2Vu9kxDuXU",
+      "title": "Diddy's Daughters Speak In Their First Interview Since His Conviction",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T13:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/E2Vu9kxDuXU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ENXGW9MnN7U",
+      "title": "Fun Kids Gym Class Games That Make Exercise Exciting",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ENXGW9MnN7U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6ylaXtgovNk",
+      "title": "Joe Budden ROASTS Marc Lamont Hill After Wife Reveals 3 Marriage Proposals",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-17T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6ylaXtgovNk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XuPDL919_K4",
+      "title": "Dame Dash’s Daughter Clarifies Situation Surrounding Her Eviction",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-17T12:36:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XuPDL919_K4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
     {
       "id": "RzWiTbtedP8",
       "title": "Mornings With Mero Livestream | 7-16-26",
