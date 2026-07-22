@@ -1,7 +1,409 @@
 {
-  "generated_at": "2026-07-21T12:01:48.411578+00:00",
-  "total": 2100,
+  "generated_at": "2026-07-22T12:01:57.982446+00:00",
+  "total": 2131,
   "videos": [
+    {
+      "id": "FRjm0_ugEAg",
+      "title": "New episode with The Dream out on Youtube 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T03:06:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FRjm0_ugEAg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4HM0YkFMWrk",
+      "title": "Jah Gordy \"Cocoa Butter Flows\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T01:55:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4HM0YkFMWrk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8Z2RcFph_Co",
+      "title": "Kirk $ki x On The Radar - \"$KI IN NY\" [OFFICIAL VIDEO]",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T01:14:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8Z2RcFph_Co/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1SCb_trTtFE",
+      "title": "Mornings With Mero Livestream |  7-21-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T01:10:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1SCb_trTtFE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cr5pTXLsxdU",
+      "title": "The XP The Marxman Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T00:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cr5pTXLsxdU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nuXTZJW7vcA",
+      "title": "Pieri \"AUTOMATIK\", & \"RESPETO\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-21T23:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nuXTZJW7vcA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ArwUfNpQISc",
+      "title": "HOT 97 National News Live! 7/21/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T22:32:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ArwUfNpQISc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_nekp2e_MJI",
+      "title": "Enphamus \"Max Payne\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-21T22:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_nekp2e_MJI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Hx_VPUvPskw",
+      "title": "Ayetian \"Miami Vice\" & \"Fyah\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-21T22:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Hx_VPUvPskw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vIIofzcVtOk",
+      "title": "Dalex on Latino Champs!",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T21:54:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vIIofzcVtOk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rQkzShrZ5cw",
+      "title": "Taffy - Kissin & Cuddlin | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-21T20:34:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rQkzShrZ5cw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nd1l7slbnEo",
+      "title": "Taffy - Kissin & Cuddlin | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-21T20:33:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nd1l7slbnEo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-YUFBN_LXqs",
+      "title": "New episode with The Dream out now 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T20:08:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-YUFBN_LXqs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6G9eSwf8jck",
+      "title": "Papa Pretty - Shake (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-07-21T20:06:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6G9eSwf8jck/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EFm7KcbafOA",
+      "title": "Marc Went to Jay-Z’s 'Reasonable Doubt' Yankee Stadium Show",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T20:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EFm7KcbafOA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "W_LkyZysqHk",
+      "title": "Florida Man Caught With ‘Whizzinator’ In Back Seat Of Police Car",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T19:45:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/W_LkyZysqHk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MhnDsjezdPg",
+      "title": "Did You Experience Explosive Diarrhea Caused By Cyclospora?",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T18:27:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MhnDsjezdPg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bQrUG9zzb2s",
+      "title": "Fat Joe & Jadakiss REACT LIVE to Memphis Bleek + Cool & Dre's new single \"No More\" 🔥🔥🔥",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T18:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bQrUG9zzb2s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kU8QOexCfrY",
+      "title": "Joe Budden Went to The Jay-Z Blueprint Show, Here’s What He Thought",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T17:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kU8QOexCfrY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "gJMqEblBq00",
+      "title": "The Breakfast Club FULL SHOW 07-21-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T16:42:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gJMqEblBq00/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fIfkAb5tZ1E",
+      "title": "Jill Scott - Don't Play | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-21T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fIfkAb5tZ1E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wNkIMXECB1U",
+      "title": "Teachers Really Care Debunking Common Myths About Educators",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wNkIMXECB1U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kOeUyiHvywc",
+      "title": "Asap Rocky has a Sixth sense when it come to Rihanna 💀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T15:36:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kOeUyiHvywc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vyFj2W9Wk6o",
+      "title": "Joe Budden Reacts to DJ Akademiks & Charlamagne Tha God's Sit Down!",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vyFj2W9Wk6o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "N4Eys5UWd_Q",
+      "title": "Mon Laferte | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-21T14:40:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/N4Eys5UWd_Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZBPlxcHxn4g",
+      "title": "Go watch Ep.388 with @thekingdream out now 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T14:32:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZBPlxcHxn4g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gmGt5eTcbbM",
+      "title": "Memphis Mother Kendra Scott Charged With Murdering Man Found Under Her 13-Year-Old Daughter’s Bed",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gmGt5eTcbbM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EKslbs8HseQ",
+      "title": "Mandii B Says That Marriage Is For ‘Broke B-tches’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T13:58:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EKslbs8HseQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YTAjSURPGf0",
+      "title": "HOV called the BEST 1-2 Punch in the game TODAY to hit the stage with him at Yankee Stadium",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-21T13:28:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YTAjSURPGf0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qoHWIFQNA64",
+      "title": "Hollywoods Racist Lie Black Actors Dominate the Box Office",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qoHWIFQNA64/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "a-pL3HiaYpk",
+      "title": "Exclusive: Ryan Clark Allegedly Blindsided By ESPN President Of Content Burke Magnus",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-21T12:48:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/a-pL3HiaYpk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "3s-NrAxMpSM",
       "title": "Tyrese Steps In To Assist After Witnessing Car Accident In Chicago",

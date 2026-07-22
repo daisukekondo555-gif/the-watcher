@@ -1,15 +1,4 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
         xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
-  <url>
-    <loc>https://thewatcherjp.com/articles/3a2913ba47ba81c78b7ad94a3d065ddf.html</loc>
-    <news:news>
-      <news:publication>
-        <news:name>THE WATCHER</news:name>
-        <news:language>ja</news:language>
-      </news:publication>
-      <news:publication_date>2026-07-19T12:33:00+00:00</news:publication_date>
-      <news:title>【今週のまとめ】2026/7/13〜7/19のヒップホップ</news:title>
-    </news:news>
-  </url>
 </urlset>
