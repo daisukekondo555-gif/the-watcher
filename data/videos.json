@@ -1,7 +1,487 @@
 {
-  "generated_at": "2026-07-22T12:01:57.982446+00:00",
-  "total": 2131,
+  "generated_at": "2026-07-23T03:15:14.348782+00:00",
+  "total": 2166,
   "videos": [
+    {
+      "id": "Xm9TskNEnyc",
+      "title": "The K!NO \"On The Radar\" Freestyle (PART 2)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-23T02:38:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Xm9TskNEnyc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DgDPVX97V34",
+      "title": "Keyawna Nikole feat. Austin Carlile \"Alive\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-23T02:37:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DgDPVX97V34/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Buv9gUNp638",
+      "title": "The Bizzy Banks x Nas Gotti \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-23T01:45:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Buv9gUNp638/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "IPBzroYLlH8",
+      "title": "The Brezzo x Yanimula \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-23T01:44:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IPBzroYLlH8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6Lw_TNohU0A",
+      "title": "Caev \"HOLD UUU\" & \"BOI UM TUU PAED\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-23T01:42:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6Lw_TNohU0A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AwWzRqPPxxY",
+      "title": "Sól “The Fence” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-23T01:40:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AwWzRqPPxxY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0ryrfAvd-go",
+      "title": "Maino \"Hi Hater\" | On The Radar Classic",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-23T01:34:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0ryrfAvd-go/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VgMG6dl7T4o",
+      "title": "Mornings With Mero Livestream |  7-22-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-23T01:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VgMG6dl7T4o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EUhwFVVTJnM",
+      "title": "Rome Streetz On The Radar Freestyle (PART 2) & \"Son Of A Gun\" Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EUhwFVVTJnM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "aRWJTOyzA10",
+      "title": "Rome Streetz Freestyle Pt 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/aRWJTOyzA10/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "X6sTYpwTvBU",
+      "title": "Yall got a favorite ex? 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T22:39:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/X6sTYpwTvBU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AzL8X6QgOUI",
+      "title": "The Ghetto Baby Boom Freestyle Pt 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T22:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AzL8X6QgOUI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "njLrqzJE2hc",
+      "title": "HOT 97 National News Live! 7/22/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T22:26:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/njLrqzJE2hc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "In6Bpmnn-2c",
+      "title": "The Ghetto Baby Boom Freestyle Pt 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/In6Bpmnn-2c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UfQVlbfwv50",
+      "title": "Chloe Couture - Heat (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-07-22T21:53:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UfQVlbfwv50/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vlhELET-TX4",
+      "title": "Masego “Symone” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T21:45:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vlhELET-TX4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "c66SmY2XMew",
+      "title": "Keep Usher AWAY from your Woman 🍒",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T19:54:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/c66SmY2XMew/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zy7ol7_pjBw",
+      "title": "Mysonne on ROC Solid! 💎",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T19:37:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zy7ol7_pjBw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FZVBNUKwGco",
+      "title": "38 Spesh Goes Off on Jim Jones, Fat Joe, and More!",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FZVBNUKwGco/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fMfAs_tBbBA",
+      "title": "The Don had his G-Wagon “STOLEN”? 😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T18:11:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fMfAs_tBbBA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RwyH_d_4H3A",
+      "title": "Wallo popped out at J.Cole night #2 in Philly 🔥",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T16:57:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RwyH_d_4H3A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_YtZGL1syJE",
+      "title": "Woman Robs Wendy’s, Attacks Worker, Then Returns For Her Airpod",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T16:47:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_YtZGL1syJE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "X1_ENM3PGZE",
+      "title": "Mon Laferte - Gigante | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T16:36:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/X1_ENM3PGZE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "g6DMumaxeHo",
+      "title": "Memphis Bleek addresses the 38 Spesh situation with Jadakiss and crowns Kiss the GOAT",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T16:18:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/g6DMumaxeHo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "U5rhDQSJ7p4",
+      "title": "Jass Clutch x Trap Dickey x Fetty P Franklin - Trap Ni**a 2 | From The Block Performance 🎙(Carolina)",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-22T16:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/U5rhDQSJ7p4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9XPDJqx_9mU",
+      "title": "Nobody Believes My Son Is White A True Classroom Story",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9XPDJqx_9mU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fxxkSaKQaTs",
+      "title": "Joe Budden's Honest Thoughts on Jay-Z's Extra Innings Show!",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fxxkSaKQaTs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "gayo5sCcBZc",
+      "title": "The Breakfast Club FULL SHOW 07-22-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T15:57:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gayo5sCcBZc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_NLRDeUKrMA",
+      "title": "Wendy Williams' Guardian Settles Legal Battle Over Controversial Doc",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T14:32:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_NLRDeUKrMA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CierxeoPKok",
+      "title": "JAY-Z ADLIBBED FOR FAT JOE?‼️",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T14:13:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CierxeoPKok/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "ALLvDxx4t2Q",
+      "title": "Mysonne Shares His Journey from the Streets to Community Leader on ROC Solid | Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T14:09:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ALLvDxx4t2Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cssapsktlkw",
+      "title": "Your Body Explained Essential Self Care Education You Need",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cssapsktlkw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nxjs4U-2d_8",
+      "title": "Joe Budden Almost Walked Out of Jay-Z's Show... Here's Why!",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-07-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nxjs4U-2d_8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "Z8SGetObev4",
+      "title": "Buju Banton On His Connection & Dedication To His Fans, Dancehall & Hip Hop's Relationship + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Z8SGetObev4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zmjRu8kBwG0",
+      "title": "Stephen A. Smith Speaks Out After Ryan Clark Firing, Cam Newton Also Let Go From ESPN",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-22T12:42:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zmjRu8kBwG0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "FRjm0_ugEAg",
       "title": "New episode with The Dream out on Youtube 💯",
