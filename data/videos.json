@@ -1,7 +1,31 @@
 {
-  "generated_at": "2026-07-27T03:02:59.441653+00:00",
-  "total": 2260,
+  "generated_at": "2026-07-27T11:53:47.281065+00:00",
+  "total": 2262,
   "videos": [
+    {
+      "id": "1UudeudKOvs",
+      "title": "LeBron James Signs 2-Year Contract With The Philadelphia 76ers",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-07-27T11:38:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1UudeudKOvs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_8E1ap_oTGQ",
+      "title": "Bizzy Banks Reacts To His OTR Freestyle Pt 3",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-07-27T03:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_8E1ap_oTGQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "68-UD8Pp970",
       "title": "Chandler Freestyle | On The Radar Live Sessions",
