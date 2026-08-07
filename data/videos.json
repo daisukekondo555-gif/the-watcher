@@ -1,7 +1,43 @@
 {
-  "generated_at": "2026-08-07T03:14:55.981127+00:00",
-  "total": 2512,
+  "generated_at": "2026-08-07T12:10:22.672814+00:00",
+  "total": 2536,
   "videos": [
+    {
+      "id": "2hEEek11bCI",
+      "title": "HOT 97 News Live! 8/6/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T12:05:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2hEEek11bCI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QosP_7Ueyb4",
+      "title": "Jorjiana Didn't Think Her First On The Radar Was Going To Blow Up",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T02:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QosP_7Ueyb4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3PcPy96_554",
+      "title": "Eli Youngblood \"Stand Up\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T01:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3PcPy96_554/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "9IgqFX3pVh0",
       "title": "Rockstar Riley (ft. Trinidad James) - Waffy Options Remix | From The Block Performance 🎙🔥🔥🔥",
@@ -27,12 +63,48 @@
       "related_articles": []
     },
     {
+      "id": "4uBbTkr7fI0",
+      "title": "Anella “Thinkin Bout Us” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-06T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4uBbTkr7fI0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
       "id": "rnXFfFUq88g",
       "title": "Rockstar Riley (ft. Trinidad James) - Waffy Options Remix | From The Block Performance 🎙",
       "channel_name": "From The Block",
       "category": "PERFORMANCES",
       "published_at": "2026-08-06T23:00:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/rnXFfFUq88g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2OAH5LdwKdQ",
+      "title": "OnTheRadar IS LIVE!!! w/ GABE P!! SUBMIT YOUR MUSIC NOWWW!!!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-06T22:14:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2OAH5LdwKdQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rzA_1VzPJW8",
+      "title": "Luca \"Sympathy\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-06T21:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rzA_1VzPJW8/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
@@ -62,12 +134,233 @@
       ]
     },
     {
+      "id": "gNKhAxJ4a68",
+      "title": "Keykinya “Take My Gun” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-06T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gNKhAxJ4a68/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BipanibJ1fQ",
+      "title": "🔋💚OTR is sponsoring a trip to HQ to one lucky artist! Submit a track to OTRISLIVE.COM to apply!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-06T19:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BipanibJ1fQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MPyPvCawvcE",
+      "title": "Rod Wave Speaks On Being The Promoter Behind Ye’s SoFi Stadium Shows; Full Rod Wave Convo Soon",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-06T19:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MPyPvCawvcE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Rod Wave"
+      ],
+      "related_articles": []
+    },
+    {
+      "id": "2j55ZeAdrgQ",
+      "title": "President of Cheyenne Bryant's School Addresses Degree Controversy with Marc Lamont Hill",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-06T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2j55ZeAdrgQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "17DD8Ptq5EE",
+      "title": "Lil Rel was a victim of having “Seasonal Friends” being Blake Griffin",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-06T18:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/17DD8Ptq5EE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xULfg0vVknE",
+      "title": "A$AP Rocky Gives Update On New Music From Rihanna + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-06T17:43:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xULfg0vVknE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "A$AP Rocky"
+      ],
+      "related_articles": [
+        {
+          "id": "374913ba47ba81589f12e1cb78bfddf5",
+          "title": "A$AP Rocky、 mansionでの射撃が“平穏を奪った”と語る"
+        },
+        {
+          "id": "374913ba47ba8115b836ef61037ea97e",
+          "title": "エイサップ・ロッキー、ビバリーヒルズの自宅銃撃の後遺症を語る"
+        },
+        {
+          "id": "373913ba47ba8138bb56cdbc33ca786c",
+          "title": "A$AP Rocky、ストックホルム含む欧州ツアー30公演を発表"
+        }
+      ]
+    },
+    {
+      "id": "K-ngdnFeawY",
+      "title": "Man Dressed As Grim Reaper Arrested After Staring At Patients From Hospital Rooftop",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-06T17:40:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/K-ngdnFeawY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-NJ39leaS08",
+      "title": "Edison Equipment Caused California Wildfire That Devastated Black Altadena Community",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-06T17:34:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-NJ39leaS08/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DdAtRpel044",
+      "title": "The Breakfast Club FULL SHOW 08-06-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-06T17:08:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DdAtRpel044/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AbhRHmshWQQ",
+      "title": "Wendy Williams Reportedly The Subject Of Two New Documentaries",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-06T16:43:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AbhRHmshWQQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZFY7fc1NE_s",
+      "title": "Gillie almost signed with G-Unit 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-06T16:40:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZFY7fc1NE_s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0FnBEpMNU7g",
+      "title": "“Jadakiss, Are you happy?” Joe asking all the RIGHT questions",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-06T16:36:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0FnBEpMNU7g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-OHxif-j7-A",
+      "title": "Tuskegee University Makes Controversial Dress Code Decision",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-06T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-OHxif-j7-A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OVJF3GT0R5c",
+      "title": "SCH - Loup Noir | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-06T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OVJF3GT0R5c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1symSNeQJ5Y",
+      "title": "A “Topless” Fat Joe in the NEW “Get Out” Sequel?",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-06T14:33:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1symSNeQJ5Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NJoimWckC9I",
+      "title": "Diarra Kilpatrick On Black Women Succeeding Together, ‘Diarra From Detroit’ Season 2 + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-06T13:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NJoimWckC9I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
       "id": "fkQpmzazN30",
       "title": "ANGELA YEE SHARES WHY HER INTERVIEW W SUGE KNIGHT NEVER AIRED",
       "channel_name": "Math Hoffa",
       "category": "INTERVIEWS",
       "published_at": "2026-08-06T13:15:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/fkQpmzazN30/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kobqhJE3s-o",
+      "title": "The Joe Budden Podcast Episode 952 | Stuck In Turks",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-06T12:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kobqhJE3s-o/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
@@ -1005,6 +1298,18 @@
       "category": "PODCASTS",
       "published_at": "2026-08-03T14:25:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/RlOdG3gP--o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "99kmukHfHFk",
+      "title": "Mornings With Mero Livestream |  8-7-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-03T13:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/99kmukHfHFk/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
