@@ -1,7 +1,289 @@
 {
-  "generated_at": "2026-08-07T12:10:22.672814+00:00",
-  "total": 2536,
+  "generated_at": "2026-08-08T11:50:34.759097+00:00",
+  "total": 2557,
   "videos": [
+    {
+      "id": "i_cAs50kyBE",
+      "title": "ANGELA YEE ON WHY SHE PARTED WAYS WITH THE BREAKFAST CLUB",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-08T07:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/i_cAs50kyBE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gZZzWBKAbhs",
+      "title": "DJ Dizzy | On The Radar DJ SET",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gZZzWBKAbhs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gPAKPrILFzc",
+      "title": "HOT 97 News Live! 8/7/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T22:33:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gPAKPrILFzc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wH-UOeAk4-E",
+      "title": "Th3rd \"Night & Day\" Feat: JMTB  & \"How can I choose\" feat: Deli Banger | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T21:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wH-UOeAk4-E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7vmAlEREA0E",
+      "title": "We need Kiss security and her special set of skills to help us find Joey Crack a Flag",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-07T20:29:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7vmAlEREA0E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "oyJlDwetdD4",
+      "title": "Joe Budden Reacts to Cardi B’s New Single “AH HA”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-07T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oyJlDwetdD4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "eLASqnTxBuM",
+      "title": "Jai'Len Josey - Serial Romantic | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T18:04:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eLASqnTxBuM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UYRL9QFyT-s",
+      "title": "Jai'Len Josey - Serial Romantic | From The Block Performance 🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T18:04:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UYRL9QFyT-s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-re0E5FUJBw",
+      "title": "New Survey Ranks The Freakiest States In The U.S. 👀",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T18:02:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-re0E5FUJBw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZAGengIzu08",
+      "title": "The Breakfast Club FULL SHOW 08-07-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T17:37:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZAGengIzu08/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "d9ULOXpKrmQ",
+      "title": "Guizmo - Cicatrices | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T17:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/d9ULOXpKrmQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AHbh4bTQ55c",
+      "title": "Joe Budden Reacts to Making Forbes’ Highest-Paid Podcasters List",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-07T16:46:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AHbh4bTQ55c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "76uqF3aL0qo",
+      "title": "DJ Nyla Symone Talks New Music From Odeal, Rapsody + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/76uqF3aL0qo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UMJWJ7Qsb68",
+      "title": "Wallo was a prison masseuse 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-07T15:11:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UMJWJ7Qsb68/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_ZyOn6ZfoYE",
+      "title": "Nour - Nesety Nafsek | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T14:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_ZyOn6ZfoYE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zHxosj8RzCI",
+      "title": "Second Michael Jackson Biopic To Be Released By Early 2028",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zHxosj8RzCI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_IqLxAylmUk",
+      "title": "Ray J Speaks On His Last Fight, His Health & Speaks OnUpcoming Boxing Match With Orlando Brown +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_IqLxAylmUk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ks7KA4biQ4I",
+      "title": "AFTER THE BATTLE WE BEAT THIS N A UP!!!  GEECHI GOTTI TALKS FIGHTING AT HIS FIRST BATTLE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T13:15:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ks7KA4biQ4I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uUcOByQsE6A",
+      "title": "Ashton Hall Says He Turned Down Saratoga Water Deal Over Lack of Equity",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-07T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uUcOByQsE6A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Gm6_MdeLIic",
+      "title": "Dame Dash Calls Out Loren Lorosa For ‘Negative Reporting’ Over The Selling Of His Life Rights",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Gm6_MdeLIic/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "jO_oYmspaVs",
+      "title": "Eric Bellinger On Independent Music Journey, Married Life, Therapy + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-07T12:37:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jO_oYmspaVs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "2hEEek11bCI",
       "title": "HOT 97 News Live! 8/6/26",
