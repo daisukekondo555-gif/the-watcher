@@ -1,7 +1,19 @@
 {
-  "generated_at": "2026-08-10T03:02:18.977048+00:00",
-  "total": 2582,
+  "generated_at": "2026-08-10T11:55:40.219235+00:00",
+  "total": 2584,
   "videos": [
+    {
+      "id": "Q6Pnm1YaaAY",
+      "title": "5IVE MICS GETS RUN DOWN ON!",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-10T10:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Q6Pnm1YaaAY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "y2GGAzVE5x0",
       "title": "New episode out now 😭",
@@ -601,6 +613,18 @@
           "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
         }
       ]
+    },
+    {
+      "id": "LM43bDKkg4E",
+      "title": "Diiya | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-07T12:48:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LM43bDKkg4E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
     },
     {
       "id": "jO_oYmspaVs",
