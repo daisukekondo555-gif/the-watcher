@@ -1,7 +1,360 @@
 {
-  "generated_at": "2026-08-11T11:55:14.216345+00:00",
-  "total": 2612,
+  "generated_at": "2026-08-12T11:54:06.273191+00:00",
+  "total": 2640,
   "videos": [
+    {
+      "id": "LopZDwJztlk",
+      "title": "A Different World: Brandy Remakes The Iconic Theme Song For New Sequel",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-12T11:40:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LopZDwJztlk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nvXoTyTh9u0",
+      "title": "Jadakiss has many moments in Hip-hop that put him at the TOP of the Hill 🐐",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-12T00:01:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nvXoTyTh9u0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iwxEOWuHPeo",
+      "title": "HOT 97 News Live! 8/11/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T22:37:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iwxEOWuHPeo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "l_BECOdYNEs",
+      "title": "The Fenix Flexin \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T21:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/l_BECOdYNEs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cdZAx56EWvg",
+      "title": "The Fenix Flexin & Maison Marceles Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cdZAx56EWvg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HSPWy9_ZkcU",
+      "title": "YG Teck “Dayz Inn” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T20:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HSPWy9_ZkcU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "HjpG6tD0ppM",
+      "title": "EXCLUSIVE: Summer Jam 2026 Backstage Interviews ft. Tylil, G Herbo, Natalie Nunn & More!",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T19:45:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HjpG6tD0ppM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VkgTK8W1ZVI",
+      "title": "Masicka - Spend | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T19:43:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VkgTK8W1ZVI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qheyq8gpVkQ",
+      "title": "Masicka - Spend | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T19:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qheyq8gpVkQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4Xw-nwSEDAs",
+      "title": "Detroit Barbie \"Strippin In The D\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4Xw-nwSEDAs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3thfi1JjyjU",
+      "title": "Marlon Jackson Developing Docuseries Exploring Father Joe Jackson’s Legacy",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-11T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3thfi1JjyjU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EO-QOyhmpvk",
+      "title": "Rick Ross \"B.M.F.\" | On The Radar Classics",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T18:36:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EO-QOyhmpvk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "52OHiZ75b30",
+      "title": "Kiss got that call from Usher and immediately put his Album on HOLD",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-11T18:22:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/52OHiZ75b30/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WLfUYZYiRLE",
+      "title": "MCGWN \"give it some time\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T18:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WLfUYZYiRLE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JYx0aiDZhGA",
+      "title": "The Breakfast Club FULL SHOW 08-11-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T17:26:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JYx0aiDZhGA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zLSDIEfQ38k",
+      "title": "NateTaylorr \"Mutuals\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T17:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zLSDIEfQ38k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CBauOyUK_so",
+      "title": "33MAXX \"Where\" & \"Just Bars\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CBauOyUK_so/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fNqwDCZJQVw",
+      "title": "Marc Lamont Hill Goes Off on Jonah Hill and Defends Brazilian Jiu Jitsu",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-11T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fNqwDCZJQVw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "P9hPxUBce6c",
+      "title": "Fat Joe and Remy Ma are ALL THE WAY UP🗣️",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-11T15:07:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/P9hPxUBce6c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xeFs6Gy-CZY",
+      "title": "Free cuts from Wallo 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-11T14:53:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xeFs6Gy-CZY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "h3kXEFiHUJI",
+      "title": "Rod Wave On 'Pain Music' & Keeping His Reality Balanced Despite The Falsehoods Of The Internet World",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T14:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/h3kXEFiHUJI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Rod Wave"
+      ],
+      "related_articles": []
+    },
+    {
+      "id": "dwWdQc75CD8",
+      "title": "Beyoncé Sued For Copyright Infringement Over ‘Alien Superstar’ Sample",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T13:52:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dwWdQc75CD8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "R_NngQXc31g",
+      "title": "OnlyFans Model Courtney Clenney Pleads Guilty To Manslaughter Of Boyfriend Christian Obumseli",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T13:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R_NngQXc31g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Jf6C-wdqwXE",
+      "title": "YOU LET YOUR LAWYER HANDLE IT  ALBEE AL ON COOPERATING",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T13:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Jf6C-wdqwXE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "J395ZfuFSU8",
+      "title": "Stephen A. Smith Apologizes to Kyrie Irving…Again",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-11T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/J395ZfuFSU8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "S0_aq11gCBg",
+      "title": "Is Chris Brown A Better Performer Than Michael Jackson?",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/S0_aq11gCBg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "s_EVshKmmRE",
+      "title": "Drake Responds To Critics Labeling His Recent ‘20 V 1’ Livestream ‘Corny’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-11T12:19:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/s_EVshKmmRE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "swh0_M0rRPQ",
+      "title": "Death Cab for Cutie: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-11T11:47:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/swh0_M0rRPQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "epSGFU8elpk",
       "title": "| Mornings With Mero Livestream 8-10-26",
