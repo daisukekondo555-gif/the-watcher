@@ -1,7 +1,364 @@
 {
-  "generated_at": "2026-08-13T11:56:35.848826+00:00",
-  "total": 2677,
+  "generated_at": "2026-08-14T11:57:45.024495+00:00",
+  "total": 2703,
   "videos": [
+    {
+      "id": "5lDW6Ea6vSo",
+      "title": "Pitchfork SLAMS Tyga’s AI Album + Tupac Trial Update | Mornings With Mero Livestream 8-13-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-14T00:57:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5lDW6Ea6vSo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "CepgMNeLbWs",
+      "title": "OTR Rewind: The Lil Eazzyy Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-14T00:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CepgMNeLbWs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xJU-a9jkFnM",
+      "title": "Gary Owen returns to Drink Champs! 🏆",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-08-13T23:03:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xJU-a9jkFnM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "G7LmlZjgTuY",
+      "title": "Hoodrich Keem | On The Radar DJ SET",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/G7LmlZjgTuY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "seCDY8MUJBY",
+      "title": "The I Wayne \"On The Radar\" Freestyle (Rebel Blaze Riddim)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T22:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/seCDY8MUJBY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0rCaVg8xdrE",
+      "title": "HOT 97 News Live! 8/13/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T22:20:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0rCaVg8xdrE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_M-5d7-1jiE",
+      "title": "Travis Porter - Nasty | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T21:33:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_M-5d7-1jiE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "P_4T8ogJYlM",
+      "title": "Travis Porter - Nasty | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T21:21:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/P_4T8ogJYlM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "FfeCMSmwdxE",
+      "title": "MySpace Is Planning a Comeback | Joe Budden Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-13T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FfeCMSmwdxE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SjB5Bt4rNHk",
+      "title": "Mir220 - Greeting You | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T18:39:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SjB5Bt4rNHk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xjz87FaYld4",
+      "title": "Mir220 - Greeting You | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T18:38:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xjz87FaYld4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IPMyc4mlZPQ",
+      "title": "Surrogate Mother Flees To Texas To Give Birth To Baby With Heart Condition After Refusing Abortion",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T18:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IPMyc4mlZPQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fgRoValqJgE",
+      "title": "Man On Probation For Vehicle Theft Drives Stolen Car To Probation Office",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T17:48:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fgRoValqJgE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EQbOFjH0vAc",
+      "title": "Did Usher just confirm and Adlib a Rico Love x Fat Joe story?",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-13T16:31:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EQbOFjH0vAc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lcrBWA9SvOg",
+      "title": "Maria Luiza Jobim - Garota de Ipanema / Girl from Ipanema | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T16:18:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lcrBWA9SvOg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1sJUG4MsqeQ",
+      "title": "Q TIP ON OLD SCHOOL RAPS RESURGENCE WHERE NEW WAVE MEETS CLASSICS",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1sJUG4MsqeQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jo6N1urDycA",
+      "title": "Queen Naija Involved In Argument After Receiving $1,300 Dinner Bill",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-13T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jo6N1urDycA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rdytZOagn-Q",
+      "title": "The Breakfast Club FULL SHOW 081326",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T15:53:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rdytZOagn-Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KwPK--RJTQc",
+      "title": "My Wife Died Two Months Ago And I’m Ready To Move On With My Best Friend",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T15:17:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KwPK--RJTQc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "n7Q6drExga8",
+      "title": "Proof that Jess can actually read better than Loren 🤓",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T14:25:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/n7Q6drExga8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HIoQlasQVw8",
+      "title": "BNXN - In My Mind | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-13T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HIoQlasQVw8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-xydntKd_ns",
+      "title": "Q TIP ON COMPETING WITH STEVIE WONDER AND EARTH WIND AND FIRE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-xydntKd_ns/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SBlDduNIIqQ",
+      "title": "Saucy Santana On The Meaning Behind ‘Quiet On The Creek’, How He Got His Stage Name + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SBlDduNIIqQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HZdtmvF5sWU",
+      "title": "The Joe Budden Podcast Episode 954 | Judge Of The Peace",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-13T12:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HZdtmvF5sWU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "hF6JwsomIJE",
+      "title": "Chris Brown Files New Court Documents Seeking A New Trial In $12.9M Dog-Bite Lawsuit",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T12:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hF6JwsomIJE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "j4TZclr3Kps",
+      "title": "Lionel Richie Calls Out Chris Brown & Usher During Concert",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-13T11:43:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/j4TZclr3Kps/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "gAq-bL_WDFA",
       "title": "Wallo calling NLE a bum from the bench is crazy 😂 It’s going down Saturday at The Big 3 🏀",
