@@ -1,7 +1,520 @@
 {
-  "generated_at": "2026-08-19T11:59:10.972602+00:00",
-  "total": 2825,
+  "generated_at": "2026-08-20T11:56:28.066043+00:00",
+  "total": 2864,
   "videos": [
+    {
+      "id": "D8J2BMWLnPM",
+      "title": "The Breakfast Club Celebrates ‘National Radio Day’ By Honoring Their Roots",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-20T11:34:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/D8J2BMWLnPM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "o4I-Y8XiBIs",
+      "title": "'Weird Al' Yankovic: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-20T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o4I-Y8XiBIs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VLbOWC-vmts",
+      "title": "Sneakers are the way to our Heart \\\\\\🤝 Love, Mayor x Pharrell",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-20T01:19:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VLbOWC-vmts/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gi5XmaxAOek",
+      "title": "Wine Pon It Wednesdays + Hip Hop Jeopardy! | Mornings With Mero Livestream  8-19-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-20T00:57:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gi5XmaxAOek/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ODWyO9obioM",
+      "title": "THE HARSH TRUTH ABOUT THE NOLAN WELLS SITUATION!",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-20T00:15:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ODWyO9obioM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2RtT2oJz-oo",
+      "title": "Shaq Capalot \"SAY NO\" & \"TRIM\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-20T00:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2RtT2oJz-oo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Haf7Nrvkuiw",
+      "title": "Wallo & Gillie take over the Big 3 Celebrity Game",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T23:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Haf7Nrvkuiw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "alYtnAg7AmQ",
+      "title": "Pharrell sends Joe & Jada adidas Jellyfish before the September release",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T23:22:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/alYtnAg7AmQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fKaoudcTo70",
+      "title": "Kabwasa & shaw00p “Park Yo Chevy” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T23:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fKaoudcTo70/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QTG1lR4e8Xw",
+      "title": "03 Greedo \"Substance\" | On The Radar Classics",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QTG1lR4e8Xw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ctSA-75O_18",
+      "title": "The Ti Steele \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T22:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ctSA-75O_18/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8Ly-yTHMwIA",
+      "title": "The Ti Steele Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T22:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8Ly-yTHMwIA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "eN5ppAOoc5w",
+      "title": "Jorja Smith “I Lied, You Lied” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T22:27:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eN5ppAOoc5w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ya7weVD91No",
+      "title": "HOT 97 News Live! 8/19/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T22:19:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ya7weVD91No/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tZBXvlI3cMc",
+      "title": "\"I DID 17 YEARS IN PRISON AND CAME HOME TO SKINNY JEANS AND LAPTOP DJS!!\" DAWGFACE ON D3ATH OF DJING",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T22:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tZBXvlI3cMc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "u_mWCrkgc5M",
+      "title": "Crestbaby 4L “Mr. 550” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T21:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/u_mWCrkgc5M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GCbFdN27vSk",
+      "title": "The Bloodhound Q50 Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GCbFdN27vSk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "l92rQ_AfteQ",
+      "title": "S3nsi Molly - Make Em Trick | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T20:12:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/l92rQ_AfteQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-VHJB2cFK90",
+      "title": "S3nsi Molly - Make Em Trick | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T20:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-VHJB2cFK90/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RjNAay1YS2M",
+      "title": "Fat Joe & Jadakiss get gifted NEW Awake NY x Air Jordan 6s 🔥 | Joe & Jada",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T19:31:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RjNAay1YS2M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SQZf6ZNBzCc",
+      "title": "Chris Brown & Usher’s R&B Tour at MetLife | “Too Many Hits\"",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SQZf6ZNBzCc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AxhsU2jN4Uw",
+      "title": "Chris E Bandz - New York Minute | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T18:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AxhsU2jN4Uw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8pZF4giSFRs",
+      "title": "Chris E Bandz - New York Minute | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T18:05:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8pZF4giSFRs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Wn-0esrVSVU",
+      "title": "Livin Proof Talks Rotation Mandatory, Hip-Hop & His Journey on ROC Solid | Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T16:46:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Wn-0esrVSVU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Kj-pbeoet30",
+      "title": "Rich Paul’s investment advice 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T16:45:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Kj-pbeoet30/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "z-E1AGXVXes",
+      "title": "Q TIP ON PHIFE DAWG THE FREESTYLE GENIUS AND UNSEEN STAGE BANTER",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/z-E1AGXVXes/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DR6mP5nvai4",
+      "title": "Akon Paid $1 Million for Private Middle East Concert for 3 People",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DR6mP5nvai4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Akon"
+      ],
+      "related_articles": [
+        {
+          "id": "380913ba47ba818f9f02d2b6b1744a22",
+          "title": "エイコンがネーヨに対して示す関係アドバイスとは：多妻制を巡る対話"
+        },
+        {
+          "id": "36f913ba47ba816aa1ccfb3bf379926f",
+          "title": "Akonが実生活での複数妻制度を語る"
+        },
+        {
+          "id": "363913ba47ba8141b69bcb8b0c21a473",
+          "title": "エイコン、アフリカの発展を目指す「ディアスポラの帰還」を改めて呼びかけ"
+        }
+      ]
+    },
+    {
+      "id": "4O9yKSMYjQM",
+      "title": "Dr. Chuck Morris On Writing ‘Stress: Our Human Superpower’ After Contracting Corneal Ulcers",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4O9yKSMYjQM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9h242uT3Sxs",
+      "title": "The Breakfast Club FULL SHOW 08-19-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T15:57:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9h242uT3Sxs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OSeTll-b2u8",
+      "title": "Florida Officer Used Flock Cameras To Track Estranged Wife 717 Times",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T15:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OSeTll-b2u8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lDwD-t1KhFQ",
+      "title": "R2R MOE - WDYL FREESTYLE | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T14:51:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lDwD-t1KhFQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mEA8FzhYFko",
+      "title": "London Brown Breaks Down His Deep Connection To His Character Roles & Uncle Marvin",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T14:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mEA8FzhYFko/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GMf9loM-RCg",
+      "title": "Sadek - Changement de propriétaire | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T13:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GMf9loM-RCg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OM6RqqUcgEY",
+      "title": "Man Wearing Chucky Mask Wanted In Philadelphia After Chasing & Threatening People",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T13:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OM6RqqUcgEY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1TghOQpmFUc",
+      "title": "Chaka Khan | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-19T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1TghOQpmFUc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ynpeVac9_CQ",
+      "title": "Q TIP ON PASSING THE BATON AND THE POWER OF MUTUAL GROWTH",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ynpeVac9_CQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sZT0axdo0aU",
+      "title": "Dame Dash Allegedly Selling His Life Rights | The Joe Budden Podcast Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-19T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sZT0axdo0aU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "NG1RUvxlKTI",
+      "title": "Cardi B Tells Her Kids They’ll Need To Learn How To Fight",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T12:42:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NG1RUvxlKTI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "P7IkfEHco3M",
+      "title": "Jasmine Guy's Memoir “A Different Girl” Set To Release Feb 2027 via Black Privilege Publishing",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-19T12:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/P7IkfEHco3M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "s7vkH8PH27M",
       "title": "Stephen A. Smith Called Out Over Comments About Black Women | Mornings With Mero Livestream 8-18-26",
