@@ -1,7 +1,169 @@
 {
-  "generated_at": "2026-08-22T11:51:59.737816+00:00",
-  "total": 2924,
+  "generated_at": "2026-08-22T22:49:41.744230+00:00",
+  "total": 2935,
   "videos": [
+    {
+      "id": "yd9rCZnl06s",
+      "title": "K-Salaam Cooks Up A Crazy Beat & Scratches Over It! (OTR LIVE COOKUP)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-22T20:31:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yd9rCZnl06s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TOVWSbjadt4",
+      "title": "K-Salaam Cooks Up A Crazy Beat & Scratches Over It! (OTR LIVE COOKUP)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-22T20:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TOVWSbjadt4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jBDTIeVK5OA",
+      "title": "K-Salaam Cooks Up A Crazy Beat & Scratches Over It! (OTR LIVE COOKUP)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-22T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jBDTIeVK5OA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mFLouDYJsrU",
+      "title": "\"I KNOW GILLY WROTE FOR WAYNE, I CAN HEAR THE INFLUENCE!!!\" DAWGFACE CALDERON GOES DEEP",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-22T20:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mFLouDYJsrU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7f2oyoY7f0Y",
+      "title": "Tyga Claps Back at Critics After Backlash Over 0/10 Rated Album",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-22T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7f2oyoY7f0Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "qXBXKA428Qc",
+      "title": "Jorjiana Reacts To Her First On The Radar Performances (OTR REWIND)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-22T18:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qXBXKA428Qc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "aJuPSyRVLec",
+      "title": "Dawgface Calderon On Hip Hop Culture The TRUE Cost Of Commercialization",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-22T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/aJuPSyRVLec/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "i4j1MxYnBXk",
+      "title": "Joe Budden Begs Drake to Bait Jay-Z | “Fire on That Senior Citizen\"",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-22T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/i4j1MxYnBXk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "HfQ9Gzloy5g",
+      "title": "kwn - idea of love | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-22T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HfQ9Gzloy5g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RVzWld7eK2Y",
+      "title": "Dawgface Calderon On Nolan Wells Harsh Reality Societys Unseen Dangers",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RVzWld7eK2Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "09x8VmSh-ak",
+      "title": "Joe Budden On Charlamagne vs Ray Daniels Feud and Roc Nation’s Role",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/09x8VmSh-ak/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "ayzD8pgxcRw",
       "title": "OnTheRadar IS LIVE!!! w/ GABE P!! SUBMIT YOUR MUSIC NOWWW!!!",
