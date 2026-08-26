@@ -1,7 +1,473 @@
 {
-  "generated_at": "2026-08-25T12:07:45.875800+00:00",
-  "total": 2989,
+  "generated_at": "2026-08-26T12:01:42.877350+00:00",
+  "total": 3025,
   "videos": [
+    {
+      "id": "4vW9Y1qTU_s",
+      "title": "Ish & Emanny CLASH Over Joey Bada$$ Cheating Allegations",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T10:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4vW9Y1qTU_s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UdK_F24acB0",
+      "title": "Joe & Ish GET HEATED & Threaten To Reveal Each Other’s SECRETS",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T03:07:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UdK_F24acB0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5Ss6PXVlPc8",
+      "title": "Imagine getting a Phone call in the middle of the day from Keith Sweat? Fat Joe doesn’t have to 😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T23:19:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5Ss6PXVlPc8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pQyl62hWSa0",
+      "title": "Baldgirl “Zazzed” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pQyl62hWSa0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vWjtxEiuX3w",
+      "title": "HOT 97 News Live! 8/25/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T22:28:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vWjtxEiuX3w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SspePbFnGME",
+      "title": "H41dn \"Maze\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SspePbFnGME/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RUaR8K9BKAM",
+      "title": "OnTheRadar IS LIVE!!! w/!! SUBMIT YOUR MUSIC NOWWW!!!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T21:51:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RUaR8K9BKAM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HS-hmcg93Fs",
+      "title": "The Baby Yola \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T21:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HS-hmcg93Fs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "V2UpAMlo_3Y",
+      "title": "The Baby Yola Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T21:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/V2UpAMlo_3Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9yfVl9WspI4",
+      "title": "Pitchfork SLAMS Tyga’s AI Album + Tupac Trial Update | Mornings With Mero Livestream 8-13-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T20:57:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9yfVl9WspI4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "q5GYamY_RnI",
+      "title": "Fat Joe is NOT a fan of anything Vegan",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T20:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/q5GYamY_RnI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Vofc7zi1TFQ",
+      "title": "Max B Ft. LA Richh - Feel Different (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-08-25T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Vofc7zi1TFQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "keO5SisyJT4",
+      "title": "The Jpay \"On The Radar\" Freestyle (Chief Keef)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/keO5SisyJT4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Chief Keef"
+      ],
+      "related_articles": []
+    },
+    {
+      "id": "anw2IRPQDZE",
+      "title": "The Jpay Freestyle (Chief Keef)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T20:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/anw2IRPQDZE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Chief Keef"
+      ],
+      "related_articles": []
+    },
+    {
+      "id": "_2-XZ6T7x94",
+      "title": "The Kiree3600 Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T19:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_2-XZ6T7x94/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "u6VRQhEjckc",
+      "title": "Pitchfork SLAMS Tyga’s AI Album + Tupac Trial Update | Mornings With Mero Livestream 8-13-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T19:22:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/u6VRQhEjckc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "adIgbXQET0I",
+      "title": "All of this is just really obtuse 📐",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T19:11:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/adIgbXQET0I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PsLublPqQRI",
+      "title": "Kiree3600 \"Dirt Cup\" & On The Radar Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PsLublPqQRI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AQsQHGCexkw",
+      "title": "The Kiree3600 Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AQsQHGCexkw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VVYkE0uEeC0",
+      "title": "Ray J vs. Orlando Brown Fight Leaves the JBP Confused | \"That Was Not Boxing\"",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VVYkE0uEeC0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AvKZORItQbw",
+      "title": "Selfmade Kev - Shoebox | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T18:47:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AvKZORItQbw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iLWgTevB7RY",
+      "title": "Selfmade Kev - Shoebox | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T18:46:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iLWgTevB7RY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mFwU0MzMCkc",
+      "title": "Busta Rhymes PREMIERES \"This Woman\" ft. D'Angelo off new project w/ J. Dilla 'Dillagence 2' 🔥",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T18:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mFwU0MzMCkc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "U-SM568XQjE",
+      "title": "How Do You Show Up For Your Friend After A Heartbreak?",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T18:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/U-SM568XQjE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "T73_9R9nwCw",
+      "title": "Charles Barkley & Stephen Jackson React To Enes Kanter Freedom Being Ejected From WNBA Game",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T17:21:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/T73_9R9nwCw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_Avd2W9xY5w",
+      "title": "The Breakfast Club FULL SHOW 08-25-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T16:34:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_Avd2W9xY5w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uHgKVYipLPQ",
+      "title": "Dawgface Calderon Fighting Legal Battles And Podcast Betrayals",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uHgKVYipLPQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WCmYuCzYL4Q",
+      "title": "NABJ Gives Stephen A. Smith ‘Thumbs Down’ Award",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WCmYuCzYL4Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FiuB5WPYmPU",
+      "title": "Busta Rhymes is easily STAMPED as one of the GREATEST of All-Time",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T15:53:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FiuB5WPYmPU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Q2K0SccuH2M",
+      "title": "New episode out now!",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T15:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Q2K0SccuH2M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8sFPumZUPbQ",
+      "title": "Alee - Instinto | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8sFPumZUPbQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fV9vJmoVDqY",
+      "title": "San Francisco 49ers Owner Jed York Arrested For Being A First-Ballot Freaky Hall Of Famer",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T14:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fV9vJmoVDqY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0GK2-Ce4rt8",
+      "title": "Texas Shaping Up To Be One Of The Biggest Senate Races",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T13:18:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0GK2-Ce4rt8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xh-8WA6rQB4",
+      "title": "Dawgface Calderon On Big Meech DEA Informant And Loyalty Tested",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xh-8WA6rQB4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AcH36WOY6DQ",
+      "title": "Marc Lamont Hill FIRES at DJ Akademiks Over Roc Nation and Drake.",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-25T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AcH36WOY6DQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jB_X2o7gFn4",
+      "title": "Wendy Blindsided By & Not Participating In Docu Series ‘Clap if You Care’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-25T12:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jB_X2o7gFn4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "t86a5MPKf4g",
       "title": "HOT 97 News Live! 8/24/26",
