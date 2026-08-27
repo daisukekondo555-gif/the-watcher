@@ -1,7 +1,361 @@
 {
-  "generated_at": "2026-08-26T12:01:42.877350+00:00",
-  "total": 3025,
+  "generated_at": "2026-08-27T11:54:52.842750+00:00",
+  "total": 3053,
   "videos": [
+    {
+      "id": "3jscYdnSTuo",
+      "title": "Meta Reaches $18B Settlement Over Teen Social Media Addiction",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-27T11:40:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3jscYdnSTuo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2wg7oYPUym8",
+      "title": "Tyrese had Gillie & Wallo rolling 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-27T10:57:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2wg7oYPUym8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SG0ifZpDswg",
+      "title": "E.U.: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-27T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SG0ifZpDswg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8rcrG7R9tcM",
+      "title": "Mornings With Mero Livestream | 8-25-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-27T01:03:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8rcrG7R9tcM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "P9GVWcsNS50",
+      "title": "ATM Cooks Up a CRAZY Beat in 10 Minutes! | On The Radar Live Producer Cook Up",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-26T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/P9GVWcsNS50/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nkbX-XiFevo",
+      "title": "The Cashjunko Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-26T22:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nkbX-XiFevo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zVCQHUrhzwI",
+      "title": "BINI “A Parallel World” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-26T22:25:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zVCQHUrhzwI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rttt31Q_4Ls",
+      "title": "HOT 97 News Live! 8/26/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T22:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rttt31Q_4Ls/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zYW31ZYT06E",
+      "title": "Cashjunko “Wait Up” Performance & On The Radar Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-26T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zYW31ZYT06E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6foJIjhnzPI",
+      "title": "Funny $Money \"Goldie / I Ain't Lying\" & \"Therapeutic\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-26T21:13:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6foJIjhnzPI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YhnhUda62Fk",
+      "title": "Jadakiss on ROC Solid! 💎",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T19:17:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YhnhUda62Fk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TLZ2SMv2s5k",
+      "title": "Jadakiss Brings That Real Hip Hop Energy To ROC Solid | Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T19:17:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TLZ2SMv2s5k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UYfY8yZkCGg",
+      "title": "OYG King Beezy x Lil Jairmy x J Dawg - Ain't No Luvv (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-08-26T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UYfY8yZkCGg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "ATpdHC4ObfA",
+      "title": "Emanny PRESSES Ice After He Gets Janet Jackson’s Catalog WRONG",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ATpdHC4ObfA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "75c_sNLznzQ",
+      "title": "B.I.G was always TEN steps ahead of the Hip-hop game",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T17:54:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/75c_sNLznzQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VoQJ9pHpchs",
+      "title": "The Breakfast Club FULL SHOW 08-26-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T16:49:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VoQJ9pHpchs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "g5iHgUv1kOo",
+      "title": "Yung Miami Teases Who Will Be On The ‘Spend Dat’ Remix",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T16:43:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/g5iHgUv1kOo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yT2GHSSuZ9M",
+      "title": "Dawgface Calderon DJ SECRETS Mastering Crowds With Ballroom And Hustle",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yT2GHSSuZ9M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GUpTBHuHlJI",
+      "title": "Target Apologizes After Backlash For Selling Costume Resembling Minstrel Caricature",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T15:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GUpTBHuHlJI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BTGgatpl1c4",
+      "title": "Busta Rhymes reflects on J. Dilla’s LEGENDARY Producing Skills",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T14:50:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BTGgatpl1c4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mm2zF8lPKN0",
+      "title": "AJULLIACOSTA - Nasci Pra Ser | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-26T14:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mm2zF8lPKN0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "AmCPX2sA6fs",
+      "title": "Target Faces Renewed Backlash For Racist Halloween Costume",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T14:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AmCPX2sA6fs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fPNhs6WaJYY",
+      "title": "Joe Has A WILD Theory About Jed York’s Alleged $140 Encounter",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fPNhs6WaJYY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZbDrbKe380M",
+      "title": "Busta Rhymes Reveals Untold Stories About J Dilla, ODB & The Music Videos That Changed Hip-Hop",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T13:55:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZbDrbKe380M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fA89FlLHR4M",
+      "title": "Dawgface Calderon DJ Transitions Master BPM And Bass Echo Effects Quickly",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fA89FlLHR4M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2LJ1FMJsIVA",
+      "title": "Sources Claim Leaked Phone Call With Other Woman Was Serayah’s Final Straw To Break Up",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-26T12:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2LJ1FMJsIVA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "s25aSvJ058k",
+      "title": "Wallo’s merging football and karate 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-26T12:07:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/s25aSvJ058k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "4vW9Y1qTU_s",
       "title": "Ish & Emanny CLASH Over Joey Bada$$ Cheating Allegations",
@@ -799,6 +1153,18 @@
       "category": "INTERVIEWS",
       "published_at": "2026-08-24T11:30:00.000+00:00",
       "thumbnail_url": "https://i1.ytimg.com/vi/0zFDxX93oQY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uAzkLaK064Y",
+      "title": "La Reezy | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-24T11:29:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uAzkLaK064Y/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
