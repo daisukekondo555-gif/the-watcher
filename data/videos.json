@@ -1,7 +1,338 @@
 {
-  "generated_at": "2026-08-28T12:03:03.090923+00:00",
-  "total": 3082,
+  "generated_at": "2026-08-29T11:53:55.730874+00:00",
+  "total": 3106,
   "videos": [
+    {
+      "id": "EW1gRD9tpyI",
+      "title": "Hit-Boy Says He DOESN’T See Himself Working With Nas Again | Joe Budden Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-29T10:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EW1gRD9tpyI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "YnF1nfXAo4w",
+      "title": "The Kid Tokio Freestyle (i just wanna be famous)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-29T01:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YnF1nfXAo4w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_oPN0RuuqNE",
+      "title": "Joe Questions Hit-Boy’s $1 MILLION Gamble On His Father",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-28T23:47:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_oPN0RuuqNE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gxqq47D15RE",
+      "title": "The Kidtokio \"On The Radar\" Freestyle (i just wanna be famous)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-28T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gxqq47D15RE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "T_sc6vnV09E",
+      "title": "HOT 97 News Live! 8/28/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T22:22:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/T_sc6vnV09E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VNu0nM1xm2c",
+      "title": "Luh Nae \"Where Ya From\" ft. Dreek Jones | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-28T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VNu0nM1xm2c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4UQIJrJV5yo",
+      "title": "Ish Goes Off on Usher and Joe Agrees with \"Diva Behavior\"",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-28T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4UQIJrJV5yo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "v2QRg35N_QI",
+      "title": "Fat Joe On Big Pun’s Legacy, Trying To Mend DJ Khaled & Drake’s Friendship + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T18:14:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/v2QRg35N_QI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "DJ Khaled"
+      ],
+      "related_articles": []
+    },
+    {
+      "id": "Z3ugTB9IaYA",
+      "title": "James Talarico on Texas Senate Race, Ken Paxton, Jasmine Crockett, Black Voters & Businesses + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T18:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Z3ugTB9IaYA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "44UvM6od_Ak",
+      "title": "Wallo’s Mount Rushmore of NY rappers 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-08-28T17:50:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/44UvM6od_Ak/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fMB6WuFJjgU",
+      "title": "Tribe Mark - SHEESH | From The Block Performance 🎙(Jersey)",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-28T16:49:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fMB6WuFJjgU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8j0cPk2P9Yc",
+      "title": "Tribe Mark - SHEESH | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-28T16:49:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8j0cPk2P9Yc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "y4bxZFYRwq8",
+      "title": "Man Posed As NFL Player Scams Multiple Women In $1.3 Million Dating Scheme",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T16:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/y4bxZFYRwq8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Otsixg2WpHo",
+      "title": "Ice Spice & Lil Yachty - Out My Face (Official Music Video)",
+      "channel_name": "Lyrical Lemonade",
+      "category": "MV",
+      "published_at": "2026-08-28T16:09:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Otsixg2WpHo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Yachty",
+        "Ice Spice"
+      ],
+      "related_articles": [
+        {
+          "id": "389913ba47ba8149848cd474efbab837",
+          "title": "Ice Spice、HOT 97 Summer Jamでステージを照らす"
+        },
+        {
+          "id": "384913ba47ba81e1b602f60801b7eaf6",
+          "title": "On Your Mind – FKA twigs feat. Lil Yachty"
+        },
+        {
+          "id": "384913ba47ba81038c8de54dde100fc2",
+          "title": "FKA twigsの新 electro 曲「On Your Mind」 featuring Lil Yachty"
+        }
+      ]
+    },
+    {
+      "id": "WD1Ctt9rqNc",
+      "title": "21 SAVAGE ON HIS RISE THROUGH SUCCESS STRUGGLE AND STREET LIFE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WD1Ctt9rqNc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "WRBlm4MRSV0",
+      "title": "“I’m Not Doing the Black Thing” | Joe Responds to Rashad from Earn Your Leisure",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-08-28T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WRBlm4MRSV0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xm5wtky4VxU",
+      "title": "DJ Nyla Symone Talks 'The Game' New Album, Rapsody, Omeretta the Great + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xm5wtky4VxU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tCRt2DR5db0",
+      "title": "Benny The Butcher & Fuego Base | A COLORS INTERVIEW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-28T15:59:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tCRt2DR5db0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "999PzgTA2fw",
+      "title": "The Breakfast Club FULL SHOW 08-28-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T15:31:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/999PzgTA2fw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2B5K_DXksQA",
+      "title": "Skepta - No Sleep | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-28T15:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2B5K_DXksQA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "whtXZhc_gto",
+      "title": "Mojo Brookzz Speaks On The Stigma Around Doing Crowd Work",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T14:24:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/whtXZhc_gto/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RTvOLGNlJ_8",
+      "title": "21 SAVAGE REVEALS HIS SECRET STRATEGY FOR ORGANIC MUSIC GROWTH",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RTvOLGNlJ_8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "a3aNxzHyQ9Y",
+      "title": "Yung Miami Drops Long-Awaited ‘Spend Dat’ Remixes",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-28T12:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/a3aNxzHyQ9Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "RRSnOIwkyoU",
       "title": "OnTheRadar IS LIVE!!! w/ GABE P!! SUBMIT YOUR MUSIC NOWWW!!!",
@@ -1143,6 +1474,18 @@
       "category": "INTERVIEWS",
       "published_at": "2026-08-25T14:30:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/fV9vJmoVDqY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "32G7AsgFu10",
+      "title": "24/7 Station | A COLORS RADIO",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-08-25T13:26:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/32G7AsgFu10/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
