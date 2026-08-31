@@ -1,7 +1,30 @@
 {
-  "generated_at": "2026-08-31T03:06:45.569171+00:00",
-  "total": 3150,
+  "generated_at": "2026-08-31T11:57:30.541331+00:00",
+  "total": 3152,
   "videos": [
+    {
+      "id": "gzZTnDfutm0",
+      "title": "Lil Durk Trial Picks Back Up Today, Drake Helping With Attorney Fees",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-08-31T11:35:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gzZTnDfutm0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Durk"
+      ],
+      "related_articles": [
+        {
+          "id": "375913ba47ba81c78c51f491daae858a",
+          "title": " exclusive: Lil Durk に新たな組織的殺人罪を連邦案件で起訴へ（計画はロサンゼルス）"
+        },
+        {
+          "id": "368913ba47ba81a5b226c83231affbce",
+          "title": "EXCLUSIVE: Lil Durk の事件、起訴内容拡大の可能性が浮上"
+        }
+      ]
+    },
     {
       "id": "Pt5wUkLMPKU",
       "title": "Omarion \"The One\" | On The Radar Performance",
@@ -21,6 +44,18 @@
       "category": "PERFORMANCES",
       "published_at": "2026-08-31T01:00:00.000+00:00",
       "thumbnail_url": "https://i4.ytimg.com/vi/CE_JAJmGD-M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "E-1vqvP3QpI",
+      "title": "Gary Owen Tells ALL! Comedy, Hip-Hop & Hollywood only on Drink Champs!",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-08-31T00:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/E-1vqvP3QpI/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
