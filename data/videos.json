@@ -1,7 +1,374 @@
 {
-  "generated_at": "2026-09-01T12:04:01.729895+00:00",
-  "total": 3180,
+  "generated_at": "2026-09-02T11:59:17.142077+00:00",
+  "total": 3209,
   "videos": [
+    {
+      "id": "j8N6wVOTiJY",
+      "title": "Joe Budden Weighs In On N.O.R.E. & DJ Vlad’s HEATED BEEF",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T10:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/j8N6wVOTiJY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "N.O.R.E."
+      ],
+      "related_articles": [
+        {
+          "id": "346913ba47ba81d29c2fd47afeac462b",
+          "title": "ノリ、オフセットとセイウティのうわさについて未公開映像を言及"
+        }
+      ]
+    },
+    {
+      "id": "g2rwdvZm8Ro",
+      "title": "New episode out now 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T01:42:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/g2rwdvZm8Ro/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wWvu2oca2yw",
+      "title": "Jerry Wonda Scratches His Greatest Hits From Shakira, Whitney Houston, The Fugees in Live Cookup",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T00:37:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wWvu2oca2yw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0TfJRpS6QeQ",
+      "title": "Orestes Gomez \"Pagadeira\" & \"MATA\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-01T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0TfJRpS6QeQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2OdGBlbbmDo",
+      "title": "HOT 97 News Live! 9/1/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T22:27:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2OdGBlbbmDo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JJFwJh0KRzU",
+      "title": "The Ezzy R \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-01T22:22:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JJFwJh0KRzU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-ewiBecnkVc",
+      "title": "BankrollMaiya \"Threat” & On The Radar Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-01T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-ewiBecnkVc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IBvVfrTrrGM",
+      "title": "Joe Budden Calls Out Ish Over His Behavior At Birthday Party",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IBvVfrTrrGM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "96anss0GtJs",
+      "title": "Kabwasa & shaw00p “Prolly Shouldn’t | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-01T21:23:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/96anss0GtJs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "74jVFqwZdh0",
+      "title": "Drelli \"LiMP\" & \"DAP\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-01T21:22:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/74jVFqwZdh0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LZI7Sn_LMt0",
+      "title": "Kai The Mc \"Leave With You\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-01T21:20:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LZI7Sn_LMt0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KE8Vlz_UOAQ",
+      "title": "Target UNDER FIRE Over Racist Halloween Costume & JBP Responds",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KE8Vlz_UOAQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Bp-PI88Vvro",
+      "title": "Ca$h Money and No Limit Tour representing Mental Health Awareness is OTW!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T18:56:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Bp-PI88Vvro/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "R5AbFZ7Hl0g",
+      "title": "Gillie partnered with @DKSports for this football season 💯 #DKPartner",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T17:13:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R5AbFZ7Hl0g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YN8Nhcp7cHM",
+      "title": "The Breakfast Club FULL SHOW 09-01-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T16:42:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YN8Nhcp7cHM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "aOix8dqsNNg",
+      "title": "Man Finds Out His 9-Year-Old Daughter Is Not Biologically His",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T16:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/aOix8dqsNNg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TH9dzrBiWlA",
+      "title": "Keeping it REAL went WRONG for Crack but now he’s passing down that Wisdom to Rod Wave 🤝",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T16:07:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TH9dzrBiWlA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Rod Wave"
+      ],
+      "related_articles": []
+    },
+    {
+      "id": "qcGvG-qT-xU",
+      "title": "21 SAVAGE ON BATTLE RAPPER EARNINGS HOW MUCH THEY REALLY MAKE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qcGvG-qT-xU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "okQCuADIioI",
+      "title": "JBP Gets HEATED Over André 3000 & Black Thought’s Top 5 Status",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/okQCuADIioI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "INKpdYBp2oQ",
+      "title": "You gotta believe in yourself or no one else will 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T15:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/INKpdYBp2oQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cFJ4Lnbw8tY",
+      "title": "Gabriel Jacoby - be careful | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-01T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cFJ4Lnbw8tY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "c7H6TVf2Bvw",
+      "title": "Charlamagne Gives ‘Keffe D’ Donkey Of The Day For Speaking On 2Pac’s Murder Before Conviction",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/c7H6TVf2Bvw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YOUEz6XeTNo",
+      "title": "Man Convicted Of Murder After ‘Ding, Dong, Ditch’ Prank Goes Wrong",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T14:25:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YOUEz6XeTNo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "css1vxZfngo",
+      "title": "Master P shows his Respect and Appreciation for Snoop Dogg and how great of a Student he was",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T14:15:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/css1vxZfngo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ymZn2dN3kF8",
+      "title": "Skilla Baby On His Mental State After Being Shot, Being Expected To Make ‘Crash Out Music’ + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T13:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ymZn2dN3kF8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pgY1_lav5xY",
+      "title": "21 SAVAGE ON HIS YOUNG BUSINESS MIND STREET SMARTS AND COMMON SENSE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pgY1_lav5xY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "F5_iRzTz8qc",
+      "title": "Joe Budden Addresses Michael Wright’s Passing & P’s Health Scare",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-01T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/F5_iRzTz8qc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xnHcCUP5HQI",
+      "title": "Heems Goes OFF in Exclusive HOT 97 Freestyle | Mornings With Mero",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xnHcCUP5HQI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "d_xz6Y46XY4",
       "title": "HOT 97 News Live! 8/31/26",
@@ -9,6 +376,18 @@
       "category": "INTERVIEWS",
       "published_at": "2026-09-01T12:01:00.000+00:00",
       "thumbnail_url": "https://i1.ytimg.com/vi/d_xz6Y46XY4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rOFmG__lhXg",
+      "title": "Tupac Murder Trial: Duane 'Keffe D' Davis Found Guilty In Las Vegas Shooting 30 Years Later",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-01T11:58:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rOFmG__lhXg/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
