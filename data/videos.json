@@ -1,7 +1,448 @@
 {
-  "generated_at": "2026-09-02T11:59:17.142077+00:00",
-  "total": 3209,
+  "generated_at": "2026-09-03T11:53:23.260738+00:00",
+  "total": 3243,
   "videos": [
+    {
+      "id": "KFb_rXmh4hA",
+      "title": "Mac Ayres: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-03T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KFb_rXmh4hA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bTh781PL5Qo",
+      "title": "GET CLIPPED!!!!",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-03T04:38:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bTh781PL5Qo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JzjhJpjJvwM",
+      "title": "OPEN MIC IS BACK! NERO.FAN/MATHHOFFA",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-03T02:22:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JzjhJpjJvwM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QCcgqrP9wQQ",
+      "title": "| Mornings With Mero Livestream  9-2-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-03T00:52:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QCcgqrP9wQQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Z86Iko4Tb70",
+      "title": "By Any Means in theaters Sept.4th 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T23:39:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Z86Iko4Tb70/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0c31wlVvIDs",
+      "title": "HOT 97 News Live! 9/2/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T22:35:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0c31wlVvIDs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_QSWIjZ-Kcw",
+      "title": "Mariah Lynn x Parnia  - Make Em Mad (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-09-02T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_QSWIjZ-Kcw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6kKzFRqmrko",
+      "title": "Joe Budden RESPONDS To J.R. Writer Having 3 Unreleased Diss Tracks For Him",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6kKzFRqmrko/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WmT3Ey_gTuE",
+      "title": "YEONJUN (연준) “Ice Cream” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T20:38:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WmT3Ey_gTuE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vHq9LDSP0QM",
+      "title": "Gillie partnered with @draftkings_sports for Gameday! #dkpartner",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T19:57:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vHq9LDSP0QM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "o-ERLDZkcZQ",
+      "title": "DALAIT “G26” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T19:53:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o-ERLDZkcZQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tcMvaYutl2s",
+      "title": "The Fat Papi \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T19:52:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tcMvaYutl2s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "quOzvfYM_7M",
+      "title": "Lambo Lawson \"I know you so well\" & \"Crash The Boards\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T19:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/quOzvfYM_7M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2XSWXJcT7R0",
+      "title": "Nick Gotti \"ADDICTED\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T19:50:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2XSWXJcT7R0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9YOuN_s6IW8",
+      "title": "Slappersonn x 1600LuhE \"Leggos\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T19:49:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9YOuN_s6IW8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sYDYpZRt4n0",
+      "title": "Fat Joe threatened an “Italian Mobster” on the plane in FIRST class 💀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T19:49:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sYDYpZRt4n0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "98zdmRIa-kc",
+      "title": "Cornfed Ted - Trapper Of The Year (Crawdads) | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T19:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/98zdmRIa-kc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "n3ZL81dSa-U",
+      "title": "Cornfed Ted - Trapper Of The Year (Crawdads) | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T19:02:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/n3ZL81dSa-U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vTlq4OnNY3s",
+      "title": "Ish CHALLENGES Ice Over Police Killing Times Square Attacker",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vTlq4OnNY3s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qFhbyxJQR8Y",
+      "title": "An airplane experience with Crack, Kiss and Master P is the travel experience everyone NEEDS to hear",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T17:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qFhbyxJQR8Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bZuv6DET898",
+      "title": "What Did You Stop Doing After Realizing Professionalism Never Protected You?",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T17:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bZuv6DET898/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EQFQpsuPCcc",
+      "title": "21 Savage & Pete Davidson Open Up On Parenting & Protecting Their Children",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T16:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EQFQpsuPCcc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "EdqY-JNLAPI",
+      "title": "21 SAVAGE EXPLAINS THE 110 DEAL AND THE RAPPER PUBLISHING SCAM",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EdqY-JNLAPI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "N6x0mqs8pp8",
+      "title": "The Breakfast Club FULL SHOW 09-02-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/N6x0mqs8pp8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "r8Pbj5tDQus",
+      "title": "Tyler Perry Reflects On His Journey In Emotional Social Media Post",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T15:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/r8Pbj5tDQus/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BlUTeNdx9E8",
+      "title": "The streets will forever stay UNDEFEATED",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T15:06:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BlUTeNdx9E8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6LFUC6SQcoE",
+      "title": "Thee Sacred Souls - Live For You | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T14:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6LFUC6SQcoE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "j6q50cS17Fg",
+      "title": "Serial Butt Sniffer Strikes Again After He’s Caught Sniffing Another Woman’s Cheeks",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T14:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/j6q50cS17Fg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mXK5rUMD-V8",
+      "title": "Joe Budden Blames Keefe D’s ‘Clout’ Chase After Tupac Murder Conviction",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-02T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mXK5rUMD-V8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xKfqugkRIVQ",
+      "title": "Florence Road | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-02T13:31:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xKfqugkRIVQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xUAsAhrKTHk",
+      "title": "21 SAVAGE ON TRUSTING YOUR GUT AND NEVER IGNORING THAT INNER VOICE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xUAsAhrKTHk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "rVsIQjDn6F0",
+      "title": "Tommy Davidson On Why He Got His Own Show In His 60s, Timeless Comedy + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rVsIQjDn6F0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qx3P9ETl3xQ",
+      "title": "New Law Requires NY Hairdressers To Learn How To Do ALL Hair Types",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T12:41:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qx3P9ETl3xQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NMfGPp-e6og",
+      "title": "Lizzo Speaks Out After Judge Dismisses Harassment & Discrimination Lawsuit",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-02T11:52:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NMfGPp-e6og/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "j8N6wVOTiJY",
       "title": "Joe Budden Weighs In On N.O.R.E. & DJ Vlad’s HEATED BEEF",
