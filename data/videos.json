@@ -1,7 +1,376 @@
 {
-  "generated_at": "2026-09-04T12:02:24.566337+00:00",
-  "total": 3276,
+  "generated_at": "2026-09-05T11:51:34.959570+00:00",
+  "total": 3303,
   "videos": [
+    {
+      "id": "C_6HMkUTXFQ",
+      "title": "Joe Budden GOES OFF On Kanye for Big Sean Reunion | “IT’S SICKENING”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-05T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/C_6HMkUTXFQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cXv9vmXnJbU",
+      "title": "Joe Budden Wants Drake To FIRE On Jay-Z On ‘FOMO’ | “It’s The Perfect Time”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-05T02:40:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cXv9vmXnJbU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "RsaqVtAStTc",
+      "title": "How Dinuzzo Made “Nobody” (Remix) By Trim & Monaleo | On The Radar Beat Breakdown",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-05T01:09:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RsaqVtAStTc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "acD76CI5qGo",
+      "title": "| Mornings With Mero Livestream  9-4-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-05T00:56:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/acD76CI5qGo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "c9sddCrB9oE",
+      "title": "bauti | On The Radar DJ SET",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-04T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/c9sddCrB9oE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "J3aHmTTxAiE",
+      "title": "HOT 97 News Live! 9/4/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T22:26:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/J3aHmTTxAiE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "W3vTvo23yIA",
+      "title": "Fat Joe PRESSES Joe Budden Over The Success Of Joe & Jada",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-04T22:17:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/W3vTvo23yIA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TwvBDpLqB0g",
+      "title": "Karina Magallon \"ELEVATE\" & \"Island Rain\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-04T21:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TwvBDpLqB0g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KIQpvs4P20M",
+      "title": "G.T. - 7th Grade | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-04T20:10:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KIQpvs4P20M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5PaqAqc1aYk",
+      "title": "G.T. - 7th Grade | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-04T20:09:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5PaqAqc1aYk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LCQ11h1s52A",
+      "title": "Jayy V Vondon - Don In My City (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-09-04T19:54:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LCQ11h1s52A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pgTM8f2uIFg",
+      "title": "Joe Budden Says Yung Miami Should’ve Put Cardi B on “Spinnin” Remix",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-04T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pgTM8f2uIFg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "XCcAH_jM5p0",
+      "title": "TSU SURF CAN'T STOP THINKING ABOUT ME LOL",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XCcAH_jM5p0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fg-TQseU9js",
+      "title": "NOBODY caught on to LL Cool J’s “silent” FUBU promo in GAP’s commercial until it was too LATE",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-04T17:07:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fg-TQseU9js/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5CR6VwyFSmw",
+      "title": "Colin Kaepernick Criticizes Jay-Z For ‘Serving The Culture Up’ To The NFL",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T16:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5CR6VwyFSmw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "oN_sxolnG1k",
+      "title": "LOADED LUX ON EMOTIONAL PERFORMANCE AND CHANGING LIVES ON STAGE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oN_sxolnG1k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1XXm5lQ8eMo",
+      "title": "Joe Says Gladys Knight Needs To GET OFF THE STAGE At 82?!",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-04T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1XXm5lQ8eMo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "k9Ns39336xg",
+      "title": "The Breakfast Club FULL SHOW 09-04-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/k9Ns39336xg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RMCA96D5FN8",
+      "title": "DJ Nyla Symone Premieres Her New Song 'Need You' Featuring Ben Riley Suave & Reuben Vincent",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T15:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RMCA96D5FN8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-P_2sMOZ8sE",
+      "title": "Russ Talks Ego, Independence, Living in the Moment, New Movie + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T15:22:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-P_2sMOZ8sE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wqDoZCIP0LY",
+      "title": "Mary J. Blige's AI Music Ad Pulled After It Was Revealed Ad Was Never Officially Approved",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T15:15:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wqDoZCIP0LY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OXw5s5hoUMg",
+      "title": "Daymond John has a WILD Joey Crack story that Crack doesn’t even remember 😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-04T14:47:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OXw5s5hoUMg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "x25HNaxbVPU",
+      "title": "rusowsky - (ecco) | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-04T14:40:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/x25HNaxbVPU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zdz_BcjO07Q",
+      "title": "Dawn Dickson Speaks Out To PopCom Investors Who May Feel Like She Failed Them",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zdz_BcjO07Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "t_UoOfInxgc",
+      "title": "LOADED LUX ON DISCOVERING YOUR TRUE SELF AND HOW SPORTS REVEAL YOUR WEAKNESSES",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/t_UoOfInxgc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6weS6S9ypgQ",
+      "title": "Lady Gaga SHADES Madonna During Interview & JBP Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-04T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6weS6S9ypgQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2otjahS1IpA",
+      "title": "Ye Reconciles With Big Sean At Homecoming Show In Chicago",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-04T12:48:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2otjahS1IpA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "tg84ziKZCaA",
       "title": "OnTheRadar IS LIVE!!! w/ GABE P!! SUBMIT YOUR MUSIC NOWWW!!!",
