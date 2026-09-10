@@ -1,7 +1,421 @@
 {
-  "generated_at": "2026-09-09T11:57:10.624507+00:00",
-  "total": 3390,
+  "generated_at": "2026-09-10T11:58:50.202217+00:00",
+  "total": 3422,
   "videos": [
+    {
+      "id": "O8AlOZV0BSI",
+      "title": "Tori Kelly: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-10T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O8AlOZV0BSI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5Qs-6Cyw5qU",
+      "title": "Deon Cole keeps it all the way funny while playin’ QuickTime With Slime 😂",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-10T01:50:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5Qs-6Cyw5qU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XzgVNUYSR9I",
+      "title": "The Delivery Boys Cypher (Part 3): LOSTBOYBK",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T23:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XzgVNUYSR9I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ehObIFzRW0Y",
+      "title": "HOT 97 News Live! 9/9/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T22:42:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ehObIFzRW0Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FrarCh8Ycvk",
+      "title": "UPSAHL \"I Like It\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FrarCh8Ycvk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7Q-IWTAtqjE",
+      "title": "“He was just a different dude, man. He wasn’t a dude you crossed.” Gary Owen",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-09T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7Q-IWTAtqjE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "p0dLzv1IZSs",
+      "title": "Who yall got tonight? Presented by @draftkings_sports @draftkings #dkpartner",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-09T21:40:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/p0dLzv1IZSs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EvZzFeAjXN0",
+      "title": "Selfmade Kev “Bae Wassup” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T21:34:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EvZzFeAjXN0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Rtc-XI9nT10",
+      "title": "The Delivery Boys Cypher (Part 3): YGB",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T21:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Rtc-XI9nT10/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "cLgc5Kdak1Y",
+      "title": "The Spazz Vet \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T21:27:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cLgc5Kdak1Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "clbNQCJ4ZVM",
+      "title": "vEo Kilo \"Buss\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/clbNQCJ4ZVM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xl-QtJEeRyw",
+      "title": "The Delivery Boys Cypher Pt 3: Max Gertler",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T20:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xl-QtJEeRyw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GYLEpfSlhPc",
+      "title": "Delivery Boys \"On The Radar\" Cypher: Goldwood, Max Gertler, YGB, & LOSTBOYBK (PART 3)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GYLEpfSlhPc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "8Jmxg292IK4",
+      "title": "The Delivery Boys Cypher Pt 3: Goldwood",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T20:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8Jmxg292IK4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sbeH5KfumZ4",
+      "title": "OG Talk Only! DJ Heron Spills Game on Grumpy OG’s | Drink Champs Network",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-09T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sbeH5KfumZ4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "53sdZul1NVg",
+      "title": "JR WRITER & HELL RELL \"STARTED FROM NOTHING\" | ON The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T19:56:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/53sdZul1NVg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Sse3tXSu7YU",
+      "title": "Mario and Kiss give Advice to their younger selves",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-09T19:14:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Sse3tXSu7YU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-CY4-xsDOdE",
+      "title": "LOADED LUX ON HOW BATTLE RAP FANS JUDGE AND STAY LOYAL",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T18:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-CY4-xsDOdE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OFFmSvSJSjM",
+      "title": "Chris Rock Opens Up On Returning To Directing",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T18:24:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OFFmSvSJSjM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "C2r5cuxMlSk",
+      "title": "Joe Budden’s Penis Enlargement Debate Takes A WILD Turn",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-09T18:22:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/C2r5cuxMlSk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8DmgdRHZohU",
+      "title": "Rapsody “Pick a Side” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T17:46:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8DmgdRHZohU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "AYTNHYmuFTc",
+      "title": "JayaHadADream | A COLORS INTERVIEW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T17:21:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AYTNHYmuFTc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5uesF8fALtU",
+      "title": "JayaHadADream | A COLORS INTERVIEW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T17:02:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5uesF8fALtU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TRyuCS6Resg",
+      "title": "Charlamagne Gives Donkey Of The Day To Those Of Us Arguing Over The ‘N’ Word",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T16:09:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TRyuCS6Resg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MXKOdn15QCY",
+      "title": "The Breakfast Club FULL SHOW 09-09-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T15:55:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MXKOdn15QCY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9YUufs7MQBs",
+      "title": "Wallo’s got a tender ACL 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-09T15:26:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9YUufs7MQBs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EwwPwZ81S5I",
+      "title": "Sherri Shepherd On Making History As Broadway’s First Female Genie",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EwwPwZ81S5I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6_ZCecRjAtI",
+      "title": "LOADED LUX ON CONSCIOUS BATTLE RAP AND ELEVATING THE ART FORM",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6_ZCecRjAtI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "d_AlpUwo56Y",
+      "title": "Mike Epps On Winning $30K In Dice, Losing $40K To Charles Oakley & Getting Called Omar Epps",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-09T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/d_AlpUwo56Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wPjrfpkEfMY",
+      "title": "JayaHadADream | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-09T12:50:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wPjrfpkEfMY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ykp9ikW_Rn8",
+      "title": "TSA Brings Back Gate Access For Some People Without Plane Tickets",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T12:34:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ykp9ikW_Rn8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "m9gpcNux6s8",
+      "title": "Mark Curry Responds To 50 Cent & Critics Calling Him ‘Stupid’ For Signing Diddy Doc Deal",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-09T12:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/m9gpcNux6s8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "nE9DqJ4FT_I",
       "title": "OnTheRadar IS LIVE!!! w/ GABE P!! SUBMIT YOUR MUSIC NOWWW!!!",
