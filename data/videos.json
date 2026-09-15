@@ -1,7 +1,345 @@
 {
-  "generated_at": "2026-09-14T11:55:09.487888+00:00",
-  "total": 3532,
+  "generated_at": "2026-09-15T11:59:34.020650+00:00",
+  "total": 3558,
   "videos": [
+    {
+      "id": "13QZfKAZdXY",
+      "title": "Texas Daycare Accused Of Running 'Child Fight Club'",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-15T11:39:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/13QZfKAZdXY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "dqfbgSFwSPc",
+      "title": "Lucky Daye Opens Up About Finding Out His Ex Was Cheating With His Friend",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-15T09:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dqfbgSFwSPc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yUwFI9HhPzI",
+      "title": "| Mornings With Mero Livestream  9-14-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-15T01:05:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yUwFI9HhPzI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nBvFwqZSUck",
+      "title": "HOT 97 News Live! 9/14/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T22:35:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nBvFwqZSUck/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LrY2R9Mnk5U",
+      "title": "Tha Dogg Pound Keeps It All The Way West Coast While Playin’ QuickTime With Slime",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-14T22:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LrY2R9Mnk5U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "APJ_DvoxL1I",
+      "title": "G.T. \"Lean & Linguini\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/APJ_DvoxL1I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cK6mf6SH_PA",
+      "title": "Lucky Daye On What Went Wrong With SZA & Bruno Mars",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-14T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cK6mf6SH_PA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "SZA"
+      ],
+      "related_articles": [
+        {
+          "id": "36e913ba47ba818697b7e5218e73a24f",
+          "title": "ラムとは誰か？DrakeとSZAからのコ signsを受ける“Overkill”アーティスト"
+        },
+        {
+          "id": "369913ba47ba815a96d4c0da75a02f9b",
+          "title": "リゾがSZAを称賛、業界の友達は多くないと語る"
+        },
+        {
+          "id": "352913ba47ba81e9b15aed704d490d60",
+          "title": "ケンドリック・ラマー、SZA ら UMG の Spotify 株売却で恩恵を受ける"
+        }
+      ]
+    },
+    {
+      "id": "09OSaekS7go",
+      "title": "Juno Lost Kause \"Tu Perfume\" y \"Tu Cumpleano\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T21:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/09OSaekS7go/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-UwoJK0bkHo",
+      "title": "B00TY \"Stupid One\" & \"Damn It's Been A Minute\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T19:48:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-UwoJK0bkHo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "z0VWURPsPS4",
+      "title": "Lilyisthatyou \"NOSTALGIA BABY\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T19:48:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/z0VWURPsPS4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8HOR05WPOrM",
+      "title": "Looking back at summer with COLORS of July. @tul8te @chakakhan @CA7RIELyPacoAmoroso @sarahlolamusic",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8HOR05WPOrM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jjhIkKnkWfk",
+      "title": "Villano Antillano | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T18:41:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jjhIkKnkWfk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vIvmDxrTjP4",
+      "title": "Mon Laferte: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T18:25:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vIvmDxrTjP4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wryBoE_vTbk",
+      "title": "Lucky Daye on Competing With Leon Thomas & His WILD Trey Songz Take",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-14T18:06:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wryBoE_vTbk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5Px5zbU6RDE",
+      "title": "We’re breaking down Shook Ones, Pt.II and what made it an unforgettable track.",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-14T17:48:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5Px5zbU6RDE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WiamwnVWyx8",
+      "title": "The Breakfast Club FULL SHOW 09-14-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T17:19:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WiamwnVWyx8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UNkDPxYS0TE",
+      "title": "Chaka Khan | A COLORS CLOSE UP",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-14T16:26:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UNkDPxYS0TE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Fe11-B925Y8",
+      "title": "Maino On Real Support His Brothers Backed His Music Dreams",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Fe11-B925Y8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EbfNA2ZSBDk",
+      "title": "Montell & Kristin Jordan On Fear Being Mislabeled As ‘Weakness’ As Opposed To Informative",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T15:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EbfNA2ZSBDk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rScGeFTixck",
+      "title": "Lil Durk Found Not Guilty In Murder-For-Hire Case",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rScGeFTixck/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Durk"
+      ],
+      "related_articles": [
+        {
+          "id": "375913ba47ba81c78c51f491daae858a",
+          "title": " exclusive: Lil Durk に新たな組織的殺人罪を連邦案件で起訴へ（計画はロサンゼルス）"
+        },
+        {
+          "id": "368913ba47ba81a5b226c83231affbce",
+          "title": "EXCLUSIVE: Lil Durk の事件、起訴内容拡大の可能性が浮上"
+        }
+      ]
+    },
+    {
+      "id": "Mt4pTXlLJS0",
+      "title": "Nigerian Nationals Extradited Over Online Love Scams & Money Laundering",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T14:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Mt4pTXlLJS0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qGiB2cCCUG4",
+      "title": "Dr. Jess On Diagnosing Postpartum Psychosis, Being Expected To Have A ‘Maternal Instinct’ + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T13:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qGiB2cCCUG4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fDu_agbQiqs",
+      "title": "JAŸ-Z In 8 HBO Docuseries Premieres In New York City",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T13:29:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fDu_agbQiqs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JqNKmRvLbXQ",
+      "title": "Maino On Real Life Pain Trauma And Loneliness",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JqNKmRvLbXQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Hr00HxLdG-E",
+      "title": "Black Holdout Juror Faces Scrutiny After Lindsay Clancy Mistrial",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-14T12:24:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Hr00HxLdG-E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "I5oir29zgYA",
+      "title": "Tsu Surf on Facing a Federal RICO: “My Life Changed”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-14T12:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/I5oir29zgYA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "L9PH4YmWqnA",
       "title": "Michael Porter Jr.’s “Overly Straight” Comments Have Joe Budden Asking QUESTIONS",
