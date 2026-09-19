@@ -1,7 +1,126 @@
 {
-  "generated_at": "2026-09-19T11:53:54.578037+00:00",
-  "total": 3680,
+  "generated_at": "2026-09-19T22:45:26.404105+00:00",
+  "total": 3689,
   "videos": [
+    {
+      "id": "GHaEbHrPxfM",
+      "title": "Ray Daniels & Grafh Get Into It Over Drake Vs. Kendrick, Fat Joe’s J. Cole & The “Chess Move”",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-19T22:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GHaEbHrPxfM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "J. Cole"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba81959ed4c8cc0d0fc36c",
+          "title": "J・コール、元NFLスターのライアン・クラークから大絶賛"
+        },
+        {
+          "id": "37c913ba47ba811f95e2fb0bcf74f182",
+          "title": "J・コール『2014 Forest Hills Drive』がBillboard 200で600週到達"
+        }
+      ]
+    },
+    {
+      "id": "7Ijk_TZiHmI",
+      "title": "Moneymyface - Bae Please | HIT-A-THON 2 x LIVE From The Block 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-19T22:23:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7Ijk_TZiHmI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZbSnpDAJ0WQ",
+      "title": "Moneymyface - Bae Please | HIT-A-THON 2 x LIVE From The Block 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-19T22:21:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZbSnpDAJ0WQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-kZ8RhJ9H6Y",
+      "title": "Wallo tackles Jojo 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-19T22:18:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-kZ8RhJ9H6Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UdW_uh7Pe54",
+      "title": "Blackangelzz | On The Radar DJ Set",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-19T20:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UdW_uh7Pe54/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "akK0fwoRtzs",
+      "title": "OTR Rewind: The JDSnevermissin Freestyle (Mafiathon Edition)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-19T17:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/akK0fwoRtzs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WeJKlamk5bI",
+      "title": "OTR Rewind: The Chris Patrick Mafiathon Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-19T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WeJKlamk5bI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tjqfqQKAVr8",
+      "title": "DJ Vlad Lost All FEAR The Moment He Thought He Killed Someone",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-19T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tjqfqQKAVr8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DxfoZwxzlKE",
+      "title": "Joe Budden & Ice Get HEATED Over Black Buying Power After Converse Controversy",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-19T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DxfoZwxzlKE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "PSk6cJTBO6g",
       "title": "THIZZY52 - Jeden Tag | A COLORS MOMENT",
