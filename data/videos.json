@@ -1,7 +1,493 @@
 {
-  "generated_at": "2026-09-22T03:12:16.956314+00:00",
-  "total": 3726,
+  "generated_at": "2026-09-22T11:56:48.273836+00:00",
+  "total": 3764,
   "videos": [
+    {
+      "id": "lPbzlEj3A0U",
+      "title": "YEИDRY: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-22T09:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lPbzlEj3A0U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "os58M10MifQ",
+      "title": "| Mornings With Mero Livestream  9-21-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-22T00:57:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/os58M10MifQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ojsJQAnyeE8",
+      "title": "Validtmk “Throw dat p$$$y” & On The Radar Freestyle(Stripper Bae)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-22T00:07:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ojsJQAnyeE8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2QdpLYG1KXU",
+      "title": "Mic Geronimo On The “L.A., L.A.” Fallout, Biggie, Daz & Kurupt Stories",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-22T00:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2QdpLYG1KXU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_nvQR9EvukM",
+      "title": "KGodd \"Nun New\" & \"Goofy\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T23:44:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_nvQR9EvukM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CWxKGm74kCk",
+      "title": "UPSAHL “Bender” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T23:41:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CWxKGm74kCk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "C3ShE0kk-CQ",
+      "title": "Cornfed Ted \"Street N----- (Blue Chew)\" & \"TOTY (Crawdads)\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T23:36:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/C3ShE0kk-CQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_KK5aWgqjMI",
+      "title": "Donte Thomas \"Nannies\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T23:34:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_KK5aWgqjMI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CfkGTsRknfs",
+      "title": "KaMillion \"In Here\" Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CfkGTsRknfs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "o5o_D_TqLoI",
+      "title": "BenDaDonnn x DDG - Two Man | HIT-A-THON 2 x LIVE From The Block 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T22:59:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o5o_D_TqLoI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CMA-KuK3PvU",
+      "title": "BenDaDonnn x DDG - Two Man | HIT-A-THON 2 x LIVE From The Block 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T22:59:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CMA-KuK3PvU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lN5XgjkRxxE",
+      "title": "HOT 97 News Live! 9/21/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T22:41:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lN5XgjkRxxE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Qj9lN3T3n2E",
+      "title": "Sy'Rai Smith \"Mind Ya Business\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T22:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Qj9lN3T3n2E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wafrGhkYKHA",
+      "title": "Rell Sosa \"Palm Angels\" & \"Bandit\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wafrGhkYKHA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OozSdOAyZR0",
+      "title": "\"TUPAC WOULD KICK YOU OUT THE BOOTH!!!\" DAZ & KURUPT TALK STUDIO SESSIONS w/ PAC",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OozSdOAyZR0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KuaTbeLU5uE",
+      "title": "Birdman Keeps It Real About Why He Had No Choice But To Fix His Relationship With Lil Wayne",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-21T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KuaTbeLU5uE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Wayne"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba81a0b2c8fa75b9443c9c",
+          "title": " Lil Wayne、 security guardの訴訟取り下げ後に$29Kの判決を獲得"
+        },
+        {
+          "id": "36d913ba47ba814e956ce8a9ada00e15",
+          "title": "リル・ウェイン、次作は『Tha Carter VII』か未定—リリース時期は未確定"
+        },
+        {
+          "id": "36d913ba47ba8131a856f79d4a3c0125",
+          "title": "リル・ウェイン、新作音楽が近未来に登場へ（Tha Carter VII の可能性）"
+        }
+      ]
+    },
+    {
+      "id": "ovfiEH-IQ3A",
+      "title": "D4M Sloan \"On The Radar” Acapella",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T21:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ovfiEH-IQ3A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Cwb-G5a76Pw",
+      "title": "Luhh Dyl - Freestyle | HIT-A-THON 2 x LIVE From The Block 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T21:06:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Cwb-G5a76Pw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gx_5Bnqy_l4",
+      "title": "Luhh Dyl - Freestyle | HIT-A-THON 2 x LIVE From The Block 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T21:05:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gx_5Bnqy_l4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZPTvruVOl6I",
+      "title": "Softball Joe was getting gunned out BEFORE he reached FIRST BASE😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-21T20:54:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZPTvruVOl6I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uLc8yNC8z7A",
+      "title": "Derek Jeter Says Michael Jordan Was Better At Baseball Than People Remember",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-21T20:03:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uLc8yNC8z7A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2vm3OFXWl1s",
+      "title": "SOB X RBE - From The Land | HIT-A-THON 2 x LIVE From The Block 🎙️",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T19:09:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2vm3OFXWl1s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MvZdTVVTu7c",
+      "title": "SOB X RBE - From The Land | HIT-A-THON 2 x LIVE From The Block 🎙️🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T19:09:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MvZdTVVTu7c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-eRTYbyHzOo",
+      "title": "DAZ REVEALS HOW DR. DRE LEFT DEATH ROW- “WE DIDN’T KNOW NOTHING. HE’S GONE!!!”",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-eRTYbyHzOo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OEkeaft1qpE",
+      "title": "The Breakfast Club FULL SHOW 09-21-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T17:32:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OEkeaft1qpE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "b6u8E9DhZEk",
+      "title": "Casper Bluff - Pathetic | HIT-A-THON 2 x LIVE From The Block 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T17:29:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/b6u8E9DhZEk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qIKwwbOViWc",
+      "title": "Casper Bluff - Pathetic | HIT-A-THON 2 x LIVE From The Block 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T17:16:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qIKwwbOViWc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ONnwNyiCr_c",
+      "title": "La Fève - RIEN D’EXCEPTIONNEL | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-21T16:07:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ONnwNyiCr_c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Zy4lztI6Kos",
+      "title": "DJ Vlad On The BRUTAL Reality Of Rap Music And Young Lives",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Zy4lztI6Kos/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "s4bF0Uqo764",
+      "title": "Who Should Headline The Next Super Bowl Halftime Show?",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T15:28:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/s4bF0Uqo764/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FSWcd1eXdf0",
+      "title": "Cordae & Anderson .Paak REVEAL They’re “NOT THE SAME SIZE”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-21T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FSWcd1eXdf0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "43-7yOIOytw",
+      "title": "Kid Pastor Luke On Talking To God, Tyler Perry's Influence, New Book + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/43-7yOIOytw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3XUoY5jt7U8",
+      "title": "Funeral Home Presents Wrong Body At Viewing",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3XUoY5jt7U8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9jYXJPchU4E",
+      "title": "Cardi B Announces New Album On The Way + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T14:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9jYXJPchU4E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "vRL7xxTKtVA",
+      "title": "Deante Kyle On Going From Truck Driving To Podcasting, Celebrity Activism + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vRL7xxTKtVA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_Ic_7Jmz6bU",
+      "title": "Raven-Symoné On Inspiring Black Women Through Her Character On ‘That’s So Raven’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T13:21:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_Ic_7Jmz6bU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "j2NrF9H4nHA",
+      "title": "New episode out now 😂🥋",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-21T12:45:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/j2NrF9H4nHA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3I0oiJsg91U",
+      "title": "Detroit Family Says Their Mom Was Cremated In Funeral Home Mix Up",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-21T11:43:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3I0oiJsg91U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "H_jIfOpKuuw",
       "title": "OnTheRadar IS LIVE!! SUBMIT YOUR MUSIC NOWWW!!!",
