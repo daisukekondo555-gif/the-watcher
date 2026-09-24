@@ -1,7 +1,481 @@
 {
-  "generated_at": "2026-09-23T12:03:42.384654+00:00",
-  "total": 3793,
+  "generated_at": "2026-09-24T11:55:05.099044+00:00",
+  "total": 3831,
   "videos": [
+    {
+      "id": "dFVx0_uKIHQ",
+      "title": "Lying On A Florida Rental Application Could Soon Be A Felony",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-24T11:46:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dFVx0_uKIHQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "C-qbzPeIA8o",
+      "title": "DJ Vlad On The TRAGIC Reality Of Young Artists And Addiction",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-24T11:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/C-qbzPeIA8o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "unwymjuTcZA",
+      "title": "| Mornings With Mero Livestream  9-23-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-24T01:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/unwymjuTcZA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rugXKbD6CqY",
+      "title": "Wiz Khalifa Keeps It Real About His Relationship With Amber Rose After Their Divorce",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-24T00:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rugXKbD6CqY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Wiz Khalifa"
+      ],
+      "related_articles": [
+        {
+          "id": "379913ba47ba817a9e7dfbf2c67c6745",
+          "title": "ウィズ・カリファ、ヒットマン最新のターゲットとして登場"
+        },
+        {
+          "id": "366913ba47ba81ccaacadbf6da7dad49",
+          "title": "ウィズ・カリファ、ルーマニアの国際手配リストに登録か 2024年の大麻所持事件で"
+        },
+        {
+          "id": "358913ba47ba815599d8fca96a550f08",
+          "title": "ウィズ・カリファ、交際相手はアンバー・ローズとの関係を受け入れるべきと主張"
+        }
+      ]
+    },
+    {
+      "id": "60CqPpKA8xc",
+      "title": "The Kai The MC Freestyle (Like That)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-24T00:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/60CqPpKA8xc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gw4inAhIbBA",
+      "title": "\"WHAT ARE YOU STILL TRYING TO PROVE AT 52 YEARS OLD???\" RUGBY LEGEND PHAIDRA KNIGHT GETS REAL",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T23:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gw4inAhIbBA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SD3q-qkc0Ec",
+      "title": "Baby Rich - Due Date Freestyle | HIT-A-THON 2 x LIVE From The Block 🎙️🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T23:05:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SD3q-qkc0Ec/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PzT6AcHvRuY",
+      "title": "Baby Rich - Due Date Freestyle | HIT-A-THON 2 x LIVE From The Block 🎙️",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T23:02:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PzT6AcHvRuY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_dtcK7CRhys",
+      "title": "E-40 \"Sum Aint Right\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_dtcK7CRhys/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GTdmxUPTQqs",
+      "title": "Cam’ron Keeps It Real About His Faizon Love Internet Beef, Big L’s Story & Landing The Alpo Role",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T22:18:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GTdmxUPTQqs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YpqFKKwydT4",
+      "title": "HOT 97 News Live! 9/23/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T22:18:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YpqFKKwydT4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "66Vk8tuNnno",
+      "title": "Luh Nae \"Geeked S---\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/66Vk8tuNnno/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WHVTX-DTsQ4",
+      "title": "Baby Lane \"Lucky Duck\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T21:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WHVTX-DTsQ4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Tl8M6Cz13ss",
+      "title": "Flagrant Drvms | On The Radar DJ Set",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T20:56:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Tl8M6Cz13ss/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IjNMi8UVUHU",
+      "title": "“I CAN’T BELIEVE FOXY BROWN LIKES ME!!!” KURUPT REVEALS HOW HE FELL IN LOVE WITH FOXY BROWN",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T20:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IjNMi8UVUHU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Nx-3EFJfRQQ",
+      "title": "Laila Mach \"LYING\" & \"If I Ain't Got You\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Nx-3EFJfRQQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VlXIrWRwwfs",
+      "title": "Dr. Umar Gets CALLED OUT by Jalen Rose Over His Education Record",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VlXIrWRwwfs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jueXbtHFGho",
+      "title": "The Kai The MC \"On The Radar\" Freestyle (Like That)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T19:40:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jueXbtHFGho/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kwvjsSVna7o",
+      "title": "PLUTO - Pardon Me | HIT-A-THON 2 x LIVE From The Block🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T19:26:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kwvjsSVna7o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_d4yw6rfDUA",
+      "title": "PLUTO - Pardon Me | HIT-A-THON 2 x LIVE From The Block🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T19:25:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_d4yw6rfDUA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WGUs8B6Of8I",
+      "title": "Nsqk | A COLORS INTERVIEW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T18:02:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WGUs8B6Of8I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XFmXo9PvAIY",
+      "title": "414JungleBaby - Blocklist | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T17:08:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XFmXo9PvAIY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vU2AHW4b10M",
+      "title": "The Breakfast Club FULL SHOW 09-23-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T17:02:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vU2AHW4b10M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YiUoEB1Q19Q",
+      "title": "Mei Semones - Tora Moyo | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T17:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YiUoEB1Q19Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GtfxZtComvc",
+      "title": "PATREON EXCLUSIVE | Lone Wolf feat. Lucky Daye | The Joe Budden Podcast",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T17:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GtfxZtComvc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-DErpkeAMao",
+      "title": "414JungleBaby - Blocklist | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T16:57:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-DErpkeAMao/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LUwAKs2JvcQ",
+      "title": "DJ Vlad Law Enforcement SUBPOENAED His Interview The Fight Back",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LUwAKs2JvcQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "diCwhVAfqdc",
+      "title": "Tyrese Haliburton REJECTS a WILD $750K Wedding Performance Price",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/diCwhVAfqdc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vHMp8tgqme8",
+      "title": "Kirk Franklin gives his props to Scarface and relating Gospel Music to Hip-hop with FAITH 🙏",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T15:55:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vHMp8tgqme8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FHa22cSlSdQ",
+      "title": "Kirk Franklin PREMIERES \"This Time\" feat. GloRilla LIVE for Fat Joe & Jadakiss 🔥🔥🔥",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T15:10:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FHa22cSlSdQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "GloRilla"
+      ],
+      "related_articles": [
+        {
+          "id": "37e913ba47ba81f7a406d7ee7d7a28fa",
+          "title": "ヒップホップの巨頭ルーダクルスとグロリラが初コラボ、新曲「Real Hustla」"
+        },
+        {
+          "id": "359913ba47ba81699161e8adf83a02a6",
+          "title": "グロリラの妹がディストラック発表、家族ドラマが勃発"
+        },
+        {
+          "id": "358913ba47ba811896a3cf18e0df00ef",
+          "title": "Brorilla、新曲でグロリラ、ドレイク、ラットーらをディス"
+        }
+      ]
+    },
+    {
+      "id": "ksvFzyYrOGk",
+      "title": "Morgan DeBaun On AfroTech Partnerships, Black Company Building Being Limited & Media Discourse",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ksvFzyYrOGk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9ILYf9w9w9A",
+      "title": "Journalist Claims Chris Brown Is ‘Still Actively Abusing Women’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T14:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9ILYf9w9w9A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EVZYpwhpkpQ",
+      "title": "Jon Boogz On Who’s The Better Dancer Michael Jackson Or Chris Brown",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EVZYpwhpkpQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "O-7ON63ZvHs",
+      "title": "The Russian Pretzel 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T13:47:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O-7ON63ZvHs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tR7IkxjE9cY",
+      "title": "La Fève - RIEN D’EXCEPTIONNEL | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-23T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tR7IkxjE9cY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8vZeJK-AoC0",
+      "title": "Bron, Shaq, and T-Mac on the SAME TEAM!? “You would’ve LOST the Black out Game” - Donovan Mitchell",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-23T12:51:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8vZeJK-AoC0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MsGdK13CgT4",
+      "title": "Chris Brown Demands Receipts After Journalist Claims He's 'Still Actively Abusing Women’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-23T12:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MsGdK13CgT4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "SAoMw8ER0cY",
       "title": "Door Dash To Pay $131M For Underpaying Delivery Workers In New York City",
@@ -297,6 +771,18 @@
       "category": "INTERVIEWS",
       "published_at": "2026-09-22T14:00:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/rRom6AGAaJg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qvH-A9jswOk",
+      "title": "Nsqk | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-22T13:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qvH-A9jswOk/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
