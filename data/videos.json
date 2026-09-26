@@ -1,7 +1,182 @@
 {
-  "generated_at": "2026-09-26T11:49:44.132390+00:00",
-  "total": 3896,
+  "generated_at": "2026-09-26T22:47:26.995717+00:00",
+  "total": 3908,
   "videos": [
+    {
+      "id": "66H3jCcXT0M",
+      "title": "Killamoe - Layoo (LIVE “On The Radar” Performance) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/66H3jCcXT0M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NPFCva3OxXI",
+      "title": "Will Smith Plays Quicktime With Slime & Gets Real About Aunt Viv, Nas & Jay-Z",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-26T18:17:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NPFCva3OxXI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z",
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        }
+      ]
+    },
+    {
+      "id": "XdhhnXt7XxM",
+      "title": "I Wayne – On The Radar Freestyle (Rebel Blaze Riddim) | Lyric Video",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XdhhnXt7XxM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tgBntz8Ve_k",
+      "title": "The I Wayne Freestyle (Rebel Blaze Riddim) Lyric Video",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tgBntz8Ve_k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Dj3wDJ1qJu0",
+      "title": "MY EXPERT OPINION EP #27: PHAIDRA KNIGHT TONIGHT AT MSG, RUGBY LEGEND TURNED MMA FIGHTER AT 52 +MORE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-26T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Dj3wDJ1qJu0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "dQLXHwZtdrM",
+      "title": "OTR Rewind: The 310Babii Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T17:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dQLXHwZtdrM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ss_Z_Ncur48",
+      "title": "Joe VS. Jada 😂😂😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-26T16:31:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ss_Z_Ncur48/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nndqJNHt9tE",
+      "title": "Zeke Pujols - Unconditional (LIVE “On The Radar” Performance) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nndqJNHt9tE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Z_zr6flUAfw",
+      "title": "OTR Rewind: The Skizzy Mars Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Z_zr6flUAfw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TuT4n_ab3m8",
+      "title": "\"WHY I WENT FROM A LAW DEGREE & RUGBY HALL OF FAME TO BLEEDING IN THE OCTAGON!!!\" PHAIDRA KNIGHT",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-26T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TuT4n_ab3m8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ixSE9H5UKEc",
+      "title": "AJULLIACOSTA - Nasci pra ser | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T14:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ixSE9H5UKEc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "w3ftONWE7M8",
+      "title": "YOU LET YOUR LAWYER HANDLE IT ALBEE AL ON COOPERATING",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-26T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/w3ftONWE7M8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "Xo2i5wg1kfY",
       "title": "Bankzonkourt & Jaemoney — On Top of Cars (LIVE “On The Radar” Performance) Out Now On All DSPs!",
