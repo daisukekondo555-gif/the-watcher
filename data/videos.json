@@ -1,7 +1,403 @@
 {
-  "generated_at": "2026-09-25T12:06:17.792918+00:00",
-  "total": 3868,
+  "generated_at": "2026-09-26T11:49:44.132390+00:00",
+  "total": 3896,
   "videos": [
+    {
+      "id": "Xo2i5wg1kfY",
+      "title": "Bankzonkourt & Jaemoney — On Top of Cars (LIVE “On The Radar” Performance) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-26T03:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Xo2i5wg1kfY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "F8E6yqKbQBU",
+      "title": "| Mornings With Mero Livestream  9-25-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-26T00:55:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/F8E6yqKbQBU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "poC0SiAlcDc",
+      "title": "QueenzFlip on Rory Confrontation: “Don’t Ever Play With Me Like That”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-09-25T23:34:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/poC0SiAlcDc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uk6O5jULVhg",
+      "title": "Papera \"Agarrate\" & \"Azara\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uk6O5jULVhg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4AxwS-50knA",
+      "title": "“WHY AREN’T YOU PUNCHING HER?!!” PHAIDRA RECALLS THE MOMENT HER COACH REALIZED SOMETHING WAS WRONG",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4AxwS-50knA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nSx24NQ_rn4",
+      "title": "RZA Says Nas & Wu-Tang Were Never Competing: “We’re Moving As A Movement”",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-09-25T22:39:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nSx24NQ_rn4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "hOLdKX_xUF8",
+      "title": "HOT 97 News Live! 9/25/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T22:33:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hOLdKX_xUF8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EmnhwlyTgTY",
+      "title": "Cash Trill - From The Heart (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-09-25T20:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EmnhwlyTgTY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "c0HFoID0M0w",
+      "title": "LATIN MAFIA - Siento que merezco más | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/c0HFoID0M0w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SSvigVVuZMw",
+      "title": "King Harris - Stand Up | HIT-A-THON 2 x LIVE From The Block 🎙️🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T19:56:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SSvigVVuZMw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8iFuwObeWv4",
+      "title": "King Harris - Stand Up | HIT-A-THON 2 x LIVE From The Block 🎙️",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T19:54:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8iFuwObeWv4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OOR9eFkNIMM",
+      "title": "Kiss explains a situation that went down with HOV 👀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-25T19:38:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OOR9eFkNIMM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BC5y25XOumY",
+      "title": "MY EXPERT OPINION EP #26: DAZ DILLINGER & KURUPT TALK DEATH ROW, TUPAC, FOXY BROWN, WEST COAST +MORE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T19:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BC5y25XOumY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PgFSEpKyxiU",
+      "title": "Chaka Khan | A COLORS CLOSE-UP",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PgFSEpKyxiU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "dvMPNbSu41Y",
+      "title": "Your Old Droog Freestyles on HOT 97 | Mornings with Mero",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dvMPNbSu41Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "za06CCJ8tyE",
+      "title": "Kirk Franklin (ft. GloRilla) - This Time | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T17:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/za06CCJ8tyE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "GloRilla"
+      ],
+      "related_articles": [
+        {
+          "id": "37e913ba47ba81f7a406d7ee7d7a28fa",
+          "title": "ヒップホップの巨頭ルーダクルスとグロリラが初コラボ、新曲「Real Hustla」"
+        },
+        {
+          "id": "359913ba47ba81699161e8adf83a02a6",
+          "title": "グロリラの妹がディストラック発表、家族ドラマが勃発"
+        },
+        {
+          "id": "358913ba47ba811896a3cf18e0df00ef",
+          "title": "Brorilla、新曲でグロリラ、ドレイク、ラットーらをディス"
+        }
+      ]
+    },
+    {
+      "id": "vG4BL0sfspo",
+      "title": "Kirk Franklin (ft. GloRilla) - This Time | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T17:23:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vG4BL0sfspo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "GloRilla"
+      ],
+      "related_articles": [
+        {
+          "id": "37e913ba47ba81f7a406d7ee7d7a28fa",
+          "title": "ヒップホップの巨頭ルーダクルスとグロリラが初コラボ、新曲「Real Hustla」"
+        },
+        {
+          "id": "359913ba47ba81699161e8adf83a02a6",
+          "title": "グロリラの妹がディストラック発表、家族ドラマが勃発"
+        },
+        {
+          "id": "358913ba47ba811896a3cf18e0df00ef",
+          "title": "Brorilla、新曲でグロリラ、ドレイク、ラットーらをディス"
+        }
+      ]
+    },
+    {
+      "id": "1KqW-BoIe9U",
+      "title": "Maria Arnal - QUE ME QUITEN | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1KqW-BoIe9U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0D9cvKltzRw",
+      "title": "The Breakfast Club FULL SHOW 09-25-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T15:56:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0D9cvKltzRw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nvgrRRpwAFs",
+      "title": "Crack breaking down every personality on ‘Let’s Rap About it’ Pod with Fab 💀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-09-25T15:40:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nvgrRRpwAFs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gVrjYaovE7U",
+      "title": "DJ Nyla Symone Talks New Curated Music Collab From Honor Roll, New Album + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T15:15:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gVrjYaovE7U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jOQB_cW4VpQ",
+      "title": "Nolan Wells Family Releases New Phone And Autopsy Findings",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T14:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jOQB_cW4VpQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "EBvg0WRLwfg",
+      "title": "Angie Nixon Talks Florida Senate Race, Universal Healthcare, Chuck Schumer, People Power + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T13:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EBvg0WRLwfg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wmF7EaV_ZpU",
+      "title": "PAUL WALL TELLS SHOCKING STORY ABOUT FORMALLY RACT FAN",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wmF7EaV_ZpU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "imRUEK_3Ees",
+      "title": "Jay-Z Sexual Assault Allegations Fully Recanted By Accuser",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/imRUEK_3Ees/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "zx7iO_Xb4os",
+      "title": "Shaking the dice is a major part of martial arts 😭🥋",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-09-25T12:43:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zx7iO_Xb4os/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lyT7h6jM_ik",
+      "title": "The Cast of 'A Different World' On Black Identity, Culture & Bringing Back A TV Classic",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-09-25T12:19:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lyT7h6jM_ik/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8WPZt5TR9Vc",
+      "title": "TRISTÁN! - Life Is A Movie | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-09-25T12:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8WPZt5TR9Vc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "lW50oZf6gOQ",
       "title": "PATREON EXCLUSIVE | Some Things Never Change feat. Maeta | The Joe Budden Podcast",
