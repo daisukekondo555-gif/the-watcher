@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-10-04T03:02:19.039873+00:00",
-  "total": 4095,
+  "generated_at": "2026-10-04T11:52:46.760460+00:00",
+  "total": 4101,
   "videos": [
+    {
+      "id": "Q8Hw_9XDxeQ",
+      "title": "Aya Nakamura - Kouma | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-04T11:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Q8Hw_9XDxeQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8ioEddqRsVs",
+      "title": "Should a BILLIONAIRE Pay for Their Friends’ First Class? | Joe Budden Podcast",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-04T10:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8ioEddqRsVs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kbyX17EhIPc",
+      "title": "OTR Rewind: The Senndy Freestyle (OTR Brazil 🇧🇷)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-04T01:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kbyX17EhIPc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CciFcGoMVKk",
+      "title": "Baby GZY - PIN (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-10-04T00:01:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CciFcGoMVKk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "T3Oxs-WfTfc",
+      "title": "Taves - Simone (LIVE “On The Radar” Performance) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-03T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/T3Oxs-WfTfc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qE5xd_AbCmo",
+      "title": "“DON’T BE SCARED TO SAY THE TRUTH!!!” REG THOMAS REVEALS DAVE CHAPPELLE’S ADVICE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-03T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qE5xd_AbCmo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "FYc48bPV78E",
       "title": "Halle Berry’s Custody Battle Gets MESSY | Joe Budden Podcast Reacts",
