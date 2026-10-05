@@ -1,7 +1,55 @@
 {
-  "generated_at": "2026-10-05T03:02:27.938675+00:00",
-  "total": 4118,
+  "generated_at": "2026-10-05T11:52:53.261489+00:00",
+  "total": 4122,
   "videos": [
+    {
+      "id": "JXzGaZj-ctQ",
+      "title": "G Herbo Brings Out Trim Ski LIVE  | Summer Jam The Experience 2026",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-05T10:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JXzGaZj-ctQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "S35ppPi73fk",
+      "title": "Hiii Siddity \"On The Radar\" Freestyle (Testimony) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-05T02:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/S35ppPi73fk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Yvc7UalyBBU",
+      "title": "Hip-Hop Media Legends! | Mecc Rashawn, Doggie Diamonds, Miss Jones & Dave Mays only on Drink Champs!",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-10-05T00:39:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Yvc7UalyBBU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1rUSji4Eq8E",
+      "title": "LISTENING TO YOUR MUSIC WITH ON THE RADAR",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-04T22:57:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1rUSji4Eq8E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "Dekkg27b-W4",
       "title": "JOHN LEGEND - MILLION DOLLAZ WORTH OF GAME EPISODE 399",
