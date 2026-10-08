@@ -1,7 +1,460 @@
 {
-  "generated_at": "2026-10-07T11:57:19.939238+00:00",
-  "total": 4188,
+  "generated_at": "2026-10-08T11:55:25.826075+00:00",
+  "total": 4223,
   "videos": [
+    {
+      "id": "IVRJxADggZ0",
+      "title": "Joe Budden Podcast Says Quavo & Pharrell’s New Album Falls Short",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-08T09:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IVRJxADggZ0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Quavo"
+      ],
+      "related_articles": [
+        {
+          "id": "384913ba47ba81f1b0dee5f865934409",
+          "title": "テイクオフの誕生日追悼がミーゴスの絆を今なお強固に示す"
+        },
+        {
+          "id": "383913ba47ba811b9e6ccbe2db4d36a2",
+          "title": "Quavo、Takeoffの32歳の誕生日を追悼で祝福"
+        },
+        {
+          "id": "383913ba47ba81c287a8d42d3a574c70",
+          "title": "Takeoffの32歳の誕生日に Quavo が心温まるメッセージ"
+        }
+      ]
+    },
+    {
+      "id": "n-g2b5uDN_Q",
+      "title": "Cheryl \"Salt\" James \"Shoop\" | On The Radar Classics",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-08T05:31:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/n-g2b5uDN_Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8UGWs45ooio",
+      "title": "DREWBEENSPAZZIN – \"On The Radar\" Freestyle (NY Inna Tahoe) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-08T03:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8UGWs45ooio/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QcKyNSLMu_k",
+      "title": "Joe Budden Podcast BLASTS Da’Vinchi Over “Lazy Americans” Remarks",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-08T01:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QcKyNSLMu_k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fL0eIhcrlOE",
+      "title": "| Mornings With Mero Livestream 10-7-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-08T00:56:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fL0eIhcrlOE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ck-A-5Epoqc",
+      "title": "\"THAT B*** WAS SINGING OPERA DURING THE ORGY!!!\" REG THOMAS RECOUNTS THE WILDEST FRIENDSGIVING EVER",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T23:01:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ck-A-5Epoqc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5jjgSegYSIg",
+      "title": "Oil It Down | On The Radar DJ SET",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5jjgSegYSIg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8nZzRnxWqFs",
+      "title": "Jess Does Her Famous Toni Braxton Impression 🎤",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8nZzRnxWqFs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-na9R2fuVj0",
+      "title": "Gillie makes a bet with Lil Duval 😭🦅",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-07T22:33:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-na9R2fuVj0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Fv_EUekjvI0",
+      "title": "HOT 97 News Live! 10/7/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T22:29:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Fv_EUekjvI0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "dZykecgN4k4",
+      "title": "Donna Dafi \"Good Morning\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T22:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dZykecgN4k4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "58OneO_TuHA",
+      "title": "Hoolibaby Neeno \"Sweet Lady\" & \"Nike Box\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T21:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/58OneO_TuHA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xo6YUfTQuNU",
+      "title": "Jungle & CallMeQuita - Pipe It Up | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T20:52:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xo6YUfTQuNU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gch-10VBetw",
+      "title": "Jungle & CallMeQuita - Pipe It Up | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T20:51:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gch-10VBetw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ntzG1tVqjC4",
+      "title": "“THEY KIND OF TRICKED ME INTO ACTING!!!” GLASSES MALONE REVEALS HOW HE LANDED A ROLE ON THE DROP",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ntzG1tVqjC4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "itnOG4-aw3M",
+      "title": "Kiss catching STRAYS for Showing LOVE? 😂 ‘Rock The Bells’ WHAT’S UP‼️",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-07T19:28:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/itnOG4-aw3M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "O206f4jdWCQ",
+      "title": "Bruiser Wolf - Billboard Billy | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T19:04:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O206f4jdWCQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BHJbaK0qK7M",
+      "title": "Bruiser Wolf - Billboard Billy | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BHJbaK0qK7M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PNOb4bM6p7A",
+      "title": "no na “star” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T18:15:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PNOb4bM6p7A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WwRdJ-6WIY8",
+      "title": "our #openmic live event with @elfcosmetics was a movie #ad",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-07T17:03:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WwRdJ-6WIY8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FOUuM-T3aqs",
+      "title": "A$AP Rocky Announces 4-Year Full-Tuition Roc Nation School Scholarship",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T17:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FOUuM-T3aqs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "A$AP Rocky"
+      ],
+      "related_articles": [
+        {
+          "id": "374913ba47ba81589f12e1cb78bfddf5",
+          "title": "A$AP Rocky、 mansionでの射撃が“平穏を奪った”と語る"
+        },
+        {
+          "id": "374913ba47ba8115b836ef61037ea97e",
+          "title": "エイサップ・ロッキー、ビバリーヒルズの自宅銃撃の後遺症を語る"
+        },
+        {
+          "id": "373913ba47ba8138bb56cdbc33ca786c",
+          "title": "A$AP Rocky、ストックホルム含む欧州ツアー30公演を発表"
+        }
+      ]
+    },
+    {
+      "id": "DkQOrucJWns",
+      "title": "Are You Obligated To Give Family Members Opportunities?",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T17:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DkQOrucJWns/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6_gLWz8hh4U",
+      "title": "The Breakfast Club FULL SHOW 10-07-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T16:32:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6_gLWz8hh4U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "hTyLDUwIYP4",
+      "title": "Ed Lover Shares Firsthand Stories Of Tupac & Biggie Reaching “The Point Of No Return”",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-10-07T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hTyLDUwIYP4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Qdj568r9jss",
+      "title": "Freddie Jackson Passes Away At 70",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T15:57:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Qdj568r9jss/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iqLA_61NvQE",
+      "title": "LL Cool J was setting NO Limits for himself when it came to creating Music of Any Genre",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-07T15:39:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iqLA_61NvQE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "hl4vvxGFvRo",
+      "title": "Gloria Velez FIRES BACK at Treasure Wilson Over “General Population” Comment",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-07T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hl4vvxGFvRo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-J6vWKsu1-Q",
+      "title": "Drake Will NOT Be Submitting His Last Three Albums For Grammy Consideration",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T15:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-J6vWKsu1-Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "v5KcUqrjuNc",
+      "title": "Wife Sh**ts Husband ‘To Teach Him A Lesson’ During Gun Safety Argument",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T14:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/v5KcUqrjuNc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-RpM5OZE-Ss",
+      "title": "A “Dream come True” for LL Cool J being the FIRST Artist signed to Def-Jam",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-07T13:43:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-RpM5OZE-Ss/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Mp9AH_Mba8k",
+      "title": "John Cena, Teyonah Parris & Arturo Castro On 'Matchbox: The Movie', The Future Of Peacemaker + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T13:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Mp9AH_Mba8k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fuvsWRPP9Y0",
+      "title": "DAZ DILLINGER & KURUPT He Banged My Sht Stranded On A Death Row Encounter",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fuvsWRPP9Y0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BX7mqFyLnFY",
+      "title": "Mojo Brookzz Claims He Has A Perfect Record Helping Couples At His Shows“I have 100% success rate.”",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-10-07T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BX7mqFyLnFY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cA-9oseF4b0",
+      "title": "Jay-Z's Investment Firm Nears Deal To Acquire 50% Stake In Rihanna's Fenty Beauty",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-07T12:49:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cA-9oseF4b0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
     {
       "id": "K9wbxmzlk5g",
       "title": "Marc Lamont Hill Addresses Claims His Wife “Doesn’t Find Him Attractive”",
@@ -447,6 +900,18 @@
       "category": "INTERVIEWS",
       "published_at": "2026-10-06T13:00:00.000+00:00",
       "thumbnail_url": "https://i1.ytimg.com/vi/8iPJUW4RIYo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GOYGhAjfLkY",
+      "title": "paopao | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-06T12:54:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GOYGhAjfLkY/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
