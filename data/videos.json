@@ -1,7 +1,349 @@
 {
-  "generated_at": "2026-10-09T12:04:17.823918+00:00",
-  "total": 4258,
+  "generated_at": "2026-10-10T11:52:36.334223+00:00",
+  "total": 4284,
   "videos": [
+    {
+      "id": "ayIAB5t-0mo",
+      "title": "LISTENING TO YOUR MUSIC WITH ON THE RADAR",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-10T11:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ayIAB5t-0mo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UvDJ-2BHsjY",
+      "title": "Joe Budden Questions Why Megan Thee Stallion’s Music Isn’t Connecting",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-10T09:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UvDJ-2BHsjY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Megan Thee Stallion"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81189e22d4dd5f4cfa4f",
+          "title": "メーガン・ザ・スタリオン、 bloggersからの支払い権利75,000ドルの回収を求める"
+        },
+        {
+          "id": "37c913ba47ba814e94b5ffcdf19de52b",
+          "title": "メーガン・ザ・スタリオン、デヴィッド・ゲッタらと FIFA ワールドカップ公式アンセム「DNA」"
+        },
+        {
+          "id": "377913ba47ba8127a4fcffa078d8b880",
+          "title": "メーガン・ザ・スタリオン、12万ドル超の衣装費請求訴訟に反論 事実関係を“不正”と主張"
+        }
+      ]
+    },
+    {
+      "id": "klIazty3gK0",
+      "title": "DALAIT – G26 (On The Radar) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-10T03:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/klIazty3gK0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "L0EjNM8CIMs",
+      "title": "French Montana REFUSES to Pay for Clothes: “Brands Pay Me”",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-10T01:41:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/L0EjNM8CIMs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "n7rBcFdvG2c",
+      "title": "Papera - Azara | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-09T23:02:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/n7rBcFdvG2c/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SB88y3w0vHA",
+      "title": "Papera - Azara | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-09T23:02:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SB88y3w0vHA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nlrhhDqby-Q",
+      "title": "“FRANKLIN WAS A HORRIBLE PERSON!!!” GLASSES MALONE & JASON DEBATE SNOWFALL’S MOST LOVED CHARACTER",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T22:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nlrhhDqby-Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gJ3ah2j711U",
+      "title": "HOT 97 News Live! 10/9/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T22:29:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gJ3ah2j711U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NySEQi5OTlU",
+      "title": "HIGH TOP FADES VS. JERRY CURLS!!! GLASSES MALONE ON EAST COAST VS. WEST COAST HIP-HOP",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T20:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NySEQi5OTlU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ygPhckXXivA",
+      "title": "Goldiie Lux - Peaches + Cream | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-09T19:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ygPhckXXivA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gGDmCWDzQzs",
+      "title": "Goldiie Lux - Peaches + Cream | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-09T19:14:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gGDmCWDzQzs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1BJV6RHzmOo",
+      "title": "New episode Sunday night 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-09T19:10:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1BJV6RHzmOo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XHV5AYWWyuM",
+      "title": "Mental Wealth Expo 2026 | A Day of Mental Health, Education & Healing",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T18:44:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XHV5AYWWyuM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "basDye0pas0",
+      "title": "iHeart Music Festival 2026!",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T18:42:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/basDye0pas0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "M8Xq3Nh4t-E",
+      "title": "Joe Budden Podcast Questions D.L. Hughley for Doubling Down on Jasmine Guy",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-09T18:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/M8Xq3Nh4t-E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6tLUTL_n0WQ",
+      "title": "A’ja Wilson Becomes First Woman To Win 5 WNBA MVP Awards",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T18:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6tLUTL_n0WQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "C97iBi-slF0",
+      "title": "Ben Affleck & Kerry Washington Discuss Collaborating On ‘Animals,’ & Navigating Director + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T16:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/C97iBi-slF0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "hN7cir4gqpk",
+      "title": "‘Average Joe’ Season TWO, Old Spice and Grown-ups 2⁉️ Deon Cole is COOKING!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-09T15:51:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/hN7cir4gqpk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uqKYC6fUisw",
+      "title": "The Breakfast Club FULL SHOW 10-09-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T15:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uqKYC6fUisw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uo6zJA41MPE",
+      "title": "Remember when Wallo told LeBron to check rock 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-09T15:43:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uo6zJA41MPE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rxt_HPYi2Jo",
+      "title": "DJ Nyla Symone Talks New Music From OMB PEEZY Feat. Trap Dickey, MARCO PLUS &Ben Reilly Collab +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T15:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rxt_HPYi2Jo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ilK_13tG3Dw",
+      "title": "GTA 6: New Song From Cardi B Featured, Radio Station Hosts & Podcasts Announced",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ilK_13tG3Dw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "EjP2cgWxCHo",
+      "title": "Prepare to see Deon Cole in a TON of Adam Sandler sequels 👀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-09T13:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/EjP2cgWxCHo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nsx1RqZJhT0",
+      "title": "Lil Jon Reveals Heartbreaking Final Text Exchange With His Son Before His Passing",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T13:10:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nsx1RqZJhT0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gQBlm5WCns4",
+      "title": "Glasses Malone On A Pop Artist Rapping, Is He Hip Hop Or Just Magic",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gQBlm5WCns4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "V0S9zrx3hZs",
+      "title": "Sexually Transmitted Diarrhea Is On The Rise In The US",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-09T12:34:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/V0S9zrx3hZs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "srsdf0CUW6g",
       "title": "Victoria Monét Compared to Beyoncé After ‘Frequency of Love’ Release",
