@@ -1,7 +1,445 @@
 {
-  "generated_at": "2026-10-15T12:00:28.147360+00:00",
-  "total": 4417,
+  "generated_at": "2026-10-16T12:05:58.063287+00:00",
+  "total": 4451,
   "videos": [
+    {
+      "id": "JfvZyWDhH6s",
+      "title": "LISTENING TO YOUR MUSIC WITH ON THE RADAR CEO GABE P!!!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T12:03:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JfvZyWDhH6s/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3qmjNhUR4cs",
+      "title": "Eddy I. - Staten Island \"On The Radar\" Cypher Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T12:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3qmjNhUR4cs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yE7O4O8ejKg",
+      "title": "Swavy - all black (LIVE \"On The Radar\" Performance)  Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T11:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yE7O4O8ejKg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZxFXy4ISWao",
+      "title": "She’s in a league of her own 🔥💯😤 [ @taylented ] “FFG FREESTYLE”",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T10:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZxFXy4ISWao/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_cjo-zzipm4",
+      "title": "Mellow Domingo | On The Radar DJ Set",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T03:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_cjo-zzipm4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1uMZtoKKCh8",
+      "title": "Jap5 - \"On The Radar\" Freestyle (Air Out & Calmdown) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T03:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1uMZtoKKCh8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nkvRn9jLy74",
+      "title": "Tyrone Briggs - Staten Island \"On The Radar\" Cypher⁠ ⁠Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T02:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nkvRn9jLy74/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Q4jDO_xs_7M",
+      "title": "| Mornings With Mero Livestream 10-15-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-16T01:37:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Q4jDO_xs_7M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "d6MBEk-OgOA",
+      "title": "The Delivery Boys Freestyle (PART 4)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T01:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/d6MBEk-OgOA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Wl8FJpIZ1ck",
+      "title": "The Delivery Boys Freestyle (PART 4)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-16T00:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Wl8FJpIZ1ck/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qNJGr-ocA88",
+      "title": "“THE INTERNET GOT YOU THINKING DAME IS BROKE!!!” DUKE DA GOD SPEAKS ON DAME DASH",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T23:06:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qNJGr-ocA88/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "NhLQtsUQyy8",
+      "title": "HOT 97 News Live! 10/15/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T22:48:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NhLQtsUQyy8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zPe_YAaYGRA",
+      "title": "RodSlime - Pimp K | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T22:17:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zPe_YAaYGRA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "S6QWOI1zzfU",
+      "title": "RodSlime - Pimp K | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T22:16:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/S6QWOI1zzfU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mVqxUpReOmY",
+      "title": "“I’M THE BEST STORYTELLER IN PHILLY!!!” FAKEFREE KP RANKS HIMSELF NEXT TO MEEK MILL & BEANIE SIGEL",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T20:32:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mVqxUpReOmY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Meek Mill"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba813b9ad4cbc039d484cc",
+          "title": "Meek Mill、 Atlantic Cityで手を負傷し医療支援を求める"
+        },
+        {
+          "id": "371913ba47ba81f0aa78ccb37b9ea45c",
+          "title": "ミーク・ミル、学生にSNS・暴力・目的の発見について忠告"
+        },
+        {
+          "id": "36c913ba47ba81d2bb7cd70cb6f98a55",
+          "title": "ミーク・ミル、ナイキのLeBron 23「Dreams & Nightmares」コレクションに不満を表明"
+        }
+      ]
+    },
+    {
+      "id": "iz2tpsk9kE4",
+      "title": "Fresco Trey & Jinodadon - Pretty Issue | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T20:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iz2tpsk9kE4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JAbO9u2hDYg",
+      "title": "Fresco Trey & Jinodadon - Pretty Issue | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T20:14:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JAbO9u2hDYg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZitnIxeVgns",
+      "title": "Louie Ray - For Nothing | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T19:10:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZitnIxeVgns/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2DtI6gcX1MM",
+      "title": "Louie Ray - For Nothing | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T19:10:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2DtI6gcX1MM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5c_-oCBSurY",
+      "title": "‘Hood Warfare 2’ Goes Viral Amid Criticism Over Racial Stereotypes",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-15T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5c_-oCBSurY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rXspYP67mTI",
+      "title": "Chose Money - The Program | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T18:48:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rXspYP67mTI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8oKtkiySpOk",
+      "title": "Tank gives Tyrese his flowers but also letting him know he got ONE on him 👀￼ ￼",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-15T18:37:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8oKtkiySpOk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NpmXLVXzk8Q",
+      "title": "My BD Promised Our Son A Vacation And Canceled 2 Days Before | Jess Fix My Mess",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T18:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NpmXLVXzk8Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PVPNJsP-vAA",
+      "title": "@nezza brought 🔥 choreo and pure pop star energy to the #openmic live stage #sponsored",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T17:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PVPNJsP-vAA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lQVV8wm49o4",
+      "title": "NOTHING Better than Legends setting their Ego’s aside and creating HISTORY!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-15T16:21:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lQVV8wm49o4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5r2ZcQyDHgE",
+      "title": "Cristale - H2O | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-15T16:04:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5r2ZcQyDHgE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yeculnYHOmY",
+      "title": "ICYMI: Dee Dean from Ruff Ryders on Drink Champs!",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-10-15T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yeculnYHOmY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "YWDEaUnr0zo",
+      "title": "The Breakfast Club FULL SHOW 10-15-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T15:11:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/YWDEaUnr0zo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "R_xYu0gSpgE",
+      "title": "Dr. Tonya Matthews On Why Black History Became Controversial And How IAAM Teaches Through It",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R_xYu0gSpgE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9awjI12kwRo",
+      "title": "JOJO GETS HIS YELLOW BELT 😂🥋",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-15T14:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9awjI12kwRo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4NDEZ9gONrY",
+      "title": "Florida Man Shoots Uber Eats Driver In The Butt After He Tried Getting His GF’s Number",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T14:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4NDEZ9gONrY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lNLx7VtLJTo",
+      "title": "Netflix To Release Documentary On Alleged NFL Scammer Daejon Love",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T13:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lNLx7VtLJTo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xyC_krb1BmM",
+      "title": "HELL RELL & JR WRITER From Jail To Platinum The TRUE Cost Of Music Success",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-15T13:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xyC_krb1BmM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ax8-AE5_18I",
+      "title": "The Joe Budden Podcast Episode 972 | Catching Up With The Bros",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-15T12:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ax8-AE5_18I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "0Ec0Pjjeyco",
       "title": "Exclusive: Diddy's Family Deny Jamaican Drug Lord Prison Fight Reports",
