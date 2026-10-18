@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-10-18T03:01:53.750781+00:00",
-  "total": 4499,
+  "generated_at": "2026-10-18T11:55:42.953897+00:00",
+  "total": 4505,
   "videos": [
+    {
+      "id": "o8qtvV3vpaw",
+      "title": "disiz - Try Try Try | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o8qtvV3vpaw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ye25WzB8EV0",
+      "title": "Joe Budden on Jason Lee Being Removed as Stockton Vice Mayor",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-18T04:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ye25WzB8EV0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9WXd5SLSo9g",
+      "title": "Pxwer - Staten Island \"On The Radar\" Cypher Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T03:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9WXd5SLSo9g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Lvohnt3etek",
+      "title": "OTR Rewind: The Jace Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T01:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Lvohnt3etek/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "i9ffkT2mD8g",
+      "title": "\"CAM SAID DON’T WORRY ABOUT IT, WE GOING TO PROMOTE YOU!!!” HELL RELL ON WORKING WITH CAM’RON",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-17T23:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/i9ffkT2mD8g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1oMOjb2Bb1A",
+      "title": "Drinks, Stories & Real Talk With Mojo Brookzz. Only on Drink Champs!",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-10-17T21:42:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1oMOjb2Bb1A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "t1EnJC2sgYo",
       "title": "“I PRAYED WITH TEARS IN MY EYES!!!!\" FAKEFREE KP ON THE DARKEST LOWS BEFORE SIGNING TO RUFF RYDERS",
