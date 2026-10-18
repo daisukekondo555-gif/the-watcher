@@ -1,7 +1,214 @@
 {
-  "generated_at": "2026-10-18T11:55:42.953897+00:00",
-  "total": 4505,
+  "generated_at": "2026-10-18T22:48:41.547415+00:00",
+  "total": 4522,
   "videos": [
+    {
+      "id": "QnYjWLURghc",
+      "title": "PHILLY VS CAROLINA | GILLIE ON SPORTS",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-18T21:40:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QnYjWLURghc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "251TV-M0RtM",
+      "title": "MY EXPERT OPINION EP #31: FAKEFREE KP & \"WAAH\" DEAN - THE NEXT GENERATION OF RUFF RYDERS + MORE",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-18T21:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/251TV-M0RtM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nNDwDM3mLpg",
+      "title": "BABYCHIEFDOIT - MILLION DOLLAZ WORTH OF GAME EPISODE 401",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-18T21:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nNDwDM3mLpg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VKrCy-RvhzI",
+      "title": "Happy Colors | On The Radar DJ Set",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VKrCy-RvhzI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "O73rpgWDjsI",
+      "title": "Happy Colors DJ Set Out Now!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O73rpgWDjsI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "GWydisyRRA4",
+      "title": "AJ ALLEN \"BROOKLYN ANTHEM\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T18:47:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/GWydisyRRA4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HYA9e0XOUGk",
+      "title": "Cardi B: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T18:38:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HYA9e0XOUGk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "pQ01CK_XeF0",
+      "title": "J Hart \"Midnight Dancing\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T18:31:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pQ01CK_XeF0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jW7j7p6C4IA",
+      "title": "Anjeli \"Silent Promise\" | On The Radar Performancea",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T18:22:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jW7j7p6C4IA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uT5Z494zAl0",
+      "title": "Shabazz x Q Da Fool \"Trap Brovas Intro 2\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T18:18:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uT5Z494zAl0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "f3nBLbjAUWc",
+      "title": "Kona Rose \"AROUND THE WORLD\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T18:10:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/f3nBLbjAUWc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "enCp_YZuwwI",
+      "title": "DB Odog \"She Fw A Banger\" & \"Packs In\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-18T18:02:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/enCp_YZuwwI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xGWxTXZT_Xo",
+      "title": "Joe Budden Podcast Says Lucky Daye Took a CREATIVE STEP BACK With ‘ALOUD!’",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-18T17:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xGWxTXZT_Xo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "y9fMHlQe2E0",
+      "title": "JR WRITER & HELL RELL On Apple Music How To Monetize Your Music Videos",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-18T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/y9fMHlQe2E0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Wn7er5JqMFQ",
+      "title": "Chick-fil-A 💅🏽🐔",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-18T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Wn7er5JqMFQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Fscip7aAfw4",
+      "title": "The Joe Budden Podcast Episode 973 | Alma Mater",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-18T12:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Fscip7aAfw4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "o8qtvV3vpaw",
       "title": "disiz - Try Try Try | A COLORS MOMENT",
@@ -1546,6 +1753,18 @@
       "category": "PERFORMANCES",
       "published_at": "2026-10-14T12:00:00.000+00:00",
       "thumbnail_url": "https://i4.ytimg.com/vi/oGpQZeb9Nng/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "O6mRxDItyWQ",
+      "title": "Ryan Beatty | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-14T10:12:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O6mRxDItyWQ/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
