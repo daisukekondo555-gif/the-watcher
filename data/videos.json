@@ -1,7 +1,364 @@
 {
-  "generated_at": "2026-10-20T12:04:24.018494+00:00",
-  "total": 4558,
+  "generated_at": "2026-10-21T11:58:33.705696+00:00",
+  "total": 4584,
   "videos": [
+    {
+      "id": "qC-efllkELY",
+      "title": "Charlamagne decide he's hating on The 76ers this season 🤨",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-21T11:36:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qC-efllkELY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UwPBrlB4TEU",
+      "title": "KenTheMan Disses Emanny After Joe Budden Podcast Criticism",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-21T09:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UwPBrlB4TEU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vkkpxKeQ7PI",
+      "title": "Chris Miles - CAMERA SHY (LIVE “On The Radar” Performance) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-21T02:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vkkpxKeQ7PI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HsV78R3O02g",
+      "title": "| Mornings With Mero Livestream 10-20-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-21T00:59:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HsV78R3O02g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VIutT25AWns",
+      "title": "“WHO THE HELL IS THAT N***A?!!” JR. WRITER & HELL RELL DEBATE WHO GETS TO CRITIQUE ARTISTS",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-21T00:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VIutT25AWns/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fKA7H3hpy4E",
+      "title": "LISTENING TO YOUR MUSIC WITH ON THE RADAR CEO GABE P!!!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-20T23:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fKA7H3hpy4E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ar5X_yp2tv4",
+      "title": "HOT 97 News Live! 10/20/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T22:28:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ar5X_yp2tv4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vpzJ6CwoGhg",
+      "title": "ASHMOOR \"GIVING IT UP” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-20T22:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vpzJ6CwoGhg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3ihQZr-lUHE",
+      "title": "BANNER NIGHT, PULL UP 🏆🗽#knicks #nba #nbahighlights",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-20T21:05:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3ihQZr-lUHE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "g5F0Fmao9j4",
+      "title": "Ade \"HEEM\" & \"Risky Business\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-20T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/g5F0Fmao9j4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uKRCL6GC6eA",
+      "title": "Dreek Jones - Party With Dreek | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-20T20:59:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uKRCL6GC6eA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "l_JrrEvldvE",
+      "title": "Dreek Jones - Party With Dreek | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-20T20:59:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/l_JrrEvldvE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ve76she-Sww",
+      "title": "\"HE CALLED TUPAC A TRAITOR!!!” MONEY B TALKS TEK & STEEL PAST EPISODE ON MEO",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T20:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ve76she-Sww/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cE8rvdTRLTU",
+      "title": "Anayka \"SHH!\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-20T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cE8rvdTRLTU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "nrT-6BTDO9Y",
+      "title": "@edmaverick delivers a powerful mesmerizing #openmic performance 🎤🎶 #genius #escombro",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-20T19:56:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/nrT-6BTDO9Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mVjvdC2aZRM",
+      "title": "The Breakfast Club FULL SHOW 10-20-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T18:40:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mVjvdC2aZRM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3iNMU7hZGVo",
+      "title": "Texas Criminal Justice System Releases Ex-Cop From Prison After She Mistakenly Shot Her Neighbor",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T17:07:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3iNMU7hZGVo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "y16vm_z_hms",
+      "title": "Top Dogs under 25 in Rap 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-20T16:36:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/y16vm_z_hms/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qCeMQlx2WHo",
+      "title": "Will Packer explains the Difference between “Healthy Arrogance and Toxic Arrogance”",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-20T15:54:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qCeMQlx2WHo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Cw2_5D4PH90",
+      "title": "New Study Reveals 2 In 5 Women ‘Settled’ On Their Wedding Day",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Cw2_5D4PH90/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9Z2bS73TT-A",
+      "title": "Jay-Z Reportedly Chooses Himself To Headline Super Bowl LXI Halftime Show",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T14:31:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9Z2bS73TT-A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "J61WUIYpy8o",
+      "title": "Joe was NOT a Fan of the Schedule when he was on set for Will Packer’s ‘Night School’ 😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-20T13:52:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/J61WUIYpy8o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "chuJEHv6LQU",
+      "title": "Haviv Rettig Gur Talks Israel–Hamas, Benjamin Netanyahu, Political Views & Criticism, Protests +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T13:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/chuJEHv6LQU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PF41eah29NY",
+      "title": "Cenk Uygur on Free Palestine, Netanyahu’s Influence & Who Controls the Media",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T13:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PF41eah29NY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "ShyDDDhujgw",
+      "title": "JR WRITER & HELL RELL On Being Trolled Online How To Handle Internet Trolls",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ShyDDDhujgw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mOFyK8XZOQ4",
+      "title": "Cardi B Performs ‘ErrTime’, ‘Be Careful’ & More On NPR Tiny Desk",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-20T12:37:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mOFyK8XZOQ4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
     {
       "id": "cvdy0gbSb7U",
       "title": "| Mornings With Mero Livestream 10-19-26",
