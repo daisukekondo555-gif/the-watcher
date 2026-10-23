@@ -1,7 +1,436 @@
 {
-  "generated_at": "2026-10-22T11:54:02.476622+00:00",
-  "total": 4617,
+  "generated_at": "2026-10-23T12:03:01.025946+00:00",
+  "total": 4649,
   "videos": [
+    {
+      "id": "AzN4jHX9Pvw",
+      "title": "Joe Budden on Why Media Veterans Get LEFT BEHIND",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-23T10:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/AzN4jHX9Pvw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_Mp_bpIZKlI",
+      "title": "Brìghde Chaimbeul: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_Mp_bpIZKlI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "i-AxCoBoK3A",
+      "title": "Cordae x Anderson .Paak \"RNP\" | On The Radar Classics",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T02:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/i-AxCoBoK3A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iUQy086wxSI",
+      "title": "Anderson .Paak & Cordae \"Airbender\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T02:51:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iUQy086wxSI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5JaRLOLBx4U",
+      "title": "Pyrex Porter & 183rd “Ignorant S—“ | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T02:16:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5JaRLOLBx4U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6HIGTsjtib8",
+      "title": "Dyna Edyne - “Fckin with you” & “No More” (LIVE “On The Radar” Performance) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T02:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6HIGTsjtib8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cRyW4Y4t91A",
+      "title": "Poizonnn \"Once Not Twice\" | On The Radar Vision Play Cypher PART 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T01:38:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cRyW4Y4t91A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bxlEo1qV6rE",
+      "title": "J.Y. \"Ya CEO Owes Me Money\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T01:36:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bxlEo1qV6rE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4ufEjraUoNw",
+      "title": "Connie Diiamond \"Mind Ya Business\" | On The Radar Vision Play Cypher PART 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T01:34:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4ufEjraUoNw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kQOGyLVjKJM",
+      "title": "Twayne Towns & Rain 910 \"Smoke The Night Away\" | On The Radar Vision Play Cypher PART 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-23T01:32:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kQOGyLVjKJM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wFec77cgcl4",
+      "title": "| Mornings With Mero Livestream 10-22-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-23T01:05:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wFec77cgcl4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IOdyflcTDrc",
+      "title": "Balance is key 🔑",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-23T00:57:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IOdyflcTDrc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4slqQ1uALaU",
+      "title": "Joe Budden Podcast Questions Eagles’ Handling of Jalen Hurts’ Health Scare",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-22T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4slqQ1uALaU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TiJ72YFgsjI",
+      "title": "“SNOOP OPENED THE DOOR FOR RAPPERS TO TAKE OTHER PEOPLE’S STYLES!!!” -MONEY B",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T22:45:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TiJ72YFgsjI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "bwF7_VQbBFs",
+      "title": "HOT 97 News Live! 10/22/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T22:31:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/bwF7_VQbBFs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "risPb1Z-byA",
+      "title": "It’s basketball season 💯 sponsored by @DraftKings #DKPartner",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-22T17:02:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/risPb1Z-byA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Bj-uuLn9aHA",
+      "title": "Pharrell took his Talents to Paris 👀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-22T16:49:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Bj-uuLn9aHA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "QxQoknQnWiY",
+      "title": "The Breakfast Club FULL SHOW 10-22-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T16:08:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QxQoknQnWiY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "40FtnukmhHI",
+      "title": "Victony - 2FRESH | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-22T16:06:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/40FtnukmhHI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Y35V-yE3UqA",
+      "title": "I'm Stuck In The Middle Of Two Messy Baby Mommas",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T15:59:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Y35V-yE3UqA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "X8tX6SeIvVE",
+      "title": "Bud really picked Gillie up 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-22T15:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/X8tX6SeIvVE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fbUMuRryIBY",
+      "title": "Cardi B Reveals Her Greatest Musical Influences",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T15:26:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fbUMuRryIBY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "2kHs3XMFsHk",
+      "title": "John Legend opens up about his relationship with Kanye West",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-22T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2kHs3XMFsHk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Rje8vI3U2cs",
+      "title": "Father Leaves His 4-Month-Old Baby Alone In Parked Car To Argue With Baby’s Mother At A Bar",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T14:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Rje8vI3U2cs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LI-7bQ9mlaU",
+      "title": "John Legend PREMIERES \"Bodies On The Floor\" feat. Clipse off NEW ALBUM 'Muse' | Fat Joe & Jadakiss",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-22T13:57:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LI-7bQ9mlaU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "t_Mh24wCMRE",
+      "title": "Dame Dash’s Life Rights Sold For Six Figures At Auction",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T13:37:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/t_Mh24wCMRE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "tPSoW-l9axA",
+      "title": "Angie Martinez  IRL Podcast Wins Gold For Best Host At Signal Awards",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T13:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tPSoW-l9axA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "wzrqFJhlBm0",
+      "title": "New Video Shows Frantic Moments Before Police Shot 1-Year-Old",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T13:13:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wzrqFJhlBm0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VN0bjFwRUo0",
+      "title": "Roger Goodell Responds To Reports Of Jay-Z Performing At Super Bowl LXI Halftime",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T13:11:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VN0bjFwRUo0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "SKTB0sq4Tbc",
+      "title": "Viral HIT Or Dope Album What Matters More Today",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SKTB0sq4Tbc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "beir1Jw3XMQ",
+      "title": "Gizelle Bryant On The Success Of ‘Real Housewives’, Finally Getting Her Flowers + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-22T13:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/beir1Jw3XMQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ndBneVSrdN4",
+      "title": "The Joe Budden Podcast Episode 974 | I’m Switzerland",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-22T12:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ndBneVSrdN4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "V30enq03dnk",
       "title": "OTR Rewind: The Stella Standingbear Freestyle",
