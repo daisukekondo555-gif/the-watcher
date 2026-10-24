@@ -1,7 +1,178 @@
 {
-  "generated_at": "2026-10-24T11:57:34.554744+00:00",
-  "total": 4676,
+  "generated_at": "2026-10-24T22:49:11.239717+00:00",
+  "total": 4689,
   "videos": [
+    {
+      "id": "pJzYYCrCecI",
+      "title": "Chris Mula - “BASS PUMPING!” (LIVE “On The Radar” Performance)  Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-24T20:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pJzYYCrCecI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DjTGYVCiepY",
+      "title": "“HUEY P. NEWTON GAVE ME MY DIPLOMA!!! MONEY B ON GROWING UP IN THE BLACK PANTHER PARTY",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-24T20:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DjTGYVCiepY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9fRETlnt6IY",
+      "title": "Lil Meta - Dos Locos (Official Music Video)",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-10-24T19:12:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9fRETlnt6IY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KP27PB99fKI",
+      "title": "Dame Dash Loses Control of His Life Rights in $550K Auction",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-24T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KP27PB99fKI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "XC0dlXtwD1k",
+      "title": "Anjeli - “Life I Never Had” (LIVE “On The Radar” Performance) Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-24T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XC0dlXtwD1k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6SBPHhwW-lk",
+      "title": "From Encore, to College Dropout.. John Legend shares his BREAKTHROUGH Hit’s! 🔥",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-24T17:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6SBPHhwW-lk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BfUP4voHFqA",
+      "title": "Victony - 2FRESH | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-24T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BfUP4voHFqA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Q0981V3TpUc",
+      "title": "Losing Six Friends Back To Back The LOWEST Point",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-24T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Q0981V3TpUc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2EikGy5MSlI",
+      "title": "Rain 910 x P.C. x Symba x Connie Diiamond \"Elementary\" | On The Radar Vision Play Cypher PART 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-24T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2EikGy5MSlI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "O1g4PEtURl0",
+      "title": "OTR Rewind: JPEGMAFIA \"sin miedo\" Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-24T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/O1g4PEtURl0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tytzv9dQVRc",
+      "title": "Sedale \"Insane\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-24T14:27:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tytzv9dQVRc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LWGmfukpegE",
+      "title": "Wallo’s first wedding 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-24T14:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LWGmfukpegE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kuIKoXC0xxw",
+      "title": "Joe Budden Podcast ROASTS Funkmaster Flex’s “Square Up” at Knicks Game",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-24T12:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kuIKoXC0xxw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "Q1GS_MaoObc",
       "title": "LISTENING TO YOUR MUSIC WITH ON THE RADAR CEO GABE P!!!",
