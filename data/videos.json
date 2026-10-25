@@ -1,7 +1,154 @@
 {
-  "generated_at": "2026-10-25T11:54:15.592208+00:00",
-  "total": 4691,
+  "generated_at": "2026-10-25T22:50:41.148116+00:00",
+  "total": 4703,
   "videos": [
+    {
+      "id": "sUybtnN5WQk",
+      "title": "Megadivo | On The Radar DJ Set",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-25T22:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sUybtnN5WQk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zXF1NP2O6Hc",
+      "title": "Machine Girl | On The Radar DJ Set",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-25T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zXF1NP2O6Hc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OmvsZmASNy8",
+      "title": "Tory Lanez Wants $100 MILLION After Prison Attack | Joe Budden Reacts",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-25T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OmvsZmASNy8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Tory Lanez"
+      ],
+      "related_articles": [
+        {
+          "id": "372913ba47ba8172baace489c931e4bb",
+          "title": "ジェイ・Z、Roots Picnicのフリースタイルで Tory Lanez の刑務所入りを皮肉る"
+        },
+        {
+          "id": "370913ba47ba81a6bd61f6c165d53d89",
+          "title": "トリー・レーンズ、緊急一時保護命令の審問要求を連邦裁判所が却下"
+        },
+        {
+          "id": "346913ba47ba81b5bcedc36541948fcd",
+          "title": "トリー・レーンズ、獄中暴行事件でカリフォルニア州刑務所に1億ドルの損害賠償を請求"
+        }
+      ]
+    },
+    {
+      "id": "-lO-f38I2Ro",
+      "title": "Kehlani - Folded | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-25T18:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-lO-f38I2Ro/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sSX3dEEL15A",
+      "title": "Yoyotheproducer Makes a CRAZY Beat in 5 Minutes! 🔥 | Live Cookup (On The Radar)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-25T18:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sSX3dEEL15A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "x6WlxTuNF68",
+      "title": "NIGY BOY & Citizen B - “Rendezvous” (LIVE “On The Radar” Performance)  Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-25T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/x6WlxTuNF68/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "A6OitAwdbxs",
+      "title": "OTR Rewind: The PK Freestyle (OTR Brazil 🇧🇷)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-25T15:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/A6OitAwdbxs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5RIJxiOS5M0",
+      "title": "Bet is a bet 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-25T13:01:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5RIJxiOS5M0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "o0Kuf2uR4og",
+      "title": "How FATHERHOOD Gave This Musician A New Purpose",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-25T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/o0Kuf2uR4og/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5TQE8-ItcI4",
+      "title": "The Joe Budden Podcast Episode 975 | Insatiable Appetite",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-25T12:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5TQE8-ItcI4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zoSGuHHeuXg",
+      "title": "YUNG MIAMI - MILLION DOLLAZ WORTH OF GAME EPISODE 402",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-25T04:57:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zoSGuHHeuXg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "ycOLauNckZg",
       "title": "Stevie Wonder Wants Ex OUT After 38 Years of Free Housing",
@@ -696,6 +843,18 @@
       "category": "INTERVIEWS",
       "published_at": "2026-10-22T22:31:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/bwF7_VQbBFs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mK43i_9aXPg",
+      "title": "nomi. | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-22T17:08:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mK43i_9aXPg/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
