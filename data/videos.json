@@ -1,7 +1,79 @@
 {
-  "generated_at": "2026-10-28T03:15:06.027799+00:00",
-  "total": 4766,
+  "generated_at": "2026-10-28T12:01:55.048414+00:00",
+  "total": 4772,
   "videos": [
+    {
+      "id": "oC0cYE1UKls",
+      "title": "Joe Budden Podcast Reacts to Drake’s Lavish NYC 40th Birthday Party",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-28T09:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oC0cYE1UKls/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9JTdDicDEUU",
+      "title": "HOT 97 Winter - Fest Funk Flex Winter Fest — December 30 at Barclays - Live Nation",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-28T03:06:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9JTdDicDEUU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "88xR_Pt2u_E",
+      "title": "Chris Mula - “Go To Work” & “BASS PUMPING!” (LIVE “On The Radar” Performance)  Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-28T02:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/88xR_Pt2u_E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZvwqyPJTPmQ",
+      "title": "| Mornings With Mero Livestream 10-27-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-28T00:56:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZvwqyPJTPmQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MkIxXzWMkdE",
+      "title": "“DEATH ROW DIDN’T RAISE TUPAC!!!” MONEY B SAYS PAC WAS ALREADY A SUPERSTAR",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-27T23:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MkIxXzWMkdE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "CjFqvJbui0g",
+      "title": "Donna Dafi \"ManGo\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-27T23:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CjFqvJbui0g/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "T3TZ5mvfMOM",
       "title": "HOT 97 News Live! 10/27/26",
