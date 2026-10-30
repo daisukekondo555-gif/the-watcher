@@ -1,7 +1,441 @@
 {
-  "generated_at": "2026-10-29T11:59:56.240484+00:00",
-  "total": 4807,
+  "generated_at": "2026-10-30T12:03:45.304771+00:00",
+  "total": 4842,
   "videos": [
+    {
+      "id": "XoH44mH5laY",
+      "title": "Richard O'Brien's 'The Rocky Horror Show': Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T09:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XoH44mH5laY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "f-hYfRnevZw",
+      "title": "Pastor Goes VIRAL After Revealing Two-Wife Marriage",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-30T09:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/f-hYfRnevZw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ettd941Qxz8",
+      "title": "| Mornings With Mero Livestream 10-29-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-30T01:27:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ettd941Qxz8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XBJNV-0lUEA",
+      "title": "The STS Solo \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T00:44:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XBJNV-0lUEA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fuEcYzdK5L8",
+      "title": "The Joey Mayer \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T00:42:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fuEcYzdK5L8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "oYXYitrzbRc",
+      "title": "The Geno Five \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T00:39:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oYXYitrzbRc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "y8NFJX0YY88",
+      "title": "The DevMaccc \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T00:38:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/y8NFJX0YY88/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WGKYca0CAN8",
+      "title": "The Dayz Da Empora \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T00:35:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WGKYca0CAN8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xWFtJG3QTYo",
+      "title": "The 412 Legend \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T00:33:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xWFtJG3QTYo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mjU1KGDjcZo",
+      "title": "Paeka \"Falling into you\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T00:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mjU1KGDjcZo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iVDtD3BzKrk",
+      "title": "“NOBODY WRITES MY SH*!!” ROME STREETZ ON BATTLE RAP CONTROVERSY & SETS RECORD STRAIGHT ON HIS MOTION",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T23:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iVDtD3BzKrk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pCua7adXIj8",
+      "title": "The Jenn Carter Freestyle Pt 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pCua7adXIj8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vU8fKEGK7rI",
+      "title": "Boyz II Men Going COUNTRY Sparks Debate on Joe Budden Podcast",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-29T23:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vU8fKEGK7rI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OC2Mblkp3eg",
+      "title": "HOT 97 News Live! 10/29/26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T22:39:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OC2Mblkp3eg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mUPcsvSJ0pQ",
+      "title": "LISTENING TO YOUR MUSIC WITH ON THE RADAR CEO GABE P!!!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T22:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mUPcsvSJ0pQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1rqb2nJXNjk",
+      "title": "Terry Tesla - Dope Boy Fresh | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T20:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1rqb2nJXNjk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OjcRX4gTEac",
+      "title": "Terry Tesla - Dope Boy Fresh | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T20:14:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OjcRX4gTEac/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TMF1ApJojfg",
+      "title": "Jaewon said WHAT about Biggie’s FIRST Album 😳",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-29T19:29:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TMF1ApJojfg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "R5jcyl51ja0",
+      "title": "The Breakfast Club FULL SHOW 10-29-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T19:16:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R5jcyl51ja0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rRCuNAQz0J4",
+      "title": "“LL COOL J STARTED DOUBTING HIMSELF WHEN HIP-HOP CHANGED IN THE '90s!!!” MONEY B",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T19:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rRCuNAQz0J4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VxnialmLyIg",
+      "title": "Fly Skinz - Left 4 Dead | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T18:58:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VxnialmLyIg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "u2953V-niK8",
+      "title": "Fly Skinz - Left 4 Dead | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T18:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/u2953V-niK8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Asag_c1VIRc",
+      "title": "Bien - True Love | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T16:45:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Asag_c1VIRc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vS49yw0LmEM",
+      "title": "I Want To Use Toys In The Bedroom With My Husband | Jess Fix My Mess",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T16:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vS49yw0LmEM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "43hbgxDcxeE",
+      "title": "Podcast WAR!? What War? We’re #1‼️",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-10-29T15:33:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/43hbgxDcxeE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Jw9ZpE5X1C4",
+      "title": "Karate Earl kicked a thief through a door 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-29T14:18:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Jw9ZpE5X1C4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_yeznU2cypI",
+      "title": "Tessa Spencer Opens Up On Losing Her Son To Suicide & Speaks On Save Our Sons & Daughters; SC +More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_yeznU2cypI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UACxfaNThx4",
+      "title": "Can AI Ever Capture the Soul of Rap",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T13:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UACxfaNThx4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HmGhwSOgo9Q",
+      "title": "Thieves Steal 3K Pounds Of Snow Crab From Truck While Driver Is Asleep",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T13:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HmGhwSOgo9Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "lZDU8zu7zgU",
+      "title": "Passengers Stranded In Cambodia After Luxury Cruise Runs Out Of Fuel",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T13:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/lZDU8zu7zgU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "BDqinNadB_M",
+      "title": "J. Cole Addresses Retirement: ‘Never Using That Word’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T12:41:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/BDqinNadB_M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "J. Cole"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba81959ed4c8cc0d0fc36c",
+          "title": "J・コール、元NFLスターのライアン・クラークから大絶賛"
+        },
+        {
+          "id": "37c913ba47ba811f95e2fb0bcf74f182",
+          "title": "J・コール『2014 Forest Hills Drive』がBillboard 200で600週到達"
+        }
+      ]
+    },
+    {
+      "id": "ETK4GkKzi_U",
+      "title": "Thizzy52 - Jeden Tag | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-29T12:20:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ETK4GkKzi_U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "jwjgygrThrw",
+      "title": "The Joe Budden Podcast Episode 976 | A Great Plus 1",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-29T12:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/jwjgygrThrw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Z6v8hwTSpXs",
+      "title": "Nicki Minaj Calls NY Gov Kathy Hochul An ‘Evil Woman’, Hochul Responds",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-29T12:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Z6v8hwTSpXs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nicki Minaj"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8150af4efe9f6f1c07d2",
+          "title": "ニッキー・ミナージュ、音楽業界の“闇と霊的側面”を暴露"
+        },
+        {
+          "id": "381913ba47ba813c8d55efad512eb486",
+          "title": "ニッキー・ミナージュ、後悔する歌詞を語る（歌詞の一部を見直す意向）"
+        },
+        {
+          "id": "381913ba47ba81888d3ccd7fa04d3819",
+          "title": "ニッキー・ミナージュ、古い歌詞を後悔していると認める"
+        }
+      ]
+    },
     {
       "id": "R7yaCI0h__A",
       "title": "Love Spells - Maybe I Still Love You | A COLORS MOMENT",
@@ -1037,6 +1471,18 @@
       "category": "PERFORMANCES",
       "published_at": "2026-10-26T17:24:00.000+00:00",
       "thumbnail_url": "https://i2.ytimg.com/vi/IS6YiSSXCE4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "TW3Hy5-Z2Pc",
+      "title": "Anderson .Paak & Cordae | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-26T17:19:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/TW3Hy5-Z2Pc/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
