@@ -1,7 +1,97 @@
 {
-  "generated_at": "2026-10-31T11:56:54.644567+00:00",
-  "total": 4868,
+  "generated_at": "2026-10-31T22:57:34.676789+00:00",
+  "total": 4873,
   "videos": [
+    {
+      "id": "Ji4zCPL9JfA",
+      "title": "Joe Budden Shares Behind-the-Scenes Details From Law & Order",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-31T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Ji4zCPL9JfA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "U-ZcdXZu9sE",
+      "title": "“I WALKED IN AND NAS WAS IN THE ROOM BY HIMSELF!!!” — ROME STREETZ TELLS THE STORY OF NAS CO-SIGN",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-31T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/U-ZcdXZu9sE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "QX8hyiqWhfk",
+      "title": "Dame Dash Believed in Jay Z Before Anyone Else",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-10-31T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/QX8hyiqWhfk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Dame Dash"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8145ba79e82c26de4403",
+          "title": "Dame Dash、Jay‑ZとCam’ronへのディス曲を予告もファン反応薄"
+        },
+        {
+          "id": "374913ba47ba81feb4c0cd76c95b77dc",
+          "title": "デイム・ダッシュ、ジェイ＝Zを“恥ずかしい”と語る。髪型を批判"
+        },
+        {
+          "id": "373913ba47ba813db9f4c5492cd66a9b",
+          "title": "デイム・ダッシュ、ジェイ・Zの“破綻”を心配? フリースタイル批評を語る"
+        }
+      ]
+    },
+    {
+      "id": "ow7PC0GOE8Q",
+      "title": "Wallo2 6-7 🎃",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-10-31T14:25:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ow7PC0GOE8Q/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "61Op0KP2LNc",
+      "title": "Joe Budden Podcast Does NOT Believe Amber Rose Latest Claim",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-10-31T12:27:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/61Op0KP2LNc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "JIIgOBICdn4",
       "title": "I AM ROZE - Dollar | A COLORS MOMENT",
