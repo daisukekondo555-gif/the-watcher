@@ -1,7 +1,106 @@
 {
-  "generated_at": "2026-11-04T03:11:17.894578+00:00",
-  "total": 4960,
+  "generated_at": "2026-11-04T12:01:56.241859+00:00",
+  "total": 4967,
   "videos": [
+    {
+      "id": "wRt6xD9KuC0",
+      "title": "Mona Says She “F***ed Up” After Cardi B Colorism Backlash",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-11-04T10:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wRt6xD9KuC0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "7jVueIeLebI",
+      "title": "C’ing Jerome - “Walk In The Barn” (LIVE OTR Performance)  Out Now On All DSPs!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T03:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7jVueIeLebI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Mqe788hqL2A",
+      "title": "The Tommy2 \"On The Radar\" Freestyle (PART 2)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T01:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Mqe788hqL2A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JCiKe97ZYto",
+      "title": "The Tommy2 Freestyle Pt 2",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T01:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JCiKe97ZYto/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "dQeAdW_Tmek",
+      "title": "OnlyHeaven \"mirror\" & \"1.5\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/dQeAdW_Tmek/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5bpuabxW0q8",
+      "title": "Spark & 2kYayo \"I'm Good\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T00:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5bpuabxW0q8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xBteWab1Fwk",
+      "title": "“WESTSIDE GUNN FOUND ME IN THE LOWER EAST SIDE!!!” ROME STREETZ ON HOW THEY FIRST MET",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xBteWab1Fwk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "Lq5D_aAehYg",
       "title": "Snitchin’ has been made POPULAR by it’s “Poster Child” 👀",
