@@ -1,7 +1,356 @@
 {
-  "generated_at": "2026-11-05T03:14:14.136510+00:00",
-  "total": 4967,
+  "generated_at": "2026-11-05T12:13:46.343765+00:00",
+  "total": 4994,
   "videos": [
+    {
+      "id": "LtUDeizHqKk",
+      "title": "Fat Joe: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-05T10:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LtUDeizHqKk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NuD0WlpxFao",
+      "title": "| Mornings With Mero Livestream 11-4-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-05T02:01:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NuD0WlpxFao/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kXJqbgwzqzs",
+      "title": "That Mexican OT “Apple Bottom” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-05T00:40:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kXJqbgwzqzs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Hcs326oCFxM",
+      "title": "Teddy Swims \"Mr. Know It All\" & \"Perfect Man\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-05T00:17:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Hcs326oCFxM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KY023IsSOV8",
+      "title": "LISTENING TO YOUR MUSIC WITH ON THE RADAR!!!",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-05T00:08:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KY023IsSOV8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "h_n8zVByjTM",
+      "title": "Luna Elle “Lose Me” & “AMPM” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-05T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/h_n8zVByjTM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xGcYxSr-9dU",
+      "title": "Yasmine Jinelle \"Walk it out\", \"One Day\" & \"1800\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T23:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xGcYxSr-9dU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3aRyIzeu0cY",
+      "title": "Lil Speedy - Amiri Denim | From The Block Performance 🎙🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T22:47:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3aRyIzeu0cY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Ein940ooFlQ",
+      "title": "“NAS INVITED ME TO DINNER & CARMELO ANTHONY ASKED WHEN MY NEW ALBUM DROPS!!!” – ROME STREETZ",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T22:17:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Ein940ooFlQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "xfDrdwMGwlM",
+      "title": "Lil Speedy - Amiri Denim | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T22:01:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xfDrdwMGwlM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Vln3Q6LPFMk",
+      "title": "Hikuiza \"Violet\" & \"Who's Your Leader\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-04T21:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Vln3Q6LPFMk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OlzMEY7ynqg",
+      "title": "Angela Rye Discusses Midterm Election Results",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T20:31:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OlzMEY7ynqg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "k0NUE_cTfGI",
+      "title": "Your “OG” is NOT the Same OG Before that 30!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-04T20:10:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/k0NUE_cTfGI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "xD6FD6z4Iwg",
+      "title": "The Breakfast Club FULL SHOW 11-04-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T18:29:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/xD6FD6z4Iwg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FiNDiY97b0E",
+      "title": "I wonder what they're doing in jail for Diddy's birthday today 🤔",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T18:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FiNDiY97b0E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZtfY9OtrhrE",
+      "title": "Remember when Wallo smacked Gillie’s biscuit 😂",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-04T17:26:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZtfY9OtrhrE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "S8NmomuxF58",
+      "title": "Shoutout to Nas ‘Paid in Full’ Foundation‼️",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-04T17:05:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/S8NmomuxF58/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "KCSQ5sfTQZQ",
+      "title": "2 Chainz Apologizes After His Conversation With Keith Lee Sparks Backlash",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T17:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KCSQ5sfTQZQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XTQ15ERnc2o",
+      "title": "Trump And MAGA Republicans Receive Donkey Of The Day For Forgetting The Power Of The People",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T16:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XTQ15ERnc2o/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DvABWGTIyrc",
+      "title": "Joe Budden Podcast Reacts to N.O.R.E. Confronting a Content Creator",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-11-04T16:09:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DvABWGTIyrc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "N.O.R.E."
+      ],
+      "related_articles": [
+        {
+          "id": "346913ba47ba81d29c2fd47afeac462b",
+          "title": "ノリ、オフセットとセイウティのうわさについて未公開映像を言及"
+        }
+      ]
+    },
+    {
+      "id": "NtEkz4jDhqc",
+      "title": "Neil deGrasse Tyson On The Possibility Of Aliens Being More Intelligent Than Humans + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T15:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NtEkz4jDhqc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "79nPmy4Z1QA",
+      "title": "Who’s the TopDog on the Sixers?",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-04T15:19:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/79nPmy4Z1QA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gv3DVvzEX0U",
+      "title": "Chris Rock Opens Up On Career Transition, Ageism & P*rn Addiction Impacting His Marriage",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gv3DVvzEX0U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "d3a6SDrjbGw",
+      "title": "Yolanda Renee King MLK Jr.’s Only Grandchild, Votes For First Time: ‘This Is For My Grandparents’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T14:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/d3a6SDrjbGw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "olmCjbR41-A",
+      "title": "Music Masters  The Million Dollar Lesson Artists Need to Know",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/olmCjbR41-A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "3R2Pfb8FSKg",
+      "title": "Democrats Score Major Wins In Midterm Elections Nationwide",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-04T12:42:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/3R2Pfb8FSKg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "wRt6xD9KuC0",
       "title": "Mona Says She “F***ed Up” After Cardi B Colorism Backlash",
@@ -1588,6 +1937,18 @@
       "category": "PODCASTS",
       "published_at": "2026-10-30T15:01:00.000+00:00",
       "thumbnail_url": "https://i3.ytimg.com/vi/Za-C0DJn6tU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1czUusLWcZg",
+      "title": "Rex Orange County | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-10-30T14:50:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1czUusLWcZg/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
