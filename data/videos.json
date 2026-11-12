@@ -1,7 +1,345 @@
 {
-  "generated_at": "2026-11-11T11:57:15.108024+00:00",
-  "total": 5136,
+  "generated_at": "2026-11-12T11:55:12.552068+00:00",
+  "total": 5165,
   "videos": [
+    {
+      "id": "R39hGT1iM7w",
+      "title": "Robyn: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-12T10:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/R39hGT1iM7w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "b2Zk93-iqlo",
+      "title": "Why did one comment make it permanent? 😳🔥 #Drama #Boundaries",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-12T03:05:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/b2Zk93-iqlo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Wv-2-pOLIaI",
+      "title": "Dave Chappelle Sparks BACKLASH Over Charlie Kirk Joke",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-11-12T02:17:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/Wv-2-pOLIaI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7rwkpcfUGy4",
+      "title": "“CHARLAMAGNE, WACK 100, 21 SAVAGE & YOUNG THUG ARE IN MY CORNY FILE!!!” DAWGFACE CALDERON",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-12T00:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7rwkpcfUGy4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "21 Savage"
+      ],
+      "related_articles": [
+        {
+          "id": "362913ba47ba81be8202d23c5d490db6",
+          "title": "「B's On The Table」- Drake featuring 21 Savage"
+        },
+        {
+          "id": "35b913ba47ba8198b426c6684e78d5f1",
+          "title": "ドレイクの新作『Iceman』ゲスト予想、Yeat、21 Savage、Cartiの出演オッズが急上昇"
+        }
+      ]
+    },
+    {
+      "id": "6Mkp9ta8Q9w",
+      "title": "Los Kemet Raps New Class Cypher Verse VOL. 2 | On The Radar Radio",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T23:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6Mkp9ta8Q9w/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7K21EM75GKw",
+      "title": "WE GOT MORE DISS RECORDS AND MORE GHOSTWRITERS!!!",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T22:54:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7K21EM75GKw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "-vdg2Goj8SI",
+      "title": "Forbe$ Raps New Class Cypher Verse VOL. 2 | On The Radar Radio",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T21:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/-vdg2Goj8SI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "yb_ciBUl9W0",
+      "title": "“WHERE’S YOUR DIGNITY?” | Joe Budden GOES IN on Eazy The Block Captain",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-11-11T20:50:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/yb_ciBUl9W0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MGyyQcKytx0",
+      "title": "Do “ONE-Verse” Legends exist in Music? 👀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-11T20:10:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MGyyQcKytx0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mbKrImCSKwQ",
+      "title": "Jourden Raps New Class Cypher Verse VOL. 2 | On The Radar Radio",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T19:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mbKrImCSKwQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "eIlXPy1TujQ",
+      "title": "Queen Latifah Teases New Music",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T18:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eIlXPy1TujQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mfXmR49yrlU",
+      "title": "Cage The Elephant “Make It Easy” (Live Performance) | Open Mic",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T18:24:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mfXmR49yrlU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "laYgOtoovVI",
+      "title": "Illuminati is REAL but it’s NOT on This Set 🙅‍♂️",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-11T18:21:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/laYgOtoovVI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "DZ3CopJWz_Y",
+      "title": "SZA Officially Confirmed For Coachella",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T17:36:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/DZ3CopJWz_Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "SZA"
+      ],
+      "related_articles": [
+        {
+          "id": "36e913ba47ba818697b7e5218e73a24f",
+          "title": "ラムとは誰か？DrakeとSZAからのコ signsを受ける“Overkill”アーティスト"
+        },
+        {
+          "id": "369913ba47ba815a96d4c0da75a02f9b",
+          "title": "リゾがSZAを称賛、業界の友達は多くないと語る"
+        },
+        {
+          "id": "352913ba47ba81e9b15aed704d490d60",
+          "title": "ケンドリック・ラマー、SZA ら UMG の Spotify 株売却で恩恵を受ける"
+        }
+      ]
+    },
+    {
+      "id": "oA2BINVEFBY",
+      "title": "The Breakfast Club FULL SHOW 11-11-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T17:19:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/oA2BINVEFBY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ia9YJKJOazs",
+      "title": "BigXthaPlug - CRACCED | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T17:04:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ia9YJKJOazs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UGjAyUvgxFM",
+      "title": "Sol ChYld Raps New Class Cypher Verse VOL. 2 | On The Radar Radio",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T17:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UGjAyUvgxFM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4DL6NVCk6vI",
+      "title": "Fat Joe FORGOT he was on “I shot Ya” when asked “WHO had the BEST Verse?” 💀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-11T16:35:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4DL6NVCk6vI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZE90jQwSrWQ",
+      "title": "Chef Kardea Brown Cooks Shrimp & Grits For The Breakfast Club, Talks Cookbook, Southern Kitchen+More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T15:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZE90jQwSrWQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "a-yixRYciAo",
+      "title": "Florida: Eight People Arrested In Church Donation Fraud Scheme",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T15:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/a-yixRYciAo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "g14K5mXLJDc",
+      "title": "Ben Da Don’s 5 top dogs in streaming 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-11T14:59:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/g14K5mXLJDc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "cH4srXCDhDg",
+      "title": "YouTube Banned Him for Playing His OWN Music",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cH4srXCDhDg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XljQwOybfyM",
+      "title": "Tye Tribbett On Gospel Singers Collaborating With Rappers + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T14:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XljQwOybfyM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "FaxzF5HxPfQ",
+      "title": "United Airlines Issues Hijack Alert After Passenger Claims to Have Bomb, Attempts to Breach Cockpit",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T13:59:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/FaxzF5HxPfQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8RO1D1EqtWM",
+      "title": "Usher & Chris Brown Quiet Rumors Of A Backstage Feud At ATL Night 4 Show",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T13:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8RO1D1EqtWM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "gFHTY9P9zek",
+      "title": "Brandy & Monica Announce ‘The Boy Is Mine’ Las Vegas Residency",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-11T13:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/gFHTY9P9zek/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "XrcVex9R4oA",
       "title": "NVIDIA CEO Jensen Huang CAUGHT in Alleged Chinese Spy Affair",
@@ -27,6 +365,18 @@
       "related_articles": []
     },
     {
+      "id": "KQcl0e7Clyk",
+      "title": "Earfzilla “vintage vuitton“ | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T04:04:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KQcl0e7Clyk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
       "id": "yQcXyM4Vvxc",
       "title": "CJ Emulous \"Jesus Freak\" | On The Radar Performance",
       "channel_name": "On The Radar Radio",
@@ -45,6 +395,30 @@
       "category": "PERFORMANCES",
       "published_at": "2026-11-11T03:43:00.000+00:00",
       "thumbnail_url": "https://i1.ytimg.com/vi/hwoz6ltahLw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LZviRDAOJz8",
+      "title": "Tsu Surf x Kocky Ka \"Shame On Me\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T03:35:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LZviRDAOJz8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NaYbu9lSMl4",
+      "title": "Chanpan \"speculations\" & \"buzzin\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-11T03:24:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NaYbu9lSMl4/hqdefault.jpg",
       "source": "RSS自動",
       "editor_pick": false,
       "artists": [],
