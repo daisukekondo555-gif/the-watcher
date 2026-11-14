@@ -1,7 +1,311 @@
 {
-  "generated_at": "2026-11-14T03:14:27.979347+00:00",
-  "total": 5191,
+  "generated_at": "2026-11-14T11:57:04.738940+00:00",
+  "total": 5212,
   "videos": [
+    {
+      "id": "z3bhNMIWPm0",
+      "title": "Danielle Ponder | A COLORS INTERVIEW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-14T11:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/z3bhNMIWPm0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UEUtAJkIZjo",
+      "title": "Why Angie Martinez Hid Tupac Interview for 30 Years",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-11-14T10:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UEUtAJkIZjo/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "NZzI-0sq3m8",
+      "title": "BOOSIE GOES OFF ON PODCASTERS OVER YB LIFE SENTENCE!!! Who's to Blame?",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-14T07:01:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/NZzI-0sq3m8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1FxAksX1pzM",
+      "title": "| Mornings With Mero Livestream 11-13-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-14T02:15:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1FxAksX1pzM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kvhnpMz-0H0",
+      "title": "Chanpan “buzzin” | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-14T00:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kvhnpMz-0H0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VzjhO6KSB_U",
+      "title": "What if you witness it, but aren’t the vessel? 🙏👀 #Faith #Growth",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-14T00:15:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VzjhO6KSB_U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Po8OwG27wt4",
+      "title": "Jermaine Dupri ‘What Artist From NYC Besides Jay-Z Do You See Headlining The Super Bowl’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-14T00:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Po8OwG27wt4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "JAY-Z"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8147a665cac3cfb59cf4",
+          "title": "JAY-Z、Reasonable Doubt30周年を NYC体験で祝福"
+        },
+        {
+          "id": "380913ba47ba81ef939ec87f0642faec",
+          "title": "JAY-Z、Reasonable Doubt 専用ビニール盤をターゲットと独占契約で発売へ、ボイコットの中で批判が集中"
+        },
+        {
+          "id": "37a913ba47ba81a9ae37c234ce81765b",
+          "title": "Jay-Z、Roots Picnicの勝利後に国際公演を追加、ツアー拡大へ"
+        }
+      ]
+    },
+    {
+      "id": "ESQvGhnPzp0",
+      "title": "“Caucasian Activies” 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-13T23:59:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ESQvGhnPzp0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sxDZHV9mwR4",
+      "title": "Ole Miss Racism Controversy Takes New Turn As Fundraiser Grows",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-13T23:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sxDZHV9mwR4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "eFe7HfTzL54",
+      "title": "What if you witness it, but aren’t the vessel? 🙏👀 #Faith #Growth",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-13T21:31:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eFe7HfTzL54/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rqJ6uoGXKNI",
+      "title": "OMB Peezy \"What She Wants\" & \"Still Too Deep\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-13T20:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rqJ6uoGXKNI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "B4v2BmjPJHs",
+      "title": "Kenny Smith got rid of the “Special K” Knees! Crack WASSUP!? 👀",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-13T17:56:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/B4v2BmjPJHs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "rP--04B8G2A",
+      "title": "Can old friends drain your growth? 🌀🌱 #Growth #Truth",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-13T17:22:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/rP--04B8G2A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VuHfHtUCm9I",
+      "title": "Danielle Ponder | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-13T17:04:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VuHfHtUCm9I/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8oFotxV_v5k",
+      "title": "Could calm replies beat real-life arguments? 🤖💬 #AI #Chat",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-13T16:45:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8oFotxV_v5k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "p9QFH7Z2r8M",
+      "title": "The Breakfast Club FULL SHOW 11-13-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-13T16:32:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/p9QFH7Z2r8M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MS80QKtvIn0",
+      "title": "Lil Baby was already YEARS ahead of the Game before he BLEW UP!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-13T16:09:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MS80QKtvIn0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Baby"
+      ],
+      "related_articles": [
+        {
+          "id": "35e913ba47ba811ca2a2e6bd7f593623",
+          "title": "リル・ベイビー、アトランタの母親たちを敬う限定フローラルポップアップを開催"
+        },
+        {
+          "id": "35a913ba47ba811b84fbc36967603314",
+          "title": "Hotboii & リル・ベイビー「Alicia」新曲リリース"
+        }
+      ]
+    },
+    {
+      "id": "qvvgDQamby4",
+      "title": "BigXthaPlug | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-13T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qvvgDQamby4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "L5Z2Wbfp7Tw",
+      "title": "Jojo was in jail for 30 seconds and was tryna smash something 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-13T15:18:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/L5Z2Wbfp7Tw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "UVZiusYuugw",
+      "title": "Lil Baby has a MESSAGE for his Haters!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-13T15:02:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/UVZiusYuugw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Baby"
+      ],
+      "related_articles": [
+        {
+          "id": "35e913ba47ba811ca2a2e6bd7f593623",
+          "title": "リル・ベイビー、アトランタの母親たちを敬う限定フローラルポップアップを開催"
+        },
+        {
+          "id": "35a913ba47ba811b84fbc36967603314",
+          "title": "Hotboii & リル・ベイビー「Alicia」新曲リリース"
+        }
+      ]
+    },
+    {
+      "id": "_Ztll-1l0hE",
+      "title": "Math Hoffa On Gucci Manes Street Code Stance Why He Gets NO PASS",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-13T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_Ztll-1l0hE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Gucci Mane"
+      ],
+      "related_articles": [
+        {
+          "id": "36e913ba47ba8145b9b6edcb843db9b1",
+          "title": "グッチ・メイン、ドレイクが自分を“おとなしい男”呼ばわりした件を許したと明かす"
+        },
+        {
+          "id": "36d913ba47ba817d8caadb56473eb526",
+          "title": "グッチ・メイン、躁うつ病と統合失調症の生活を告白"
+        },
+        {
+          "id": "348913ba47ba81ee913cf66fd176c7ae",
+          "title": "グッチ・メイン、バーミンガム・スタリオンズのホームオープナーでパフォーマンス"
+        }
+      ]
+    },
     {
       "id": "NjR3AdXKUuU",
       "title": "The Pitt Faces Lawsuit Over Claims It’s an Unauthorized ER Reboot",
