@@ -1,7 +1,180 @@
 {
-  "generated_at": "2026-11-14T11:57:04.738940+00:00",
-  "total": 5212,
+  "generated_at": "2026-11-14T22:43:50.137394+00:00",
+  "total": 5223,
   "videos": [
+    {
+      "id": "Vx2DFaY48DI",
+      "title": "Flosstradamus | On The Radar DJ SET",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-14T21:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Vx2DFaY48DI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "k1NrCt2ixDw",
+      "title": "Barbie Bentayga - Madder | From The Block Performance 🎙️🔥🔥🔥",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-14T17:21:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/k1NrCt2ixDw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "CULuziKBe_Y",
+      "title": "Barbie Bentayga - Madder | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-14T17:20:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/CULuziKBe_Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "YG"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba8147a510f81c8ecc9c30",
+          "title": "YGの新曲「Tiffany」――トランス女性を巡るトキシックな男性性を描く"
+        },
+        {
+          "id": "384913ba47ba8101ac60e5a1d8f348e1",
+          "title": "YGが新アルバムでDrakeo The Rulerの死を振り返る"
+        },
+        {
+          "id": "376913ba47ba810b8104f49bf99d6c09",
+          "title": "YGが語るケンドリック・ラマーがくれた助言"
+        }
+      ]
+    },
+    {
+      "id": "mCfICKTFgr4",
+      "title": "Lil Boss & Trap Dickey Perform LIVE at South Carolina State University",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-14T17:19:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mCfICKTFgr4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ILn5oSTPl50",
+      "title": "Check the Stats! Lil Baby Music is Timeless 🔥",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-14T17:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ILn5oSTPl50/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Baby"
+      ],
+      "related_articles": [
+        {
+          "id": "35e913ba47ba811ca2a2e6bd7f593623",
+          "title": "リル・ベイビー、アトランタの母親たちを敬う限定フローラルポップアップを開催"
+        },
+        {
+          "id": "35a913ba47ba811b84fbc36967603314",
+          "title": "Hotboii & リル・ベイビー「Alicia」新曲リリース"
+        }
+      ]
+    },
+    {
+      "id": "qKfCXkb_ut0",
+      "title": "Belly Gang Kushington Performs LIVE at South Carolina State University",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-14T17:14:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qKfCXkb_ut0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tZLJtF_us0Y",
+      "title": "Wallo snitches on Gillie in Detroit 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-14T17:03:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tZLJtF_us0Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mh81KzyMQIk",
+      "title": "Ino Casablanca - PA' TOUCH | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-14T17:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mh81KzyMQIk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PJAFk9qocCU",
+      "title": "OTR Rewind: The Aint Afraid \"Poetry\" Live Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-14T17:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PJAFk9qocCU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4VIbbf9l5Y8",
+      "title": "Joe Budden Podcast Gets REAL About Yella Beezy Prison Future",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-11-14T16:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4VIbbf9l5Y8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7gupy8IeW6Y",
+      "title": "Math Hoffa On Loyalty Or Self Sacrifice The Cost Of Keeping Secrets",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-14T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7gupy8IeW6Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "z3bhNMIWPm0",
       "title": "Danielle Ponder | A COLORS INTERVIEW",
