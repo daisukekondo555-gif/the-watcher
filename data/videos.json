@@ -1,7 +1,335 @@
 {
-  "generated_at": "2026-11-16T11:52:52.632976+00:00",
-  "total": 5240,
+  "generated_at": "2026-11-17T03:15:13.292112+00:00",
+  "total": 5263,
   "videos": [
+    {
+      "id": "0pN2Kv1Bq0Y",
+      "title": "| Mornings With Mero Livestream 11-16-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T01:54:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0pN2Kv1Bq0Y/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "kKiSZf5Xa84",
+      "title": "Uncle Remus or Harold’s? 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-17T01:40:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/kKiSZf5Xa84/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Do9Qis4tEVQ",
+      "title": "Momo \"Candela\" & \"REPA\" (FEAT. OBBE) | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-17T01:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/Do9Qis4tEVQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_I6yvegVRiA",
+      "title": "Alexander Mack \"Jet Jack$on\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-17T00:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_I6yvegVRiA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "VmMpgYluWMU",
+      "title": "Drop1 \"Nick At Nite\" (feat. Rell Sosa) | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-16T23:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VmMpgYluWMU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "0496t4j6vQs",
+      "title": "Kobi Cantillo \"Tu Me entiendes\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-16T22:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/0496t4j6vQs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "XmGMlQcLQI8",
+      "title": "Tye Tribbett - I Want It All Back & Bless The Lord | 4SO LIVE 🗣️",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-16T21:04:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/XmGMlQcLQI8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "fQWE-beT6K4",
+      "title": "Tye Tribbett - I Want It All Back 🔥🔥🔥 | 4SO LIVE 🗣️",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-16T21:04:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/fQWE-beT6K4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IGEWvZlmnTc",
+      "title": "RAMPAGE THE LAST BOY SCOUT! FLIPMODE FOREVER! Only on Drink Champs!",
+      "channel_name": "Drink Champs",
+      "category": "PODCASTS",
+      "published_at": "2026-11-16T21:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IGEWvZlmnTc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Z0AMzcC_DYw",
+      "title": "Lil Baby Says He Makes ‘Mary J. Blige Type Hits’",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T19:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Z0AMzcC_DYw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Baby"
+      ],
+      "related_articles": [
+        {
+          "id": "35e913ba47ba811ca2a2e6bd7f593623",
+          "title": "リル・ベイビー、アトランタの母親たちを敬う限定フローラルポップアップを開催"
+        },
+        {
+          "id": "35a913ba47ba811b84fbc36967603314",
+          "title": "Hotboii & リル・ベイビー「Alicia」新曲リリース"
+        }
+      ]
+    },
+    {
+      "id": "ssWaqhVXMk4",
+      "title": "#ad scottie beam put folks to the test at our #openmic live event #geniusonthestreet",
+      "channel_name": "Genius",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-16T18:33:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/ssWaqhVXMk4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ZVSKHfCZXEA",
+      "title": "Westside Gunn DEBUTS \"Sock A Knee\" feat. Stove God Cooks LIVE for Fat Joe & Jadakiss",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-16T18:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/ZVSKHfCZXEA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "5-GtsyeOIhA",
+      "title": "Safe to say Lil Baby is NOT with the Peptides",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-16T17:55:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5-GtsyeOIhA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Lil Baby"
+      ],
+      "related_articles": [
+        {
+          "id": "35e913ba47ba811ca2a2e6bd7f593623",
+          "title": "リル・ベイビー、アトランタの母親たちを敬う限定フローラルポップアップを開催"
+        },
+        {
+          "id": "35a913ba47ba811b84fbc36967603314",
+          "title": "Hotboii & リル・ベイビー「Alicia」新曲リリース"
+        }
+      ]
+    },
+    {
+      "id": "5ESUJkoXmhM",
+      "title": "The Breakfast Club FULL SHOW 11-16-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T17:49:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/5ESUJkoXmhM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "4am5vbaUQO4",
+      "title": "Yuki Chiba - Kokomade Kita | A COLORS MOMENT",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-16T17:25:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/4am5vbaUQO4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_SLa31AxzEw",
+      "title": "Sec. Of Transportation Sean Duffy Says He ‘Can’t Apologize’ After FAA Nationwide Ground Stop",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T17:24:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_SLa31AxzEw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "owzGTv9yyWI",
+      "title": "DON’T let The Media set you up for Failure!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-16T16:07:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/owzGTv9yyWI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "IbZ0xwaPdCM",
+      "title": "Tiki Davis On The 4 Principles Of ‘The Tiki Factor’ And Knowing When To Pivot In Life",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T16:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/IbZ0xwaPdCM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "7BINfuqooCI",
+      "title": "Westside Gunn On New Album ‘Heelmatic,’ Hip-Hop Being Watered Down & Rap Characters",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T15:30:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7BINfuqooCI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "qqQRY_uEFGY",
+      "title": "Math Hoffa On Nicki Minaj And Immigration The CITIZENSHIP Debate",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qqQRY_uEFGY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nicki Minaj"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8150af4efe9f6f1c07d2",
+          "title": "ニッキー・ミナージュ、音楽業界の“闇と霊的側面”を暴露"
+        },
+        {
+          "id": "381913ba47ba813c8d55efad512eb486",
+          "title": "ニッキー・ミナージュ、後悔する歌詞を語る（歌詞の一部を見直す意向）"
+        },
+        {
+          "id": "381913ba47ba81888d3ccd7fa04d3819",
+          "title": "ニッキー・ミナージュ、古い歌詞を後悔していると認める"
+        }
+      ]
+    },
+    {
+      "id": "cUyGUNQB30E",
+      "title": "Jeezy Reschedules Shows, Cardi B Books Jet, Chris Brown Has Theories About FAA Ground Stop + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T14:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/cUyGUNQB30E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Cardi B"
+      ],
+      "related_articles": [
+        {
+          "id": "381913ba47ba8177a51dca0f0263a055",
+          "title": "Cardi B、Drai’s Beachclubの“マイク投げ”事件で初期勝訴を獲得"
+        },
+        {
+          "id": "37f913ba47ba8138b158f7a590232df3",
+          "title": "カーディ・B、ニックス優勝後に“The Streets Is Calling Me”でテンション全開へ"
+        },
+        {
+          "id": "37b913ba47ba810a9910fac3b8eb5cb0",
+          "title": "チャールズ・バークリー、NBAファイナル Halftimeショー後に Cardi B の胸についてジョーク"
+        }
+      ]
+    },
+    {
+      "id": "piTdDFFl5J0",
+      "title": "Katt Williams Opens Up About Repairing Relationship With Kevin Hart",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T13:38:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/piTdDFFl5J0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "JgzSVUq2NXY",
+      "title": "FAA Ground Stop: Over 17,000 Cancelled Flights Leaves Thousands Of Passengers Stranded",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-16T13:27:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/JgzSVUq2NXY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "DZ4-X4T7qyw",
       "title": "Gracie's Corner: Tiny Desk Concert",
