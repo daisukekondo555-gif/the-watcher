@@ -1,7 +1,368 @@
 {
-  "generated_at": "2026-11-17T11:59:30.557140+00:00",
-  "total": 5263,
+  "generated_at": "2026-11-18T12:01:55.673229+00:00",
+  "total": 5290,
   "videos": [
+    {
+      "id": "wAhBFC9mDkg",
+      "title": "Tove Lo: Tiny Desk Concert",
+      "channel_name": "NPR Music",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-18T10:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/wAhBFC9mDkg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "MT6RcJh53tc",
+      "title": "Hit-Boy TELLS Joe Budden to “SHUT THE F*** UP” Over $1M Dad Debate",
+      "channel_name": "Joe Budden TV",
+      "category": "PODCASTS",
+      "published_at": "2026-11-18T10:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/MT6RcJh53tc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Y_ZjnzTPYcs",
+      "title": "Tha Farruko (RESURGE) “On The Radar” Experience: \"NERVIOS DE ACERO (Bandido)\"",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-18T03:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Y_ZjnzTPYcs/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "tDnmLcnNL2A",
+      "title": "Tha Farruko (RESURGE) “On The Radar” Experience: \"Ayer Hablé con Dios\"",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-18T02:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/tDnmLcnNL2A/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zX0PA17swIk",
+      "title": "| Mornings With Mero Livestream 11-17-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-18T01:55:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zX0PA17swIk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "93CJjL3ZigE",
+      "title": "Baby Flaco \"Young and dumb\" Freestyle Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-18T00:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/93CJjL3ZigE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "8H4oBsTsKfk",
+      "title": "“We coulda got a sneaker deal” 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-18T00:26:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/8H4oBsTsKfk/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "SaI7HURreiM",
+      "title": "Baby Flaco \"Dirty ghetto kids\" & \"Young and dumb\" Freestyle | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-18T00:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/SaI7HURreiM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "ABBRXFdqDnE",
+      "title": "Lord D'Andre \"STILL DGAF\" & \"GEN Z\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-17T23:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/ABBRXFdqDnE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "U7fo41Jqabg",
+      "title": "Òlah Bliss \"Block\" & \"Mhm\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-17T22:10:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/U7fo41Jqabg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "uqCKVTpRSXE",
+      "title": "The physicality in Wrestling is REAL! 😂",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-17T20:30:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/uqCKVTpRSXE/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "LDRw99ZMJAc",
+      "title": "Westside Gunn “BURIED The Hatchet” with The WWE who previously BANNED him 😳",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-17T19:23:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/LDRw99ZMJAc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WXfA2YzfkXw",
+      "title": "Hardbody Scottyy - IN THEY FACE (Official Music Video) Directed By @ShotByTon4K",
+      "channel_name": "WORLDSTARHIPHOP",
+      "category": "MV",
+      "published_at": "2026-11-17T19:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WXfA2YzfkXw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HmjfnNHa8M8",
+      "title": "As Per Mase, The Lox, DMX, and Black Rob: What would you do if you had 24 hours to live? #hot97",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T18:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HmjfnNHa8M8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "DMX"
+      ],
+      "related_articles": [
+        {
+          "id": "385913ba47ba8198b96ee3b76ec75882",
+          "title": "Swizz Beatz、DMXの“Party Up”未払いロイヤリティ巡りノースカロライナの夜’クラブ”を提訴"
+        },
+        {
+          "id": "382913ba47ba81c5b307f7cb43ad2b3f",
+          "title": "DMXのストリート称号授与、公開には見えなかったドラマの全て"
+        },
+        {
+          "id": "381913ba47ba81d593c4edb419ba4a96",
+          "title": "DMXの元妻が息子を擁護、儀式でラッパーの婚約者を名指し後"
+        }
+      ]
+    },
+    {
+      "id": "qfjvHcy2G5k",
+      "title": "Conway The Machine Reacts To Westside Gunn’s Ownership Comments On The Breakfast Club",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T17:26:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/qfjvHcy2G5k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PotWNOuZVaw",
+      "title": "The Breakfast Club FULL SHOW 11-17-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T17:22:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PotWNOuZVaw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "KgiDiIY6cDA",
+      "title": "Gillie gives Mojo motivation 💯",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-17T17:12:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/KgiDiIY6cDA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "mMe_Mdrt69M",
+      "title": "Johnny Gill Performs 'A Dance, A Kiss' LIVE On The Breakfast Club",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T17:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/mMe_Mdrt69M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "b9tlj6nOZkc",
+      "title": "If Westside Gunn was going to build something he was making sure Stove God was with him 💯",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-17T16:57:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/b9tlj6nOZkc/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "OK-zeququAU",
+      "title": "US Bank Outages: Cyber Security Expert Blames Outdated Infrastructure",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T15:43:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/OK-zeququAU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "d-zdG-6lK88",
+      "title": "Florida Man Sends Peanut Butter-Covered Mail To Woman With Severe Allergy",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T15:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/d-zdG-6lK88/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "HC58TifMKVU",
+      "title": "Chance The Rapper Welcomes His New Baby Girl; Hayli",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T15:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/HC58TifMKVU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Chance the Rapper"
+      ],
+      "related_articles": [
+        {
+          "id": "360913ba47ba818d8653c097f726824f",
+          "title": "チャンス・ザ・ラッパー、『Coloring Book』10周年ツアーを発表"
+        }
+      ]
+    },
+    {
+      "id": "VmEJ0t0xDu4",
+      "title": "Johnny Gill On Choosing Peace Over Marriage & Being Exactly Where He’s Meant To Be",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T15:00:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/VmEJ0t0xDu4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6n3G3IC6ddY",
+      "title": "Offset Says The Breakfast Club Got Him F--ked Up",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T14:30:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6n3G3IC6ddY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Offset"
+      ],
+      "related_articles": [
+        {
+          "id": "387913ba47ba81feae8afe5526eaf06a",
+          "title": "Cardi Bが元恋人の自傷・生命を脅す脅しを主張、別れ後の関係性にも言及"
+        },
+        {
+          "id": "384913ba47ba81f1b0dee5f865934409",
+          "title": "テイクオフの誕生日追悼がミーゴスの絆を今なお強固に示す"
+        },
+        {
+          "id": "37b913ba47ba813fa308f78991ba31ae",
+          "title": "オフセットが女性に触れた運転手に怒りをぶつける"
+        }
+      ]
+    },
+    {
+      "id": "abfrQTqRf9E",
+      "title": "Old head told Wallo to mind his business 😭",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-17T14:21:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/abfrQTqRf9E/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "eySd9MuY1EU",
+      "title": "Math Hoffa On Wack 100s Bali Trip, Russell Simmons BACKLASH",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/eySd9MuY1EU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Uetodm5g6pQ",
+      "title": "2027 Grammy Noms Snubs and Surprises: Jill Scott, Busta Rhymes, Queen Latifah, Wale, The Game & More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-17T13:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/Uetodm5g6pQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "0pN2Kv1Bq0Y",
       "title": "| Mornings With Mero Livestream 11-16-26",
