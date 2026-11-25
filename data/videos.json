@@ -1,7 +1,298 @@
 {
-  "generated_at": "2026-11-24T11:55:47.546406+00:00",
-  "total": 5430,
+  "generated_at": "2026-11-25T03:13:44.771649+00:00",
+  "total": 5453,
   "videos": [
+    {
+      "id": "j7mDZillmDM",
+      "title": "Wallo’s last convo with King Von",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-25T02:46:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/j7mDZillmDM/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "f9NOcOukbl8",
+      "title": "Isaac Tonasket \"IDK\" | On The Radar Performance (Native Indigenous OTR Takeover)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-25T02:08:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/f9NOcOukbl8/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [
+        "Nas"
+      ],
+      "related_articles": [
+        {
+          "id": "382913ba47ba81829f0bdbf711887225",
+          "title": "Lil Nas X、リハビリ後の双極性障害診断を公表"
+        },
+        {
+          "id": "37c913ba47ba81fd9e28f3e20b3c62b1",
+          "title": "ナスとウータンク・クランがニックスを歴史的勝利へ導いたのか？"
+        },
+        {
+          "id": "37a913ba47ba8130a8dde2da7b22fc65",
+          "title": "ナス、ワールドカップとNBAファイナルでスポーツ支配力を拡大"
+        }
+      ]
+    },
+    {
+      "id": "7KALtFEefRI",
+      "title": "| Mornings With Mero Livestream 11-24-26",
+      "channel_name": "HOT 97",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-25T01:59:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/7KALtFEefRI/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "z4A0iH9OHwg",
+      "title": "Sten Joddi \"On The Radar Freestyle (Native Indigenous OTR Takeover)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-25T01:32:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/z4A0iH9OHwg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "iINu9G2KJus",
+      "title": "The Noodah05 \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-25T01:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/iINu9G2KJus/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "_UIO79ut4v4",
+      "title": "The Noodah05 Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-25T01:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/_UIO79ut4v4/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "PHaDsCjx7Sw",
+      "title": "YFN Lucci's new music",
+      "channel_name": "Million Dollaz Worth of Game",
+      "category": "PODCASTS",
+      "published_at": "2026-11-25T00:30:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/PHaDsCjx7Sw/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9Yx3A7DiG_M",
+      "title": "The Trajik \"No Struggle Rap\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T22:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9Yx3A7DiG_M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "G8rrxDIKs28",
+      "title": "The Yella MRC \"Hooperz\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T21:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/G8rrxDIKs28/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "WZT1w9ZotDY",
+      "title": "The SPACE 914 \"TRUST NO ONE\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T20:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/WZT1w9ZotDY/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "RGG0i7R31rA",
+      "title": "The SEBii \"On The Radar\" Freestyle",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T19:04:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/RGG0i7R31rA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1Yu55__pq4k",
+      "title": "The Kevo Muney \"BackupPlan\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T19:03:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1Yu55__pq4k/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "pl1tU_QuS5M",
+      "title": "The Captivated C \"My Dawg\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T19:00:00.000+00:00",
+      "thumbnail_url": "https://i1.ytimg.com/vi/pl1tU_QuS5M/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "Nm5YzaR_yQ0",
+      "title": "Ashya - Relapse | From The Block Performance 🎙",
+      "channel_name": "From The Block",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T18:25:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/Nm5YzaR_yQ0/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "S8VAKffI71U",
+      "title": "Natasha Fisher \"Ice In Bordeaux Wine\" | On The Radar Performance (Native Indigenous OTR Takeover)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T18:12:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/S8VAKffI71U/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "zMcu63bMXlU",
+      "title": "Everybody NEEDS someone like Wayne in their Corner 💯",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-24T18:12:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/zMcu63bMXlU/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "1YThrLhmMOg",
+      "title": "The Nique Royal \"Thumper\" | On The Radar Performance",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T18:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/1YThrLhmMOg/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "2TQHSI45PKA",
+      "title": "The Breakfast Club BEST OF 11-24-26",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-24T17:50:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/2TQHSI45PKA/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "9MBYJk8D1OQ",
+      "title": "The SleazyWorld Go \"On The Radar\" Freestyle (Part 3)",
+      "channel_name": "On The Radar Radio",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T17:03:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/9MBYJk8D1OQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "vQscJIIq1no",
+      "title": "You’re “FULL OF SH💩💩” if you use Chat GPT to fix your Relationship problems!",
+      "channel_name": "Joe and Jada",
+      "category": "PODCASTS",
+      "published_at": "2026-11-24T15:35:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/vQscJIIq1no/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "sXyOQRvUxKQ",
+      "title": "Michael Jai White, Taimak & Ryan Watson Talk The Principles Of Martial Arts In Everyday Life + More",
+      "channel_name": "Breakfast Club Power 105.1 FM",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-24T15:00:00.000+00:00",
+      "thumbnail_url": "https://i4.ytimg.com/vi/sXyOQRvUxKQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "6PqQctZq_78",
+      "title": "2 Chainz | A COLORS SHOW",
+      "channel_name": "COLORS",
+      "category": "PERFORMANCES",
+      "published_at": "2026-11-24T14:08:00.000+00:00",
+      "thumbnail_url": "https://i3.ytimg.com/vi/6PqQctZq_78/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
+    {
+      "id": "igv9cvRN_WQ",
+      "title": "BOW WOW'S TRAGIC CLOSE CALL",
+      "channel_name": "Math Hoffa",
+      "category": "INTERVIEWS",
+      "published_at": "2026-11-24T14:00:00.000+00:00",
+      "thumbnail_url": "https://i2.ytimg.com/vi/igv9cvRN_WQ/hqdefault.jpg",
+      "source": "RSS自動",
+      "editor_pick": false,
+      "artists": [],
+      "related_articles": []
+    },
     {
       "id": "_2ZWL0GFDgA",
       "title": "Lord D'Andre \"GEN Z” (LIVE OTR Performance) Out Now On All DSPs!",
